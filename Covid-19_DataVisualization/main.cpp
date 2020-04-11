@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
     FileReader f("../try.csv");
     f.read();
     f.getCountryIndices();
+    f.getCountryGeolocation();
 
     return a.exec();
 }

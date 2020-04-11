@@ -49,3 +49,32 @@ void FileReader::getCountryIndices()
         qDebug() << a.first.c_str() <<" "<<a.second<<"\n";
     }
 }
+
+void FileReader::getCountryGeolocation()
+{
+    for(auto i = 1u; i < values.size();++i)
+    {
+        std::string countryAndRegion = values.at(i).at(1);
+
+        if(values.at(i).at(0) != "n")
+        {
+            std::string region = values.at(i).at(0);
+            std::replace(region.begin(), region.end(), '-', ' ');
+            countryAndRegion.append(" - ").append(region);
+        }
+        qDebug() << values.at(i).at(2).c_str() <<values.at(i).at(3).c_str();
+
+        std::string  latitude = values.at(i).at(2);
+        std::string longtitude = values.at(i).at(3);
+
+        std::replace(latitude.begin(),latitude.end(),'.',',');
+        std::replace(longtitude.begin(),longtitude.end(),'.',',');
+
+        countryGeolocation.insert({countryAndRegion,{std::stof(latitude),std::stof(longtitude)}});
+    }
+
+    for(auto a : countryGeolocation)
+    {
+        qDebug() << a.first.c_str() <<" "<<a.second.latitude<<" "<<a.second.longtitude<<"\n";
+    }
+}
