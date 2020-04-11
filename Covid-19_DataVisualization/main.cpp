@@ -12,5 +12,7 @@ int main(int argc, char *argv[])
 
     FileReader f("../try.csv");
     f.read();
+    f.getCountryIndices();
+
     return a.exec();
 }
