@@ -34,6 +34,10 @@ public:
     void readCountryGeolocation();
     void readDateIndices();
     void readRawData();
+    CountryIndexMap getCountryIndex() const;
+    CountryGeolocationMap getCountryGeolocation() const;
+    IndexDateMap getIndexDate() const;
+    RawDataTable getRawData() const;
 };
 
 #endif // FILEREADER_H
