@@ -64,7 +64,7 @@ void FileReader::getCountryGeolocation()
         }
         qDebug() << values.at(i).at(2).c_str() <<values.at(i).at(3).c_str();
 
-        std::string  latitude = values.at(i).at(2);
+        std::string latitude = values.at(i).at(2);
         std::string longtitude = values.at(i).at(3);
 
         std::replace(latitude.begin(),latitude.end(),'.',',');
@@ -76,5 +76,19 @@ void FileReader::getCountryGeolocation()
     for(auto a : countryGeolocation)
     {
         qDebug() << a.first.c_str() <<" "<<a.second.latitude<<" "<<a.second.longtitude<<"\n";
+    }
+}
+
+void FileReader::getDateIndices()
+{
+    for(auto i = 4u, j = 0u; i < values.at(0).size(); ++i, ++j)
+    {
+        QDate date = QDate::fromString(values.at(0).at(i).append("20").c_str(),"M/d/yyyy");
+        indexDate.insert({j, date});
+    }
+
+    for(auto a : indexDate)
+    {
+        qDebug() << a.first <<" "<<a.second;
     }
 }

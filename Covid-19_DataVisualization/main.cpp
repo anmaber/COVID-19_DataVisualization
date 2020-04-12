@@ -14,6 +14,7 @@ int main(int argc, char *argv[])
     f.read();
     f.getCountryIndices();
     f.getCountryGeolocation();
+    f.getDateIndices();
 
     return a.exec();
 }
