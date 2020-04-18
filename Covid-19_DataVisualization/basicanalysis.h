@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QLabel>
 #include <QComboBox>
+#include <QDateEdit>
 
 class MyLabel : public QLabel
 {
@@ -24,6 +25,11 @@ public slots:
           setText("Buuuuuu");
       }
     }
+
+    void changeMyText(const QDate& date)
+    {
+        setText(date.toString());
+    }
 };
 
 class BasicAnalysis : public QWidget
@@ -34,6 +40,11 @@ class BasicAnalysis : public QWidget
     QComboBox *chooseCountryBox;
     QLabel *chosenCountryLabel;
     MyLabel *chosenCountry;
+    QLabel * chooseDateLabel;
+    QDateEdit * editDate;
+    MyLabel * dateLabel;
+
+
 
 public:
     explicit BasicAnalysis(QWidget *parent = nullptr);

@@ -19,5 +19,19 @@ BasicAnalysis::BasicAnalysis(QWidget *parent) : QWidget(parent)
 
     connect(chooseCountryBox,SIGNAL(currentIndexChanged(QString)),chosenCountry,SLOT(changeMyText(QString)));
 
-    resize(400,100);
+    chooseDateLabel = new QLabel("Choose date:", this);
+    chooseDateLabel->move(10,60);
+
+    editDate = new QDateEdit(this);
+    editDate->setMaximumDate(QDate::currentDate());
+    editDate->setMinimumDate(QDate(2020,1,22));
+    editDate->move(200,60);
+
+    dateLabel = new MyLabel(this);
+    dateLabel->setFixedSize(300,20);
+    dateLabel->move(100,100);
+
+    connect(editDate,SIGNAL(dateChanged(QDate)),dateLabel,SLOT(changeMyText(QDate)));
+
+    resize(400,200);
 }
