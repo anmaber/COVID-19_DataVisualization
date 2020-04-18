@@ -2,13 +2,17 @@
 #include <QApplication>
 #include <filereader.h>
 #include <QDebug>
+#include "basicanalysis.h"
+#include "analysismainwindow.h"
+
 
 int main(int argc, char *argv[])
 {
 
     QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
+
+    AnalysisMainWindow window;
+    window.show();
 
     FileReader f("../try.csv");
     f.read();

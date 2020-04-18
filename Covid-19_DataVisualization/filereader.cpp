@@ -7,6 +7,26 @@
 #include <sstream>
 #include <QDebug>
 
+CountryIndexMap FileReader::getCountryIndex() const
+{
+    return countryIndex;
+}
+
+CountryGeolocationMap FileReader::getCountryGeolocation() const
+{
+    return countryGeolocation;
+}
+
+IndexDateMap FileReader::getIndexDate() const
+{
+    return indexDate;
+}
+
+RawDataTable FileReader::getRawData() const
+{
+    return rawData;
+}
+
 FileReader::FileReader(const std::string &fileToReadName)
     : fileName(fileToReadName)
 {}
