@@ -5,6 +5,27 @@
 #include <QLabel>
 #include <QComboBox>
 
+class MyLabel : public QLabel
+{
+public:
+    MyLabel(QWidget *parent = nullptr) : QLabel(parent) {}
+    Q_OBJECT
+
+public slots:
+
+    void changeMyText(const QString& str)
+    {
+      if(str == "Polska")
+      {
+          setText("Hurra");
+      }
+      else
+      {
+          setText("Buuuuuu");
+      }
+    }
+};
+
 class BasicAnalysis : public QWidget
 {
     Q_OBJECT
@@ -12,7 +33,7 @@ class BasicAnalysis : public QWidget
     QLabel *chooseCountryLabel;
     QComboBox *chooseCountryBox;
     QLabel *chosenCountryLabel;
-    QLabel *chosenCountry;
+    MyLabel *chosenCountry;
 
 public:
     explicit BasicAnalysis(QWidget *parent = nullptr);

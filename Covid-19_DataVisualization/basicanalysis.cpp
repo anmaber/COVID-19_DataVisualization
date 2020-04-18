@@ -13,11 +13,11 @@ BasicAnalysis::BasicAnalysis(QWidget *parent) : QWidget(parent)
     chosenCountryLabel = new QLabel(tr("chosen country:"),this);
     chosenCountryLabel->move(10,40);
 
-    chosenCountry = new QLabel(this);
+    chosenCountry = new MyLabel(this);
     chosenCountry->move(200,40);
     chosenCountry->setFixedSize(300,20);
 
-    connect(chooseCountryBox,SIGNAL(currentIndexChanged(QString)),chosenCountry,SLOT(setText(QString)));
+    connect(chooseCountryBox,SIGNAL(currentIndexChanged(QString)),chosenCountry,SLOT(changeMyText(QString)));
 
     resize(400,100);
 }
