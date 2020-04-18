@@ -11,6 +11,8 @@ class BasicAnalysis : public QWidget
 
     QLabel *chooseCountryLabel;
     QComboBox *chooseCountryBox;
+    QLabel *chosenCountryLabel;
+    QLabel *chosenCountry;
 
 public:
     explicit BasicAnalysis(QWidget *parent = nullptr);
