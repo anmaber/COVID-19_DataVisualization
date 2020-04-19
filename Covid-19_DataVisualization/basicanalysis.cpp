@@ -13,11 +13,11 @@ BasicAnalysis::BasicAnalysis(QWidget *parent) : QWidget(parent)
     chosenCountryLabel = new QLabel(tr("chosen country:"),this);
     chosenCountryLabel->move(10,40);
 
-    chosenCountry = new MyLabel(this);
+    chosenCountry = new QLabel(this);
     chosenCountry->move(200,40);
     chosenCountry->setFixedSize(300,20);
 
-    connect(chooseCountryBox,SIGNAL(currentIndexChanged(QString)),chosenCountry,SLOT(changeMyText(QString)));
+    connect(chooseCountryBox,SIGNAL(currentIndexChanged(QString)),this,SLOT(changeVal(QString)));
 
     chooseDateLabel = new QLabel("Choose date:", this);
     chooseDateLabel->move(10,60);
@@ -27,11 +27,11 @@ BasicAnalysis::BasicAnalysis(QWidget *parent) : QWidget(parent)
     editDate->setMinimumDate(QDate(2020,1,22));
     editDate->move(200,60);
 
-    dateLabel = new MyLabel(this);
+    dateLabel = new QLabel(this);
     dateLabel->setFixedSize(300,20);
     dateLabel->move(100,100);
 
-    connect(editDate,SIGNAL(dateChanged(QDate)),dateLabel,SLOT(changeMyText(QDate)));
+    connect(editDate,SIGNAL(dateChanged(QDate)),this,SLOT(changeVal(QDate)));
 
     resize(400,200);
 }

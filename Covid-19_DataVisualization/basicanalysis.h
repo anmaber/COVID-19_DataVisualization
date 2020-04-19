@@ -5,7 +5,7 @@
 #include <QLabel>
 #include <QComboBox>
 #include <QDateEdit>
-
+/*
 class MyLabel : public QLabel
 {
 public:
@@ -31,7 +31,7 @@ public slots:
         setText(date.toString());
     }
 };
-
+*/
 class BasicAnalysis : public QWidget
 {
     Q_OBJECT
@@ -39,10 +39,10 @@ class BasicAnalysis : public QWidget
     QLabel *chooseCountryLabel;
     QComboBox *chooseCountryBox;
     QLabel *chosenCountryLabel;
-    MyLabel *chosenCountry;
+    QLabel *chosenCountry;
     QLabel * chooseDateLabel;
     QDateEdit * editDate;
-    MyLabel * dateLabel;
+    QLabel * dateLabel;
 
 
 
@@ -51,7 +51,17 @@ public:
 
 signals:
 
+
 public slots:
+    void changeVal(const QString& str)
+    {
+        chosenCountry->setText(str);
+    }
+
+    void changeVal(const QDate& date)
+    {
+        dateLabel->setText(date.toString());
+    }
 };
 
 #endif // BASICANALYSIS_H
