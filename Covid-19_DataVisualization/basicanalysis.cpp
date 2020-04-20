@@ -1,19 +1,20 @@
 #include "basicanalysis.h"
 
-BasicAnalysis::BasicAnalysis(QWidget *parent,std::unordered_map<std::string, int> countryIndex,
-                             std::unordered_map<int,QDate> indexDate,std::vector<std::vector<int>> data)
+BasicAnalysis::BasicAnalysis(QWidget *parent, DataHolder* cases,
+                             DataHolder* deaths, DataHolder* recoveries)
     : QWidget(parent),
-      data(data),
-      indexDate(indexDate),
-      countryIndex(countryIndex)
+      cases(cases),
+      deaths(deaths),
+      recoveries(recoveries)
 {
-    for(auto c : countryIndex)
+    for(auto c : cases->getCountryIndexMap())
     {
         countries.append(c.first.c_str());
+        qDebug() << c.first.c_str() << c.second;
     }
     countries.sort();
-    countries.removeFirst();
-    countries.removeFirst();
+//    countries.removeFirst();
+//    countries.removeFirst();
 
     chooseCountryLabel = new QLabel(tr("Choose country/region: "),this);
     chooseCountryLabel->move(10,10);

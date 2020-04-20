@@ -38,8 +38,21 @@ void FileReader::read()
 
     for (std::string line; std::getline(fin, line); )
     {
+        std::string toReplace = "\"Korea, South\"";
+        auto indexToReplace = line.find(toReplace);
+        if(indexToReplace != std::string::npos)
+        {
+        line.replace(indexToReplace,toReplace.length(),"Korea South");
+        }
+        toReplace = "\"Bonaire, Sint Eustatius and Saba\"";
+        indexToReplace = line.find(toReplace);
+        if(indexToReplace != std::string::npos)
+        {
+        line.replace(indexToReplace,toReplace.length(),"Bonaire Sint Eustatius and Saba");
+        }
+        //std::replace(line.begin(),line.end(),"")
         std::replace(line.begin(), line.end(), ' ', '-');
-        if(line.at(0) == ',') line.insert(line.cbegin(),'n');
+        if(line.at(0) == ',') line.insert(line.cbegin(),'#');
         std::replace(line.begin(), line.end(), ',', ' ');
         std::istringstream in(line);
         values.push_back(
@@ -50,25 +63,27 @@ void FileReader::read()
 
 void FileReader::readCountryIndices()
 {
+    //qDebug() << values.size();
     for(auto i = 1u; i < values.size(); ++i)
     {
         std::string countryAndRegion = values.at(i).at(1);
         std::replace(countryAndRegion.begin(),countryAndRegion.end(), '-',' ');
 
-        if(values.at(i).at(0) != "n")
+        if(values.at(i).at(0) != "#")
         {
             std::string region = values.at(i).at(0);
             std::replace(region.begin(), region.end(), '-', ' ');
             countryAndRegion.append(" - ").append(region);
         }
+        //qDebug() << countryAndRegion.c_str() << i-1;
 
         countryIndex.insert({countryAndRegion,i-1});
     }
 
-    for(auto a : countryIndex)
-    {
-        qDebug() << a.first.c_str() <<" "<<a.second<<"\n";
-    }
+//    for(auto a : countryIndex)
+//    {
+//        qDebug() << a.first.c_str() <<" "<<a.second<<"\n";
+//    }
 }
 
 void FileReader::readCountryGeolocation()
@@ -108,10 +123,10 @@ void FileReader::readDateIndices()
         indexDate.insert({j, date});
     }
 
-    for(auto a : indexDate)
-    {
-        qDebug() << a.first <<" "<<a.second;
-    }
+//    for(auto a : indexDate)
+//    {
+//        qDebug() << a.first <<" "<<a.second;
+//    }
 }
 
 void FileReader::readRawData()
@@ -126,12 +141,12 @@ void FileReader::readRawData()
         rawData.push_back(temp);
     }
 
-    for(const auto& a :rawData)
-    {
-        for(const auto& b : a )
-        {
-            qDebug() << b;
-        }
-        qDebug() << "\n";
-    }
+//    for(const auto& a :rawData)
+//    {
+//        for(const auto& b : a )
+//        {
+//            qDebug() << b;
+//        }
+//        qDebug() << "\n";
+//    }
 }

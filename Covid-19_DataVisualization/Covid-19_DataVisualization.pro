@@ -28,13 +28,15 @@ SOURCES += \
         mainwindow.cpp \
     filereader.cpp \
     basicanalysis.cpp \
-    analysismainwindow.cpp
+    analysismainwindow.cpp \
+    dataholder.cpp
 
 HEADERS += \
         mainwindow.h \
     filereader.h \
     basicanalysis.h \
-    analysismainwindow.h
+    analysismainwindow.h \
+    dataholder.h
 
 FORMS += \
         mainwindow.ui

@@ -10,6 +10,8 @@
 #include <string>
 #include <QStringList>
 #include <algorithm>
+#include "dataholder.h"
+#include <QDebug>
 /*
 class MyLabel : public QLabel
 {
@@ -49,14 +51,15 @@ class BasicAnalysis : public QWidget
     QDateEdit * editDate;
     QLabel * casesLabel;
 
-    std::vector<std::vector<int>> data;
-    std::unordered_map<int,QDate> indexDate;
-    std::unordered_map<std::string, int> countryIndex;
+    DataHolder*  cases;
+    DataHolder * deaths;
+    DataHolder * recoveries;
+
     QStringList countries;
 
 public:
-    explicit BasicAnalysis(QWidget *parent = nullptr,std::unordered_map<std::string, int> countryIndex = {{"0",0}},
-                           std::unordered_map<int,QDate> indexDate = {{0,QDate::currentDate()}},std::vector<std::vector<int>> data = {{0}});
+    explicit BasicAnalysis(QWidget *parent = nullptr, DataHolder* cases = nullptr,
+                           DataHolder* deaths = nullptr, DataHolder * recoveries = nullptr);
 
 signals:
 
@@ -65,16 +68,23 @@ public slots:
     void changeVal()
     {
         std::string s = chooseCountryBox->currentText().toStdString();
-        auto cindex = countryIndex.find(s);
+        qDebug()<< s.c_str();
+        auto cindex = cases->getCountryIndexMap().find(s);
+        std::string str = cindex->first;
+        qDebug() << str.c_str() << cindex->second;
+        int ci = cindex->second;
+
         QDate toSearch = editDate->date();
 
-        auto result = std::find_if(indexDate.begin(),indexDate.end(),
+        auto result = std::find_if(cases->getIndexDateMap().begin(),cases->getIndexDateMap().end(),
                                    [&toSearch](auto elem){return elem.second == toSearch;});
-        int ci = cindex->second;
-        int di = result->first;
 
-        int cases = data.at(ci).at(di);
-        std::string c = std::to_string(cases);
+        int di = result->first;
+        qDebug() << "country index"<<ci;
+        qDebug()<< "date index"<< di;
+        int currentCases = cases->getData().at(ci).at(di);
+        std::string c = std::to_string(currentCases);
+
         casesLabel->setText(c.c_str());
     }
 };
