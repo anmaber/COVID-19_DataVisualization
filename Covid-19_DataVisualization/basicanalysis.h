@@ -10,6 +10,7 @@
 #include <string>
 #include <QStringList>
 #include <algorithm>
+#include <utility>
 #include "dataholder.h"
 #include <QDebug>
 /*
@@ -45,17 +46,38 @@ class BasicAnalysis : public QWidget
 
     QLabel *chooseCountryLabel;
     QComboBox *chooseCountryBox;
-    QLabel *chosenCountryLabel;
-    QLabel *chosenCountry;
     QLabel * chooseDateLabel;
     QDateEdit * editDate;
     QLabel * casesLabel;
+    QLabel * casesDisplay;
+
+    QLabel * casesAtDayLabel;
+    QLabel * casesAtDayDisplay;
+
+    QLabel* deathsLabel;
+    QLabel* deathsDisplay;
+
+    QLabel* deathsAtDayLabel;
+    QLabel* deathsAtDayDisplay;
+
+    QLabel* recoveriesLabel;
+    QLabel* recoveriesDisplay;
+
+    QLabel* recoveriesAtDayLabel;
+    QLabel* recoveriesAtDayDisplay;
 
     DataHolder*  cases;
     DataHolder * deaths;
     DataHolder * recoveries;
 
     QStringList countries;
+
+    int getCountryIndex(const std::string& countryName, const std::unordered_map<std::string, int>& cimap);
+    int detDateIndex(const QDate& date, const std::unordered_map<int,QDate>& idmap);
+
+//    void displayCases();
+//    void displayDeaths();
+//    void displayRecoveries();
 
 public:
     explicit BasicAnalysis(QWidget *parent = nullptr, DataHolder* cases = nullptr,
@@ -65,28 +87,8 @@ signals:
 
 
 public slots:
-    void changeVal()
-    {
-        std::string s = chooseCountryBox->currentText().toStdString();
-        qDebug()<< s.c_str();
-        auto cindex = cases->getCountryIndexMap().find(s);
-        std::string str = cindex->first;
-        qDebug() << str.c_str() << cindex->second;
-        int ci = cindex->second;
+    void changeVal();
 
-        QDate toSearch = editDate->date();
-
-        auto result = std::find_if(cases->getIndexDateMap().begin(),cases->getIndexDateMap().end(),
-                                   [&toSearch](auto elem){return elem.second == toSearch;});
-
-        int di = result->first;
-        qDebug() << "country index"<<ci;
-        qDebug()<< "date index"<< di;
-        int currentCases = cases->getData().at(ci).at(di);
-        std::string c = std::to_string(currentCases);
-
-        casesLabel->setText(c.c_str());
-    }
 };
 
 #endif // BASICANALYSIS_H

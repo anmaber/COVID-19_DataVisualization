@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
     deathsReader.readRawData();
     DataHolder* deaths = new DataHolder(deathsReader.getCountryIndex(),deathsReader.getIndexDate(),deathsReader.getRawData());
 
-    FileReader recoveriesReader("confirmed.csv");
+    FileReader recoveriesReader("recovered.csv");
     recoveriesReader.read();
     recoveriesReader.readCountryIndices();
     recoveriesReader.readDateIndices();
