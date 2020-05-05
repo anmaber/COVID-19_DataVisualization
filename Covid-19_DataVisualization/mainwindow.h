@@ -6,6 +6,7 @@
 #include <QTabWidget>
 #include <QVBoxLayout>
 #include <QQuickView>
+#include <basicanalysiswiget.h>
 //#include <QDeclarativeView>
 
 namespace Ui {
@@ -19,10 +20,12 @@ class MainWindow : public QMainWindow
     QWidget *container;
     QVBoxLayout * myLayout;
     QTabWidget * tabs;
+    basicAnalysisWiget *banal;
 
 
 public:
-    explicit MainWindow(QWidget *parent = 0,BasicAnalysis* analiza = nullptr);
+    explicit MainWindow(QWidget *parent = 0,DataHolder* cases = nullptr,
+                        DataHolder* deaths = nullptr, DataHolder * recoveries = nullptr);
     ~MainWindow();
 
 private:

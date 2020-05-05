@@ -35,7 +35,8 @@ SOURCES += \
     analysismainwindow.cpp \
     dataholder.cpp \
     qcustomplot.cpp \
-    analysislayout.cpp
+    analysislayout.cpp \
+    basicanalysiswiget.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -44,10 +45,12 @@ HEADERS += \
     analysismainwindow.h \
     dataholder.h \
     qcustomplot.h \
-    analysislayout.h
+    analysislayout.h \
+    basicanalysiswiget.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+    basicanalysiswiget.ui
 
 DISTFILES += \
     try.csv \

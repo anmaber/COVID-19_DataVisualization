@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 
 
     BasicAnalysis* window = new BasicAnalysis(nullptr, cases, deaths, recoveries);
-    MainWindow Mwindow(nullptr,window);
+    MainWindow Mwindow(nullptr,cases, deaths, recoveries);
     Mwindow.show();
 
     return a.exec();

@@ -1,7 +1,8 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
-MainWindow::MainWindow(QWidget *parent, BasicAnalysis *analiza) :
+MainWindow::MainWindow(QWidget *parent, DataHolder* cases,
+                       DataHolder* deaths, DataHolder* recoveries) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
@@ -10,7 +11,8 @@ MainWindow::MainWindow(QWidget *parent, BasicAnalysis *analiza) :
     tabs = new QTabWidget(this);
     setCentralWidget(tabs);
     myLayout = new QVBoxLayout(tabs);
-    tabs->addTab(analiza,"Analysis");
+    banal=new basicAnalysisWiget(nullptr,cases,deaths,recoveries);
+    tabs->addTab(banal,"Analysis");
 
     view = new QQuickView();
     container = QWidget::createWindowContainer(view, this);
