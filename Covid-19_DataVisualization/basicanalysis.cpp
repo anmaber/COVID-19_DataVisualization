@@ -35,6 +35,12 @@ BasicAnalysis::BasicAnalysis(QWidget *parent, DataHolder* cases,
     chart->setObjectName("My chart");
     //chart->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
     chart->setMinimumSize(500,500);
+    chart->addGraph();
+    chart->graph(0)->setPen(QPen(Qt::red));
+
+    casesVisible = new QCheckBox("cases",this);
+    deathsVisible  = new QCheckBox("deaths",this);
+    recoveriesVisible  = new QCheckBox("recoveries",this);
 
     wybieranie = new QFormLayout();
 
@@ -57,6 +63,10 @@ BasicAnalysis::BasicAnalysis(QWidget *parent, DataHolder* cases,
     //editDate->move(200,60);
     wybieranie->addRow(chooseDateLabel,editDate);
     //setLayout(wybieranie);
+
+    wybieranie->addWidget(casesVisible);
+    wybieranie->addWidget(deathsVisible);
+    wybieranie->addWidget(recoveriesVisible);
 
     zWykresem = new QHBoxLayout();
     zWykresem->addWidget(chart);
@@ -208,27 +218,62 @@ void BasicAnalysis::changeVal()
             std::string c = std::to_string(recoveriesAtDay);
             recoveriesAtDayDisplay->setText(c.c_str());
         }
+
+
+
+
+
     }
 
+//    QVector<double> y(cases->getData().at(countryIndexCases).size());
+//    for(auto i =0u; i< cases->getData().at(countryIndexCases).size();++i)
+//    {
+//        y[i]= cases->getData().at(countryIndexCases)[i];
+//    }
+//    for(auto i:y)
+//    {
+//        qDebug() << i;
+//    }
 
-//    std::string s = chooseCountryBox->currentText().toStdString();
-//    qDebug()<< s.c_str();
-//    auto cindex = cases->getCountryIndexMap().find(s);
-//    std::string str = cindex->first;
-//    qDebug() << str.c_str() << cindex->second;
-//    int ci = cindex->second;
+//    QVector<double> x;
+//    for(int i = 0; i< y.size();++i)
+//    {
+//        x.push_back(i);
+//    }
 
-//    QDate toSearch = editDate->date();
+//    //        for(auto i:x)
+//    //        {
+//    //            qDebug() << i;
+//    //        }
+//    //        QDate date = QDate(2020,1,22);
+//    //        while(date != editDate->date())
+//    //        {
+//    //            x.push_back(date);
+//    //            date.addDays(1);
+//    //        }
 
-//    auto result = std::find_if(cases->getIndexDateMap().begin(),cases->getIndexDateMap().end(),
-//                               [&toSearch](auto elem){return elem.second == toSearch;});
+//    chart->graph(0)->setData(x,y);
+//    chart->graph(0)->rescaleAxes();
 
-//    int di = result->first;
-//    qDebug() << "country index"<<ci;
-//    qDebug()<< "date index"<< di;
-//    int currentCases = cases->getData().at(ci).at(di);
-//    std::string c = std::to_string(currentCases);
 
-//    casesDisplay->setText(c.c_str());
+    //    std::string s = chooseCountryBox->currentText().toStdString();
+    //    qDebug()<< s.c_str();
+    //    auto cindex = cases->getCountryIndexMap().find(s);
+    //    std::string str = cindex->first;
+    //    qDebug() << str.c_str() << cindex->second;
+    //    int ci = cindex->second;
+
+    //    QDate toSearch = editDate->date();
+
+    //    auto result = std::find_if(cases->getIndexDateMap().begin(),cases->getIndexDateMap().end(),
+    //                               [&toSearch](auto elem){return elem.second == toSearch;});
+
+    //    int di = result->first;
+    //    qDebug() << "country index"<<ci;
+    //    qDebug()<< "date index"<< di;
+    //    int currentCases = cases->getData().at(ci).at(di);
+    //    std::string c = std::to_string(currentCases);
+
+    //    casesDisplay->setText(c.c_str());
 
 }

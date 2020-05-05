@@ -17,6 +17,7 @@
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include "qcustomplot.h"
+#include <QCheckBox>
 /*
 class MyLabel : public QLabel
 {
@@ -56,6 +57,9 @@ class BasicAnalysis : public QWidget
     QVBoxLayout * all;
 
     QCustomPlot * chart;
+    QCheckBox * casesVisible;
+    QCheckBox * deathsVisible;
+    QCheckBox * recoveriesVisible;
 
     QLabel *chooseCountryLabel;
     QComboBox *chooseCountryBox;
