@@ -5,6 +5,10 @@
 #-------------------------------------------------
 
 QT       += core gui
+QT += location
+QT += positioning
+QT+=printsupport
+
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -29,17 +33,22 @@ SOURCES += \
     filereader.cpp \
     basicanalysis.cpp \
     analysismainwindow.cpp \
-    dataholder.cpp
+    dataholder.cpp \
+    qcustomplot.cpp \
+    analysislayout.cpp
 
 HEADERS += \
         mainwindow.h \
     filereader.h \
     basicanalysis.h \
     analysismainwindow.h \
-    dataholder.h
+    dataholder.h \
+    qcustomplot.h \
+    analysislayout.h
 
 FORMS += \
         mainwindow.ui
 
 DISTFILES += \
-    try.csv
+    try.csv \
+    myMap.qml

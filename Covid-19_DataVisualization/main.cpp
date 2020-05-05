@@ -19,6 +19,8 @@ int main(int argc, char *argv[])
     casesReader.readDateIndices();
     casesReader.readCountryIndices();
     casesReader.readRawData();
+    qDebug() << "GEOLOKACJA";
+    casesReader.readCountryGeolocation();
     DataHolder*cases = new DataHolder(casesReader.getCountryIndex(),casesReader.getIndexDate(),casesReader.getRawData());
 
     FileReader deathsReader("deaths.csv");
@@ -36,9 +38,9 @@ int main(int argc, char *argv[])
     DataHolder* recoveries = new DataHolder(recoveriesReader.getCountryIndex(),recoveriesReader.getIndexDate(),recoveriesReader.getRawData());
 
 
-    BasicAnalysis window(nullptr, cases, deaths, recoveries);
-    //    AnalysisMainWindow window;
-    window.show();
+    BasicAnalysis* window = new BasicAnalysis(nullptr, cases, deaths, recoveries);
+    MainWindow Mwindow(nullptr,window);
+    Mwindow.show();
 
     return a.exec();
 

@@ -31,62 +31,97 @@ BasicAnalysis::BasicAnalysis(QWidget *parent, DataHolder* cases,
     //    countries.removeFirst();
     //    countries.removeFirst();
 
+    chart = new QCustomPlot(this);
+    chart->setObjectName("My chart");
+    //chart->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
+    chart->setMinimumSize(500,500);
+
+    wybieranie = new QFormLayout();
+
     chooseCountryLabel = new QLabel(tr("Choose country/region: "),this);
-    chooseCountryLabel->move(10,10);
+    //chooseCountryLabel->move(10,10);
 
     chooseCountryBox = new QComboBox(this);
     chooseCountryBox->addItems(countries);
-    chooseCountryBox->move(200,10);
+    //chooseCountryBox->move(200,10);
+    wybieranie->addRow(chooseCountryLabel,chooseCountryBox);
 
     connect(chooseCountryBox,SIGNAL(currentIndexChanged(QString)),this,SLOT(changeVal()));
 
     chooseDateLabel = new QLabel("Choose date:", this);
-    chooseDateLabel->move(10,60);
+    //chooseDateLabel->move(10,60);
 
     editDate = new QDateEdit(this);
     editDate->setMaximumDate(QDate::currentDate().addDays(-1));
     editDate->setMinimumDate(QDate(2020,1,22));
-    editDate->move(200,60);
+    //editDate->move(200,60);
+    wybieranie->addRow(chooseDateLabel,editDate);
+    //setLayout(wybieranie);
 
+    zWykresem = new QHBoxLayout();
+    zWykresem->addWidget(chart);
+    zWykresem->addLayout(wybieranie);
 
     casesLabel = new QLabel("All cases:",this);
-    casesLabel->move(10,100);
+    //casesLabel->move(10,100);
 
     casesDisplay = new QLabel(this);
-    casesDisplay->move(200,100);
+    //casesDisplay->move(200,100);
     casesDisplay->setFixedSize(100,20);
 
     casesAtDayLabel = new QLabel("Cases at chosen day:",this);
-    casesAtDayLabel->move(300, 100);
+    //casesAtDayLabel->move(300, 100);
     casesAtDayDisplay = new QLabel(this);
-    casesAtDayDisplay->move(500,100);
+    //casesAtDayDisplay->move(500,100);
     casesAtDayDisplay->setFixedSize(100,20);
 
     deathsLabel = new QLabel("All deaths:",this);
-    deathsLabel->move(10,140);
+    //deathsLabel->move(10,140);
 
     deathsDisplay = new QLabel(this);
-    deathsDisplay->move(200,140);
+    //deathsDisplay->move(200,140);
     deathsDisplay->setFixedSize(100,20);
 
     deathsAtDayLabel = new QLabel("Deaths at chosen day:",this);
-    deathsAtDayLabel->move(300, 140);
+    //deathsAtDayLabel->move(300, 140);
     deathsAtDayDisplay = new QLabel(this);
-    deathsAtDayDisplay->move(500,140);
+    //deathsAtDayDisplay->move(500,140);
     deathsAtDayDisplay->setFixedSize(100,20);
 
     recoveriesLabel = new QLabel("All recoveries:",this);
-    recoveriesLabel->move(10,180);
+    //recoveriesLabel->move(10,180);
 
     recoveriesDisplay = new QLabel(this);
-    recoveriesDisplay->move(200,180);
+    //recoveriesDisplay->move(200,180);
     recoveriesDisplay->setFixedSize(100,20);
 
     recoveriesAtDayLabel = new QLabel("Recoveries at chosen day:",this);
-    recoveriesAtDayLabel->move(300, 180);
+    //recoveriesAtDayLabel->move(300, 180);
     recoveriesAtDayDisplay = new QLabel(this);
-    recoveriesAtDayDisplay->move(500,180);
+    //recoveriesAtDayDisplay->move(500,180);
     recoveriesAtDayDisplay->setFixedSize(100,20);
+
+    wszystkie = new QFormLayout();
+    wszystkie->addRow(casesLabel,casesDisplay);
+    wszystkie->addRow(deathsLabel,deathsDisplay);
+    wszystkie->addRow(recoveriesLabel,recoveriesDisplay);
+    //setLayout(wszystkie);
+
+    aktywne = new QFormLayout();
+    aktywne->addRow(casesAtDayLabel,casesAtDayDisplay);
+    aktywne->addRow(deathsAtDayLabel,deathsAtDayDisplay);
+    aktywne->addRow(recoveriesAtDayLabel,recoveriesAtDayDisplay);
+    //setLayout(aktywne);
+
+    wszystkieAktywne =new QHBoxLayout();
+    wszystkieAktywne->addLayout(wszystkie);
+    wszystkieAktywne->addLayout(aktywne);
+    //setLayout(wszystkieAktywne);
+
+    all = new QVBoxLayout();
+    all->addLayout(zWykresem);
+    all->addLayout(wszystkieAktywne);
+    setLayout(all);
 
     connect(editDate,SIGNAL(dateChanged(QDate)),this,SLOT(changeVal()));
 

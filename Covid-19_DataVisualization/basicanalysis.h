@@ -13,6 +13,10 @@
 #include <utility>
 #include "dataholder.h"
 #include <QDebug>
+#include <QFormLayout>
+#include <QVBoxLayout>
+#include <QHBoxLayout>
+#include "qcustomplot.h"
 /*
 class MyLabel : public QLabel
 {
@@ -43,6 +47,15 @@ public slots:
 class BasicAnalysis : public QWidget
 {
     Q_OBJECT
+
+    QFormLayout * wybieranie;
+    QFormLayout * wszystkie;
+    QFormLayout * aktywne;
+    QHBoxLayout * wszystkieAktywne;
+    QHBoxLayout * zWykresem;
+    QVBoxLayout * all;
+
+    QCustomPlot * chart;
 
     QLabel *chooseCountryLabel;
     QComboBox *chooseCountryBox;

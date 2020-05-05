@@ -92,7 +92,7 @@ void FileReader::readCountryGeolocation()
     {
         std::string countryAndRegion = values.at(i).at(1);
 
-        if(values.at(i).at(0) != "n")
+        if(values.at(i).at(0) != "#")
         {
             std::string region = values.at(i).at(0);
             std::replace(region.begin(), region.end(), '-', ' ');
