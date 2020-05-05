@@ -155,6 +155,53 @@ void basicAnalysisWiget::setData(const QDate &date, const QString &country)
     ui->chart->addGraph();
     ui->chart->addGraph();
 
+
+
+
+    if(ui->checkDeaths->checkState() == Qt::Checked)
+    {
+        ui->chart->graph(1)->setVisible(true);
+
+        ui->chart->graph(1)->setPen(QPen(Qt::black));
+        for (int i=0; i<dateIndexCases; ++i)
+        {
+            timeData[i].value = deaths->getData().at(countryIndexDeaths)[i];
+        }
+
+        ui->chart->graph(1)->data()->set(timeData);
+        ui->chart->graph(1)->rescaleAxes();
+
+        ui->chart->replot();
+
+    }
+    else
+    {
+        ui->chart->graph(1)->setVisible(false);
+        ui->chart->replot();
+
+    }
+    if(ui->checkRecoveries->checkState() == Qt::Checked)
+    {
+        ui->chart->graph(2)->setVisible(true);
+
+        ui->chart->graph(2)->setPen(QPen(Qt::green));
+        for (int i=0; i<dateIndexCases; ++i)
+        {
+            timeData[i].value = recoveries->getData().at(countryIndexRecoveries)[i];
+        }
+
+        ui->chart->graph(2)->data()->set(timeData);
+        ui->chart->graph(2)->rescaleAxes();
+
+        ui->chart->replot();
+    }
+    else
+    {
+        ui->chart->graph(2)->setVisible(false);
+        ui->chart->replot();
+
+    }
+
     ui->chart->graph(0)->setPen(QPen(Qt::red));
     if(ui->checkBox->checkState() == Qt::Checked)
     {
@@ -174,46 +221,6 @@ void basicAnalysisWiget::setData(const QDate &date, const QString &country)
     else
     {
         ui->chart->graph(0)->setVisible(false);
-        ui->chart->replot();
-
-    }
-
-
-    if(ui->checkDeaths->checkState() == Qt::Checked)
-    {
-        ui->chart->graph(1)->setVisible(true);
-
-        ui->chart->graph(1)->setPen(QPen(Qt::black));
-        for (int i=0; i<dateIndexCases; ++i)
-        {
-            timeData[i].value = deaths->getData().at(countryIndexCases)[i];
-        }
-
-        ui->chart->graph(1)->data()->set(timeData);
-        ui->chart->replot();
-    }
-    else
-    {
-        ui->chart->graph(1)->setVisible(false);
-        ui->chart->replot();
-
-    }
-    if(ui->checkRecoveries->checkState() == Qt::Checked)
-    {
-        ui->chart->graph(2)->setVisible(true);
-
-        ui->chart->graph(2)->setPen(QPen(Qt::green));
-        for (int i=0; i<dateIndexCases; ++i)
-        {
-            timeData[i].value = recoveries->getData().at(countryIndexCases)[i];
-        }
-
-        ui->chart->graph(2)->data()->set(timeData);
-        ui->chart->replot();
-    }
-    else
-    {
-        ui->chart->graph(2)->setVisible(false);
         ui->chart->replot();
 
     }
