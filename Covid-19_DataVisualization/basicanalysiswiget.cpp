@@ -13,6 +13,7 @@ basicAnalysisWiget::basicAnalysisWiget(QWidget *parent,DataHolder* cases,
     recoveries(recoveries)
 {
     ui->setupUi(this);
+    basicAnalysisWiget::setUpPlot();
 
     for(auto c : cases->getCountryIndexMap())
     {
@@ -22,7 +23,11 @@ basicAnalysisWiget::basicAnalysisWiget(QWidget *parent,DataHolder* cases,
     countries.sort();
 
     ui->comboBox->addItems(countries);
+    ui->dateEditStart->setMaximumDate(ui->dateEdit->date());
+
     ui->dateEdit->setMaximumDate(QDate::currentDate().addDays(-1));
+    ui->checkBox->setStyleSheet("QCheckBox::unchecked {color:black;font-weight:QFont::ExtraBold;} QCheckBox::checked {color:red;font-weight:bold;};");
+
 }
 
 basicAnalysisWiget::~basicAnalysisWiget()
@@ -32,12 +37,21 @@ basicAnalysisWiget::~basicAnalysisWiget()
 
 void basicAnalysisWiget::on_dateEdit_dateChanged(const QDate &date)
 {
-    setData(date,ui->comboBox->currentText());
+    if(date == QDate(2020,1,22))
+    {
+        ui->dateEditStart->setMaximumDate(date);
+    }
+    else
+    {
+        ui->dateEditStart->setMaximumDate(date.addDays(-1));
+    }
+    setData(date,ui->dateEditStart->date(),ui->comboBox->currentText());
+
 }
 
 void basicAnalysisWiget::on_comboBox_currentIndexChanged(const QString &arg1)
 {
-    setData(ui->dateEdit->date(),arg1);
+    setData(ui->dateEdit->date(),ui->dateEditStart->date(),arg1);
 }
 
 
@@ -57,11 +71,12 @@ int basicAnalysisWiget::getDateIndex(const QDate &date, const std::unordered_map
     return -1;
 }
 
-void basicAnalysisWiget::setData(const QDate &date, const QString &country)
+void basicAnalysisWiget::setData(const QDate &date, const QDate&startDate, const QString &country)
 {
 
     int countryIndexCases = getCountryIndex(country, cases->getCountryIndexMap());
     int dateIndexCases = getDateIndex(date,cases -> getIndexDateMap());
+    int startDateIndex = getDateIndex(startDate,cases -> getIndexDateMap());
     int previousDay = dateIndexCases -1;
     if(countryIndexCases < 0 || dateIndexCases < 0)
     {
@@ -70,7 +85,8 @@ void basicAnalysisWiget::setData(const QDate &date, const QString &country)
     else
     {
         int currentCases = cases->getData().at(countryIndexCases).at(dateIndexCases);
-        std::string c = std::to_string(currentCases);
+        int casesBetweenDates = currentCases - cases->getData().at(countryIndexCases).at(startDateIndex);
+        std::string c = std::to_string(casesBetweenDates);
         ui->Cases->setText(c.c_str());
 
         if(previousDay < 0)
@@ -95,7 +111,8 @@ void basicAnalysisWiget::setData(const QDate &date, const QString &country)
     else
     {
         int currentDeaths = deaths->getData().at(countryIndexDeaths).at(dateIndexDeaths);
-        std::string c = std::to_string(currentDeaths);
+        int deathsBetweenDates = currentDeaths - deaths->getData().at(countryIndexDeaths).at(startDateIndex);
+        std::string c = std::to_string(deathsBetweenDates);
         ui->Deaths->setText(c.c_str());
 
         if(previousDay < 0)
@@ -121,7 +138,8 @@ void basicAnalysisWiget::setData(const QDate &date, const QString &country)
     else
     {
         int currentRecoveries = recoveries->getData().at(countryIndexRecoveries).at(dateIndexRecoveries);
-        std::string c = std::to_string(currentRecoveries);
+        int recoveriesBetweenDates = currentRecoveries - recoveries->getData().at(countryIndexRecoveries).at(startDateIndex);
+        std::string c = std::to_string(recoveriesBetweenDates);
         ui->Recoveries->setText(c.c_str());
 
         if(previousDay < 0)
@@ -137,108 +155,143 @@ void basicAnalysisWiget::setData(const QDate &date, const QString &country)
 
     }
 
+    qDebug()<< ui->chart->graphCount();
+    QString titleText;
+    titleText= "Covid-19 from " + startDate.toString("d.MM.yyyy")
+            + " to "+ date.toString("d.MM.yyyy")
+            + " in " + ui->comboBox->currentText();
+    title->setText(titleText);
+    QDateTime dateAxis= QDateTime(startDate);
+    QVector<QCPGraphData> timeData(dateIndexCases - startDateIndex+1);
+    for (int i=0; i<=dateIndexCases-startDateIndex; ++i)
+    {
+        qDebug() << "ok" <<i;
+        timeData[i].key = dateAxis.addDays(i).toTime_t();
+    }
+
+    if(ui->checkBox->checkState() == Qt::Checked)
+    {
+        ui->chart->graph(0)->setVisible(true);
+
+        for (int i=0; i<=dateIndexCases- startDateIndex; ++i)
+        {
+            qDebug() << "ok cases" <<i;
+
+            timeData[i].value = cases->getData().at(countryIndexCases)[i+startDateIndex];
+        }
+
+        ui->chart->graph(0)->data()->set(timeData);
+    }
+    else
+    {
+        ui->chart->graph(0)->setVisible(false);
+    }
+
+    if(ui->checkDeaths->checkState() == Qt::Checked)
+    {
+        ui->chart->graph(1)->setVisible(true);
+        for (int i=0; i<=dateIndexCases-startDateIndex; ++i)
+        {
+            qDebug() << "ok2" <<i;
+
+            timeData[i].value = deaths->getData().at(countryIndexDeaths)[i+startDateIndex];
+        }
+
+        ui->chart->graph(1)->data()->set(timeData);
+    }
+    else
+    {
+        ui->chart->graph(1)->setVisible(false);
+    }
+    if(ui->checkRecoveries->checkState() == Qt::Checked)
+    {
+        ui->chart->graph(2)->setVisible(true);
+
+        for (int i=0; i<=dateIndexCases-startDateIndex; ++i)
+        {
+            qDebug() << "ok3" <<i;
+
+            timeData[i].value = recoveries->getData().at(countryIndexRecoveries)[i+startDateIndex];
+        }
+
+        ui->chart->graph(2)->data()->set(timeData);
+    }
+    else
+    {
+        ui->chart->graph(2)->setVisible(false);
+    }
+
+    ui->chart->rescaleAxes(true);
+    ui->chart->replot();
+
+}
+
+//void basicAnalysisWiget::on_checkBox_clicked()
+//{
+//    ui->checkBox->setStyleSheet("QCheckBox { color: red }");
+//    setData(ui->dateEdit->date(),ui->dateEditStart->date(),ui->comboBox->currentText());
+
+//}
+
+void basicAnalysisWiget::on_checkRecoveries_clicked()
+{
+    setData(ui->dateEdit->date(),ui->dateEditStart->date(),ui->comboBox->currentText());
+}
+
+void basicAnalysisWiget::on_checkDeaths_clicked()
+{
+    setData(ui->dateEdit->date(),ui->dateEditStart->date(),ui->comboBox->currentText());
+}
+
+void basicAnalysisWiget::on_dateEditStart_dateChanged(const QDate &startDate)
+{
+    setData(ui->dateEdit->date(),startDate,ui->comboBox->currentText());
+}
+
+void basicAnalysisWiget::on_checkBox_stateChanged(int state)
+{
+
+//    if(state == 0)
+//    {
+//        ui->checkBox->setFont();
+
+//    }
+//    else
+//    {
+//        ui->checkBox->setStyleSheet("QCheckBox { color: red }");
+//    }
+    setData(ui->dateEdit->date(),ui->dateEditStart->date(),ui->comboBox->currentText());
+
+}
+
+void basicAnalysisWiget::setUpPlot()
+{
+    ui->chart->addGraph();
+    ui->chart->addGraph();
+    ui->chart->addGraph();
+
+    ui->chart->graph(0)->setPen(QPen(Qt::red));
+    ui->chart->graph(1)->setPen(QPen(Qt::black));
+    ui->chart->graph(2)->setPen(QPen(Qt::green));
+
+    ui->chart->graph(0)->setName("Cases");
+    ui->chart->graph(1)->setName("Deaths");
+    ui->chart->graph(2)->setName("Recoveries");
+
+
+
     QSharedPointer<QCPAxisTickerDateTime> dateTicker(new QCPAxisTickerDateTime);
     dateTicker->setDateTimeFormat("dd.MM.yyyy");
     ui->chart->xAxis->setTicker(dateTicker);
     ui->chart->xAxis->setLabel("Date");
     ui->chart->yAxis->setLabel("Amount");
     QDateTime dateAxis= QDateTime(QDate(2020,1,22));
-    QVector<QCPGraphData> timeData(dateIndexCases);
-    for (int i=0; i<dateIndexCases; ++i)
-    {
-        timeData[i].key = dateAxis.addDays(i).toTime_t();
-    }
+    ui->chart->xAxis->setRange(dateAxis.toTime_t(),dateAxis.addDays(4).toTime_t());
+
+    ui->chart->axisRect()->insetLayout()->setInsetAlignment(0, Qt::AlignTop|Qt::AlignLeft);
+    ui->chart->plotLayout()->insertRow(0);
+    title = new QCPTextElement(ui->chart, "Covid-19", QFont("sans", 12, QFont::Bold));
+    ui->chart->plotLayout()->addElement(0, 0, title);
+    ui->chart->legend->setVisible(true);
     ui->chart->replot();
-
-
-    ui->chart->addGraph();
-    ui->chart->addGraph();
-    ui->chart->addGraph();
-
-
-
-
-    if(ui->checkDeaths->checkState() == Qt::Checked)
-    {
-        ui->chart->graph(1)->setVisible(true);
-
-        ui->chart->graph(1)->setPen(QPen(Qt::black));
-        for (int i=0; i<dateIndexCases; ++i)
-        {
-            timeData[i].value = deaths->getData().at(countryIndexDeaths)[i];
-        }
-
-        ui->chart->graph(1)->data()->set(timeData);
-        ui->chart->graph(1)->rescaleAxes();
-
-        ui->chart->replot();
-
-    }
-    else
-    {
-        ui->chart->graph(1)->setVisible(false);
-        ui->chart->replot();
-
-    }
-    if(ui->checkRecoveries->checkState() == Qt::Checked)
-    {
-        ui->chart->graph(2)->setVisible(true);
-
-        ui->chart->graph(2)->setPen(QPen(Qt::green));
-        for (int i=0; i<dateIndexCases; ++i)
-        {
-            timeData[i].value = recoveries->getData().at(countryIndexRecoveries)[i];
-        }
-
-        ui->chart->graph(2)->data()->set(timeData);
-        ui->chart->graph(2)->rescaleAxes();
-
-        ui->chart->replot();
-    }
-    else
-    {
-        ui->chart->graph(2)->setVisible(false);
-        ui->chart->replot();
-
-    }
-
-    ui->chart->graph(0)->setPen(QPen(Qt::red));
-    if(ui->checkBox->checkState() == Qt::Checked)
-    {
-        ui->chart->graph(0)->setVisible(true);
-
-        for (int i=0; i<dateIndexCases; ++i)
-        {
-            timeData[i].value = cases->getData().at(countryIndexCases)[i];
-        }
-
-        ui->chart->graph(0)->data()->set(timeData);
-
-
-        ui->chart->graph(0)->rescaleAxes();
-        ui->chart->replot();
-    }
-    else
-    {
-        ui->chart->graph(0)->setVisible(false);
-        ui->chart->replot();
-
-    }
-
-}
-
-void basicAnalysisWiget::on_checkBox_clicked()
-{
-    setData(ui->dateEdit->date(),ui->comboBox->currentText());
-
-}
-
-void basicAnalysisWiget::on_checkRecoveries_clicked()
-{
-    setData(ui->dateEdit->date(),ui->comboBox->currentText());
-}
-
-void basicAnalysisWiget::on_checkDeaths_clicked()
-{
-    setData(ui->dateEdit->date(),ui->comboBox->currentText());
 }
