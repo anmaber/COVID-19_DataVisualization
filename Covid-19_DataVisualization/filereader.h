@@ -6,13 +6,6 @@
 #include <unordered_map>
 #include <QDate>
 
-
-//struct Geolocation
-//{
-//    float latitude;
-//    float longtitude;
-//};
-
 using DataTable = std::vector<std::vector<std::string>>;
 using CountryIndexMap = std::unordered_map<std::string, int>;
 using CountryGeolocationMap = std::unordered_map<std::string,std::pair<float,float>>;

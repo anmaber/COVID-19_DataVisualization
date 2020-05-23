@@ -28,6 +28,7 @@ int main(int argc, char *argv[])
     deathsReader.readCountryIndices();
     deathsReader.readDateIndices();
     deathsReader.readRawData();
+    deathsReader.readCountryGeolocation();
     DataHolder* deaths = new DataHolder(deathsReader.getCountryIndex(),deathsReader.getIndexDate(),deathsReader.getRawData(),deathsReader.getCountryGeolocation());
 
     FileReader recoveriesReader("recovered.csv");
@@ -35,6 +36,7 @@ int main(int argc, char *argv[])
     recoveriesReader.readCountryIndices();
     recoveriesReader.readDateIndices();
     recoveriesReader.readRawData();
+    recoveriesReader.readCountryGeolocation();
     DataHolder* recoveries = new DataHolder(recoveriesReader.getCountryIndex(),recoveriesReader.getIndexDate(),recoveriesReader.getRawData(),recoveriesReader.getCountryGeolocation());
 
 

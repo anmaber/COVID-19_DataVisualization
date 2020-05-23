@@ -19,18 +19,26 @@ public:
     ~mapViewWidget();
 
 private slots:
-    void on_horizontalSlider_sliderMoved(int position);
     void on_radioButtonDeaths_clicked();
 
     void on_radioButtonCases_clicked();
 
+    void on_radioButtonRecoveries_clicked();
+
+    void on_horizontalSlider_valueChanged(int value);
+
 private:
+    void addItemsOnMap(QString color);
+    void deleteCircles();
+    void drawCircles(int value);
+
     Ui::mapViewWidget *ui;
     QQuickView* w;
     QWidget* container;
     DataHolder*  cases;
     DataHolder * deaths;
     DataHolder * recoveries;
+    DataHolder * current;
 };
 
 #endif // MAPVIEWWIDGET_H

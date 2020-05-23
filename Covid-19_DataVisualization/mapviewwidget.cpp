@@ -14,23 +14,48 @@ mapViewWidget::mapViewWidget(QWidget *parent, DataHolder *cases, DataHolder *dea
     w->setSource(QUrl("../myMap.qml"));
     ui->container = QWidget::createWindowContainer(w,this);
     ui->container->setFocusPolicy(Qt::TabFocus);
-    ui->container->resize(500,400);
+    ui->container->resize(800,512);
 
     ui->horizontalSlider->setMinimum(0);
-    ui->horizontalSlider->setMaximum(cases->getIndexDateMap().size()-1);
+    ui->horizontalSlider->setMaximum(deaths->getIndexDateMap().size()-1);
     qDebug()<<"MAX:" << ui->horizontalSlider->maximum();
+
+
     QObject *m = w->findChild<QObject*>("map");
     if (m)
     {
-        qDebug()<<"WESZLO";
-        QMetaObject::invokeMethod(m, "addCircle",
+      for(auto cg : cases->getCountryGeolocationMap())
+        {
+            QString name = QString::fromStdString(cg.first) + "c";
+            qDebug() <<name;
+            int lat = cg.second.first;
+            int lon = cg.second.second;
+            QMetaObject::invokeMethod(m, "addCircle",
 
-                                  Q_ARG(QVariant, "red"),Q_ARG(QVariant, "dupa"), Q_ARG(QVariant, 50000.0), Q_ARG(QVariant,0.0), Q_ARG(QVariant,153.0));
+                                      Q_ARG(QVariant, "red"),Q_ARG(QVariant, name), Q_ARG(QVariant,0.0), Q_ARG(QVariant,lat), Q_ARG(QVariant,lon));
+        }
+
+        for(auto cg : deaths->getCountryGeolocationMap())
+        {
+            QString name = QString::fromStdString(cg.first) + "d";
+            qDebug() <<name;
+            int lat = cg.second.first;
+            int lon = cg.second.second;
+            QMetaObject::invokeMethod(m, "addCircle",
+
+                                      Q_ARG(QVariant, "black"),Q_ARG(QVariant, name), Q_ARG(QVariant,0.0), Q_ARG(QVariant,lat), Q_ARG(QVariant,lon));
+        }
+        for(auto cg : recoveries->getCountryGeolocationMap())
+        {
+            QString name = QString::fromStdString(cg.first) + "r";
+            qDebug() <<name;
+            int lat = cg.second.first;
+            int lon = cg.second.second;
+            QMetaObject::invokeMethod(m, "addCircle",
+
+                                      Q_ARG(QVariant, "green"),Q_ARG(QVariant, name), Q_ARG(QVariant,0.0), Q_ARG(QVariant,lat), Q_ARG(QVariant,lon));
+        }
     }
-
-
-
-    // w->show();
 }
 
 mapViewWidget::~mapViewWidget()
@@ -38,46 +63,111 @@ mapViewWidget::~mapViewWidget()
     delete ui;
 }
 
-void mapViewWidget::on_horizontalSlider_sliderMoved(int position)
-{
-    int rad = position * 1000;
-    QStringList l = {"dupa","circ"};
-    for(auto n : l)
-    {
-        QObject *circ = w->findChild<QObject*>(n);
-        if (circ)
-            circ->setProperty("radius",rad);
-    }
-    qDebug()<<position;
-
-}
-
 void mapViewWidget::on_radioButtonDeaths_clicked()
 {
-    QObject *m = w->findChild<QObject*>("map");
-    if (m)
-    {
-        QMetaObject::invokeMethod(m, "clearMapItems");
-    }
+    current = deaths;
+    deleteCircles();
+    drawCircles( ui->horizontalSlider->value());
 }
 
 void mapViewWidget::on_radioButtonCases_clicked()
 {
-    QString color = "red";
+    current = cases;
+    deleteCircles();
+    drawCircles( ui->horizontalSlider->value());
+}
+
+void mapViewWidget::addItemsOnMap(QString color)
+{
     QObject *m = w->findChild<QObject*>("map");
     if (m)
     {
         QMetaObject::invokeMethod(m, "clearMapItems");
 
 
-        for(auto cg : cases->getCountryGeolocationMap())
+        for(auto cg : current->getCountryGeolocationMap())
         {
             QString name = QString::fromStdString(cg.first);
             int lat = cg.second.first;
             int lon = cg.second.second;
+            int position = ui->horizontalSlider->value();
+
+            auto countryIndexiter = current->getCountryIndexMap().find(cg.first);
+            int countryIndex = countryIndexiter->second;
+            int rad = current->getData().at(countryIndex).at(position);
             QMetaObject::invokeMethod(m, "addCircle",
 
-                                      Q_ARG(QVariant, color),Q_ARG(QVariant, name), Q_ARG(QVariant, 50000.0), Q_ARG(QVariant,lat), Q_ARG(QVariant,lon));
+                                      Q_ARG(QVariant, color),Q_ARG(QVariant, name), Q_ARG(QVariant, rad), Q_ARG(QVariant,lat), Q_ARG(QVariant,lon));
         }
     }
+}
+
+void mapViewWidget::deleteCircles()
+{
+    for(auto n : cases->getCountryGeolocationMap())
+    {
+        QString countryName = QString::fromStdString(n.first)+"c";
+        QObject *circ = w->findChild<QObject*>(countryName);
+        if (circ)
+            circ->setProperty("radius",0);
+    }
+    for(auto n : deaths->getCountryGeolocationMap())
+    {
+        QString countryName = QString::fromStdString(n.first)+"d";
+        QObject *circ = w->findChild<QObject*>(countryName);
+        if (circ)
+            circ->setProperty("radius",0);
+    }
+    for(auto n : recoveries->getCountryGeolocationMap())
+    {
+        QString countryName = QString::fromStdString(n.first)+"r";
+        QObject *circ = w->findChild<QObject*>(countryName);
+        if (circ)
+            circ->setProperty("radius",0);
+    }
+
+}
+
+void mapViewWidget::drawCircles(int value)
+{
+    QString appendix;
+
+    if(ui->radioButtonCases->isChecked())
+    {
+        appendix = "c";
+    }
+    if(ui->radioButtonDeaths->isChecked())
+    {
+        appendix = "d";
+    }
+    if(ui->radioButtonRecoveries->isChecked())
+    {
+        appendix= "r";
+    }
+    for(auto n : current->getCountryGeolocationMap())
+    {
+        qDebug()<<QString::fromStdString(n.first);
+        auto countryIndexiter = current->getCountryIndexMap().find(n.first);
+
+        int countryIndex = countryIndexiter->second;
+        int rad =current->getData().at(countryIndex).at(value);
+        QString countryName = QString::fromStdString(n.first)+appendix;
+        QObject *circ = w->findChild<QObject*>(countryName);
+        if (circ)
+            circ->setProperty("radius",rad);
+    }
+    qDebug()<<value;
+}
+
+
+void mapViewWidget::on_radioButtonRecoveries_clicked()
+{
+    current = recoveries;
+    deleteCircles();
+    drawCircles( ui->horizontalSlider->value());
+}
+
+void mapViewWidget::on_horizontalSlider_valueChanged(int value)
+{
+    drawCircles(value);
 }
