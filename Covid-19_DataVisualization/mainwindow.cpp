@@ -14,7 +14,7 @@ MainWindow::MainWindow(QWidget *parent, DataHolder* cases,
     banal=new basicAnalysisWiget(nullptr,cases,deaths,recoveries);
     tabs->addTab(banal,"Analysis");
 
-    view = new mapViewWidget;
+    view = new mapViewWidget(nullptr,cases,deaths,recoveries);
    // container = QWidget::createWindowContainer(view, this);
    // container->setFocusPolicy(Qt::TabFocus);
    // view->setSource(QUrl("../myMap.qml"));
