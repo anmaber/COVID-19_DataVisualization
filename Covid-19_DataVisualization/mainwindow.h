@@ -7,6 +7,7 @@
 #include <QVBoxLayout>
 #include <QQuickView>
 #include <basicanalysiswiget.h>
+#include "mapviewwidget.h"
 //#include <QDeclarativeView>
 
 namespace Ui {
@@ -16,7 +17,8 @@ class MainWindow;
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
-    QQuickView *view;
+    //QQuickView *view;
+    mapViewWidget *view;
     QWidget *container;
     QVBoxLayout * myLayout;
     QTabWidget * tabs;

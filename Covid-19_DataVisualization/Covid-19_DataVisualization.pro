@@ -8,6 +8,7 @@ QT       += core gui
 QT += location
 QT += positioning
 QT+=printsupport
+QT += quickwidgets
 
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
@@ -36,7 +37,9 @@ SOURCES += \
     dataholder.cpp \
     qcustomplot.cpp \
     analysislayout.cpp \
-    basicanalysiswiget.cpp
+    basicanalysiswiget.cpp \
+    mapviewwidget.cpp \
+    mapview.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -46,11 +49,14 @@ HEADERS += \
     dataholder.h \
     qcustomplot.h \
     analysislayout.h \
-    basicanalysiswiget.h
+    basicanalysiswiget.h \
+    mapviewwidget.h \
+    mapview.h
 
 FORMS += \
         mainwindow.ui \
-    basicanalysiswiget.ui
+    basicanalysiswiget.ui \
+    mapviewwidget.ui
 
 DISTFILES += \
     try.csv \
