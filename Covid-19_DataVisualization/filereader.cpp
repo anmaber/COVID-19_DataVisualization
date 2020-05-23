@@ -111,7 +111,7 @@ void FileReader::readCountryGeolocation()
 
     for(auto a : countryGeolocation)
     {
-        qDebug() << a.first.c_str() <<" "<<a.second.latitude<<" "<<a.second.longtitude<<"\n";
+        qDebug() << a.first.c_str() <<" "<<a.second.first<<" "<<a.second.second<<"\n";
     }
 }
 
