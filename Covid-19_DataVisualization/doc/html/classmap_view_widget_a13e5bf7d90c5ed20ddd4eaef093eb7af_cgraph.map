@@ -1,0 +1,7 @@
+<map id="mapViewWidget::on_radioButtonDeaths_clicked" name="mapViewWidget::on_radioButtonDeaths_clicked">
+<area shape="rect" id="node2" href="$classmap_view_widget.html#a1cc7a48638aee0f1fa1fe571c95a080f" title="stawia promienie kół znajdujących się na mapie na 0. " alt="" coords="265,5,467,32"/>
+<area shape="rect" id="node4" href="$classmap_view_widget.html#a6020f2ff42119372dadeba98c12cf4c7" title="Rysuje koła na mapie. " alt="" coords="269,56,463,83"/>
+<area shape="rect" id="node3" href="$class_data_holder.html#a8bc681ca0ddc67b858ea87847c6ad902" title="Zwraca przechowywaną mapę krajów i ich geolokalizacji (DataHolder::countryGeolocationMap). " alt="" coords="515,5,769,32"/>
+<area shape="rect" id="node5" href="$class_data_holder.html#acab7cb687608e6323db8bf536d74ba99" title="Zwraca przechowywaną mapę krajów i ich indeksów (DataHolder::countryIndexMap). " alt="" coords="533,56,751,83"/>
+<area shape="rect" id="node6" href="$class_data_holder.html#a6e37773362260e3f04059b63c45be5c0" title="Zwraca wektor wektorów przechowujących dane odnośnie przypadków (DataHolder::RawDataTable). " alt="" coords="571,107,713,133"/>
+</map>

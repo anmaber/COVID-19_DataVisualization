@@ -1,0 +1,922 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>COVID-19 data visualization: Dokumentacja klasy basicAnalysisWiget</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">COVID-19 data visualization
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classbasic_analysis_wiget.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Metody publiczne</a> &#124;
+<a href="#pri-slots">Sloty prywatne</a> &#124;
+<a href="#pri-methods">Metody prywatne</a> &#124;
+<a href="#pri-attribs">Atrybuty prywatne</a> &#124;
+<a href="classbasic_analysis_wiget-members.html">Lista wszystkich składowych</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja klasy basicAnalysisWiget</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Modeluje odbiekt odpowiedzialny za widok analizy.  
+ <a href="classbasic_analysis_wiget.html#details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="basicanalysiswiget_8h_source.html">basicanalysiswiget.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla basicAnalysisWiget</div>
+<div class="dyncontent">
+<div class="center"><img src="classbasic_analysis_wiget__inherit__graph.png" border="0" usemap="#basic_analysis_wiget_inherit__map" alt="Inheritance graph"/></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<div class="dynheader">
+Diagram współpracy dla basicAnalysisWiget:</div>
+<div class="dyncontent">
+<div class="center"><img src="classbasic_analysis_wiget__coll__graph.png" border="0" usemap="#basic_analysis_wiget_coll__map" alt="Collaboration graph"/></div>
+<map name="basic_analysis_wiget_coll__map" id="basic_analysis_wiget_coll__map">
+<area shape="rect" id="node3" href="class_data_holder.html" title="Klasa modelująca obekt przechowujący dane o przypadkach. " alt="" coords="103,5,191,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Metody publiczne</h2></td></tr>
+<tr class="memitem:a8896b15f9f13c6d947dbb5ce666ad790"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic_analysis_wiget.html#a8896b15f9f13c6d947dbb5ce666ad790">basicAnalysisWiget</a> (QWidget *parent=0, <a class="el" href="class_data_holder.html">DataHolder</a> *<a class="el" href="classbasic_analysis_wiget.html#ac3d08c5b0dec7939c9274ea2d96377d8">cases</a>=nullptr, <a class="el" href="class_data_holder.html">DataHolder</a> *<a class="el" href="classbasic_analysis_wiget.html#a608c415ff823fdc141981c1108d95ee4">deaths</a>=nullptr, <a class="el" href="class_data_holder.html">DataHolder</a> *<a class="el" href="classbasic_analysis_wiget.html#a6b3742cc4b92beadc82b2683a29399c0">recoveries</a>=nullptr)</td></tr>
+<tr class="memdesc:a8896b15f9f13c6d947dbb5ce666ad790"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor parametryczny klasy <a class="el" href="classbasic_analysis_wiget.html" title="Modeluje odbiekt odpowiedzialny za widok analizy. ">basicAnalysisWiget</a>.  <a href="#a8896b15f9f13c6d947dbb5ce666ad790">Więcej...</a><br /></td></tr>
+<tr class="separator:a8896b15f9f13c6d947dbb5ce666ad790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff6aea771c620ac00ad09f75d13ff531"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic_analysis_wiget.html#aff6aea771c620ac00ad09f75d13ff531">~basicAnalysisWiget</a> ()</td></tr>
+<tr class="separator:aff6aea771c620ac00ad09f75d13ff531"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Sloty prywatne</h2></td></tr>
+<tr class="memitem:aaaed1c4f608a397237b9cf3895594e96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic_analysis_wiget.html#aaaed1c4f608a397237b9cf3895594e96">on_dateEdit_dateChanged</a> (const QDate &amp;date)</td></tr>
+<tr class="memdesc:aaaed1c4f608a397237b9cf3895594e96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot reagujący na zmianę daty końcowej.  <a href="#aaaed1c4f608a397237b9cf3895594e96">Więcej...</a><br /></td></tr>
+<tr class="separator:aaaed1c4f608a397237b9cf3895594e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a312a237b0768b91ac900bd2a96f8dad5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic_analysis_wiget.html#a312a237b0768b91ac900bd2a96f8dad5">on_comboBox_currentIndexChanged</a> (const QString &amp;countryName)</td></tr>
+<tr class="memdesc:a312a237b0768b91ac900bd2a96f8dad5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot reagujący na zmianę kraju.  <a href="#a312a237b0768b91ac900bd2a96f8dad5">Więcej...</a><br /></td></tr>
+<tr class="separator:a312a237b0768b91ac900bd2a96f8dad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6076adda056f9085c351fdbd1d86c85b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic_analysis_wiget.html#a6076adda056f9085c351fdbd1d86c85b">on_checkRecoveries_clicked</a> ()</td></tr>
+<tr class="memdesc:a6076adda056f9085c351fdbd1d86c85b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot reagujący na kliknięcie na pole wyboru związane z wyzgrowieniami.  <a href="#a6076adda056f9085c351fdbd1d86c85b">Więcej...</a><br /></td></tr>
+<tr class="separator:a6076adda056f9085c351fdbd1d86c85b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eff359887aaa284aee6e811885577eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic_analysis_wiget.html#a3eff359887aaa284aee6e811885577eb">on_checkDeaths_clicked</a> ()</td></tr>
+<tr class="memdesc:a3eff359887aaa284aee6e811885577eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot reagujący na kliknięcie na pole wyboru związane ze zgonami.  <a href="#a3eff359887aaa284aee6e811885577eb">Więcej...</a><br /></td></tr>
+<tr class="separator:a3eff359887aaa284aee6e811885577eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84cf266d5405896a4ea42fb7b1886097"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic_analysis_wiget.html#a84cf266d5405896a4ea42fb7b1886097">on_dateEditStart_dateChanged</a> (const QDate &amp;startDate)</td></tr>
+<tr class="memdesc:a84cf266d5405896a4ea42fb7b1886097"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot reagujący na zmianę daty początkowej.  <a href="#a84cf266d5405896a4ea42fb7b1886097">Więcej...</a><br /></td></tr>
+<tr class="separator:a84cf266d5405896a4ea42fb7b1886097"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41e944421cd2d70d9284ef3ff8a7ad2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic_analysis_wiget.html#a41e944421cd2d70d9284ef3ff8a7ad2c">on_checkBox_clicked</a> ()</td></tr>
+<tr class="memdesc:a41e944421cd2d70d9284ef3ff8a7ad2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot reagujący na kliknięcie na pole wyboru związane z zachorowaniami.  <a href="#a41e944421cd2d70d9284ef3ff8a7ad2c">Więcej...</a><br /></td></tr>
+<tr class="separator:a41e944421cd2d70d9284ef3ff8a7ad2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Metody prywatne</h2></td></tr>
+<tr class="memitem:a8314957369a536647288af02a9a9fcbd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic_analysis_wiget.html#a8314957369a536647288af02a9a9fcbd">setUpPlot</a> ()</td></tr>
+<tr class="memdesc:a8314957369a536647288af02a9a9fcbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda odpowiedzialna za inicjalizację wykresu.  <a href="#a8314957369a536647288af02a9a9fcbd">Więcej...</a><br /></td></tr>
+<tr class="separator:a8314957369a536647288af02a9a9fcbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae225eb9989d0d88fa701ea2bf4c5ba38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic_analysis_wiget.html#ae225eb9989d0d88fa701ea2bf4c5ba38">setData</a> (const QDate &amp;date, const QDate &amp;startDate, const QString &amp;country)</td></tr>
+<tr class="memdesc:ae225eb9989d0d88fa701ea2bf4c5ba38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda odpowiedzialna za aktualizację wizualizacji danych.  <a href="#ae225eb9989d0d88fa701ea2bf4c5ba38">Więcej...</a><br /></td></tr>
+<tr class="separator:ae225eb9989d0d88fa701ea2bf4c5ba38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46978e18f494db854373e33c2829f4ab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic_analysis_wiget.html#a46978e18f494db854373e33c2829f4ab">getCountryIndex</a> (const QString &amp;countryName, const std::unordered_map&lt; std::string, int &gt; &amp;cimap)</td></tr>
+<tr class="memdesc:a46978e18f494db854373e33c2829f4ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda odnajdująca indeks kraju.  <a href="#a46978e18f494db854373e33c2829f4ab">Więcej...</a><br /></td></tr>
+<tr class="separator:a46978e18f494db854373e33c2829f4ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f3f84f3ad795febfae60afcbd9760ba"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic_analysis_wiget.html#a6f3f84f3ad795febfae60afcbd9760ba">getDateIndex</a> (const QDate &amp;date, const std::unordered_map&lt; int, QDate &gt; &amp;idmap)</td></tr>
+<tr class="memdesc:a6f3f84f3ad795febfae60afcbd9760ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda odnajdująca indeks daty.  <a href="#a6f3f84f3ad795febfae60afcbd9760ba">Więcej...</a><br /></td></tr>
+<tr class="separator:a6f3f84f3ad795febfae60afcbd9760ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atrybuty prywatne</h2></td></tr>
+<tr class="memitem:a5f1f599ef9f404ff1beaa75977137585"><td class="memItemLeft" align="right" valign="top">Ui::basicAnalysisWiget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic_analysis_wiget.html#a5f1f599ef9f404ff1beaa75977137585">ui</a></td></tr>
+<tr class="memdesc:a5f1f599ef9f404ff1beaa75977137585"><td class="mdescLeft">&#160;</td><td class="mdescRight">interfejs użytkownika zaprojektowany w Designerze.  <a href="#a5f1f599ef9f404ff1beaa75977137585">Więcej...</a><br /></td></tr>
+<tr class="separator:a5f1f599ef9f404ff1beaa75977137585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3d08c5b0dec7939c9274ea2d96377d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_data_holder.html">DataHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic_analysis_wiget.html#ac3d08c5b0dec7939c9274ea2d96377d8">cases</a></td></tr>
+<tr class="memdesc:ac3d08c5b0dec7939c9274ea2d96377d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">wskaźnik na strukturę przechowująca dane odnośnie zachorowań.  <a href="#ac3d08c5b0dec7939c9274ea2d96377d8">Więcej...</a><br /></td></tr>
+<tr class="separator:ac3d08c5b0dec7939c9274ea2d96377d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a608c415ff823fdc141981c1108d95ee4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_data_holder.html">DataHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic_analysis_wiget.html#a608c415ff823fdc141981c1108d95ee4">deaths</a></td></tr>
+<tr class="memdesc:a608c415ff823fdc141981c1108d95ee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">wskaźnik na strukturę przechowująca dane odnośnie zgonów.  <a href="#a608c415ff823fdc141981c1108d95ee4">Więcej...</a><br /></td></tr>
+<tr class="separator:a608c415ff823fdc141981c1108d95ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b3742cc4b92beadc82b2683a29399c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_data_holder.html">DataHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic_analysis_wiget.html#a6b3742cc4b92beadc82b2683a29399c0">recoveries</a></td></tr>
+<tr class="memdesc:a6b3742cc4b92beadc82b2683a29399c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">wskaźnik na strukturę przechowująca dane odnośnie wyzdrowień.  <a href="#a6b3742cc4b92beadc82b2683a29399c0">Więcej...</a><br /></td></tr>
+<tr class="separator:a6b3742cc4b92beadc82b2683a29399c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeed8acdfbc49d7b6975921a16263d7db"><td class="memItemLeft" align="right" valign="top">QCPTextElement *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic_analysis_wiget.html#aeed8acdfbc49d7b6975921a16263d7db">title</a></td></tr>
+<tr class="memdesc:aeed8acdfbc49d7b6975921a16263d7db"><td class="mdescLeft">&#160;</td><td class="mdescRight">tytuł wykresu.  <a href="#aeed8acdfbc49d7b6975921a16263d7db">Więcej...</a><br /></td></tr>
+<tr class="separator:aeed8acdfbc49d7b6975921a16263d7db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d30e68747c391d294e808e1a392ec54"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic_analysis_wiget.html#a9d30e68747c391d294e808e1a392ec54">countries</a></td></tr>
+<tr class="memdesc:a9d30e68747c391d294e808e1a392ec54"><td class="mdescLeft">&#160;</td><td class="mdescRight">lista krajów dla których dostępne są dane.  <a href="#a9d30e68747c391d294e808e1a392ec54">Więcej...</a><br /></td></tr>
+<tr class="separator:a9d30e68747c391d294e808e1a392ec54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p>Modeluje obiekt, który przedstawia na wykresie oraz za pomocą liczb dane odnośnie zachorowań na COVID-19. Dane zależą od wybranych opcji. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="basicanalysiswiget_8h_source.html#l00025">25</a> pliku <a class="el" href="basicanalysiswiget_8h_source.html">basicanalysiswiget.h</a>.</p>
+</div><h2 class="groupheader">Dokumentacja konstruktora i destruktora</h2>
+<a id="a8896b15f9f13c6d947dbb5ce666ad790"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8896b15f9f13c6d947dbb5ce666ad790">&#9670;&nbsp;</a></span>basicAnalysisWiget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">basicAnalysisWiget::basicAnalysisWiget </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_data_holder.html">DataHolder</a> *&#160;</td>
+          <td class="paramname"><em>cases</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_data_holder.html">DataHolder</a> *&#160;</td>
+          <td class="paramname"><em>deaths</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_data_holder.html">DataHolder</a> *&#160;</td>
+          <td class="paramname"><em>recoveries</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Inicjalizuje <a class="el" href="classbasic_analysis_wiget.html#a5f1f599ef9f404ff1beaa75977137585" title="interfejs użytkownika zaprojektowany w Designerze. ">basicAnalysisWiget::ui</a> oraz wykres, ustawia <a class="el" href="classbasic_analysis_wiget.html#ac3d08c5b0dec7939c9274ea2d96377d8" title="wskaźnik na strukturę przechowująca dane odnośnie zachorowań. ">basicAnalysisWiget::cases</a>, <a class="el" href="classbasic_analysis_wiget.html#a608c415ff823fdc141981c1108d95ee4" title="wskaźnik na strukturę przechowująca dane odnośnie zgonów. ">basicAnalysisWiget::deaths</a> oraz <a class="el" href="classbasic_analysis_wiget.html#a6b3742cc4b92beadc82b2683a29399c0" title="wskaźnik na strukturę przechowująca dane odnośnie wyzdrowień. ">basicAnalysisWiget::recoveries</a>. Sczyczuje listę krajów z jednego z obiektów typu <a class="el" href="class_data_holder.html" title="Klasa modelująca obekt przechowujący dane o przypadkach. ">DataHolder</a> i ustawia ją w liście rozwijanej. Ustawia maksymalną datę w polach do zmiany dat.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">parent</td><td>- rodzic dla widgetu </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cases</td><td>- wskaźnik na obiekt klasy <a class="el" href="class_data_holder.html" title="Klasa modelująca obekt przechowujący dane o przypadkach. ">DataHolder</a>, który przechowuje dane zwiazane z zachorowaniami. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">deaths</td><td>- wskaźnik na obiekt klasy <a class="el" href="class_data_holder.html" title="Klasa modelująca obekt przechowujący dane o przypadkach. ">DataHolder</a>, który przechowuje dane związane ze zgonami. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">recoveries</td><td>- wskaźnik na obiekt klasy <a class="el" href="class_data_holder.html" title="Klasa modelująca obekt przechowujący dane o przypadkach. ">DataHolder</a>, który przechowuje dane związane z wyzdrowieniami. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="basicanalysiswiget_8cpp_source.html#l00007">7</a> pliku <a class="el" href="basicanalysiswiget_8cpp_source.html">basicanalysiswiget.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classbasic_analysis_wiget_a8896b15f9f13c6d947dbb5ce666ad790_cgraph.png" border="0" usemap="#classbasic_analysis_wiget_a8896b15f9f13c6d947dbb5ce666ad790_cgraph" alt=""/></div>
+<map name="classbasic_analysis_wiget_a8896b15f9f13c6d947dbb5ce666ad790_cgraph" id="classbasic_analysis_wiget_a8896b15f9f13c6d947dbb5ce666ad790_cgraph">
+<area shape="rect" id="node2" href="classbasic_analysis_wiget.html#a8314957369a536647288af02a9a9fcbd" title="Metoda odpowiedzialna za inicjalizację wykresu. " alt="" coords="239,5,376,47"/>
+<area shape="rect" id="node3" href="class_data_holder.html#acab7cb687608e6323db8bf536d74ba99" title="Zwraca przechowywaną mapę krajów i ich indeksów (DataHolder::countryIndexMap). " alt="" coords="199,71,416,98"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aff6aea771c620ac00ad09f75d13ff531"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff6aea771c620ac00ad09f75d13ff531">&#9670;&nbsp;</a></span>~basicAnalysisWiget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">basicAnalysisWiget::~basicAnalysisWiget </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="basicanalysiswiget_8cpp_source.html#l00033">33</a> pliku <a class="el" href="basicanalysiswiget_8cpp_source.html">basicanalysiswiget.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja funkcji składowych</h2>
+<a id="a46978e18f494db854373e33c2829f4ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46978e18f494db854373e33c2829f4ab">&#9670;&nbsp;</a></span>getCountryIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int basicAnalysisWiget::getCountryIndex </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>countryName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::unordered_map&lt; std::string, int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>cimap</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Metoda przeszukuje mapę podaną jako parametr aby znaleźć kraj również podany jako parametr. Zwraca indeks przypisany do kraju. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">countryName</td><td>- nazwa kraju. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cimap</td><td>- mapa zawierająca pary krajów i indeksów. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>indeks szukanego kraju. </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="basicanalysiswiget_8cpp_source.html#l00062">62</a> pliku <a class="el" href="basicanalysiswiget_8cpp_source.html">basicanalysiswiget.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classbasic_analysis_wiget_a46978e18f494db854373e33c2829f4ab_icgraph.png" border="0" usemap="#classbasic_analysis_wiget_a46978e18f494db854373e33c2829f4ab_icgraph" alt=""/></div>
+<map name="classbasic_analysis_wiget_a46978e18f494db854373e33c2829f4ab_icgraph" id="classbasic_analysis_wiget_a46978e18f494db854373e33c2829f4ab_icgraph">
+<area shape="rect" id="node2" href="classbasic_analysis_wiget.html#ae225eb9989d0d88fa701ea2bf4c5ba38" title="Metoda odpowiedzialna za aktualizację wizualizacji danych. " alt="" coords="191,189,328,231"/>
+<area shape="rect" id="node3" href="classbasic_analysis_wiget.html#aaaed1c4f608a397237b9cf3895594e96" title="Slot reagujący na zmianę daty końcowej. " alt="" coords="390,5,573,47"/>
+<area shape="rect" id="node4" href="classbasic_analysis_wiget.html#a312a237b0768b91ac900bd2a96f8dad5" title="Slot reagujący na zmianę kraju. " alt="" coords="385,71,577,127"/>
+<area shape="rect" id="node5" href="classbasic_analysis_wiget.html#a41e944421cd2d70d9284ef3ff8a7ad2c" title="Slot reagujący na kliknięcie na pole wyboru związane z zachorowaniami. " alt="" coords="403,152,560,193"/>
+<area shape="rect" id="node6" href="classbasic_analysis_wiget.html#a6076adda056f9085c351fdbd1d86c85b" title="Slot reagujący na kliknięcie na pole wyboru związane z wyzgrowieniami. " alt="" coords="405,218,557,274"/>
+<area shape="rect" id="node7" href="classbasic_analysis_wiget.html#a3eff359887aaa284aee6e811885577eb" title="Slot reagujący na kliknięcie na pole wyboru związane ze zgonami. " alt="" coords="393,299,569,340"/>
+<area shape="rect" id="node8" href="classbasic_analysis_wiget.html#a84cf266d5405896a4ea42fb7b1886097" title="Slot reagujący na zmianę daty początkowej. " alt="" coords="376,364,587,405"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6f3f84f3ad795febfae60afcbd9760ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f3f84f3ad795febfae60afcbd9760ba">&#9670;&nbsp;</a></span>getDateIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int basicAnalysisWiget::getDateIndex </td>
+          <td>(</td>
+          <td class="paramtype">const QDate &amp;&#160;</td>
+          <td class="paramname"><em>date</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::unordered_map&lt; int, QDate &gt; &amp;&#160;</td>
+          <td class="paramname"><em>idmap</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Metoda przeszukuje mapę podaną jako parametr aby znaleźć indeks daty zadanej jako parametr. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">date</td><td>- data. </td></tr>
+    <tr><td class="paramname">idmap</td><td>- mapa indeksów i dat. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>indeks szukanej daty. </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="basicanalysiswiget_8cpp_source.html#l00070">70</a> pliku <a class="el" href="basicanalysiswiget_8cpp_source.html">basicanalysiswiget.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classbasic_analysis_wiget_a6f3f84f3ad795febfae60afcbd9760ba_icgraph.png" border="0" usemap="#classbasic_analysis_wiget_a6f3f84f3ad795febfae60afcbd9760ba_icgraph" alt=""/></div>
+<map name="classbasic_analysis_wiget_a6f3f84f3ad795febfae60afcbd9760ba_icgraph" id="classbasic_analysis_wiget_a6f3f84f3ad795febfae60afcbd9760ba_icgraph">
+<area shape="rect" id="node2" href="classbasic_analysis_wiget.html#ae225eb9989d0d88fa701ea2bf4c5ba38" title="Metoda odpowiedzialna za aktualizację wizualizacji danych. " alt="" coords="191,189,328,231"/>
+<area shape="rect" id="node3" href="classbasic_analysis_wiget.html#aaaed1c4f608a397237b9cf3895594e96" title="Slot reagujący na zmianę daty końcowej. " alt="" coords="390,5,573,47"/>
+<area shape="rect" id="node4" href="classbasic_analysis_wiget.html#a312a237b0768b91ac900bd2a96f8dad5" title="Slot reagujący na zmianę kraju. " alt="" coords="385,71,577,127"/>
+<area shape="rect" id="node5" href="classbasic_analysis_wiget.html#a41e944421cd2d70d9284ef3ff8a7ad2c" title="Slot reagujący na kliknięcie na pole wyboru związane z zachorowaniami. " alt="" coords="403,152,560,193"/>
+<area shape="rect" id="node6" href="classbasic_analysis_wiget.html#a6076adda056f9085c351fdbd1d86c85b" title="Slot reagujący na kliknięcie na pole wyboru związane z wyzgrowieniami. " alt="" coords="405,218,557,274"/>
+<area shape="rect" id="node7" href="classbasic_analysis_wiget.html#a3eff359887aaa284aee6e811885577eb" title="Slot reagujący na kliknięcie na pole wyboru związane ze zgonami. " alt="" coords="393,299,569,340"/>
+<area shape="rect" id="node8" href="classbasic_analysis_wiget.html#a84cf266d5405896a4ea42fb7b1886097" title="Slot reagujący na zmianę daty początkowej. " alt="" coords="376,364,587,405"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a41e944421cd2d70d9284ef3ff8a7ad2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41e944421cd2d70d9284ef3ff8a7ad2c">&#9670;&nbsp;</a></span>on_checkBox_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void basicAnalysisWiget::on_checkBox_clicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gdy zostanie kliknięte pole wyboru związane z zachorowaniami, wykresy oraz pola z liczbami zostaną zaktualizowane </p>
+
+<p class="definition">Definicja w linii <a class="el" href="basicanalysiswiget_8cpp_source.html#l00057">57</a> pliku <a class="el" href="basicanalysiswiget_8cpp_source.html">basicanalysiswiget.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classbasic_analysis_wiget_a41e944421cd2d70d9284ef3ff8a7ad2c_cgraph.png" border="0" usemap="#classbasic_analysis_wiget_a41e944421cd2d70d9284ef3ff8a7ad2c_cgraph" alt=""/></div>
+<map name="classbasic_analysis_wiget_a41e944421cd2d70d9284ef3ff8a7ad2c_cgraph" id="classbasic_analysis_wiget_a41e944421cd2d70d9284ef3ff8a7ad2c_cgraph">
+<area shape="rect" id="node2" href="classbasic_analysis_wiget.html#ae225eb9989d0d88fa701ea2bf4c5ba38" title="Metoda odpowiedzialna za aktualizację wizualizacji danych. " alt="" coords="211,93,348,135"/>
+<area shape="rect" id="node3" href="classbasic_analysis_wiget.html#a46978e18f494db854373e33c2829f4ab" title="Metoda odnajdująca indeks kraju. " alt="" coords="436,5,573,47"/>
+<area shape="rect" id="node4" href="class_data_holder.html#acab7cb687608e6323db8bf536d74ba99" title="Zwraca przechowywaną mapę krajów i ich indeksów (DataHolder::countryIndexMap). " alt="" coords="396,71,613,98"/>
+<area shape="rect" id="node5" href="classbasic_analysis_wiget.html#a6f3f84f3ad795febfae60afcbd9760ba" title="Metoda odnajdująca indeks daty. " alt="" coords="436,123,573,164"/>
+<area shape="rect" id="node6" href="class_data_holder.html#a6e37773362260e3f04059b63c45be5c0" title="Zwraca wektor wektorów przechowujących dane odnośnie przypadków (DataHolder::RawDataTable). " alt="" coords="433,189,576,215"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3eff359887aaa284aee6e811885577eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eff359887aaa284aee6e811885577eb">&#9670;&nbsp;</a></span>on_checkDeaths_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void basicAnalysisWiget::on_checkDeaths_clicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gdy zostanie kliknięte pole wyboru związane ze zgonami, wykresy oraz pola z liczbami zostaną zaktualizowane </p>
+
+<p class="definition">Definicja w linii <a class="el" href="basicanalysiswiget_8cpp_source.html#l00245">245</a> pliku <a class="el" href="basicanalysiswiget_8cpp_source.html">basicanalysiswiget.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classbasic_analysis_wiget_a3eff359887aaa284aee6e811885577eb_cgraph.png" border="0" usemap="#classbasic_analysis_wiget_a3eff359887aaa284aee6e811885577eb_cgraph" alt=""/></div>
+<map name="classbasic_analysis_wiget_a3eff359887aaa284aee6e811885577eb_cgraph" id="classbasic_analysis_wiget_a3eff359887aaa284aee6e811885577eb_cgraph">
+<area shape="rect" id="node2" href="classbasic_analysis_wiget.html#ae225eb9989d0d88fa701ea2bf4c5ba38" title="Metoda odpowiedzialna za aktualizację wizualizacji danych. " alt="" coords="229,93,367,135"/>
+<area shape="rect" id="node3" href="classbasic_analysis_wiget.html#a46978e18f494db854373e33c2829f4ab" title="Metoda odnajdująca indeks kraju. " alt="" coords="455,5,592,47"/>
+<area shape="rect" id="node4" href="class_data_holder.html#acab7cb687608e6323db8bf536d74ba99" title="Zwraca przechowywaną mapę krajów i ich indeksów (DataHolder::countryIndexMap). " alt="" coords="415,71,632,98"/>
+<area shape="rect" id="node5" href="classbasic_analysis_wiget.html#a6f3f84f3ad795febfae60afcbd9760ba" title="Metoda odnajdująca indeks daty. " alt="" coords="455,123,592,164"/>
+<area shape="rect" id="node6" href="class_data_holder.html#a6e37773362260e3f04059b63c45be5c0" title="Zwraca wektor wektorów przechowujących dane odnośnie przypadków (DataHolder::RawDataTable). " alt="" coords="452,189,595,215"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6076adda056f9085c351fdbd1d86c85b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6076adda056f9085c351fdbd1d86c85b">&#9670;&nbsp;</a></span>on_checkRecoveries_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void basicAnalysisWiget::on_checkRecoveries_clicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gdy zostanie kliknięte pole wyboru związane z wyzgrowieniami, wykresy oraz pola z liczbami zostaną zaktualizowane </p>
+
+<p class="definition">Definicja w linii <a class="el" href="basicanalysiswiget_8cpp_source.html#l00240">240</a> pliku <a class="el" href="basicanalysiswiget_8cpp_source.html">basicanalysiswiget.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classbasic_analysis_wiget_a6076adda056f9085c351fdbd1d86c85b_cgraph.png" border="0" usemap="#classbasic_analysis_wiget_a6076adda056f9085c351fdbd1d86c85b_cgraph" alt=""/></div>
+<map name="classbasic_analysis_wiget_a6076adda056f9085c351fdbd1d86c85b_cgraph" id="classbasic_analysis_wiget_a6076adda056f9085c351fdbd1d86c85b_cgraph">
+<area shape="rect" id="node2" href="classbasic_analysis_wiget.html#ae225eb9989d0d88fa701ea2bf4c5ba38" title="Metoda odpowiedzialna za aktualizację wizualizacji danych. " alt="" coords="205,93,343,135"/>
+<area shape="rect" id="node3" href="classbasic_analysis_wiget.html#a46978e18f494db854373e33c2829f4ab" title="Metoda odnajdująca indeks kraju. " alt="" coords="431,5,568,47"/>
+<area shape="rect" id="node4" href="class_data_holder.html#acab7cb687608e6323db8bf536d74ba99" title="Zwraca przechowywaną mapę krajów i ich indeksów (DataHolder::countryIndexMap). " alt="" coords="391,71,608,98"/>
+<area shape="rect" id="node5" href="classbasic_analysis_wiget.html#a6f3f84f3ad795febfae60afcbd9760ba" title="Metoda odnajdująca indeks daty. " alt="" coords="431,123,568,164"/>
+<area shape="rect" id="node6" href="class_data_holder.html#a6e37773362260e3f04059b63c45be5c0" title="Zwraca wektor wektorów przechowujących dane odnośnie przypadków (DataHolder::RawDataTable). " alt="" coords="428,189,571,215"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a312a237b0768b91ac900bd2a96f8dad5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a312a237b0768b91ac900bd2a96f8dad5">&#9670;&nbsp;</a></span>on_comboBox_currentIndexChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void basicAnalysisWiget::on_comboBox_currentIndexChanged </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>countryName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gdy zostanie zmieniony kraj zostaną zaktualizowane wykresy. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">countryName</td><td>- nazwa kraju na którą została zmieniona poprzednia. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="basicanalysiswiget_8cpp_source.html#l00052">52</a> pliku <a class="el" href="basicanalysiswiget_8cpp_source.html">basicanalysiswiget.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classbasic_analysis_wiget_a312a237b0768b91ac900bd2a96f8dad5_cgraph.png" border="0" usemap="#classbasic_analysis_wiget_a312a237b0768b91ac900bd2a96f8dad5_cgraph" alt=""/></div>
+<map name="classbasic_analysis_wiget_a312a237b0768b91ac900bd2a96f8dad5_cgraph" id="classbasic_analysis_wiget_a312a237b0768b91ac900bd2a96f8dad5_cgraph">
+<area shape="rect" id="node2" href="classbasic_analysis_wiget.html#ae225eb9989d0d88fa701ea2bf4c5ba38" title="Metoda odpowiedzialna za aktualizację wizualizacji danych. " alt="" coords="245,93,383,135"/>
+<area shape="rect" id="node3" href="classbasic_analysis_wiget.html#a46978e18f494db854373e33c2829f4ab" title="Metoda odnajdująca indeks kraju. " alt="" coords="471,5,608,47"/>
+<area shape="rect" id="node4" href="class_data_holder.html#acab7cb687608e6323db8bf536d74ba99" title="Zwraca przechowywaną mapę krajów i ich indeksów (DataHolder::countryIndexMap). " alt="" coords="431,71,648,98"/>
+<area shape="rect" id="node5" href="classbasic_analysis_wiget.html#a6f3f84f3ad795febfae60afcbd9760ba" title="Metoda odnajdująca indeks daty. " alt="" coords="471,123,608,164"/>
+<area shape="rect" id="node6" href="class_data_holder.html#a6e37773362260e3f04059b63c45be5c0" title="Zwraca wektor wektorów przechowujących dane odnośnie przypadków (DataHolder::RawDataTable). " alt="" coords="468,189,611,215"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aaaed1c4f608a397237b9cf3895594e96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaed1c4f608a397237b9cf3895594e96">&#9670;&nbsp;</a></span>on_dateEdit_dateChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void basicAnalysisWiget::on_dateEdit_dateChanged </td>
+          <td>(</td>
+          <td class="paramtype">const QDate &amp;&#160;</td>
+          <td class="paramname"><em>date</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gdy zostanie zmieniona data końcowa, zostanie zaktualizowana maksymalna data początkowa oraz zostaną zaktualizowane wykresy. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">date</td><td>- data na którą została zmieniona poprzednia. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="basicanalysiswiget_8cpp_source.html#l00038">38</a> pliku <a class="el" href="basicanalysiswiget_8cpp_source.html">basicanalysiswiget.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classbasic_analysis_wiget_aaaed1c4f608a397237b9cf3895594e96_cgraph.png" border="0" usemap="#classbasic_analysis_wiget_aaaed1c4f608a397237b9cf3895594e96_cgraph" alt=""/></div>
+<map name="classbasic_analysis_wiget_aaaed1c4f608a397237b9cf3895594e96_cgraph" id="classbasic_analysis_wiget_aaaed1c4f608a397237b9cf3895594e96_cgraph">
+<area shape="rect" id="node2" href="classbasic_analysis_wiget.html#ae225eb9989d0d88fa701ea2bf4c5ba38" title="Metoda odpowiedzialna za aktualizację wizualizacji danych. " alt="" coords="236,93,373,135"/>
+<area shape="rect" id="node3" href="classbasic_analysis_wiget.html#a46978e18f494db854373e33c2829f4ab" title="Metoda odnajdująca indeks kraju. " alt="" coords="461,5,599,47"/>
+<area shape="rect" id="node4" href="class_data_holder.html#acab7cb687608e6323db8bf536d74ba99" title="Zwraca przechowywaną mapę krajów i ich indeksów (DataHolder::countryIndexMap). " alt="" coords="421,71,639,98"/>
+<area shape="rect" id="node5" href="classbasic_analysis_wiget.html#a6f3f84f3ad795febfae60afcbd9760ba" title="Metoda odnajdująca indeks daty. " alt="" coords="461,123,599,164"/>
+<area shape="rect" id="node6" href="class_data_holder.html#a6e37773362260e3f04059b63c45be5c0" title="Zwraca wektor wektorów przechowujących dane odnośnie przypadków (DataHolder::RawDataTable). " alt="" coords="459,189,601,215"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a84cf266d5405896a4ea42fb7b1886097"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84cf266d5405896a4ea42fb7b1886097">&#9670;&nbsp;</a></span>on_dateEditStart_dateChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void basicAnalysisWiget::on_dateEditStart_dateChanged </td>
+          <td>(</td>
+          <td class="paramtype">const QDate &amp;&#160;</td>
+          <td class="paramname"><em>startDate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gdy zostanie zmieniona data początkowa, zostaną zaktualizowane wykresy. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">date</td><td>- data na którą została zmieniona poprzednia. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="basicanalysiswiget_8cpp_source.html#l00250">250</a> pliku <a class="el" href="basicanalysiswiget_8cpp_source.html">basicanalysiswiget.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classbasic_analysis_wiget_a84cf266d5405896a4ea42fb7b1886097_cgraph.png" border="0" usemap="#classbasic_analysis_wiget_a84cf266d5405896a4ea42fb7b1886097_cgraph" alt=""/></div>
+<map name="classbasic_analysis_wiget_a84cf266d5405896a4ea42fb7b1886097_cgraph" id="classbasic_analysis_wiget_a84cf266d5405896a4ea42fb7b1886097_cgraph">
+<area shape="rect" id="node2" href="classbasic_analysis_wiget.html#ae225eb9989d0d88fa701ea2bf4c5ba38" title="Metoda odpowiedzialna za aktualizację wizualizacji danych. " alt="" coords="264,93,401,135"/>
+<area shape="rect" id="node3" href="classbasic_analysis_wiget.html#a46978e18f494db854373e33c2829f4ab" title="Metoda odnajdująca indeks kraju. " alt="" coords="489,5,627,47"/>
+<area shape="rect" id="node4" href="class_data_holder.html#acab7cb687608e6323db8bf536d74ba99" title="Zwraca przechowywaną mapę krajów i ich indeksów (DataHolder::countryIndexMap). " alt="" coords="449,71,667,98"/>
+<area shape="rect" id="node5" href="classbasic_analysis_wiget.html#a6f3f84f3ad795febfae60afcbd9760ba" title="Metoda odnajdująca indeks daty. " alt="" coords="489,123,627,164"/>
+<area shape="rect" id="node6" href="class_data_holder.html#a6e37773362260e3f04059b63c45be5c0" title="Zwraca wektor wektorów przechowujących dane odnośnie przypadków (DataHolder::RawDataTable). " alt="" coords="487,189,629,215"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae225eb9989d0d88fa701ea2bf4c5ba38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae225eb9989d0d88fa701ea2bf4c5ba38">&#9670;&nbsp;</a></span>setData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void basicAnalysisWiget::setData </td>
+          <td>(</td>
+          <td class="paramtype">const QDate &amp;&#160;</td>
+          <td class="paramname"><em>date</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QDate &amp;&#160;</td>
+          <td class="paramname"><em>startDate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>country</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Wyświetlane są odpowiednie dane w zależności od kraju i wybranych dat. Sprawdzane jest jakie dane mają zostać wyświetlone na wykresach. Wyświetlane są odpowiednie wykresy i jest dopasowywany tytuł w zależności od wybranych parametrów.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">date</td><td>- data końcowa. </td></tr>
+    <tr><td class="paramname">startDate</td><td>- data początkowa. </td></tr>
+    <tr><td class="paramname">country</td><td>- kraj dla którego mają być zwizualizowane dane. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="basicanalysiswiget_8cpp_source.html#l00078">78</a> pliku <a class="el" href="basicanalysiswiget_8cpp_source.html">basicanalysiswiget.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classbasic_analysis_wiget_ae225eb9989d0d88fa701ea2bf4c5ba38_cgraph.png" border="0" usemap="#classbasic_analysis_wiget_ae225eb9989d0d88fa701ea2bf4c5ba38_cgraph" alt=""/></div>
+<map name="classbasic_analysis_wiget_ae225eb9989d0d88fa701ea2bf4c5ba38_cgraph" id="classbasic_analysis_wiget_ae225eb9989d0d88fa701ea2bf4c5ba38_cgraph">
+<area shape="rect" id="node2" href="classbasic_analysis_wiget.html#a46978e18f494db854373e33c2829f4ab" title="Metoda odnajdująca indeks kraju. " alt="" coords="231,5,368,47"/>
+<area shape="rect" id="node3" href="class_data_holder.html#acab7cb687608e6323db8bf536d74ba99" title="Zwraca przechowywaną mapę krajów i ich indeksów (DataHolder::countryIndexMap). " alt="" coords="191,71,408,98"/>
+<area shape="rect" id="node4" href="classbasic_analysis_wiget.html#a6f3f84f3ad795febfae60afcbd9760ba" title="Metoda odnajdująca indeks daty. " alt="" coords="231,123,368,164"/>
+<area shape="rect" id="node5" href="class_data_holder.html#a6e37773362260e3f04059b63c45be5c0" title="Zwraca wektor wektorów przechowujących dane odnośnie przypadków (DataHolder::RawDataTable). " alt="" coords="228,189,371,215"/>
+</map>
+</div>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classbasic_analysis_wiget_ae225eb9989d0d88fa701ea2bf4c5ba38_icgraph.png" border="0" usemap="#classbasic_analysis_wiget_ae225eb9989d0d88fa701ea2bf4c5ba38_icgraph" alt=""/></div>
+<map name="classbasic_analysis_wiget_ae225eb9989d0d88fa701ea2bf4c5ba38_icgraph" id="classbasic_analysis_wiget_ae225eb9989d0d88fa701ea2bf4c5ba38_icgraph">
+<area shape="rect" id="node2" href="classbasic_analysis_wiget.html#aaaed1c4f608a397237b9cf3895594e96" title="Slot reagujący na zmianę daty końcowej. " alt="" coords="205,5,387,47"/>
+<area shape="rect" id="node3" href="classbasic_analysis_wiget.html#a312a237b0768b91ac900bd2a96f8dad5" title="Slot reagujący na zmianę kraju. " alt="" coords="200,71,392,127"/>
+<area shape="rect" id="node4" href="classbasic_analysis_wiget.html#a41e944421cd2d70d9284ef3ff8a7ad2c" title="Slot reagujący na kliknięcie na pole wyboru związane z zachorowaniami. " alt="" coords="217,152,375,193"/>
+<area shape="rect" id="node5" href="classbasic_analysis_wiget.html#a6076adda056f9085c351fdbd1d86c85b" title="Slot reagujący na kliknięcie na pole wyboru związane z wyzgrowieniami. " alt="" coords="220,218,372,274"/>
+<area shape="rect" id="node6" href="classbasic_analysis_wiget.html#a3eff359887aaa284aee6e811885577eb" title="Slot reagujący na kliknięcie na pole wyboru związane ze zgonami. " alt="" coords="208,299,384,340"/>
+<area shape="rect" id="node7" href="classbasic_analysis_wiget.html#a84cf266d5405896a4ea42fb7b1886097" title="Slot reagujący na zmianę daty początkowej. " alt="" coords="191,364,401,405"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8314957369a536647288af02a9a9fcbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8314957369a536647288af02a9a9fcbd">&#9670;&nbsp;</a></span>setUpPlot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void basicAnalysisWiget::setUpPlot </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Na pole wykresu są dodawane trzy wykresy. Ustawiane są opisy osi oraz tytuł wykresu. Oś pozioma jest formatowana tak aby pokazywać daty. Pokazywana jest również legenda. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="basicanalysiswiget_8cpp_source.html#l00257">257</a> pliku <a class="el" href="basicanalysiswiget_8cpp_source.html">basicanalysiswiget.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classbasic_analysis_wiget_a8314957369a536647288af02a9a9fcbd_icgraph.png" border="0" usemap="#classbasic_analysis_wiget_a8314957369a536647288af02a9a9fcbd_icgraph" alt=""/></div>
+<map name="classbasic_analysis_wiget_a8314957369a536647288af02a9a9fcbd_icgraph" id="classbasic_analysis_wiget_a8314957369a536647288af02a9a9fcbd_icgraph">
+<area shape="rect" id="node2" href="classbasic_analysis_wiget.html#a8896b15f9f13c6d947dbb5ce666ad790" title="Konstruktor parametryczny klasy basicAnalysisWiget. " alt="" coords="191,5,336,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja atrybutów składowych</h2>
+<a id="ac3d08c5b0dec7939c9274ea2d96377d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3d08c5b0dec7939c9274ea2d96377d8">&#9670;&nbsp;</a></span>cases</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_data_holder.html">DataHolder</a>* basicAnalysisWiget::cases</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="basicanalysiswiget_8h_source.html#l00104">104</a> pliku <a class="el" href="basicanalysiswiget_8h_source.html">basicanalysiswiget.h</a>.</p>
+
+</div>
+</div>
+<a id="a9d30e68747c391d294e808e1a392ec54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d30e68747c391d294e808e1a392ec54">&#9670;&nbsp;</a></span>countries</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList basicAnalysisWiget::countries</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="basicanalysiswiget_8h_source.html#l00121">121</a> pliku <a class="el" href="basicanalysiswiget_8h_source.html">basicanalysiswiget.h</a>.</p>
+
+</div>
+</div>
+<a id="a608c415ff823fdc141981c1108d95ee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a608c415ff823fdc141981c1108d95ee4">&#9670;&nbsp;</a></span>deaths</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_data_holder.html">DataHolder</a>* basicAnalysisWiget::deaths</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="basicanalysiswiget_8h_source.html#l00108">108</a> pliku <a class="el" href="basicanalysiswiget_8h_source.html">basicanalysiswiget.h</a>.</p>
+
+</div>
+</div>
+<a id="a6b3742cc4b92beadc82b2683a29399c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b3742cc4b92beadc82b2683a29399c0">&#9670;&nbsp;</a></span>recoveries</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_data_holder.html">DataHolder</a>* basicAnalysisWiget::recoveries</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="basicanalysiswiget_8h_source.html#l00112">112</a> pliku <a class="el" href="basicanalysiswiget_8h_source.html">basicanalysiswiget.h</a>.</p>
+
+</div>
+</div>
+<a id="aeed8acdfbc49d7b6975921a16263d7db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeed8acdfbc49d7b6975921a16263d7db">&#9670;&nbsp;</a></span>title</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QCPTextElement* basicAnalysisWiget::title</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="basicanalysiswiget_8h_source.html#l00116">116</a> pliku <a class="el" href="basicanalysiswiget_8h_source.html">basicanalysiswiget.h</a>.</p>
+
+</div>
+</div>
+<a id="a5f1f599ef9f404ff1beaa75977137585"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f1f599ef9f404ff1beaa75977137585">&#9670;&nbsp;</a></span>ui</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Ui::basicAnalysisWiget* basicAnalysisWiget::ui</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="basicanalysiswiget_8h_source.html#l00100">100</a> pliku <a class="el" href="basicanalysiswiget_8h_source.html">basicanalysiswiget.h</a>.</p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li><a class="el" href="basicanalysiswiget_8h_source.html">basicanalysiswiget.h</a></li>
+<li><a class="el" href="basicanalysiswiget_8cpp_source.html">basicanalysiswiget.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="classbasic_analysis_wiget.html">basicAnalysisWiget</a></li>
+    <li class="footer">Wygenerowano przez
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

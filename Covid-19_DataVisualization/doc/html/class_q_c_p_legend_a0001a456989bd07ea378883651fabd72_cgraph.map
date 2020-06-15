@@ -1,0 +1,7 @@
+<map id="QCPLegend::QCPLegend" name="QCPLegend::QCPLegend">
+<area shape="rect" id="node2" href="$class_q_c_p_layout_element.html#a8f450b1f3f992ad576fce2c63d8b79cf" title="QCPLayoutElement::setMargins" alt="" coords="225,5,436,32"/>
+<area shape="rect" id="node4" href="$class_q_c_p_layerable.html#a4fd43e89be4a553ead41652565ff0581" title="QCPLayerable::setAntialiased" alt="" coords="232,56,429,83"/>
+<area shape="rect" id="node5" href="$class_q_c_p_abstract_legend_item.html#a6ebace6aaffaedcdab2d74e88acc2d1e" title="QCPAbstractLegendItem\l::setTextColor" alt="" coords="247,107,415,149"/>
+<area shape="rect" id="node6" href="$class_q_c_p_abstract_legend_item.html#a4d01d008ee1a5bfe9905b0397a421936" title="QCPAbstractLegendItem\l::setSelectedTextColor" alt="" coords="247,173,415,214"/>
+<area shape="rect" id="node3" href="$class_q_c_p_layout_element.html#af4ac9450aa2d60863bf3a8ea0c940c9d" title="QCPLayoutElement::margins" alt="" coords="484,5,676,32"/>
+</map>

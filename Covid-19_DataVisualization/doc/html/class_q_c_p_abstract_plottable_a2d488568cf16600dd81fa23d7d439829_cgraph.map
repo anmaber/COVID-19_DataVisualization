@@ -1,0 +1,9 @@
+<map id="QCPAbstractPlottable::selectEvent" name="QCPAbstractPlottable::selectEvent">
+<area shape="rect" id="node2" href="$class_q_c_p_abstract_plottable.html#a0b3b514474fe93354fc74cfc144184b4" title="QCPAbstractPlottable\l::selected" alt="" coords="474,5,625,47"/>
+<area shape="rect" id="node3" href="$class_q_c_p_abstract_plottable.html#a219bc5403a9d85d3129165ec3f5ae436" title="QCPAbstractPlottable\l::setSelection" alt="" coords="224,64,375,105"/>
+<area shape="rect" id="node7" href="$class_q_c_p_data_selection.html#ab1ad3d5bbb55749c3f7ab1e45429c932" title="QCPDataSelection::contains" alt="" coords="204,159,395,186"/>
+<area shape="rect" id="node4" href="$class_q_c_p_data_selection.html#a17b84d852911531d229f4a76aa239a75" title="QCPDataSelection::enforceType" alt="" coords="443,71,656,98"/>
+<area shape="rect" id="node6" href="$class_q_c_p_abstract_plottable.html#a040bf09f41d456284cfd39cc37aa068f" title="QCPAbstractPlottable\l::selection" alt="" coords="474,123,625,164"/>
+<area shape="rect" id="node5" href="$class_q_c_p_data_range.html#ac32e53fc05d6cd2eac96b96a7265d3b8" title="QCPDataRange::isEmpty" alt="" coords="704,71,877,98"/>
+<area shape="rect" id="node8" href="$class_q_c_p_data_selection.html#a7f7526b475998dc0c3d6c376b24736c9" title="QCPDataSelection::isEmpty" alt="" coords="455,189,644,215"/>
+</map>

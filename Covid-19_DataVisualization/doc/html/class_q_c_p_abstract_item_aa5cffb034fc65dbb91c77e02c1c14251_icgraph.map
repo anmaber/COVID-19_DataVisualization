@@ -1,0 +1,5 @@
+<map id="QCPAbstractItem::selectionChanged" name="QCPAbstractItem::selectionChanged">
+<area shape="rect" id="node2" href="$class_q_c_p_abstract_item.html#a203de94ad586cc44d16c9565f49d3378" title="QCPAbstractItem::setSelected" alt="" coords="240,35,443,61"/>
+<area shape="rect" id="node3" href="$class_q_c_p_abstract_item.html#aa4b969c58797f39c9c0b6c07c7869d17" title="QCPAbstractItem::selectEvent" alt="" coords="491,5,693,32"/>
+<area shape="rect" id="node4" href="$class_q_c_p_abstract_item.html#af9093798cb07a861dcc73f93ca16c0c1" title="QCPAbstractItem::deselect\lEvent" alt="" coords="501,57,683,98"/>
+</map>

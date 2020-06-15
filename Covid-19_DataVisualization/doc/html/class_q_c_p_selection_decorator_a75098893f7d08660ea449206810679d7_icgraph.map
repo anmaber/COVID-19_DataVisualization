@@ -1,0 +1,9 @@
+<map id="QCPSelectionDecorator::applyPen" name="QCPSelectionDecorator::applyPen">
+<area shape="rect" id="node2" href="$class_q_c_p_graph.html#a2b0849598f06e834b43ce18cd13bcdc3" title="QCPGraph::draw" alt="" coords="270,5,393,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_bars.html#aa267c20650d55084c3f47cb2f8fac9dc" title="QCPBars::draw" alt="" coords="274,56,389,83"/>
+<area shape="rect" id="node4" href="$class_q_c_p_statistical_box.html#afcff35fa79728cfe10e80e0702014fea" title="QCPStatisticalBox::draw" alt="" coords="247,107,415,133"/>
+<area shape="rect" id="node5" href="$class_q_c_p_financial.html#a2c77aab636f6bce6e0407b3f94e90d08" title="QCPFinancial::drawOhlcPlot" alt="" coords="237,157,426,184"/>
+<area shape="rect" id="node7" href="$class_q_c_p_financial.html#ade6b703369d8acb3bfa0b8e244df4b06" title="QCPFinancial::drawCandlestickPlot" alt="" coords="216,208,447,235"/>
+<area shape="rect" id="node8" href="$class_q_c_p_error_bars.html#a801e85931372abf2a1034bfb2eac5cd2" title="QCPErrorBars::draw" alt="" coords="260,259,403,285"/>
+<area shape="rect" id="node6" href="$class_q_c_p_financial.html#a4d62b7a618d609321adb5f5f1e31f446" title="QCPFinancial::draw" alt="" coords="495,183,633,209"/>
+</map>

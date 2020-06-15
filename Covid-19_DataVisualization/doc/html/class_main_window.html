@@ -1,0 +1,357 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>COVID-19 data visualization: Dokumentacja klasy MainWindow</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">COVID-19 data visualization
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_main_window.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Metody publiczne</a> &#124;
+<a href="#pri-attribs">Atrybuty prywatne</a> &#124;
+<a href="class_main_window-members.html">Lista wszystkich składowych</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja klasy MainWindow</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Modeluje obiekt, który jest głównym oknem programu.  
+ <a href="class_main_window.html#details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="mainwindow_8h_source.html">mainwindow.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla MainWindow</div>
+<div class="dyncontent">
+<div class="center"><img src="class_main_window__inherit__graph.png" border="0" usemap="#_main_window_inherit__map" alt="Inheritance graph"/></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<div class="dynheader">
+Diagram współpracy dla MainWindow:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_main_window__coll__graph.png" border="0" usemap="#_main_window_coll__map" alt="Collaboration graph"/></div>
+<map name="_main_window_coll__map" id="_main_window_coll__map">
+<area shape="rect" id="node3" href="classbasic_analysis_wiget.html" title="Modeluje odbiekt odpowiedzialny za widok analizy. " alt="" coords="278,139,415,165"/>
+<area shape="rect" id="node6" href="classmap_view_widget.html" title="Modeluje odbiekt odpowiedzialny za widok mapy. " alt="" coords="136,139,253,165"/>
+<area shape="rect" id="node5" href="class_data_holder.html" title="Klasa modelująca obekt przechowujący dane o przypadkach. " alt="" coords="287,5,375,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Metody publiczne</h2></td></tr>
+<tr class="memitem:a8d5a3da0025cd00227c3e2c8dcfe427e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_window.html#a8d5a3da0025cd00227c3e2c8dcfe427e">MainWindow</a> (QWidget *parent=0, <a class="el" href="class_data_holder.html">DataHolder</a> *cases=nullptr, <a class="el" href="class_data_holder.html">DataHolder</a> *deaths=nullptr, <a class="el" href="class_data_holder.html">DataHolder</a> *recoveries=nullptr)</td></tr>
+<tr class="memdesc:a8d5a3da0025cd00227c3e2c8dcfe427e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor parametryczny klasy <a class="el" href="class_main_window.html" title="Modeluje obiekt, który jest głównym oknem programu. ">MainWindow</a>.  <a href="#a8d5a3da0025cd00227c3e2c8dcfe427e">Więcej...</a><br /></td></tr>
+<tr class="separator:a8d5a3da0025cd00227c3e2c8dcfe427e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae98d00a93bc118200eeef9f9bba1dba7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_window.html#ae98d00a93bc118200eeef9f9bba1dba7">~MainWindow</a> ()</td></tr>
+<tr class="separator:ae98d00a93bc118200eeef9f9bba1dba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atrybuty prywatne</h2></td></tr>
+<tr class="memitem:ab58f08712a51eeffa5329a2dca0b6439"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmap_view_widget.html">mapViewWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_window.html#ab58f08712a51eeffa5329a2dca0b6439">view</a></td></tr>
+<tr class="memdesc:ab58f08712a51eeffa5329a2dca0b6439"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wskaźnik na widget implementujący widok mapy.  <a href="#ab58f08712a51eeffa5329a2dca0b6439">Więcej...</a><br /></td></tr>
+<tr class="separator:ab58f08712a51eeffa5329a2dca0b6439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2462813eafa969b0dda532abf80f5717"><td class="memItemLeft" align="right" valign="top">QVBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_window.html#a2462813eafa969b0dda532abf80f5717">myLayout</a></td></tr>
+<tr class="memdesc:a2462813eafa969b0dda532abf80f5717"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rozkład okna głównego.  <a href="#a2462813eafa969b0dda532abf80f5717">Więcej...</a><br /></td></tr>
+<tr class="separator:a2462813eafa969b0dda532abf80f5717"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d5ec7879af0d224a6173a5565ea1ffd"><td class="memItemLeft" align="right" valign="top">QTabWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_window.html#a7d5ec7879af0d224a6173a5565ea1ffd">tabs</a></td></tr>
+<tr class="memdesc:a7d5ec7879af0d224a6173a5565ea1ffd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Widget umożliwiający użycie kart.  <a href="#a7d5ec7879af0d224a6173a5565ea1ffd">Więcej...</a><br /></td></tr>
+<tr class="separator:a7d5ec7879af0d224a6173a5565ea1ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7500b380cdc65fc1ee6a6f5ff253043"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbasic_analysis_wiget.html">basicAnalysisWiget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_window.html#aa7500b380cdc65fc1ee6a6f5ff253043">banal</a></td></tr>
+<tr class="memdesc:aa7500b380cdc65fc1ee6a6f5ff253043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wskaźnik na widget implementujący widok mapy.  <a href="#aa7500b380cdc65fc1ee6a6f5ff253043">Więcej...</a><br /></td></tr>
+<tr class="separator:aa7500b380cdc65fc1ee6a6f5ff253043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35466a70ed47252a0191168126a352a5"><td class="memItemLeft" align="right" valign="top">Ui::MainWindow *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_window.html#a35466a70ed47252a0191168126a352a5">ui</a></td></tr>
+<tr class="memdesc:a35466a70ed47252a0191168126a352a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interfejs zaprojektowany w designerze.  <a href="#a35466a70ed47252a0191168126a352a5">Więcej...</a><br /></td></tr>
+<tr class="separator:a35466a70ed47252a0191168126a352a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p>Modeluje obiekt, który jest głównym oknem programu. Umożliwia dostęp do widoku analizy oraz widoku mapy. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="mainwindow_8h_source.html#l00029">29</a> pliku <a class="el" href="mainwindow_8h_source.html">mainwindow.h</a>.</p>
+</div><h2 class="groupheader">Dokumentacja konstruktora i destruktora</h2>
+<a id="a8d5a3da0025cd00227c3e2c8dcfe427e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d5a3da0025cd00227c3e2c8dcfe427e">&#9670;&nbsp;</a></span>MainWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MainWindow::MainWindow </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_data_holder.html">DataHolder</a> *&#160;</td>
+          <td class="paramname"><em>cases</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_data_holder.html">DataHolder</a> *&#160;</td>
+          <td class="paramname"><em>deaths</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_data_holder.html">DataHolder</a> *&#160;</td>
+          <td class="paramname"><em>recoveries</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Inicjalizuje <a class="el" href="class_main_window.html#a35466a70ed47252a0191168126a352a5" title="Interfejs zaprojektowany w designerze. ">MainWindow::ui</a> oraz ustawia zakładki na odpowiednie widoki. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Rodzic</td><td>widgetu. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Wskaźnik</td><td>na obiekt typu <a class="el" href="class_data_holder.html" title="Klasa modelująca obekt przechowujący dane o przypadkach. ">DataHolder</a> przechowujący dane o przypadkach. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Wskaźnik</td><td>na obiekt typu <a class="el" href="class_data_holder.html" title="Klasa modelująca obekt przechowujący dane o przypadkach. ">DataHolder</a> przechowujący dane o zgonach. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Wskaźnik</td><td>na obiekt typu <a class="el" href="class_data_holder.html" title="Klasa modelująca obekt przechowujący dane o przypadkach. ">DataHolder</a> przechowujący dane o wyzdrowieniach. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="mainwindow_8cpp_source.html#l00004">4</a> pliku <a class="el" href="mainwindow_8cpp_source.html">mainwindow.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ae98d00a93bc118200eeef9f9bba1dba7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae98d00a93bc118200eeef9f9bba1dba7">&#9670;&nbsp;</a></span>~MainWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MainWindow::~MainWindow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="mainwindow_8cpp_source.html#l00022">22</a> pliku <a class="el" href="mainwindow_8cpp_source.html">mainwindow.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja atrybutów składowych</h2>
+<a id="aa7500b380cdc65fc1ee6a6f5ff253043"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7500b380cdc65fc1ee6a6f5ff253043">&#9670;&nbsp;</a></span>banal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbasic_analysis_wiget.html">basicAnalysisWiget</a>* MainWindow::banal</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="mainwindow_8h_source.html#l00048">48</a> pliku <a class="el" href="mainwindow_8h_source.html">mainwindow.h</a>.</p>
+
+</div>
+</div>
+<a id="a2462813eafa969b0dda532abf80f5717"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2462813eafa969b0dda532abf80f5717">&#9670;&nbsp;</a></span>myLayout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVBoxLayout* MainWindow::myLayout</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="mainwindow_8h_source.html#l00039">39</a> pliku <a class="el" href="mainwindow_8h_source.html">mainwindow.h</a>.</p>
+
+</div>
+</div>
+<a id="a7d5ec7879af0d224a6173a5565ea1ffd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d5ec7879af0d224a6173a5565ea1ffd">&#9670;&nbsp;</a></span>tabs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTabWidget* MainWindow::tabs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="mainwindow_8h_source.html#l00043">43</a> pliku <a class="el" href="mainwindow_8h_source.html">mainwindow.h</a>.</p>
+
+</div>
+</div>
+<a id="a35466a70ed47252a0191168126a352a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35466a70ed47252a0191168126a352a5">&#9670;&nbsp;</a></span>ui</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Ui::MainWindow* MainWindow::ui</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="mainwindow_8h_source.html#l00069">69</a> pliku <a class="el" href="mainwindow_8h_source.html">mainwindow.h</a>.</p>
+
+</div>
+</div>
+<a id="ab58f08712a51eeffa5329a2dca0b6439"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab58f08712a51eeffa5329a2dca0b6439">&#9670;&nbsp;</a></span>view</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmap_view_widget.html">mapViewWidget</a>* MainWindow::view</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="mainwindow_8h_source.html#l00035">35</a> pliku <a class="el" href="mainwindow_8h_source.html">mainwindow.h</a>.</p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li><a class="el" href="mainwindow_8h_source.html">mainwindow.h</a></li>
+<li><a class="el" href="mainwindow_8cpp_source.html">mainwindow.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_main_window.html">MainWindow</a></li>
+    <li class="footer">Wygenerowano przez
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

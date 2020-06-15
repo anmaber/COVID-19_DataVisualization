@@ -1,0 +1,13 @@
+<map id="QCPItemPixmap::draw" name="QCPItemPixmap::draw">
+<area shape="rect" id="node2" href="$class_q_c_p_item_pixmap.html#a4e7d803e5093c457a109f8fae56677c2" title="QCPItemPixmap::getFinalRect" alt="" coords="471,98,674,124"/>
+<area shape="rect" id="node7" href="$class_q_c_p_item_pixmap.html#aad6dddd67163831538d40023a98a9fe7" title="QCPItemPixmap::mainPen" alt="" coords="225,39,405,66"/>
+<area shape="rect" id="node8" href="$class_q_c_p_abstract_item.html#a6ad60000f29afe11035e1f791dcbd45a" title="QCPAbstractItem::clipRect" alt="" coords="739,155,921,182"/>
+<area shape="rect" id="node9" href="$class_q_c_p_item_pixmap.html#a8bced3027b326b290726cd1979c7cfc6" title="QCPItemPixmap::updateScaled\lPixmap" alt="" coords="211,90,419,132"/>
+<area shape="rect" id="node10" href="$class_q_c_p_item_pixmap.html#a6ae9922eba6386a5ac4e2a569ec29e1f" title="QCPItemPixmap::pen" alt="" coords="239,207,390,234"/>
+<area shape="rect" id="node11" href="$class_q_c_p_painter.html#af9c7a4cd1791403901f8c5b82a150195" title="QCPPainter::setPen" alt="" coords="244,258,385,284"/>
+<area shape="rect" id="node3" href="$class_q_c_p_item_position.html#a8be9a4787635433edecc75164beb748d" title="QCPItemPosition::pixelPosition" alt="" coords="727,99,933,126"/>
+<area shape="rect" id="node4" href="$class_q_c_p_item_anchor.html#a06dcfb7220d26eee93eef56ae66582cb" title="QCPItemAnchor::pixelPosition" alt="" coords="981,99,1181,126"/>
+<area shape="rect" id="node6" href="$class_q_custom_plot.html#a19842409b18f556b256d05e97fffc670" title="QCustomPlot::viewport" alt="" coords="1002,151,1161,178"/>
+<area shape="rect" id="node5" href="$class_q_c_p_abstract_item.html#ada5bad4e1196c4fc0d0d12328e24b8f2" title="QCPAbstractItem::anchorPixel\lPosition" alt="" coords="1229,92,1432,133"/>
+<area shape="rect" id="node12" href="$class_q_c_p_painter.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8" title="QCPPainter::makeNonCosmetic" alt="" coords="467,258,679,284"/>
+</map>

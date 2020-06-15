@@ -1,0 +1,12 @@
+<map id="QCPItemEllipse::draw" name="QCPItemEllipse::draw">
+<area shape="rect" id="node2" href="$class_q_c_p_item_position.html#a8be9a4787635433edecc75164beb748d" title="QCPItemPosition::pixelPosition" alt="" coords="205,13,412,39"/>
+<area shape="rect" id="node6" href="$class_q_c_p_abstract_item.html#a6ad60000f29afe11035e1f791dcbd45a" title="QCPAbstractItem::clipRect" alt="" coords="217,63,400,90"/>
+<area shape="rect" id="node7" href="$class_q_c_p_item_ellipse.html#a9c11717026dfd685c83a9650666b7181" title="QCPItemEllipse::mainPen" alt="" coords="221,114,396,141"/>
+<area shape="rect" id="node8" href="$class_q_c_p_painter.html#af9c7a4cd1791403901f8c5b82a150195" title="QCPPainter::setPen" alt="" coords="238,165,379,191"/>
+<area shape="rect" id="node10" href="$class_q_c_p_item_ellipse.html#a6218bdf5e703f609b934b0bf9c8d0971" title="QCPItemEllipse::mainBrush" alt="" coords="215,215,402,242"/>
+<area shape="rect" id="node11" href="$class_q_c_p_layerable.html#a3bed99ddc396b48ce3ebfdc0418744f8" title="QCPLayerable::setVisible" alt="" coords="223,266,395,293"/>
+<area shape="rect" id="node3" href="$class_q_c_p_item_anchor.html#a06dcfb7220d26eee93eef56ae66582cb" title="QCPItemAnchor::pixelPosition" alt="" coords="466,13,666,39"/>
+<area shape="rect" id="node5" href="$class_q_custom_plot.html#a19842409b18f556b256d05e97fffc670" title="QCustomPlot::viewport" alt="" coords="487,63,645,90"/>
+<area shape="rect" id="node4" href="$class_q_c_p_abstract_item.html#ada5bad4e1196c4fc0d0d12328e24b8f2" title="QCPAbstractItem::anchorPixel\lPosition" alt="" coords="720,5,923,47"/>
+<area shape="rect" id="node9" href="$class_q_c_p_painter.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8" title="QCPPainter::makeNonCosmetic" alt="" coords="460,165,672,191"/>
+</map>

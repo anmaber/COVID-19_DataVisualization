@@ -1,0 +1,11 @@
+<map id="QCPAbstractPlottable::setPen" name="QCPAbstractPlottable::setPen">
+<area shape="rect" id="node2" href="$class_q_c_p_item_straight_line.html#ae4a4607045b1d0594f89eee448a31ff9" title="QCPItemStraightLine\l::selectedPen" alt="" coords="231,5,378,47"/>
+<area shape="rect" id="node3" href="$class_q_c_p_item_line.html#ac085d3939ec11d7a4d592dc2ed578360" title="QCPItemLine::tail" alt="" coords="241,71,368,98"/>
+<area shape="rect" id="node4" href="$class_q_c_p_item_curve.html#aaef82aa581f6996444028027d6829acc" title="QCPItemCurve::tail" alt="" coords="236,122,373,149"/>
+<area shape="rect" id="node5" href="$class_q_c_p_item_rect.html#a2b0a6852bc92d716c7e811c90de2c1a9" title="QCPItemRect::selectedBrush" alt="" coords="207,173,403,199"/>
+<area shape="rect" id="node6" href="$class_q_c_p_item_text.html#a5a598618350b40446d031fa9dc15fba7" title="QCPItemText::padding" alt="" coords="227,223,383,250"/>
+<area shape="rect" id="node7" href="$class_q_c_p_item_ellipse.html#afeda9d8e2e6da216a3c3366d87e80feb" title="QCPItemEllipse::selected\lBrush" alt="" coords="218,275,391,316"/>
+<area shape="rect" id="node8" href="$class_q_c_p_item_pixmap.html#a23806a20efcb172f0309e18809dc49d8" title="QCPItemPixmap::selectedPen" alt="" coords="204,341,405,367"/>
+<area shape="rect" id="node9" href="$class_q_c_p_item_tracer.html#ae9ab6d72e0a35e1769c0b5a9b58181f2" title="QCPItemTracer::interpolating" alt="" coords="209,391,401,418"/>
+<area shape="rect" id="node10" href="$class_q_c_p_item_bracket.html#a600ad8c0a3193cc2f335db6039f2932d" title="QCPItemBracket::style" alt="" coords="225,442,384,469"/>
+</map>

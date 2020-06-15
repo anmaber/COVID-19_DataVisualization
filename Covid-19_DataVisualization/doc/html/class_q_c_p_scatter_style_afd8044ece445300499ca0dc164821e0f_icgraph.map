@@ -1,0 +1,10 @@
+<map id="QCPScatterStyle::applyTo" name="QCPScatterStyle::applyTo">
+<area shape="rect" id="node2" href="$class_q_c_p_graph.html#a6efbab06c400bdb15e28b2d0a4ecc18a" title="QCPGraph::drawLegendIcon" alt="" coords="231,5,420,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_graph.html#abeb0bbe81026c024bf3d508d13cf5e0e" title="QCPGraph::drawScatterPlot" alt="" coords="232,56,419,83"/>
+<area shape="rect" id="node5" href="$class_q_c_p_curve.html#aac6e94afbce4002d2cd7793250154e84" title="QCPCurve::drawLegendIcon" alt="" coords="231,107,420,133"/>
+<area shape="rect" id="node6" href="$class_q_c_p_curve.html#a0bea811373c5ee8c67c9c2b4d74ad866" title="QCPCurve::drawScatterPlot" alt="" coords="232,157,419,184"/>
+<area shape="rect" id="node8" href="$class_q_c_p_statistical_box.html#a02dc6b561be8203d460d7263da74b8a9" title="QCPStatisticalBox::\ldrawStatisticalBox" alt="" coords="255,209,395,250"/>
+<area shape="rect" id="node4" href="$class_q_c_p_graph.html#a2b0849598f06e834b43ce18cd13bcdc3" title="QCPGraph::draw" alt="" coords="491,56,613,83"/>
+<area shape="rect" id="node7" href="$class_q_c_p_curve.html#ac199d41d23865cd68bd7b598308a4433" title="QCPCurve::draw" alt="" coords="491,157,613,184"/>
+<area shape="rect" id="node9" href="$class_q_c_p_statistical_box.html#afcff35fa79728cfe10e80e0702014fea" title="QCPStatisticalBox::draw" alt="" coords="468,216,636,243"/>
+</map>

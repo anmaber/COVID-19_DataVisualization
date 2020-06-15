@@ -1,0 +1,6 @@
+<map id="QCPAxis::scaleRange" name="QCPAxis::scaleRange">
+<area shape="rect" id="node2" href="$class_q_c_p_range.html#ab38bd4841c77c7bb86c9eea0f142dcc0" title="QCPRange::validRange" alt="" coords="221,5,384,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_range.html#a808751fdd9b17ef52327ba011df2e5f1" title="QCPRange::sanitizedForLin\lScale" alt="" coords="210,57,395,98"/>
+<area shape="rect" id="node5" href="$class_q_c_p_range.html#a3d66288d66e1d6df3636075eb42502ee" title="QCPRange::sanitizedForLog\lScale" alt="" coords="208,122,397,163"/>
+<area shape="rect" id="node4" href="$class_q_c_p_range.html#af914a7740269b0604d0827c634a878a9" title="QCPRange::normalize" alt="" coords="445,97,599,124"/>
+</map>

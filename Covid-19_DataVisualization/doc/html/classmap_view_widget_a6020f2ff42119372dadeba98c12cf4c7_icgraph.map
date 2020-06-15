@@ -1,0 +1,6 @@
+<map id="mapViewWidget::drawCircles" name="mapViewWidget::drawCircles">
+<area shape="rect" id="node2" href="$classmap_view_widget.html#a13e5bf7d90c5ed20ddd4eaef093eb7af" title="Slot reagujący na kliknięcie na przyciks wyboru związany ze zgonami. " alt="" coords="248,5,460,47"/>
+<area shape="rect" id="node3" href="$classmap_view_widget.html#a2d4679dab5301eb61ee04184e72a84fd" title="Slot reagujący na kliknięcie na przyciks wyboru związany z przypadkami. " alt="" coords="248,71,460,112"/>
+<area shape="rect" id="node4" href="$classmap_view_widget.html#a6623c56f80925bd244cb66aa252a783d" title="Slot reagujący na kliknięcie na przyciks wyboru związany z wyzdrowieniami. " alt="" coords="248,136,460,177"/>
+<area shape="rect" id="node5" href="$classmap_view_widget.html#a63faa8a2f6bfea63fbf0da3ea2a51800" title="Slot reagujący na zmianę wartości na suwaku. " alt="" coords="253,201,455,243"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="QCPColorScaleAxisRectPrivate" name="QCPColorScaleAxisRectPrivate">
+<area shape="rect" id="node2" href="$class_q_c_p_axis_rect.html" title="QCPAxisRect" alt="" coords="1089,5,1194,32"/>
+<area shape="rect" id="node12" href="$class_q_c_p_axis.html" title="QCPAxis" alt="" coords="557,109,635,136"/>
+<area shape="rect" id="node3" href="$class_q_c_p_layout_element.html" title="QCPLayoutElement" alt="" coords="996,525,1135,552"/>
+<area shape="rect" id="node10" href="$class_q_c_p_layout.html" title="QCPLayout" alt="" coords="1015,615,1105,641"/>
+<area shape="rect" id="node19" href="$class_q_c_p_color_scale.html" title="QCPColorScale" alt="" coords="119,615,233,641"/>
+<area shape="rect" id="node4" href="$class_q_c_p_layerable.html" title="QCPLayerable" alt="" coords="655,436,761,463"/>
+<area shape="rect" id="node11" href="$class_q_c_p_selection_rect.html" title="QCPSelectionRect" alt="" coords="724,525,857,552"/>
+<area shape="rect" id="node16" href="$class_q_c_p_grid.html" title="QCPGrid" alt="" coords="441,525,516,552"/>
+<area shape="rect" id="node6" href="$class_q_c_p_layer.html" title="QCPLayer" alt="" coords="809,347,892,373"/>
+<area shape="rect" id="node7" href="$class_q_custom_plot.html" title="QCustomPlot" alt="" coords="916,243,1017,269"/>
+<area shape="rect" id="node14" href="$class_q_c_p_axis_painter_private.html" title="QCPAxisPainterPrivate" alt="" coords="1105,347,1263,373"/>
+<area shape="rect" id="node9" href="$class_q_c_p_layout_grid.html" title="QCPLayoutGrid" alt="" coords="937,704,1052,731"/>
+<area shape="rect" id="node17" href="$class_q_c_p_legend.html" title="QCPLegend" alt="" coords="1067,780,1160,807"/>
+<area shape="rect" id="node18" href="$class_q_c_p_layout_inset.html" title="QCPLayoutInset" alt="" coords="1077,704,1195,731"/>
+<area shape="rect" id="node13" href="$class_q_c_p_range.html" title="QCPRange" alt="" coords="151,5,241,32"/>
+<area shape="rect" id="node15" href="$class_q_c_p_line_ending.html" title="QCPLineEnding" alt="" coords="1172,243,1287,269"/>
+<area shape="rect" id="node20" href="$class_q_c_p_color_gradient.html" title="QCPColorGradient" alt="" coords="5,525,136,552"/>
+</map>

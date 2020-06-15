@@ -1,0 +1,7 @@
+<map id="QCPAbstractPlottable::setBrush" name="QCPAbstractPlottable::setBrush">
+<area shape="rect" id="node2" href="$class_q_c_p_legend.html#ab9b469b27787bfb2ce6c8978a31821af" title="QCPLegend::selectedTextColor" alt="" coords="204,5,411,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_item_rect.html#a2b0a6852bc92d716c7e811c90de2c1a9" title="QCPItemRect::selectedBrush" alt="" coords="209,56,405,83"/>
+<area shape="rect" id="node4" href="$class_q_c_p_item_text.html#a5a598618350b40446d031fa9dc15fba7" title="QCPItemText::padding" alt="" coords="229,107,385,133"/>
+<area shape="rect" id="node5" href="$class_q_c_p_item_ellipse.html#afeda9d8e2e6da216a3c3366d87e80feb" title="QCPItemEllipse::selected\lBrush" alt="" coords="221,158,394,199"/>
+<area shape="rect" id="node6" href="$class_q_c_p_item_tracer.html#ae9ab6d72e0a35e1769c0b5a9b58181f2" title="QCPItemTracer::interpolating" alt="" coords="211,224,403,251"/>
+</map>

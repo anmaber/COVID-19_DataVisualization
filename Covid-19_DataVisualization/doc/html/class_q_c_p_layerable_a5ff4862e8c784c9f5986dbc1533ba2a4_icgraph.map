@@ -1,0 +1,19 @@
+<map id="QCPLayerable::layer" name="QCPLayerable::layer">
+<area shape="rect" id="node2" href="$class_q_c_p_layerable.html#ab25a0e7b897993b44447caee0f142083" title="QCPLayerable::setLayer" alt="" coords="760,5,925,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_layerable.html#af94484cfb7cbbddb7de522e9be71d9a4" title="QCPLayerable::moveToLayer" alt="" coords="212,245,407,272"/>
+<area shape="rect" id="node8" href="$class_q_custom_plot.html#aeba7733bb9fadfb5a375b3f40de9e58a" title="QCustomPlot::registerPlottable" alt="" coords="741,340,944,367"/>
+<area shape="rect" id="node10" href="$class_q_custom_plot.html#afbd4010b2e3f364c8d512691b2a1640a" title="QCustomPlot::registerItem" alt="" coords="753,391,932,417"/>
+<area shape="rect" id="node14" href="$class_q_c_p_selection_rect.html#a95c3f1700be2a6d7bba0fe56ece5fbb1" title="QCPSelectionRect::moveSelection" alt="" coords="196,427,423,453"/>
+<area shape="rect" id="node16" href="$class_q_custom_plot.html#ac10849411e1d0e858ea7f29c8ade364c" title="QCustomPlot::processRect\lSelection" alt="" coords="218,478,401,519"/>
+<area shape="rect" id="node4" href="$class_q_c_p_layerable.html#ab0d0da6d2de45a118886d2c8e16d5a54" title="QCPLayerable::setLayer" alt="" coords="495,231,661,257"/>
+<area shape="rect" id="node5" href="$class_q_c_p_layerable.html#a74c0fa237f29bf0e49565013fc5d1ec0" title="QCPLayerable::QCPLayerable" alt="" coords="743,289,943,316"/>
+<area shape="rect" id="node6" href="$class_q_c_p_axis.html#ac62c042968bae0e6d474fcfc57c9b71f" title="QCPAxis::QCPAxis" alt="" coords="773,56,913,83"/>
+<area shape="rect" id="node7" href="$class_q_custom_plot.html#a45b99626558651a6428b83972b0b34b8" title="QCustomPlot::QCustomPlot" alt="" coords="749,107,937,133"/>
+<area shape="rect" id="node12" href="$class_q_c_p_abstract_legend_item.html#afaff87610e8da0fa238ecf552872d774" title="QCPAbstractLegendItem\l::QCPAbstractLegendItem" alt="" coords="755,158,931,199"/>
+<area shape="rect" id="node13" href="$class_q_c_p_color_scale_axis_rect_private.html#ad3b242f75dd2b33581364a4e668a80db" title="QCPColorScaleAxisRectPrivate\l::QCPColorScaleAxisRectPrivate" alt="" coords="733,223,952,265"/>
+<area shape="rect" id="node9" href="$class_q_c_p_abstract_plottable.html#af78a036e40db6f53a31abadc5323715a" title="QCPAbstractPlottable\l::QCPAbstractPlottable" alt="" coords="1040,329,1199,370"/>
+<area shape="rect" id="node11" href="$class_q_c_p_abstract_item.html#a9922507d8b4503a1fe1ed0b1030e23b6" title="QCPAbstractItem::QCPAbstractItem" alt="" coords="1000,395,1239,421"/>
+<area shape="rect" id="node15" href="$class_q_custom_plot.html#ae7abdc93b26d2ad4632c1ab75ae5b46f" title="QCustomPlot::mouseMoveEvent" alt="" coords="471,427,685,453"/>
+<area shape="rect" id="node17" href="$class_q_custom_plot.html#a810ef958ebe84db661c7288b526c0deb" title="QCustomPlot::setSelection\lRectMode" alt="" coords="487,533,669,574"/>
+<area shape="rect" id="node18" href="$class_q_custom_plot.html#a0c09f96df15faa4799ad7051bb16cf33" title="QCustomPlot::setSelectionRect" alt="" coords="473,481,683,508"/>
+</map>

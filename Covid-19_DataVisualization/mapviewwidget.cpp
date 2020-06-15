@@ -1,6 +1,8 @@
 #include "mapviewwidget.h"
 #include "ui_mapviewwidget.h"
 #include <QMetaObject>
+#include <QDate>
+#include <math.h>
 
 mapViewWidget::mapViewWidget(QWidget *parent, DataHolder *cases, DataHolder *deaths, DataHolder *recoveries) :
     QWidget(parent),
@@ -14,12 +16,22 @@ mapViewWidget::mapViewWidget(QWidget *parent, DataHolder *cases, DataHolder *dea
     w->setSource(QUrl("../myMap.qml"));
     ui->container = QWidget::createWindowContainer(w,this);
     ui->container->setFocusPolicy(Qt::TabFocus);
-    ui->container->resize(800,512);
+    //ui->container->resize(800,512);
+    ui->container->setGeometry(110,80,800,512);
+
+    //date = new QLabel(this);
+    QDate dateLab = cases->getIndexDateMap().find(ui->horizontalSlider->value())->second;
+    ui->startDate->setText(dateLab.toString("d.MM.yyyy"));
+    dateLab = cases->getIndexDateMap().find(cases->getIndexDateMap().size()-1)->second;
+    ui->endDate->setText(dateLab.toString("d.MM.yyyy"));
+
+    //date->move(40,270);
 
     ui->horizontalSlider->setMinimum(0);
     ui->horizontalSlider->setMaximum(deaths->getIndexDateMap().size()-1);
     qDebug()<<"MAX:" << ui->horizontalSlider->maximum();
 
+    current = cases;
 
     QObject *m = w->findChild<QObject*>("map");
     if (m)
@@ -146,7 +158,7 @@ void mapViewWidget::drawCircles(int value)
     }
     for(auto n : current->getCountryGeolocationMap())
     {
-        qDebug()<<QString::fromStdString(n.first);
+       // qDebug()<<QString::fromStdString(n.first);
         auto countryIndexiter = current->getCountryIndexMap().find(n.first);
 
         int countryIndex = countryIndexiter->second;
@@ -156,7 +168,7 @@ void mapViewWidget::drawCircles(int value)
         if (circ)
             circ->setProperty("radius",rad);
     }
-    qDebug()<<value;
+    //qDebug()<<value;
 }
 
 
@@ -169,5 +181,8 @@ void mapViewWidget::on_radioButtonRecoveries_clicked()
 
 void mapViewWidget::on_horizontalSlider_valueChanged(int value)
 {
+    QDate dateLab = cases->getIndexDateMap().find(value)->second;
+    qDebug()<<dateLab;
+    //ui->date->setText(dateLab.toString("d.MM.yyyy"));
     drawCircles(value);
 }

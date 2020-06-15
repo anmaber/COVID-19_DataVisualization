@@ -1,0 +1,5 @@
+<map id="mapViewWidget::drawCircles" name="mapViewWidget::drawCircles">
+<area shape="rect" id="node2" href="$class_data_holder.html#a8bc681ca0ddc67b858ea87847c6ad902" title="Zwraca przechowywaną mapę krajów i ich geolokalizacji (DataHolder::countryGeolocationMap). " alt="" coords="248,5,503,32"/>
+<area shape="rect" id="node3" href="$class_data_holder.html#acab7cb687608e6323db8bf536d74ba99" title="Zwraca przechowywaną mapę krajów i ich indeksów (DataHolder::countryIndexMap). " alt="" coords="267,56,484,83"/>
+<area shape="rect" id="node4" href="$class_data_holder.html#a6e37773362260e3f04059b63c45be5c0" title="Zwraca wektor wektorów przechowujących dane odnośnie przypadków (DataHolder::RawDataTable). " alt="" coords="304,107,447,133"/>
+</map>

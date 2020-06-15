@@ -1,0 +1,7 @@
+<map id="QCPColorMap::setDataScaleType" name="QCPColorMap::setDataScaleType">
+<area shape="rect" id="node2" href="$class_q_c_p_color_map.html#a980b42837821159786a85b4b7dcb8774" title="QCPColorMap::setDataRange" alt="" coords="276,68,475,95"/>
+<area shape="rect" id="node4" href="$class_q_c_p_range.html#a3d66288d66e1d6df3636075eb42502ee" title="QCPRange::sanitizedForLog\lScale" alt="" coords="523,122,712,163"/>
+<area shape="rect" id="node3" href="$class_q_c_p_range.html#ab38bd4841c77c7bb86c9eea0f142dcc0" title="QCPRange::validRange" alt="" coords="536,5,699,32"/>
+<area shape="rect" id="node6" href="$class_q_c_p_range.html#a808751fdd9b17ef52327ba011df2e5f1" title="QCPRange::sanitizedForLin\lScale" alt="" coords="525,57,710,98"/>
+<area shape="rect" id="node5" href="$class_q_c_p_range.html#af914a7740269b0604d0827c634a878a9" title="QCPRange::normalize" alt="" coords="760,97,913,124"/>
+</map>

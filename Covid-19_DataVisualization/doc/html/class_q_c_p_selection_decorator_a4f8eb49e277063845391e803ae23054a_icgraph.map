@@ -1,0 +1,8 @@
+<map id="QCPSelectionDecorator::drawDecoration" name="QCPSelectionDecorator::drawDecoration">
+<area shape="rect" id="node2" href="$class_q_c_p_graph.html#a2b0849598f06e834b43ce18cd13bcdc3" title="QCPGraph::draw" alt="" coords="239,5,361,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_curve.html#ac199d41d23865cd68bd7b598308a4433" title="QCPCurve::draw" alt="" coords="239,56,361,83"/>
+<area shape="rect" id="node4" href="$class_q_c_p_bars.html#aa267c20650d55084c3f47cb2f8fac9dc" title="QCPBars::draw" alt="" coords="243,107,357,133"/>
+<area shape="rect" id="node5" href="$class_q_c_p_statistical_box.html#afcff35fa79728cfe10e80e0702014fea" title="QCPStatisticalBox::draw" alt="" coords="216,157,384,184"/>
+<area shape="rect" id="node6" href="$class_q_c_p_financial.html#a4d62b7a618d609321adb5f5f1e31f446" title="QCPFinancial::draw" alt="" coords="231,208,369,235"/>
+<area shape="rect" id="node7" href="$class_q_c_p_error_bars.html#a801e85931372abf2a1034bfb2eac5cd2" title="QCPErrorBars::draw" alt="" coords="229,259,371,285"/>
+</map>

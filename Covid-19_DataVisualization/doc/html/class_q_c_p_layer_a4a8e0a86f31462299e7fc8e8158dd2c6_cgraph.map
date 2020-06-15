@@ -1,0 +1,11 @@
+<map id="QCPLayer::drawToPaintBuffer" name="QCPLayer::drawToPaintBuffer">
+<area shape="rect" id="node2" href="$class_q_c_p_layer.html#ab831a99c8d30b15ec4533ca341e8813b" title="QCPLayer::draw" alt="" coords="252,136,371,163"/>
+<area shape="rect" id="node3" href="$class_q_c_p_layerable.html#ab054e88f15d485defcb95e7376f119e7" title="QCPLayerable::realVisibility" alt="" coords="420,5,605,32"/>
+<area shape="rect" id="node5" href="$class_q_c_p_painter.html#a8fd6821ee6fecbfa04444c9062912abd" title="QCPPainter::save" alt="" coords="449,56,577,83"/>
+<area shape="rect" id="node6" href="$class_q_c_p_layerable.html#acbcfc9ecc75433747b1978a77b1864b3" title="QCPLayerable::clipRect" alt="" coords="431,107,594,133"/>
+<area shape="rect" id="node8" href="$class_q_c_p_layerable.html#afdf83ddc6a265cbf4c89fe99d3d93473" title="QCPLayerable::applyDefault\lAntialiasingHint" alt="" coords="419,158,607,199"/>
+<area shape="rect" id="node9" href="$class_q_c_p_layerable.html#aecf2f7087482d4b6a78cb2770e5ed12d" title="QCPLayerable::draw" alt="" coords="441,224,584,251"/>
+<area shape="rect" id="node10" href="$class_q_c_p_painter.html#a64908e6298d5bbd83457dc987cc3a022" title="QCPPainter::restore" alt="" coords="443,275,583,301"/>
+<area shape="rect" id="node4" href="$class_q_c_p_layer.html#ad1cc2d6b32d2abb33c7f449b964e068c" title="QCPLayer::visible" alt="" coords="670,5,798,32"/>
+<area shape="rect" id="node7" href="$class_q_custom_plot.html#a19842409b18f556b256d05e97fffc670" title="QCustomPlot::viewport" alt="" coords="655,107,813,133"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="QCPBarsGroup::bars" name="QCPBarsGroup::bars">
+<area shape="rect" id="node2" href="$class_q_c_p_bars_group.html#a3ddf23928c6cd89530bd34ab7ba7b177" title="QCPBarsGroup::clear" alt="" coords="229,5,378,32"/>
+<area shape="rect" id="node4" href="$class_q_c_p_bars_group.html#a809ed63cc4ff7cd5b0b8c96b470163d3" title="QCPBarsGroup::append" alt="" coords="222,56,385,83"/>
+<area shape="rect" id="node5" href="$class_q_c_p_bars_group.html#a215e28a5944f1159013a0e19169220e7" title="QCPBarsGroup::remove" alt="" coords="221,107,385,133"/>
+<area shape="rect" id="node6" href="$class_q_c_p_bars_group.html#a8e2ca6002e7bab49670144d048a2bcc9" title="QCPBarsGroup::keyPixelOffset" alt="" coords="200,157,407,184"/>
+<area shape="rect" id="node3" href="$class_q_c_p_bars_group.html#adb9475bcb6a5f18c8918e17d939d8dbd" title="QCPBarsGroup::~QCPBarsGroup" alt="" coords="455,5,675,32"/>
+<area shape="rect" id="node7" href="$class_q_c_p_bars.html#ac5a3854774d9d9cd129b1eae1426de2d" title="QCPBars::getKeyRange" alt="" coords="482,107,647,133"/>
+<area shape="rect" id="node8" href="$class_q_c_p_bars.html#a55cdaf565cd3384158d1f7f89533bc2d" title="QCPBars::dataPixelPosition" alt="" coords="471,157,658,184"/>
+<area shape="rect" id="node9" href="$class_q_c_p_bars.html#a01b87e38e5d5089d214646d2af7896ea" title="QCPBars::getBarRect" alt="" coords="489,208,641,235"/>
+<area shape="rect" id="node10" href="$class_q_c_p_bars.html#ab03bb6125c3e983b89d694f75ce6b3d5" title="QCPBars::selectTestRect" alt="" coords="985,145,1160,172"/>
+<area shape="rect" id="node11" href="$class_q_c_p_bars.html#a121f899c27af3186fe93dcd0eb98f49b" title="QCPBars::selectTest" alt="" coords="999,208,1146,235"/>
+<area shape="rect" id="node12" href="$class_q_c_p_bars.html#aa267c20650d55084c3f47cb2f8fac9dc" title="QCPBars::draw" alt="" coords="1015,271,1130,297"/>
+<area shape="rect" id="node13" href="$class_q_c_p_bars.html#ac8b6b514a665a7bff4fb080413ba996a" title="QCPBars::getVisibleDataBounds" alt="" coords="723,183,937,209"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="QCPGraph::data" name="QCPGraph::data">
+<area shape="rect" id="node2" href="$class_q_c_p_graph.html#a1eae9429a316b008e2d99b2d65a54395" title="QCPGraph::setData" alt="" coords="206,5,346,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_graph.html#a9d7ba5904fdcaca413222335d4b283c3" title="QCPGraph::getScatters" alt="" coords="195,56,357,83"/>
+<area shape="rect" id="node5" href="$class_q_c_p_item_tracer.html#a5b90296109e36384aedbc8908a670413" title="QCPItemTracer::updatePosition" alt="" coords="172,107,380,133"/>
+<area shape="rect" id="node8" href="$class_q_c_p_graph.html#a84277b1655474453a5c83318053414d5" title="QCPGraph::channelFillGraph" alt="" coords="181,157,371,184"/>
+<area shape="rect" id="node4" href="$class_q_c_p_graph.html#a2b0849598f06e834b43ce18cd13bcdc3" title="QCPGraph::draw" alt="" coords="454,56,577,83"/>
+<area shape="rect" id="node6" href="$class_q_c_p_item_tracer.html#af5886f4ded8dd68cb4f3388f390790c0" title="QCPItemTracer::setGraph" alt="" coords="428,107,603,133"/>
+<area shape="rect" id="node7" href="$class_q_c_p_item_tracer.html#a11f187ffea436434f3b5cfc387811967" title="QCPItemTracer::draw" alt="" coords="440,157,591,184"/>
+</map>

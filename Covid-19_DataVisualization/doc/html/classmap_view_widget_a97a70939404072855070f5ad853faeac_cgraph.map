@@ -1,0 +1,5 @@
+<map id="mapViewWidget::addItemsOnMap" name="mapViewWidget::addItemsOnMap">
+<area shape="rect" id="node2" href="$class_data_holder.html#a8bc681ca0ddc67b858ea87847c6ad902" title="zwraca przechowywaną mapę krajów i ich geolokalizacji (DataHolder::countryGeolocationMap). " alt="" coords="275,5,529,32"/>
+<area shape="rect" id="node3" href="$class_data_holder.html#acab7cb687608e6323db8bf536d74ba99" title="zwraca przechowywaną mapę krajów i ich indeksów (DataHolder::countryIndexMap). " alt="" coords="293,56,511,83"/>
+<area shape="rect" id="node4" href="$class_data_holder.html#a6e37773362260e3f04059b63c45be5c0" title="zwraca wektor wektorów przechowujących dane odnośnie przypadków (DataHolder::RawDataTable). " alt="" coords="331,107,473,133"/>
+</map>

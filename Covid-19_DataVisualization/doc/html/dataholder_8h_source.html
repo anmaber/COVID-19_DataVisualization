@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>COVID-19 data visualization: Plik źródłowy dataholder.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">COVID-19 data visualization
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('dataholder_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">dataholder.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="dataholder_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef DATAHOLDER_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define DATAHOLDER_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;unordered_map&gt;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;QDate&gt;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="dataholder_8h.html#a992b0b9e330aa808331bcdb02796fea3">   16</a></span>&#160;<span class="keyword">using</span> <a class="code" href="dataholder_8h.html#a992b0b9e330aa808331bcdb02796fea3">CountryIndexMap</a> = std::unordered_map&lt;std::string, int&gt;;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="dataholder_8h.html#a797414e3396a8cabf9e33b2aa86890bf">   17</a></span>&#160;<span class="keyword">using</span> <a class="code" href="dataholder_8h.html#a797414e3396a8cabf9e33b2aa86890bf">CountryGeolocationMap</a> = std::unordered_map&lt;std::string,std::pair&lt;float,float&gt;&gt;;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="dataholder_8h.html#ae584a8001e93b617c1e98633a63ffd01">   18</a></span>&#160;<span class="keyword">using</span> <a class="code" href="dataholder_8h.html#ae584a8001e93b617c1e98633a63ffd01">IndexDateMap</a> = std::unordered_map&lt;int,QDate&gt;;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="dataholder_8h.html#ad97a13d4108ef25eaa6fd0a0eb5640e4">   19</a></span>&#160;<span class="keyword">using</span> <a class="code" href="dataholder_8h.html#ad97a13d4108ef25eaa6fd0a0eb5640e4">RawDataTable</a> = std::vector&lt;std::vector&lt;int&gt;&gt;;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_data_holder.html">   28</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_data_holder.html">DataHolder</a></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_data_holder.html#aee3b138a1d68108b7404c8a7ae22fe33">   33</a></span>&#160;    <a class="code" href="dataholder_8h.html#a992b0b9e330aa808331bcdb02796fea3">CountryIndexMap</a> <a class="code" href="class_data_holder.html#aee3b138a1d68108b7404c8a7ae22fe33">countryIndexMap</a>;</div><div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_data_holder.html#aed5d3512b0e89ac7b0943377d866c627">   37</a></span>&#160;    <a class="code" href="dataholder_8h.html#ae584a8001e93b617c1e98633a63ffd01">IndexDateMap</a> <a class="code" href="class_data_holder.html#aed5d3512b0e89ac7b0943377d866c627">indexDateMap</a>;</div><div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_data_holder.html#aea5ff6c700fc3795607739edfde240e1">   41</a></span>&#160;    <a class="code" href="dataholder_8h.html#ad97a13d4108ef25eaa6fd0a0eb5640e4">RawDataTable</a> <a class="code" href="class_data_holder.html#aea5ff6c700fc3795607739edfde240e1">data</a>;</div><div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="class_data_holder.html#a7f4268560bc2dbf8b50e8bbee1f3c63d">   45</a></span>&#160;    <a class="code" href="dataholder_8h.html#a797414e3396a8cabf9e33b2aa86890bf">CountryGeolocationMap</a> <a class="code" href="class_data_holder.html#a7f4268560bc2dbf8b50e8bbee1f3c63d">countryGeolocationMap</a>;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="class_data_holder.html#a96666e61f25a08b63b1576aeea7b21a7">DataHolder</a>(<a class="code" href="dataholder_8h.html#a992b0b9e330aa808331bcdb02796fea3">CountryIndexMap</a> ci, <a class="code" href="dataholder_8h.html#ae584a8001e93b617c1e98633a63ffd01">IndexDateMap</a> <span class="keywordtype">id</span>, <a class="code" href="dataholder_8h.html#ad97a13d4108ef25eaa6fd0a0eb5640e4">RawDataTable</a> d, <a class="code" href="dataholder_8h.html#a797414e3396a8cabf9e33b2aa86890bf">CountryGeolocationMap</a> cg);</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="dataholder_8h.html#a992b0b9e330aa808331bcdb02796fea3">CountryIndexMap</a> <a class="code" href="class_data_holder.html#acab7cb687608e6323db8bf536d74ba99">getCountryIndexMap</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="dataholder_8h.html#ae584a8001e93b617c1e98633a63ffd01">IndexDateMap</a> <a class="code" href="class_data_holder.html#ae1ed4fb50385989a50ceb4ef91de4933">getIndexDateMap</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="dataholder_8h.html#ad97a13d4108ef25eaa6fd0a0eb5640e4">RawDataTable</a> <a class="code" href="class_data_holder.html#a6e37773362260e3f04059b63c45be5c0">getData</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="dataholder_8h.html#a797414e3396a8cabf9e33b2aa86890bf">CountryGeolocationMap</a> <a class="code" href="class_data_holder.html#a8bc681ca0ddc67b858ea87847c6ad902">getCountryGeolocationMap</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;};</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">#endif // DATAHOLDER_H</span></div><div class="ttc" id="class_data_holder_html_aed5d3512b0e89ac7b0943377d866c627"><div class="ttname"><a href="class_data_holder.html#aed5d3512b0e89ac7b0943377d866c627">DataHolder::indexDateMap</a></div><div class="ttdeci">IndexDateMap indexDateMap</div><div class="ttdoc">Mapa indeksów i dat przypisanych do nich. </div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8h_source.html#l00037">dataholder.h:37</a></div></div>
+<div class="ttc" id="dataholder_8h_html_a797414e3396a8cabf9e33b2aa86890bf"><div class="ttname"><a href="dataholder_8h.html#a797414e3396a8cabf9e33b2aa86890bf">CountryGeolocationMap</a></div><div class="ttdeci">std::unordered_map&lt; std::string, std::pair&lt; float, float &gt; &gt; CountryGeolocationMap</div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8h_source.html#l00017">dataholder.h:17</a></div></div>
+<div class="ttc" id="dataholder_8h_html_ad97a13d4108ef25eaa6fd0a0eb5640e4"><div class="ttname"><a href="dataholder_8h.html#ad97a13d4108ef25eaa6fd0a0eb5640e4">RawDataTable</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; int &gt; &gt; RawDataTable</div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8h_source.html#l00019">dataholder.h:19</a></div></div>
+<div class="ttc" id="class_data_holder_html_a8bc681ca0ddc67b858ea87847c6ad902"><div class="ttname"><a href="class_data_holder.html#a8bc681ca0ddc67b858ea87847c6ad902">DataHolder::getCountryGeolocationMap</a></div><div class="ttdeci">CountryGeolocationMap getCountryGeolocationMap() const</div><div class="ttdoc">Zwraca przechowywaną mapę krajów i ich geolokalizacji (DataHolder::countryGeolocationMap). </div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8cpp_source.html#l00018">dataholder.cpp:18</a></div></div>
+<div class="ttc" id="dataholder_8h_html_ae584a8001e93b617c1e98633a63ffd01"><div class="ttname"><a href="dataholder_8h.html#ae584a8001e93b617c1e98633a63ffd01">IndexDateMap</a></div><div class="ttdeci">std::unordered_map&lt; int, QDate &gt; IndexDateMap</div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8h_source.html#l00018">dataholder.h:18</a></div></div>
+<div class="ttc" id="class_data_holder_html_aea5ff6c700fc3795607739edfde240e1"><div class="ttname"><a href="class_data_holder.html#aea5ff6c700fc3795607739edfde240e1">DataHolder::data</a></div><div class="ttdeci">RawDataTable data</div><div class="ttdoc">Wektor wektorów przechowujący dane odnośnie ilości przypadków. </div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8h_source.html#l00041">dataholder.h:41</a></div></div>
+<div class="ttc" id="dataholder_8h_html_a992b0b9e330aa808331bcdb02796fea3"><div class="ttname"><a href="dataholder_8h.html#a992b0b9e330aa808331bcdb02796fea3">CountryIndexMap</a></div><div class="ttdeci">std::unordered_map&lt; std::string, int &gt; CountryIndexMap</div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8h_source.html#l00016">dataholder.h:16</a></div></div>
+<div class="ttc" id="class_data_holder_html_a96666e61f25a08b63b1576aeea7b21a7"><div class="ttname"><a href="class_data_holder.html#a96666e61f25a08b63b1576aeea7b21a7">DataHolder::DataHolder</a></div><div class="ttdeci">DataHolder(CountryIndexMap ci, IndexDateMap id, RawDataTable d, CountryGeolocationMap cg)</div><div class="ttdoc">Konstruktor parametryczny. </div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8cpp_source.html#l00023">dataholder.cpp:23</a></div></div>
+<div class="ttc" id="class_data_holder_html_a7f4268560bc2dbf8b50e8bbee1f3c63d"><div class="ttname"><a href="class_data_holder.html#a7f4268560bc2dbf8b50e8bbee1f3c63d">DataHolder::countryGeolocationMap</a></div><div class="ttdeci">CountryGeolocationMap countryGeolocationMap</div><div class="ttdoc">Mapa przechowująca nazwy krajów i ich geolokacje. </div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8h_source.html#l00045">dataholder.h:45</a></div></div>
+<div class="ttc" id="class_data_holder_html_ae1ed4fb50385989a50ceb4ef91de4933"><div class="ttname"><a href="class_data_holder.html#ae1ed4fb50385989a50ceb4ef91de4933">DataHolder::getIndexDateMap</a></div><div class="ttdeci">IndexDateMap getIndexDateMap() const</div><div class="ttdoc">Zwraca przechowywaną mapę indeksów i dat. </div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8cpp_source.html#l00008">dataholder.cpp:8</a></div></div>
+<div class="ttc" id="class_data_holder_html"><div class="ttname"><a href="class_data_holder.html">DataHolder</a></div><div class="ttdoc">Klasa modelująca obekt przechowujący dane o przypadkach. </div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8h_source.html#l00028">dataholder.h:28</a></div></div>
+<div class="ttc" id="class_data_holder_html_a6e37773362260e3f04059b63c45be5c0"><div class="ttname"><a href="class_data_holder.html#a6e37773362260e3f04059b63c45be5c0">DataHolder::getData</a></div><div class="ttdeci">RawDataTable getData() const</div><div class="ttdoc">Zwraca wektor wektorów przechowujących dane odnośnie przypadków (DataHolder::RawDataTable). </div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8cpp_source.html#l00013">dataholder.cpp:13</a></div></div>
+<div class="ttc" id="class_data_holder_html_acab7cb687608e6323db8bf536d74ba99"><div class="ttname"><a href="class_data_holder.html#acab7cb687608e6323db8bf536d74ba99">DataHolder::getCountryIndexMap</a></div><div class="ttdeci">CountryIndexMap getCountryIndexMap() const</div><div class="ttdoc">Zwraca przechowywaną mapę krajów i ich indeksów (DataHolder::countryIndexMap). </div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8cpp_source.html#l00003">dataholder.cpp:3</a></div></div>
+<div class="ttc" id="class_data_holder_html_aee3b138a1d68108b7404c8a7ae22fe33"><div class="ttname"><a href="class_data_holder.html#aee3b138a1d68108b7404c8a7ae22fe33">DataHolder::countryIndexMap</a></div><div class="ttdeci">CountryIndexMap countryIndexMap</div><div class="ttdoc">Mapa krajów i ich indeksów. </div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8h_source.html#l00033">dataholder.h:33</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_df9c00f4ca258c11d7d369e9f17635c7.html">Covid-19_DataVisualization</a></li><li class="navelem"><a class="el" href="dataholder_8h.html">dataholder.h</a></li>
+    <li class="footer">Wygenerowano przez
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

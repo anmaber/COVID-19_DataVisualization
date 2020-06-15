@@ -1,0 +1,19 @@
+<map id="QCPAxis::rangeChanged" name="QCPAxis::rangeChanged">
+<area shape="rect" id="node2" href="$class_q_c_p_axis.html#aebdfea5d44c3a0ad2b4700cd4d25b641" title="QCPAxis::setRange" alt="" coords="240,233,381,260"/>
+<area shape="rect" id="node15" href="$class_q_c_p_axis.html#afcf51227d337db28d1a9ce9a4d1bc91a" title="QCPAxis::setRangeLower" alt="" coords="223,284,399,311"/>
+<area shape="rect" id="node16" href="$class_q_c_p_axis.html#acd3ca1247aa867b540cd5ec30ccd3bef" title="QCPAxis::setRangeUpper" alt="" coords="223,335,399,361"/>
+<area shape="rect" id="node17" href="$class_q_c_p_axis.html#a18f3a68f2b691af1fd34b6593c886630" title="QCPAxis::moveRange" alt="" coords="233,385,388,412"/>
+<area shape="rect" id="node18" href="$class_q_c_p_axis.html#a7072ff96fe690148f1bbcdb4f773ea1c" title="QCPAxis::scaleRange" alt="" coords="233,436,388,463"/>
+<area shape="rect" id="node3" href="$class_q_c_p_axis.html#adef29cae617af4f519f6c40d1a866ca6" title="QCPAxis::setScaleType" alt="" coords="473,5,639,32"/>
+<area shape="rect" id="node4" href="$class_q_c_p_axis_rect.html#a5fa906175447b14206954f77fc7f1ef4" title="QCPAxisRect::setupFullAxesBox" alt="" coords="713,31,932,57"/>
+<area shape="rect" id="node5" href="$class_q_c_p_axis.html#acf60e5b2d631fbc8c4548c3d579cb6d0" title="QCPAxis::setRange" alt="" coords="485,107,627,133"/>
+<area shape="rect" id="node6" href="$class_q_c_p_axis.html#af4bbd446dcaee5a83ac30ce9bcd6e125" title="QCPAxis::setScaleRatio" alt="" coords="473,157,639,184"/>
+<area shape="rect" id="node7" href="$class_q_c_p_axis.html#a499345f02ebce4b23d8ccec96e58daa9" title="QCPAxis::rescale" alt="" coords="493,208,619,235"/>
+<area shape="rect" id="node9" href="$class_q_c_p_axis.html#ac5a269609e6177737faabdc46434d8c7" title="QCPAxis::mouseMoveEvent" alt="" coords="461,259,651,285"/>
+<area shape="rect" id="node10" href="$class_q_c_p_abstract_plottable.html#ae96b83c961e257da116c6acf9c7da308" title="QCPAbstractPlottable\l::rescaleKeyAxis" alt="" coords="481,310,631,351"/>
+<area shape="rect" id="node12" href="$class_q_c_p_abstract_plottable.html#a714eaf36b12434cd71846215504db82e" title="QCPAbstractPlottable\l::rescaleValueAxis" alt="" coords="481,375,631,417"/>
+<area shape="rect" id="node13" href="$class_q_c_p_axis_rect.html#a6a39fb3aea60a8c503bdcb3f0477d2f6" title="QCPAxisRect::zoom" alt="" coords="483,441,629,468"/>
+<area shape="rect" id="node14" href="$class_q_c_p_axis_rect.html#a9cd27ad8c5cfb49aefd9dbb30def4beb" title="QCPAxisRect::mouseMoveEvent" alt="" coords="447,492,665,519"/>
+<area shape="rect" id="node8" href="$class_q_custom_plot.html#ad86528f2cee6c7e446dea4a6e8839935" title="QCustomPlot::rescaleAxes" alt="" coords="732,208,913,235"/>
+<area shape="rect" id="node11" href="$class_q_c_p_abstract_plottable.html#a1491c4a606bccd2d09e65e11b79eb882" title="QCPAbstractPlottable\l::rescaleAxes" alt="" coords="747,342,898,383"/>
+</map>

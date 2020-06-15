@@ -1,0 +1,8 @@
+<map id="QCustomPlot::removeLayer" name="QCustomPlot::removeLayer">
+<area shape="rect" id="node2" href="$class_q_custom_plot.html#a0a96244e7773b242ef23c32b7bdfb159" title="QCustomPlot::layer" alt="" coords="488,58,625,85"/>
+<area shape="rect" id="node4" href="$class_q_c_p_layer.html#ad322905c4700dcc7ceba63e011c730d2" title="QCPLayer::index" alt="" coords="277,33,400,59"/>
+<area shape="rect" id="node5" href="$class_q_c_p_layer.html#a183b90941fc78f0b136edd77c5fb6966" title="QCPLayer::children" alt="" coords="271,83,407,110"/>
+<area shape="rect" id="node6" href="$class_q_custom_plot.html#a73a6dc47c653bb6f8f030abca5a11852" title="QCustomPlot::setCurrentLayer" alt="" coords="237,134,440,161"/>
+<area shape="rect" id="node7" href="$class_q_custom_plot.html#a7f1ca67a66d37b6d260a0b93de08f3bd" title="QCustomPlot::updateLayer\lIndices" alt="" coords="249,185,429,227"/>
+<area shape="rect" id="node3" href="$class_q_c_p_layer.html#a37806f662b50b588fb1029a14fc5ef50" title="QCPLayer::name" alt="" coords="673,58,796,85"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="mapViewWidget::~mapViewWidget" name="mapViewWidget::~mapViewWidget">
+<area shape="rect" id="node2" href="$class_data_holder.html#a8bc681ca0ddc67b858ea87847c6ad902" title="DataHolder::getCountryGeolocationMap" alt="" coords="281,5,536,32"/>
+<area shape="rect" id="node3" href="$class_data_holder.html#acab7cb687608e6323db8bf536d74ba99" title="DataHolder::getCountryIndexMap" alt="" coords="300,56,517,83"/>
+<area shape="rect" id="node4" href="$class_data_holder.html#a6e37773362260e3f04059b63c45be5c0" title="DataHolder::getData" alt="" coords="337,107,480,133"/>
+<area shape="rect" id="node5" href="$class_data_holder.html#ae1ed4fb50385989a50ceb4ef91de4933" title="DataHolder::getIndexDateMap" alt="" coords="309,157,508,184"/>
+</map>

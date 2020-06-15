@@ -1,0 +1,25 @@
+<map id="QCPFinancial::draw" name="QCPFinancial::draw">
+<area shape="rect" id="node2" href="$class_q_c_p_financial.html#a31a3dda8b6b9a5b674e28f1daeb21a75" title="QCPFinancial::getVisible\lDataBounds" alt="" coords="223,165,391,207"/>
+<area shape="rect" id="node3" href="$class_q_c_p_abstract_plottable1_d.html#ae890e62ce403c54f575c73b9529f1af8" title="QCPAbstractPlottable1D\l\&lt; QCPFinancialData \&gt;::\lgetDataSegments" alt="" coords="223,231,391,287"/>
+<area shape="rect" id="node4" href="$class_q_c_p_financial.html#a2c77aab636f6bce6e0407b3f94e90d08" title="QCPFinancial::drawOhlcPlot" alt="" coords="213,362,402,389"/>
+<area shape="rect" id="node21" href="$class_q_c_p_financial.html#ade6b703369d8acb3bfa0b8e244df4b06" title="QCPFinancial::drawCandlestickPlot" alt="" coords="192,311,423,338"/>
+<area shape="rect" id="node23" href="$class_q_c_p_selection_decorator.html#a4f8eb49e277063845391e803ae23054a" title="QCPSelectionDecorator\l::drawDecoration" alt="" coords="226,413,389,455"/>
+<area shape="rect" id="node24" href="$class_q_c_p_abstract_plottable.html#a040bf09f41d456284cfd39cc37aa068f" title="QCPAbstractPlottable\l::selection" alt="" coords="232,479,383,520"/>
+<area shape="rect" id="node5" href="$class_q_c_p_abstract_plottable.html#a2cdd6f0dd5e9a979037f86b4000d9cfe" title="QCPAbstractPlottable\l::keyAxis" alt="" coords="491,173,642,215"/>
+<area shape="rect" id="node6" href="$class_q_c_p_abstract_plottable.html#af47809a644a68ffd955fb30b01fb4f2f" title="QCPAbstractPlottable\l::valueAxis" alt="" coords="491,239,642,280"/>
+<area shape="rect" id="node7" href="$class_q_c_p_axis.html#ab988ef4538e2655bb77bd138189cd42e" title="QCPAxis::orientation" alt="" coords="715,395,860,422"/>
+<area shape="rect" id="node8" href="$class_q_c_p_selection_decorator.html#a75098893f7d08660ea449206810679d7" title="QCPSelectionDecorator\l::applyPen" alt="" coords="485,304,648,345"/>
+<area shape="rect" id="node9" href="$class_q_c_p_painter.html#af9c7a4cd1791403901f8c5b82a150195" title="QCPPainter::setPen" alt="" coords="717,311,858,338"/>
+<area shape="rect" id="node11" href="$class_q_c_p_axis.html#af15d1b3a7f7e9b53d759d3ccff1fe4b4" title="QCPAxis::coordToPixel" alt="" coords="486,573,647,599"/>
+<area shape="rect" id="node19" href="$class_q_c_p_painter.html#a0b4b1b9bd495e182c731774dc800e6e0" title="QCPPainter::drawLine" alt="" coords="491,370,643,397"/>
+<area shape="rect" id="node20" href="$class_q_c_p_financial.html#a3ff49384a95233140c8205af77c08955" title="QCPFinancial::getPixelWidth" alt="" coords="471,421,663,447"/>
+<area shape="rect" id="node10" href="$class_q_c_p_painter.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8" title="QCPPainter::makeNonCosmetic" alt="" coords="912,311,1124,338"/>
+<area shape="rect" id="node12" href="$class_q_c_p_range.html#a62326e7cc4316b96df6a60813230e63f" title="QCPRange::size" alt="" coords="727,547,848,574"/>
+<area shape="rect" id="node13" href="$class_q_c_p_axis_rect.html#a204645398a4f9d0b0189385c7c2cfb91" title="QCPAxisRect::width" alt="" coords="715,598,859,625"/>
+<area shape="rect" id="node14" href="$class_q_c_p_axis_rect.html#afb4a3de02046b20b9310bdb8fca781c3" title="QCPAxisRect::left" alt="" coords="722,649,853,675"/>
+<area shape="rect" id="node15" href="$class_q_c_p_axis_rect.html#a3f819d4a1b2193723d1fdafc573eea10" title="QCPAxisRect::right" alt="" coords="718,699,857,726"/>
+<area shape="rect" id="node16" href="$class_q_c_p_axis_rect.html#acefdf1abaa8a8ab681e906cc2be9581e" title="QCPAxisRect::bottom" alt="" coords="711,750,864,777"/>
+<area shape="rect" id="node17" href="$class_q_c_p_axis_rect.html#acc4377809e79d9a089ab790f39429b0d" title="QCPAxisRect::height" alt="" coords="713,446,861,473"/>
+<area shape="rect" id="node18" href="$class_q_c_p_axis_rect.html#a45dbad181cbb9f09d068dbb76c817c95" title="QCPAxisRect::top" alt="" coords="722,497,853,523"/>
+<area shape="rect" id="node22" href="$class_q_c_p_selection_decorator.html#a225544527d51b49546b70d0e6d655a34" title="QCPSelectionDecorator\l::applyBrush" alt="" coords="485,5,648,47"/>
+</map>

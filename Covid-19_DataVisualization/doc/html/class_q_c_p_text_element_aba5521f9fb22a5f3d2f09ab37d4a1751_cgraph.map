@@ -1,0 +1,12 @@
+<map id="QCPTextElement::setSelected" name="QCPTextElement::setSelected">
+<area shape="rect" id="node2" href="$class_q_c_p_text_element.html#a135d1ad0aa97a245b4247c3292ff551c" title="QCPTextElement::selected" alt="" coords="256,202,439,229"/>
+<area shape="rect" id="node3" href="$class_q_c_p_abstract_plottable.html#ac238d6e910f976f1f30d41c2bca44ac3" title="QCPAbstractPlottable\l::setSelectable" alt="" coords="513,64,663,105"/>
+<area shape="rect" id="node8" href="$class_q_c_p_abstract_plottable1_d.html#a4611b43bcb6441b2154eb4f4e0a33db2" title="QCPAbstractPlottable1D\l::selectTest" alt="" coords="504,129,672,171"/>
+<area shape="rect" id="node9" href="$class_q_c_p_layerable.html#af6567604818db90f4fd52822f8bc8376" title="QCPLayerable::mousePress\lEvent" alt="" coords="494,195,682,236"/>
+<area shape="rect" id="node10" href="$class_q_c_p_layerable.html#aa0d79b005686f668622bbe66ac03ba2c" title="QCPLayerable::mouseRelease\lEvent" alt="" coords="487,260,689,301"/>
+<area shape="rect" id="node11" href="$class_q_c_p_layerable.html#a4171e2e823aca242dd0279f00ed2de81" title="QCPLayerable::mouseDouble\lClickEvent" alt="" coords="491,325,685,367"/>
+<area shape="rect" id="node4" href="$class_q_c_p_abstract_plottable.html#a016653741033bd332d1d4c3c725cc284" title="QCPAbstractPlottable\l::selectable" alt="" coords="769,5,919,47"/>
+<area shape="rect" id="node5" href="$class_q_c_p_data_selection.html#a17b84d852911531d229f4a76aa239a75" title="QCPDataSelection::enforceType" alt="" coords="737,71,951,98"/>
+<area shape="rect" id="node7" href="$class_q_c_p_abstract_plottable.html#a0b3b514474fe93354fc74cfc144184b4" title="QCPAbstractPlottable\l::selected" alt="" coords="769,123,919,164"/>
+<area shape="rect" id="node6" href="$class_q_c_p_data_range.html#ac32e53fc05d6cd2eac96b96a7265d3b8" title="QCPDataRange::isEmpty" alt="" coords="999,71,1172,98"/>
+</map>

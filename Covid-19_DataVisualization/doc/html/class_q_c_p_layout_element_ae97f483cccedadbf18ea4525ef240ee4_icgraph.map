@@ -1,0 +1,9 @@
+<map id="QCPLayoutElement::selectTest" name="QCPLayoutElement::selectTest">
+<area shape="rect" id="node2" href="$class_q_custom_plot.html#afaa1d304e0287d140fd238e90889ef3c" title="QCustomPlot::layoutElementAt" alt="" coords="260,5,465,32"/>
+<area shape="rect" id="node3" href="$class_q_custom_plot.html#a4a08842fc3e9ba6bed83aa410c5c5ba5" title="QCustomPlot::axisRectAt" alt="" coords="275,56,450,83"/>
+<area shape="rect" id="node4" href="$class_q_custom_plot.html#aac0a7296a6031dc667c01c1abd4ecc6b" title="QCustomPlot::mousePressEvent" alt="" coords="513,5,729,32"/>
+<area shape="rect" id="node5" href="$class_q_custom_plot.html#ac10849411e1d0e858ea7f29c8ade364c" title="QCustomPlot::processRect\lSelection" alt="" coords="530,107,713,149"/>
+<area shape="rect" id="node8" href="$class_q_custom_plot.html#a5508a207dcc279f316142f96d984bba3" title="QCustomPlot::processRectZoom" alt="" coords="513,56,729,83"/>
+<area shape="rect" id="node6" href="$class_q_custom_plot.html#a810ef958ebe84db661c7288b526c0deb" title="QCustomPlot::setSelection\lRectMode" alt="" coords="791,49,973,90"/>
+<area shape="rect" id="node7" href="$class_q_custom_plot.html#a0c09f96df15faa4799ad7051bb16cf33" title="QCustomPlot::setSelectionRect" alt="" coords="777,115,987,141"/>
+</map>

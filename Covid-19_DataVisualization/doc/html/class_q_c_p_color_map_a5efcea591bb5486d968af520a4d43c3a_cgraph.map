@@ -1,0 +1,11 @@
+<map id="QCPColorMap::updateMapImage" name="QCPColorMap::updateMapImage">
+<area shape="rect" id="node2" href="$class_q_c_p_abstract_plottable.html#a2cdd6f0dd5e9a979037f86b4000d9cfe" title="QCPAbstractPlottable\l::keyAxis" alt="" coords="293,5,443,47"/>
+<area shape="rect" id="node3" href="$class_q_c_p_color_map_data.html#aea88cc75a76ca571acf29b2ba8ac970d" title="QCPColorMapData::isEmpty" alt="" coords="273,71,463,98"/>
+<area shape="rect" id="node4" href="$class_q_c_p_color_map_data.html#abbda4d28de97aedce1e6e6f008a0a1f7" title="QCPColorMapData::keySize" alt="" coords="273,122,463,149"/>
+<area shape="rect" id="node5" href="$class_q_c_p_color_map_data.html#a8510cafea24645bbb62b5e0bfc43209f" title="QCPColorMapData::valueSize" alt="" coords="268,173,468,199"/>
+<area shape="rect" id="node6" href="$class_q_c_p_axis.html#ab988ef4538e2655bb77bd138189cd42e" title="QCPAxis::orientation" alt="" coords="295,223,441,250"/>
+<area shape="rect" id="node7" href="$class_q_c_p_color_gradient.html#aaf423ceb943e177b0ed2c48c811d83dc" title="QCPColorGradient::colorize" alt="" coords="276,274,460,301"/>
+<area shape="rect" id="node8" href="$class_q_c_p_color_gradient.html#a353f15ab3ab586eebf1f6b58c3e2707b" title="QCPColorGradient::update\lColorBuffer" alt="" coords="516,237,695,279"/>
+<area shape="rect" id="node10" href="$class_q_c_p_range.html#a62326e7cc4316b96df6a60813230e63f" title="QCPRange::size" alt="" coords="545,303,666,330"/>
+<area shape="rect" id="node9" href="$class_q_c_p_color_gradient.html#a137b368ea8829a871974add6e4883c71" title="QCPColorGradient::stopsUse\lAlpha" alt="" coords="743,237,937,279"/>
+</map>

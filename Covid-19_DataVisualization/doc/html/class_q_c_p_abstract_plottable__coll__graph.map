@@ -1,0 +1,20 @@
+<map id="QCPAbstractPlottable" name="QCPAbstractPlottable">
+<area shape="rect" id="node20" href="$class_q_c_p_selection_decorator.html" title="QCPSelectionDecorator" alt="" coords="1015,272,1177,299"/>
+<area shape="rect" id="node2" href="$class_q_c_p_layerable.html" title="QCPLayerable" alt="" coords="776,81,883,108"/>
+<area shape="rect" id="node9" href="$class_q_c_p_layout_element.html" title="QCPLayoutElement" alt="" coords="707,171,845,197"/>
+<area shape="rect" id="node10" href="$class_q_c_p_selection_rect.html" title="QCPSelectionRect" alt="" coords="297,221,431,248"/>
+<area shape="rect" id="node11" href="$class_q_c_p_axis.html" title="QCPAxis" alt="" coords="380,780,457,807"/>
+<area shape="rect" id="node15" href="$class_q_c_p_grid.html" title="QCPGrid" alt="" coords="452,869,527,896"/>
+<area shape="rect" id="node4" href="$class_q_c_p_layer.html" title="QCPLayer" alt="" coords="685,660,768,687"/>
+<area shape="rect" id="node5" href="$class_q_custom_plot.html" title="QCustomPlot" alt="" coords="431,540,532,567"/>
+<area shape="rect" id="node13" href="$class_q_c_p_axis_painter_private.html" title="QCPAxisPainterPrivate" alt="" coords="70,660,229,687"/>
+<area shape="rect" id="node7" href="$class_q_c_p_layout_grid.html" title="QCPLayoutGrid" alt="" coords="500,361,615,388"/>
+<area shape="rect" id="node18" href="$class_q_c_p_legend.html" title="QCPLegend" alt="" coords="416,451,509,477"/>
+<area shape="rect" id="node8" href="$class_q_c_p_layout.html" title="QCPLayout" alt="" coords="627,272,717,299"/>
+<area shape="rect" id="node17" href="$class_q_c_p_layout_inset.html" title="QCPLayoutInset" alt="" coords="642,361,761,388"/>
+<area shape="rect" id="node16" href="$class_q_c_p_axis_rect.html" title="QCPAxisRect" alt="" coords="757,451,862,477"/>
+<area shape="rect" id="node12" href="$class_q_c_p_range.html" title="QCPRange" alt="" coords="311,660,401,687"/>
+<area shape="rect" id="node14" href="$class_q_c_p_line_ending.html" title="QCPLineEnding" alt="" coords="5,540,120,567"/>
+<area shape="rect" id="node19" href="$class_q_c_p_data_selection.html" title="QCPDataSelection" alt="" coords="1127,81,1260,108"/>
+<area shape="rect" id="node21" href="$class_q_c_p_scatter_style.html" title="QCPScatterStyle" alt="" coords="971,171,1093,197"/>
+</map>

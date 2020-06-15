@@ -1,0 +1,9 @@
+<map id="QCPDataSelection::inverse" name="QCPDataSelection::inverse">
+<area shape="rect" id="node2" href="$class_q_c_p_data_range.html#ac32e53fc05d6cd2eac96b96a7265d3b8" title="QCPDataRange::isEmpty" alt="" coords="245,5,418,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_data_range.html#a36c8ad8acf177ffeb0a72c8d73030844" title="QCPDataRange::expanded" alt="" coords="241,56,422,83"/>
+<area shape="rect" id="node5" href="$class_q_c_p_data_range.html#ae76d7eba9defdfafcd0fc41096793129" title="QCPDataRange::begin" alt="" coords="253,107,409,133"/>
+<area shape="rect" id="node6" href="$class_q_c_p_data_selection.html#a46740c5aa7b80ae9b2abf6985d61b74f" title="QCPDataSelection::addData\lRange" alt="" coords="236,158,427,199"/>
+<area shape="rect" id="node7" href="$class_q_c_p_data_range.html#aee1b20fb045929c3753ee2ce14af7630" title="QCPDataRange::end" alt="" coords="258,224,405,251"/>
+<area shape="rect" id="node8" href="$class_q_c_p_data_selection.html#a4a2fbad1a6e4d1dd26fdfdf88956f2a4" title="QCPDataSelection::simplify" alt="" coords="238,275,425,301"/>
+<area shape="rect" id="node4" href="$class_q_c_p_data_range.html#a49e72fd9bace1da9d875136dcc04c986" title="QCPDataRange::QCPDataRange" alt="" coords="475,56,695,83"/>
+</map>

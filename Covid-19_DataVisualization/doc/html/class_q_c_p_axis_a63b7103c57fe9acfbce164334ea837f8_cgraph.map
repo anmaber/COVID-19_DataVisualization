@@ -1,0 +1,7 @@
+<map id="QCPAxis::selectTest" name="QCPAxis::selectTest">
+<area shape="rect" id="node2" href="$class_q_c_p_axis.html#a22ab2d71d7341b9b3974c0dd10619af2" title="QCPAxis::getPartAt" alt="" coords="239,78,379,105"/>
+<area shape="rect" id="node6" href="$class_q_custom_plot.html#a5441d11013afeaf4b8f2ea06e8624a25" title="QCustomPlot::selectionTolerance" alt="" coords="200,129,419,155"/>
+<area shape="rect" id="node3" href="$class_q_c_p_axis_painter_private.html#ab29635564acb5d0012fa9e297477db05" title="QCPAxisPainterPrivate\l::axisSelectionBox" alt="" coords="471,5,629,47"/>
+<area shape="rect" id="node4" href="$class_q_c_p_axis_painter_private.html#acf8a4fef47cec70b596fe20941aa5b16" title="QCPAxisPainterPrivate\l::tickLabelsSelectionBox" alt="" coords="467,71,633,112"/>
+<area shape="rect" id="node5" href="$class_q_c_p_axis_painter_private.html#ae7800667d15867040ada5f4bf027f070" title="QCPAxisPainterPrivate\l::labelSelectionBox" alt="" coords="471,136,629,177"/>
+</map>

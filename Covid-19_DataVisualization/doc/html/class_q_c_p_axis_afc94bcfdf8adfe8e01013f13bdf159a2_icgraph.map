@@ -1,0 +1,21 @@
+<map id="QCPAxis::axisRect" name="QCPAxis::axisRect">
+<area shape="rect" id="node2" href="$class_q_c_p_axis.html#af4bbd446dcaee5a83ac30ce9bcd6e125" title="QCPAxis::setScaleRatio" alt="" coords="215,5,381,32"/>
+<area shape="rect" id="node3" href="$class_q_custom_plot.html#acddbbd8b16dd633f0d94e5a736fbd8cf" title="QCustomPlot::plottableAt" alt="" coords="213,56,383,83"/>
+<area shape="rect" id="node4" href="$class_q_c_p_axis_rect.html#a2dc336092ccc57d44a46194c8a23e4f4" title="QCPAxisRect::addAxis" alt="" coords="218,107,378,133"/>
+<area shape="rect" id="node8" href="$class_q_c_p_graph.html#a13f2c756f3114703159c2e604783e208" title="QCPGraph::getFillBasePoint" alt="" coords="203,157,393,184"/>
+<area shape="rect" id="node12" href="$class_q_c_p_bars_group.html#a0beccd41bc3841a4c5b284823bc7d2de" title="QCPBarsGroup::getPixelSpacing" alt="" coords="191,220,405,247"/>
+<area shape="rect" id="node5" href="$class_q_c_p_axis_rect.html#a60b31dece805462c1b82eea2e69ba042" title="QCPAxisRect::QCPAxisRect" alt="" coords="465,5,661,32"/>
+<area shape="rect" id="node6" href="$class_q_c_p_axis_rect.html#a792e1f3d9cb1591fca135bb0de9b81fc" title="QCPAxisRect::addAxes" alt="" coords="481,56,645,83"/>
+<area shape="rect" id="node7" href="$class_q_c_p_axis_rect.html#a5fa906175447b14206954f77fc7f1ef4" title="QCPAxisRect::setupFullAxesBox" alt="" coords="453,107,672,133"/>
+<area shape="rect" id="node9" href="$class_q_c_p_graph.html#af73d5fe97cde966785bfd67201e44391" title="QCPGraph::getFillPolygon" alt="" coords="475,157,651,184"/>
+<area shape="rect" id="node10" href="$class_q_c_p_graph.html#a67c5ea573f604efd8bf121a0b7a380d1" title="QCPGraph::drawFill" alt="" coords="744,151,883,177"/>
+<area shape="rect" id="node11" href="$class_q_c_p_graph.html#a2b0849598f06e834b43ce18cd13bcdc3" title="QCPGraph::draw" alt="" coords="1001,151,1123,177"/>
+<area shape="rect" id="node13" href="$class_q_c_p_bars_group.html#a8e2ca6002e7bab49670144d048a2bcc9" title="QCPBarsGroup::keyPixelOffset" alt="" coords="459,245,666,272"/>
+<area shape="rect" id="node14" href="$class_q_c_p_bars.html#ac5a3854774d9d9cd129b1eae1426de2d" title="QCPBars::getKeyRange" alt="" coords="731,201,896,228"/>
+<area shape="rect" id="node15" href="$class_q_c_p_bars.html#a55cdaf565cd3384158d1f7f89533bc2d" title="QCPBars::dataPixelPosition" alt="" coords="720,252,907,279"/>
+<area shape="rect" id="node16" href="$class_q_c_p_bars.html#a01b87e38e5d5089d214646d2af7896ea" title="QCPBars::getBarRect" alt="" coords="737,303,889,329"/>
+<area shape="rect" id="node17" href="$class_q_c_p_bars.html#ab03bb6125c3e983b89d694f75ce6b3d5" title="QCPBars::selectTestRect" alt="" coords="1217,240,1392,267"/>
+<area shape="rect" id="node18" href="$class_q_c_p_bars.html#a121f899c27af3186fe93dcd0eb98f49b" title="QCPBars::selectTest" alt="" coords="1231,303,1378,329"/>
+<area shape="rect" id="node19" href="$class_q_c_p_bars.html#aa267c20650d55084c3f47cb2f8fac9dc" title="QCPBars::draw" alt="" coords="1247,365,1362,392"/>
+<area shape="rect" id="node20" href="$class_q_c_p_bars.html#ac8b6b514a665a7bff4fb080413ba996a" title="QCPBars::getVisibleDataBounds" alt="" coords="955,277,1169,304"/>
+</map>

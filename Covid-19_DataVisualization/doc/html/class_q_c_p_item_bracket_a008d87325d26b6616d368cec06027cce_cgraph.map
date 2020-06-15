@@ -1,0 +1,11 @@
+<map id="QCPItemBracket::anchorPixelPosition" name="QCPItemBracket::anchorPixelPosition">
+<area shape="rect" id="node2" href="$class_q_c_p_item_position.html#a8be9a4787635433edecc75164beb748d" title="QCPItemPosition::pixelPosition" alt="" coords="252,38,459,65"/>
+<area shape="rect" id="node6" href="$class_q_c_p_vector2_d.html#acd7af3f4a62833ada58be3f3021dbbac" title="QCPVector2D::toPointF" alt="" coords="274,89,437,115"/>
+<area shape="rect" id="node7" href="$class_q_c_p_vector2_d.html#a0e08d09f9027784237e302e32290b001" title="QCPVector2D::perpendicular" alt="" coords="260,139,451,166"/>
+<area shape="rect" id="node8" href="$class_q_c_p_vector2_d.html#a707bb3af3b1f9331a2450ec75eaf7eb0" title="QCPVector2D::normalized" alt="" coords="267,190,444,217"/>
+<area shape="rect" id="node3" href="$class_q_c_p_item_anchor.html#a06dcfb7220d26eee93eef56ae66582cb" title="QCPItemAnchor::pixelPosition" alt="" coords="507,13,707,39"/>
+<area shape="rect" id="node5" href="$class_q_custom_plot.html#a19842409b18f556b256d05e97fffc670" title="QCustomPlot::viewport" alt="" coords="527,63,686,90"/>
+<area shape="rect" id="node4" href="$class_q_c_p_abstract_item.html#ada5bad4e1196c4fc0d0d12328e24b8f2" title="QCPAbstractItem::anchorPixel\lPosition" alt="" coords="755,5,957,47"/>
+<area shape="rect" id="node9" href="$class_q_c_p_vector2_d.html#ad83268be370685c2a0630acc0fb1a425" title="QCPVector2D::normalize" alt="" coords="521,190,692,217"/>
+<area shape="rect" id="node10" href="$class_q_c_p_vector2_d.html#a10adb5ab031fe94f0b64a3c5aefb552e" title="QCPVector2D::length" alt="" coords="781,190,931,217"/>
+</map>

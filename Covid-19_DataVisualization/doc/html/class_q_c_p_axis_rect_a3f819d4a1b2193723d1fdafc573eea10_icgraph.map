@@ -1,0 +1,51 @@
+<map id="QCPAxisRect::right" name="QCPAxisRect::right">
+<area shape="rect" id="node2" href="$class_q_c_p_grid.html#aee4e95d54acabbe298d6dda0dd86c0a4" title="QCPGrid::drawGridLines" alt="" coords="439,20,605,47"/>
+<area shape="rect" id="node4" href="$class_q_c_p_grid.html#a751ce8aef815bcc9193432a30c8b6b6e" title="QCPGrid::drawSubGridLines" alt="" coords="427,71,617,97"/>
+<area shape="rect" id="node5" href="$class_q_c_p_axis.html#af15d1b3a7f7e9b53d759d3ccff1fe4b4" title="QCPAxis::coordToPixel" alt="" coords="192,720,353,747"/>
+<area shape="rect" id="node35" href="$class_q_c_p_graph.html#a13f2c756f3114703159c2e604783e208" title="QCPGraph::getFillBasePoint" alt="" coords="427,1395,617,1421"/>
+<area shape="rect" id="node3" href="$class_q_c_p_grid.html#aad9a312d998e2d170956334d4cb80be2" title="QCPGrid::draw" alt="" coords="759,5,869,32"/>
+<area shape="rect" id="node6" href="$class_q_c_p_axis.html#ac15ebb4225ca5212d8e5fffae481bc9b" title="QCPAxis::draw" alt="" coords="465,305,579,332"/>
+<area shape="rect" id="node7" href="$class_q_c_p_axis.html#a47bdb0a55de6759489ee47665199aebb" title="QCPAxis::calculateMargin" alt="" coords="434,356,610,383"/>
+<area shape="rect" id="node8" href="$class_q_c_p_abstract_plottable.html#a7ad84a36472441cf1f555c5683d0da93" title="QCPAbstractPlottable\l::coordsToPixels" alt="" coords="447,458,597,499"/>
+<area shape="rect" id="node10" href="$class_q_c_p_curve.html#aefca1e5127fae2d7ff65b9e921637c58" title="QCPCurve::getCurveLines" alt="" coords="999,195,1178,221"/>
+<area shape="rect" id="node22" href="$class_q_c_p_selection_decorator_bracket.html#a9925ed667e8a645fcb9949bd02ee4a19" title="QCPSelectionDecoratorBracket\l::getPixelCoordinates" alt="" coords="419,974,625,1015"/>
+<area shape="rect" id="node25" href="$class_q_c_p_graph.html#a9d7ba5904fdcaca413222335d4b283c3" title="QCPGraph::getScatters" alt="" coords="733,872,895,899"/>
+<area shape="rect" id="node27" href="$class_q_c_p_graph.html#a0085ee728fdd72a827c1e6ced4476363" title="QCPGraph::dataToLines" alt="" coords="439,821,605,848"/>
+<area shape="rect" id="node29" href="$class_q_c_p_graph.html#a1f3e9e41fc67538c4940c74665840474" title="QCPGraph::dataToStepLeft\lLines" alt="" coords="431,523,613,565"/>
+<area shape="rect" id="node30" href="$class_q_c_p_graph.html#ab1fb6cb91d24a854f85bf54200f6d101" title="QCPGraph::dataToStepRight\lLines" alt="" coords="426,589,618,630"/>
+<area shape="rect" id="node31" href="$class_q_c_p_graph.html#a238116f1898c49cb8209d61707b5b367" title="QCPGraph::dataToStepCenter\lLines" alt="" coords="422,654,622,695"/>
+<area shape="rect" id="node32" href="$class_q_c_p_graph.html#a2a958a5c6a6e1e4a03556be88b6fe37e" title="QCPGraph::dataToImpulseLines" alt="" coords="417,720,627,747"/>
+<area shape="rect" id="node33" href="$class_q_c_p_graph.html#a1fed1c9d627d9d3b49a6206cc2e60fe1" title="QCPGraph::getOptimizedLineData" alt="" coords="411,771,633,797"/>
+<area shape="rect" id="node34" href="$class_q_c_p_graph.html#a5423245898537e375b9364cf26e89aea" title="QCPGraph::getOptimizedScatterData" alt="" coords="401,923,643,949"/>
+<area shape="rect" id="node37" href="$class_q_c_p_curve.html#a564c5fdc8409e3532b1322389a8434b8" title="QCPCurve::getScatters" alt="" coords="1008,1040,1169,1067"/>
+<area shape="rect" id="node38" href="$class_q_c_p_bars_group.html#a0beccd41bc3841a4c5b284823bc7d2de" title="QCPBarsGroup::getPixelSpacing" alt="" coords="415,1141,629,1168"/>
+<area shape="rect" id="node40" href="$class_q_c_p_bars.html#a55cdaf565cd3384158d1f7f89533bc2d" title="QCPBars::dataPixelPosition" alt="" coords="995,1091,1182,1117"/>
+<area shape="rect" id="node41" href="$class_q_c_p_bars.html#a01b87e38e5d5089d214646d2af7896ea" title="QCPBars::getBarRect" alt="" coords="1013,1167,1165,1193"/>
+<area shape="rect" id="node45" href="$class_q_c_p_financial.html#a2c77aab636f6bce6e0407b3f94e90d08" title="QCPFinancial::drawOhlcPlot" alt="" coords="427,1243,617,1269"/>
+<area shape="rect" id="node46" href="$class_q_c_p_financial.html#ade6b703369d8acb3bfa0b8e244df4b06" title="QCPFinancial::drawCandlestickPlot" alt="" coords="407,1293,637,1320"/>
+<area shape="rect" id="node47" href="$class_q_c_p_financial.html#a2bf2228cc443eb5fb11ec3ea3902859c" title="QCPFinancial::ohlcSelectTest" alt="" coords="423,1344,621,1371"/>
+<area shape="rect" id="node48" href="$class_q_c_p_financial.html#a9783e91a33fd08a402b1a3821d43e471" title="QCPFinancial::candlestick\lSelectTest" alt="" coords="433,122,611,163"/>
+<area shape="rect" id="node49" href="$class_q_c_p_financial.html#afbe9e8cb0de3e9e789a9668b29cad098" title="QCPFinancial::selectionHitBox" alt="" coords="421,188,623,215"/>
+<area shape="rect" id="node50" href="$class_q_c_p_error_bars.html#abeea5ff0d66732bbfc9b74869d8c552e" title="QCPErrorBars::getErrorBar\lLines" alt="" coords="432,239,612,281"/>
+<area shape="rect" id="node9" href="$class_q_c_p_graph.html#a89acf99c0b52b8eecb2438adf7ec0170" title="QCPGraph::pointDistance" alt="" coords="1001,788,1176,815"/>
+<area shape="rect" id="node12" href="$class_q_c_p_curve.html#aa2c9c9c0e57f11f18a5cb7e47927157c" title="QCPCurve::pointDistance" alt="" coords="1240,151,1415,177"/>
+<area shape="rect" id="node13" href="$class_q_c_p_curve.html#a66bff7933dac149c4577ad63a27da924" title="QCPCurve::getOptimizedCorner\lPoints" alt="" coords="709,275,919,317"/>
+<area shape="rect" id="node14" href="$class_q_c_p_curve.html#a55e24387fd97a2cad0def8a40809e9ec" title="QCPCurve::getTraverseCorner\lPoints" alt="" coords="713,158,915,199"/>
+<area shape="rect" id="node15" href="$class_q_c_p_statistical_box.html#a02dc6b561be8203d460d7263da74b8a9" title="QCPStatisticalBox::\ldrawStatisticalBox" alt="" coords="1019,435,1159,477"/>
+<area shape="rect" id="node16" href="$class_q_c_p_statistical_box.html#aa44482bf991ceca74602294dd9977243" title="QCPStatisticalBox::\lgetQuartileBox" alt="" coords="744,705,884,746"/>
+<area shape="rect" id="node17" href="$class_q_c_p_statistical_box.html#a233c28f8c2464ed104a4d580eedd4c64" title="QCPStatisticalBox::\lgetWhiskerBackboneLines" alt="" coords="725,341,903,382"/>
+<area shape="rect" id="node18" href="$class_q_c_p_statistical_box.html#af478f6e8a5e9ca2f1bbac10a6b73319a" title="QCPStatisticalBox::\lgetWhiskerBarLines" alt="" coords="744,406,884,447"/>
+<area shape="rect" id="node19" href="$class_q_c_p_color_map.html#a6b628014d2939368935efd0a788648c8" title="QCPColorMap::draw" alt="" coords="743,523,885,549"/>
+<area shape="rect" id="node20" href="$class_q_c_p_abstract_plottable1_d.html#a6ca0699a6af5f25a7565de7c50ce13b2" title="QCPAbstractPlottable1D\l\&lt; QCPCurveData \&gt;::dataPixelPosition" alt="" coords="691,574,937,615"/>
+<area shape="rect" id="node21" href="$class_q_c_p_abstract_plottable1_d.html#a4611b43bcb6441b2154eb4f4e0a33db2" title="QCPAbstractPlottable1D\l\&lt; QCPCurveData \&gt;::selectTest" alt="" coords="711,639,917,681"/>
+<area shape="rect" id="node11" href="$class_q_c_p_curve.html#ac199d41d23865cd68bd7b598308a4433" title="QCPCurve::draw" alt="" coords="1266,584,1389,611"/>
+<area shape="rect" id="node23" href="$class_q_c_p_selection_decorator_bracket.html#a9ebe2e729b5012c0a995d788f87fac22" title="QCPSelectionDecoratorBracket\l::drawDecoration" alt="" coords="985,933,1192,974"/>
+<area shape="rect" id="node24" href="$class_q_c_p_selection_decorator_bracket.html#ac002e20586950bf5c91a399863769c61" title="QCPSelectionDecoratorBracket\l::getTangentAngle" alt="" coords="711,974,917,1015"/>
+<area shape="rect" id="node26" href="$class_q_c_p_graph.html#a2b0849598f06e834b43ce18cd13bcdc3" title="QCPGraph::draw" alt="" coords="1027,856,1150,883"/>
+<area shape="rect" id="node28" href="$class_q_c_p_graph.html#a563c6da2126300a4d9d2bdee30dad040" title="QCPGraph::getLines" alt="" coords="743,821,885,848"/>
+<area shape="rect" id="node36" href="$class_q_c_p_graph.html#af73d5fe97cde966785bfd67201e44391" title="QCPGraph::getFillPolygon" alt="" coords="726,1395,902,1421"/>
+<area shape="rect" id="node39" href="$class_q_c_p_bars_group.html#a8e2ca6002e7bab49670144d048a2bcc9" title="QCPBarsGroup::keyPixelOffset" alt="" coords="711,1141,917,1168"/>
+<area shape="rect" id="node42" href="$class_q_c_p_bars.html#ab03bb6125c3e983b89d694f75ce6b3d5" title="QCPBars::selectTestRect" alt="" coords="1240,1217,1415,1244"/>
+<area shape="rect" id="node43" href="$class_q_c_p_bars.html#a121f899c27af3186fe93dcd0eb98f49b" title="QCPBars::selectTest" alt="" coords="1254,1116,1401,1143"/>
+<area shape="rect" id="node44" href="$class_q_c_p_bars.html#aa267c20650d55084c3f47cb2f8fac9dc" title="QCPBars::draw" alt="" coords="1270,1167,1385,1193"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="QCustomPlot::currentLayer" name="QCustomPlot::currentLayer">
+<area shape="rect" id="node2" href="$class_q_c_p_layer.html#afc1a8940f8e34c9f25ead9dfd4828cae" title="QCPLayer::~QCPLayer" alt="" coords="256,5,416,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_layerable.html#a74c0fa237f29bf0e49565013fc5d1ec0" title="QCPLayerable::QCPLayerable" alt="" coords="236,56,436,83"/>
+<area shape="rect" id="node4" href="$class_q_c_p_axis.html#ac62c042968bae0e6d474fcfc57c9b71f" title="QCPAxis::QCPAxis" alt="" coords="266,107,406,133"/>
+<area shape="rect" id="node5" href="$class_q_custom_plot.html#aeba7733bb9fadfb5a375b3f40de9e58a" title="QCustomPlot::registerPlottable" alt="" coords="235,157,437,184"/>
+<area shape="rect" id="node7" href="$class_q_custom_plot.html#afbd4010b2e3f364c8d512691b2a1640a" title="QCustomPlot::registerItem" alt="" coords="247,209,425,236"/>
+<area shape="rect" id="node6" href="$class_q_c_p_abstract_plottable.html#af78a036e40db6f53a31abadc5323715a" title="QCPAbstractPlottable\l::QCPAbstractPlottable" alt="" coords="525,147,684,189"/>
+<area shape="rect" id="node8" href="$class_q_c_p_abstract_item.html#a9922507d8b4503a1fe1ed0b1030e23b6" title="QCPAbstractItem::QCPAbstractItem" alt="" coords="485,213,724,240"/>
+</map>

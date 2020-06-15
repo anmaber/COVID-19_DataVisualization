@@ -1,0 +1,7 @@
+<map id="basicAnalysisWiget::on_checkDeaths_clicked" name="basicAnalysisWiget::on_checkDeaths_clicked">
+<area shape="rect" id="node2" href="$classbasic_analysis_wiget.html#ae225eb9989d0d88fa701ea2bf4c5ba38" title="Metoda odpowiedzialna za aktualizację wizualizacji danych. " alt="" coords="229,93,367,135"/>
+<area shape="rect" id="node3" href="$classbasic_analysis_wiget.html#a46978e18f494db854373e33c2829f4ab" title="Metoda odnajdująca indeks kraju. " alt="" coords="455,5,592,47"/>
+<area shape="rect" id="node4" href="$class_data_holder.html#acab7cb687608e6323db8bf536d74ba99" title="Zwraca przechowywaną mapę krajów i ich indeksów (DataHolder::countryIndexMap). " alt="" coords="415,71,632,98"/>
+<area shape="rect" id="node5" href="$classbasic_analysis_wiget.html#a6f3f84f3ad795febfae60afcbd9760ba" title="Metoda odnajdująca indeks daty. " alt="" coords="455,123,592,164"/>
+<area shape="rect" id="node6" href="$class_data_holder.html#a6e37773362260e3f04059b63c45be5c0" title="Zwraca wektor wektorów przechowujących dane odnośnie przypadków (DataHolder::RawDataTable). " alt="" coords="452,189,595,215"/>
+</map>

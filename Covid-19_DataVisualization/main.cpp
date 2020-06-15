@@ -2,8 +2,8 @@
 #include <QApplication>
 #include <filereader.h>
 #include <QDebug>
-#include "basicanalysis.h"
-#include "analysismainwindow.h"
+//#include "basicanalysis.h"
+//#include "analysismainwindow.h"
 #include "dataholder.h"
 #include "stdlib.h"
 
@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
     DataHolder* recoveries = new DataHolder(recoveriesReader.getCountryIndex(),recoveriesReader.getIndexDate(),recoveriesReader.getRawData(),recoveriesReader.getCountryGeolocation());
 
 
-    BasicAnalysis* window = new BasicAnalysis(nullptr, cases, deaths, recoveries);
+   // BasicAnalysis* window = new BasicAnalysis(nullptr, cases, deaths, recoveries);
     MainWindow Mwindow(nullptr,cases, deaths, recoveries);
     Mwindow.show();
 

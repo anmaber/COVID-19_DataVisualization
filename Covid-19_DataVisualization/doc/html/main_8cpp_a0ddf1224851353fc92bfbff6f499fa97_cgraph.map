@@ -1,0 +1,11 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$class_file_reader.html#a1036120d4474f706ec7faab43f2468dc" title="Metoda wczytująca plik. " alt="" coords="161,5,280,32"/>
+<area shape="rect" id="node3" href="$class_file_reader.html#a144271d510237a266d01d38b4c942fa1" title="Metoda przypisująca datom ich indeksy. " alt="" coords="127,56,315,83"/>
+<area shape="rect" id="node4" href="$class_file_reader.html#abc161e682bdf4c0e62815bba8dd56e31" title="Metoda przypisująca krajom indeksy. " alt="" coords="117,107,324,133"/>
+<area shape="rect" id="node5" href="$class_file_reader.html#afe10340f11ad09fa4d84b598670e7f4e" title="Metoda wyodrębniająca surowe dane. " alt="" coords="134,157,307,184"/>
+<area shape="rect" id="node6" href="$class_file_reader.html#a6bca36806fe344b85e2e21b564e0801c" title="Metoda przypisująca krajom ich geolokację. " alt="" coords="104,208,337,235"/>
+<area shape="rect" id="node7" href="$class_file_reader.html#a105e3557f74738bd04e75ace7b17ab61" title="Metoda zwraca mapę nazw kraju i indeksów. " alt="" coords="126,259,315,285"/>
+<area shape="rect" id="node8" href="$class_file_reader.html#a418d9c58d6bfc539592242e42d3f8e45" title="Metoda zwraca mapę indeksów i dat. " alt="" coords="135,309,306,336"/>
+<area shape="rect" id="node9" href="$class_file_reader.html#a6a2f3406445bc3231008df276b8b3d45" title="Metoda zwraca wektor wektorów zawierających liczby przypadków. " alt="" coords="137,360,304,387"/>
+<area shape="rect" id="node10" href="$class_file_reader.html#ab1824852fe9556173732b582a5e6161d" title="Metoda zwraca mapę nazw kraju i ich geolokalizacji. " alt="" coords="107,411,334,437"/>
+</map>

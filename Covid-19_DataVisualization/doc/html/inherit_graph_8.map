@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_q_c_p_axis_ticker.html" title="QCPAxisTicker" alt="" coords="5,132,119,159"/>
+<area shape="rect" id="node2" href="$class_q_c_p_axis_ticker_date_time.html" title="QCPAxisTickerDateTime" alt="" coords="167,5,337,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_axis_ticker_fixed.html" title="QCPAxisTickerFixed" alt="" coords="179,56,325,83"/>
+<area shape="rect" id="node4" href="$class_q_c_p_axis_ticker_log.html" title="QCPAxisTickerLog" alt="" coords="185,107,319,133"/>
+<area shape="rect" id="node5" href="$class_q_c_p_axis_ticker_pi.html" title="QCPAxisTickerPi" alt="" coords="189,157,315,184"/>
+<area shape="rect" id="node6" href="$class_q_c_p_axis_ticker_text.html" title="QCPAxisTickerText" alt="" coords="183,208,321,235"/>
+<area shape="rect" id="node7" href="$class_q_c_p_axis_ticker_time.html" title="QCPAxisTickerTime" alt="" coords="181,259,323,285"/>
+</map>

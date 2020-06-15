@@ -1,0 +1,11 @@
+<map id="QCPDataRange::isValid" name="QCPDataRange::isValid">
+<area shape="rect" id="node2" href="$class_q_c_p_data_range.html#a84e1e03129dd52528efb4bac18d30183" title="QCPDataRange::intersection" alt="" coords="217,113,409,140"/>
+<area shape="rect" id="node3" href="$class_q_c_p_data_range.html#a93529421d12fdd3a8bdb2b8061936352" title="QCPDataRange::bounded" alt="" coords="474,88,649,115"/>
+<area shape="rect" id="node10" href="$class_q_c_p_data_selection.html#af296ec5a948656c1d1ecb7b2970d2a24" title="QCPDataSelection::intersection" alt="" coords="457,139,665,165"/>
+<area shape="rect" id="node4" href="$class_q_c_p_error_bars.html#aac9ffa98815035d300b2e9a67495ba4c" title="QCPErrorBars::getVisible\lDataBounds" alt="" coords="735,49,906,90"/>
+<area shape="rect" id="node9" href="$class_q_c_p_data_container.html#aa1b36f5ae86a5a5a0b92141d3a0945c4" title="QCPDataContainer::limitIterators\lToDataRange" alt="" coords="713,114,928,155"/>
+<area shape="rect" id="node5" href="$class_q_c_p_error_bars.html#ad7c727736599dfb173f0952082e1a5b6" title="QCPErrorBars::selectTestRect" alt="" coords="976,5,1179,32"/>
+<area shape="rect" id="node6" href="$class_q_c_p_error_bars.html#a801e85931372abf2a1034bfb2eac5cd2" title="QCPErrorBars::draw" alt="" coords="1006,56,1149,83"/>
+<area shape="rect" id="node7" href="$class_q_c_p_error_bars.html#a8e904076bad643f43af28b95f21c1b88" title="QCPErrorBars::pointDistance" alt="" coords="980,107,1175,133"/>
+<area shape="rect" id="node8" href="$class_q_c_p_error_bars.html#ac1b6675ef43e32547a3cbcf7b7ac46ed" title="QCPErrorBars::selectTest" alt="" coords="1227,107,1401,133"/>
+</map>

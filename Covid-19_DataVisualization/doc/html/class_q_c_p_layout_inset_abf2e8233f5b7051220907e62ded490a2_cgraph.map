@@ -1,0 +1,10 @@
+<map id="QCPLayoutInset::takeAt" name="QCPLayoutInset::takeAt">
+<area shape="rect" id="node2" href="$class_q_c_p_layout_grid.html#a4288f174082555f6bd92021bdedb75dc" title="QCPLayoutGrid::elementAt" alt="" coords="222,56,403,83"/>
+<area shape="rect" id="node7" href="$class_q_c_p_layout.html#a4afbb4bef0071f72f91afdac4433a18e" title="QCPLayout::releaseElement" alt="" coords="219,119,407,145"/>
+<area shape="rect" id="node3" href="$class_q_c_p_layout_grid.html#a9a8942aface780a02445ebcf14c48513" title="QCPLayoutGrid::elementCount" alt="" coords="731,5,934,32"/>
+<area shape="rect" id="node4" href="$class_q_c_p_layout_grid.html#a577223db920e2acb34bc1091080c76d1" title="QCPLayoutGrid::indexToRowCol" alt="" coords="461,56,675,83"/>
+<area shape="rect" id="node5" href="$class_q_c_p_layout_grid.html#a1a2962cbf45011405b64b913afa8e7a2" title="QCPLayoutGrid::columnCount" alt="" coords="733,56,932,83"/>
+<area shape="rect" id="node6" href="$class_q_c_p_layout_grid.html#a19c66fd76cbce58a8e94f33797e0c0aa" title="QCPLayoutGrid::rowCount" alt="" coords="743,107,922,133"/>
+<area shape="rect" id="node8" href="$class_q_c_p_layerable.html#aa23c893671f1f6744ac235cf2204cf3a" title="QCPLayerable::setParentLayerable" alt="" coords="455,144,681,171"/>
+<area shape="rect" id="node9" href="$class_q_c_p_layerable.html#aa78b7e644d2c519e1a9a6f2ac5fcd858" title="QCPLayerable::parentLayerable" alt="" coords="729,157,936,184"/>
+</map>

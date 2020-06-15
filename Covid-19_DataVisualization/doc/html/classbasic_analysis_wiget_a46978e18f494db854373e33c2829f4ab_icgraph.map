@@ -1,0 +1,9 @@
+<map id="basicAnalysisWiget::getCountryIndex" name="basicAnalysisWiget::getCountryIndex">
+<area shape="rect" id="node2" href="$classbasic_analysis_wiget.html#ae225eb9989d0d88fa701ea2bf4c5ba38" title="Metoda odpowiedzialna za aktualizację wizualizacji danych. " alt="" coords="191,189,328,231"/>
+<area shape="rect" id="node3" href="$classbasic_analysis_wiget.html#aaaed1c4f608a397237b9cf3895594e96" title="Slot reagujący na zmianę daty końcowej. " alt="" coords="390,5,573,47"/>
+<area shape="rect" id="node4" href="$classbasic_analysis_wiget.html#a312a237b0768b91ac900bd2a96f8dad5" title="Slot reagujący na zmianę kraju. " alt="" coords="385,71,577,127"/>
+<area shape="rect" id="node5" href="$classbasic_analysis_wiget.html#a41e944421cd2d70d9284ef3ff8a7ad2c" title="Slot reagujący na kliknięcie na pole wyboru związane z zachorowaniami. " alt="" coords="403,152,560,193"/>
+<area shape="rect" id="node6" href="$classbasic_analysis_wiget.html#a6076adda056f9085c351fdbd1d86c85b" title="Slot reagujący na kliknięcie na pole wyboru związane z wyzgrowieniami. " alt="" coords="405,218,557,274"/>
+<area shape="rect" id="node7" href="$classbasic_analysis_wiget.html#a3eff359887aaa284aee6e811885577eb" title="Slot reagujący na kliknięcie na pole wyboru związane ze zgonami. " alt="" coords="393,299,569,340"/>
+<area shape="rect" id="node8" href="$classbasic_analysis_wiget.html#a84cf266d5405896a4ea42fb7b1886097" title="Slot reagujący na zmianę daty początkowej. " alt="" coords="376,364,587,405"/>
+</map>

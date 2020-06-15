@@ -1,0 +1,11 @@
+<map id="QCPColorMapData::clearAlpha" name="QCPColorMapData::clearAlpha">
+<area shape="rect" id="node2" href="$class_q_c_p_color_map_data.html#afdf4dd1b2f5714234fe84709b85c2a8d" title="QCPColorMapData::operator=" alt="" coords="771,5,969,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_color_map_data.html#a42c2b1c303683515fa4de4c551f54441" title="QCPColorMapData::createAlpha" alt="" coords="257,132,469,159"/>
+<area shape="rect" id="node4" href="$class_q_c_p_color_map_data.html#a0d9ff35c299d0478b682bfbcdd9c097e" title="QCPColorMapData::setSize" alt="" coords="521,107,708,133"/>
+<area shape="rect" id="node9" href="$class_q_c_p_color_map_data.html#aaf7de5b34c58f38d8f4c1ceb064a876c" title="QCPColorMapData::setAlpha" alt="" coords="517,157,712,184"/>
+<area shape="rect" id="node10" href="$class_q_c_p_color_map_data.html#a93e2a549d7702bc849cd48a585294657" title="QCPColorMapData::fillAlpha" alt="" coords="520,208,709,235"/>
+<area shape="rect" id="node5" href="$class_q_c_p_color_map_data.html#aac9d8eb81e18e240d89d56c01933fd23" title="QCPColorMapData::QCPColor\lMapData" alt="" coords="769,57,971,98"/>
+<area shape="rect" id="node6" href="$class_q_c_p_color_map_data.html#ac7ef70e383aface34b44dbde49234b6b" title="QCPColorMapData::setKeySize" alt="" coords="765,123,975,149"/>
+<area shape="rect" id="node7" href="$class_q_c_p_color_map_data.html#a0893c9e3914513048b45e3429ffd16f2" title="QCPColorMapData::setValueSize" alt="" coords="760,173,980,200"/>
+<area shape="rect" id="node8" href="$class_q_c_p_color_map_data.html#a9910ba830e96955bd5c8e5bef1e77ef3" title="QCPColorMapData::clear" alt="" coords="785,224,955,251"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="QCPLayerable::setLayer" name="QCPLayerable::setLayer">
+<area shape="rect" id="node2" href="$class_q_c_p_layerable.html#a5ff4862e8c784c9f5986dbc1533ba2a4" title="QCPLayerable::layer" alt="" coords="685,5,828,32"/>
+<area shape="rect" id="node3" href="$class_q_custom_plot.html#a0a96244e7773b242ef23c32b7bdfb159" title="QCustomPlot::layer" alt="" coords="461,56,598,83"/>
+<area shape="rect" id="node5" href="$class_q_c_p_layerable.html#ab0d0da6d2de45a118886d2c8e16d5a54" title="QCPLayerable::setLayer" alt="" coords="219,107,384,133"/>
+<area shape="rect" id="node4" href="$class_q_c_p_layer.html#a37806f662b50b588fb1029a14fc5ef50" title="QCPLayer::name" alt="" coords="695,56,818,83"/>
+<area shape="rect" id="node6" href="$class_q_c_p_layerable.html#af94484cfb7cbbddb7de522e9be71d9a4" title="QCPLayerable::moveToLayer" alt="" coords="432,107,627,133"/>
+<area shape="rect" id="node7" href="$class_q_c_p_layer.html#a5520019787482e13857ebe631c27c3fa" title="QCPLayer::parentPlot" alt="" coords="681,107,832,133"/>
+<area shape="rect" id="node8" href="$class_q_c_p_layer.html#ac2f64ac7761650582d968d86670ef362" title="QCPLayer::removeChild" alt="" coords="675,157,839,184"/>
+<area shape="rect" id="node9" href="$class_q_c_p_layer.html#a57ce5e49364aa9122276d5df3b4a0ddc" title="QCPLayer::addChild" alt="" coords="685,208,828,235"/>
+</map>

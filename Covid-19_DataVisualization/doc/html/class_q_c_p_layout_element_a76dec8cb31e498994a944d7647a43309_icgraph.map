@@ -1,0 +1,23 @@
+<map id="QCPLayoutElement::elements" name="QCPLayoutElement::elements">
+<area shape="rect" id="node2" href="$class_q_c_p_layout_element.html#ab4bb5c5a958451f5f153fdce350f13cf" title="QCPLayoutElement::parent\lPlotInitialized" alt="" coords="264,66,447,107"/>
+<area shape="rect" id="node3" href="$class_q_custom_plot.html#a12af771429e2d7e313c8c5d5fca068fe" title="QCustomPlot::axisRects" alt="" coords="271,132,439,159"/>
+<area shape="rect" id="node18" href="$class_q_custom_plot.html#afaa1d304e0287d140fd238e90889ef3c" title="QCustomPlot::layoutElementAt" alt="" coords="253,233,458,260"/>
+<area shape="rect" id="node19" href="$class_q_custom_plot.html#a4a08842fc3e9ba6bed83aa410c5c5ba5" title="QCustomPlot::axisRectAt" alt="" coords="539,288,713,315"/>
+<area shape="rect" id="node22" href="$class_q_custom_plot.html#ac87624ddff1cbf4064781a8e8ae321c4" title="QCustomPlot::selectedLegends" alt="" coords="252,284,459,311"/>
+<area shape="rect" id="node4" href="$class_q_c_p_abstract_item.html#a9922507d8b4503a1fe1ed0b1030e23b6" title="QCPAbstractItem::QCPAbstractItem" alt="" coords="507,107,745,133"/>
+<area shape="rect" id="node5" href="$class_q_custom_plot.html#a8f85940aaac50efb466287d9d2d04ec6" title="QCustomPlot::axisRectCount" alt="" coords="528,157,724,184"/>
+<area shape="rect" id="node11" href="$class_q_custom_plot.html#ae5eefcb5f6ca26689b1fd4f6e25b42f9" title="QCustomPlot::axisRect" alt="" coords="545,208,707,235"/>
+<area shape="rect" id="node16" href="$class_q_custom_plot.html#a7e6b07792b1cb2c31681596582d14dbe" title="QCustomPlot::selectedAxes" alt="" coords="532,5,720,32"/>
+<area shape="rect" id="node17" href="$class_q_custom_plot.html#ad86528f2cee6c7e446dea4a6e8839935" title="QCustomPlot::rescaleAxes" alt="" coords="535,56,717,83"/>
+<area shape="rect" id="node6" href="$class_q_c_p_axis_rect.html#a2dc336092ccc57d44a46194c8a23e4f4" title="QCPAxisRect::addAxis" alt="" coords="822,107,982,133"/>
+<area shape="rect" id="node10" href="$class_q_c_p_axis_rect.html#a575e38ac71a21906dc2d7b3364db2d62" title="QCPAxisRect::layoutChanged" alt="" coords="802,157,1002,184"/>
+<area shape="rect" id="node7" href="$class_q_c_p_axis_rect.html#a60b31dece805462c1b82eea2e69ba042" title="QCPAxisRect::QCPAxisRect" alt="" coords="1070,107,1266,133"/>
+<area shape="rect" id="node8" href="$class_q_c_p_axis_rect.html#a792e1f3d9cb1591fca135bb0de9b81fc" title="QCPAxisRect::addAxes" alt="" coords="1086,157,1250,184"/>
+<area shape="rect" id="node9" href="$class_q_c_p_axis_rect.html#a5fa906175447b14206954f77fc7f1ef4" title="QCPAxisRect::setupFullAxesBox" alt="" coords="1059,56,1277,83"/>
+<area shape="rect" id="node12" href="$class_q_c_p_abstract_item.html#a75036d39c4d4e2e1a7dd145fff915d32" title="QCPAbstractItem::createPosition" alt="" coords="793,208,1011,235"/>
+<area shape="rect" id="node13" href="$class_q_custom_plot.html#a5508a207dcc279f316142f96d984bba3" title="QCustomPlot::processRectZoom" alt="" coords="794,259,1010,285"/>
+<area shape="rect" id="node14" href="$class_q_custom_plot.html#a810ef958ebe84db661c7288b526c0deb" title="QCustomPlot::setSelection\lRectMode" alt="" coords="1077,251,1259,293"/>
+<area shape="rect" id="node15" href="$class_q_custom_plot.html#a0c09f96df15faa4799ad7051bb16cf33" title="QCustomPlot::setSelectionRect" alt="" coords="1063,317,1273,344"/>
+<area shape="rect" id="node20" href="$class_q_custom_plot.html#aac0a7296a6031dc667c01c1abd4ecc6b" title="QCustomPlot::mousePressEvent" alt="" coords="794,376,1010,403"/>
+<area shape="rect" id="node21" href="$class_q_custom_plot.html#ac10849411e1d0e858ea7f29c8ade364c" title="QCustomPlot::processRect\lSelection" alt="" coords="811,310,993,351"/>
+</map>

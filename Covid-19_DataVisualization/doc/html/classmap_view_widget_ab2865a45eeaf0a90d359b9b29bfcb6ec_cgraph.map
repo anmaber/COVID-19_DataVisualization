@@ -1,0 +1,4 @@
+<map id="mapViewWidget::mapViewWidget" name="mapViewWidget::mapViewWidget">
+<area shape="rect" id="node2" href="$class_data_holder.html#ae1ed4fb50385989a50ceb4ef91de4933" title="Zwraca przechowywaną mapę indeksów i dat. " alt="" coords="301,5,500,32"/>
+<area shape="rect" id="node3" href="$class_data_holder.html#a8bc681ca0ddc67b858ea87847c6ad902" title="Zwraca przechowywaną mapę krajów i ich geolokalizacji (DataHolder::countryGeolocationMap). " alt="" coords="273,56,528,83"/>
+</map>

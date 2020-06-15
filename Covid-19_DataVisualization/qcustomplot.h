@@ -22,7 +22,7 @@
 **             Date: 25.06.18                                             **
 **          Version: 2.0.1                                                **
 ****************************************************************************/
-
+#ifndef DOXYGEN_SHOULD_SKIP_THIS
 #ifndef QCUSTOMPLOT_H
 #define QCUSTOMPLOT_H
 
@@ -6671,3 +6671,4 @@ Q_DECLARE_METATYPE(QCPItemBracket::BracketStyle)
 
 #endif // QCUSTOMPLOT_H
 
+#endif /* DOXYGEN_SHOULD_SKIP_THIS */

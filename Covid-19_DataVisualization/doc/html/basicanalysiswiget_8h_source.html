@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>COVID-19 data visualization: Plik źródłowy basicanalysiswiget.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">COVID-19 data visualization
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('basicanalysiswiget_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">basicanalysiswiget.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="basicanalysiswiget_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef BASICANALYSISWIGET_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define BASICANALYSISWIGET_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;QWidget&gt;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;QStringList&gt;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="dataholder_8h.html">dataholder.h</a>&quot;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;qcustomplot.h&quot;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="namespace_ui.html">   15</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_ui.html">Ui</a> {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">class </span><a class="code" href="classbasic_analysis_wiget.html">basicAnalysisWiget</a>;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classbasic_analysis_wiget.html">   25</a></span>&#160;<span class="keyword">class </span><a class="code" href="classbasic_analysis_wiget.html">basicAnalysisWiget</a> : <span class="keyword">public</span> QWidget</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classbasic_analysis_wiget.html">basicAnalysisWiget</a>(QWidget *parent = 0,<a class="code" href="class_data_holder.html">DataHolder</a>* cases = <span class="keyword">nullptr</span>,</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                                <a class="code" href="class_data_holder.html">DataHolder</a>* deaths = <span class="keyword">nullptr</span>, <a class="code" href="class_data_holder.html">DataHolder</a> * recoveries = <span class="keyword">nullptr</span>);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    ~<a class="code" href="classbasic_analysis_wiget.html">basicAnalysisWiget</a>();</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">private</span> slots:</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> on_dateEdit_dateChanged(<span class="keyword">const</span> QDate &amp;date);</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">void</span> on_comboBox_currentIndexChanged(<span class="keyword">const</span> QString &amp;countryName);</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="comment">//void on_checkBox_clicked();</span></div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">void</span> on_checkRecoveries_clicked();</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">void</span> on_checkDeaths_clicked();</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">void</span> on_dateEditStart_dateChanged(<span class="keyword">const</span> QDate &amp;startDate);</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordtype">void</span> on_checkBox_clicked();</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="classbasic_analysis_wiget.html#a5f1f599ef9f404ff1beaa75977137585">  100</a></span>&#160;    Ui::basicAnalysisWiget *<a class="code" href="classbasic_analysis_wiget.html#a5f1f599ef9f404ff1beaa75977137585">ui</a>;</div><div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="classbasic_analysis_wiget.html#ac3d08c5b0dec7939c9274ea2d96377d8">  104</a></span>&#160;    <a class="code" href="class_data_holder.html">DataHolder</a>*  <a class="code" href="classbasic_analysis_wiget.html#ac3d08c5b0dec7939c9274ea2d96377d8">cases</a>;</div><div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="classbasic_analysis_wiget.html#a608c415ff823fdc141981c1108d95ee4">  108</a></span>&#160;    <a class="code" href="class_data_holder.html">DataHolder</a> * <a class="code" href="classbasic_analysis_wiget.html#a608c415ff823fdc141981c1108d95ee4">deaths</a>;</div><div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="classbasic_analysis_wiget.html#a6b3742cc4b92beadc82b2683a29399c0">  112</a></span>&#160;    <a class="code" href="class_data_holder.html">DataHolder</a> * <a class="code" href="classbasic_analysis_wiget.html#a6b3742cc4b92beadc82b2683a29399c0">recoveries</a>;</div><div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="classbasic_analysis_wiget.html#aeed8acdfbc49d7b6975921a16263d7db">  116</a></span>&#160;    QCPTextElement *<a class="code" href="classbasic_analysis_wiget.html#aeed8acdfbc49d7b6975921a16263d7db">title</a>;</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div><div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="classbasic_analysis_wiget.html#a9d30e68747c391d294e808e1a392ec54">  121</a></span>&#160;    QStringList <a class="code" href="classbasic_analysis_wiget.html#a9d30e68747c391d294e808e1a392ec54">countries</a>;</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordtype">void</span> setUpPlot();</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <span class="keywordtype">void</span> setData(<span class="keyword">const</span> QDate&amp; date, <span class="keyword">const</span> QDate &amp;startDate, <span class="keyword">const</span> QString&amp; country);</div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <span class="keywordtype">int</span> getCountryIndex(<span class="keyword">const</span> QString &amp;countryName, <span class="keyword">const</span> std::unordered_map&lt;std::string, int&gt; &amp;cimap);</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;</div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <span class="keywordtype">int</span> getDateIndex(<span class="keyword">const</span> QDate &amp;date, <span class="keyword">const</span> std::unordered_map&lt;int, QDate&gt; &amp;idmap);</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;};</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="preprocessor">#endif // BASICANALYSISWIGET_H</span></div><div class="ttc" id="dataholder_8h_html"><div class="ttname"><a href="dataholder_8h.html">dataholder.h</a></div><div class="ttdoc">Zawiera definicję klasy DataHolder. </div></div>
+<div class="ttc" id="namespace_ui_html"><div class="ttname"><a href="namespace_ui.html">Ui</a></div><div class="ttdef"><b>Definition:</b> <a href="basicanalysiswiget_8h_source.html#l00015">basicanalysiswiget.h:15</a></div></div>
+<div class="ttc" id="classbasic_analysis_wiget_html_a6b3742cc4b92beadc82b2683a29399c0"><div class="ttname"><a href="classbasic_analysis_wiget.html#a6b3742cc4b92beadc82b2683a29399c0">basicAnalysisWiget::recoveries</a></div><div class="ttdeci">DataHolder * recoveries</div><div class="ttdoc">wskaźnik na strukturę przechowująca dane odnośnie wyzdrowień. </div><div class="ttdef"><b>Definition:</b> <a href="basicanalysiswiget_8h_source.html#l00112">basicanalysiswiget.h:112</a></div></div>
+<div class="ttc" id="classbasic_analysis_wiget_html_aeed8acdfbc49d7b6975921a16263d7db"><div class="ttname"><a href="classbasic_analysis_wiget.html#aeed8acdfbc49d7b6975921a16263d7db">basicAnalysisWiget::title</a></div><div class="ttdeci">QCPTextElement * title</div><div class="ttdoc">tytuł wykresu. </div><div class="ttdef"><b>Definition:</b> <a href="basicanalysiswiget_8h_source.html#l00116">basicanalysiswiget.h:116</a></div></div>
+<div class="ttc" id="classbasic_analysis_wiget_html"><div class="ttname"><a href="classbasic_analysis_wiget.html">basicAnalysisWiget</a></div><div class="ttdoc">Modeluje odbiekt odpowiedzialny za widok analizy. </div><div class="ttdef"><b>Definition:</b> <a href="basicanalysiswiget_8h_source.html#l00025">basicanalysiswiget.h:25</a></div></div>
+<div class="ttc" id="classbasic_analysis_wiget_html_ac3d08c5b0dec7939c9274ea2d96377d8"><div class="ttname"><a href="classbasic_analysis_wiget.html#ac3d08c5b0dec7939c9274ea2d96377d8">basicAnalysisWiget::cases</a></div><div class="ttdeci">DataHolder * cases</div><div class="ttdoc">wskaźnik na strukturę przechowująca dane odnośnie zachorowań. </div><div class="ttdef"><b>Definition:</b> <a href="basicanalysiswiget_8h_source.html#l00104">basicanalysiswiget.h:104</a></div></div>
+<div class="ttc" id="classbasic_analysis_wiget_html_a5f1f599ef9f404ff1beaa75977137585"><div class="ttname"><a href="classbasic_analysis_wiget.html#a5f1f599ef9f404ff1beaa75977137585">basicAnalysisWiget::ui</a></div><div class="ttdeci">Ui::basicAnalysisWiget * ui</div><div class="ttdoc">interfejs użytkownika zaprojektowany w Designerze. </div><div class="ttdef"><b>Definition:</b> <a href="basicanalysiswiget_8h_source.html#l00100">basicanalysiswiget.h:100</a></div></div>
+<div class="ttc" id="classbasic_analysis_wiget_html_a9d30e68747c391d294e808e1a392ec54"><div class="ttname"><a href="classbasic_analysis_wiget.html#a9d30e68747c391d294e808e1a392ec54">basicAnalysisWiget::countries</a></div><div class="ttdeci">QStringList countries</div><div class="ttdoc">lista krajów dla których dostępne są dane. </div><div class="ttdef"><b>Definition:</b> <a href="basicanalysiswiget_8h_source.html#l00121">basicanalysiswiget.h:121</a></div></div>
+<div class="ttc" id="classbasic_analysis_wiget_html_a608c415ff823fdc141981c1108d95ee4"><div class="ttname"><a href="classbasic_analysis_wiget.html#a608c415ff823fdc141981c1108d95ee4">basicAnalysisWiget::deaths</a></div><div class="ttdeci">DataHolder * deaths</div><div class="ttdoc">wskaźnik na strukturę przechowująca dane odnośnie zgonów. </div><div class="ttdef"><b>Definition:</b> <a href="basicanalysiswiget_8h_source.html#l00108">basicanalysiswiget.h:108</a></div></div>
+<div class="ttc" id="class_data_holder_html"><div class="ttname"><a href="class_data_holder.html">DataHolder</a></div><div class="ttdoc">Klasa modelująca obekt przechowujący dane o przypadkach. </div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8h_source.html#l00028">dataholder.h:28</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_df9c00f4ca258c11d7d369e9f17635c7.html">Covid-19_DataVisualization</a></li><li class="navelem"><a class="el" href="basicanalysiswiget_8h.html">basicanalysiswiget.h</a></li>
+    <li class="footer">Wygenerowano przez
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

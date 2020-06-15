@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>COVID-19 data visualization: Plik źródłowy filereader.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">COVID-19 data visualization
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('filereader_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">filereader.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="filereader_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef FILEREADER_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define FILEREADER_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;unordered_map&gt;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;QDate&gt;</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="filereader_8h.html#afe638da1eefb274ea5fd1e1a622645be">   16</a></span>&#160;<span class="keyword">using</span> <a class="code" href="filereader_8h.html#afe638da1eefb274ea5fd1e1a622645be">DataTable</a> = std::vector&lt;std::vector&lt;std::string&gt;&gt;;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="filereader_8h.html#a992b0b9e330aa808331bcdb02796fea3">   17</a></span>&#160;<span class="keyword">using</span> <a class="code" href="dataholder_8h.html#a992b0b9e330aa808331bcdb02796fea3">CountryIndexMap</a> = std::unordered_map&lt;std::string, int&gt;;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="filereader_8h.html#a797414e3396a8cabf9e33b2aa86890bf">   18</a></span>&#160;<span class="keyword">using</span> <a class="code" href="dataholder_8h.html#a797414e3396a8cabf9e33b2aa86890bf">CountryGeolocationMap</a> = std::unordered_map&lt;std::string,std::pair&lt;float,float&gt;&gt;;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="filereader_8h.html#ae584a8001e93b617c1e98633a63ffd01">   19</a></span>&#160;<span class="keyword">using</span> <a class="code" href="dataholder_8h.html#ae584a8001e93b617c1e98633a63ffd01">IndexDateMap</a> = std::unordered_map&lt;int,QDate&gt;;</div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="filereader_8h.html#ad97a13d4108ef25eaa6fd0a0eb5640e4">   20</a></span>&#160;<span class="keyword">using</span> <a class="code" href="dataholder_8h.html#ad97a13d4108ef25eaa6fd0a0eb5640e4">RawDataTable</a> = std::vector&lt;std::vector&lt;int&gt;&gt;;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_file_reader.html">   34</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_file_reader.html">FileReader</a></div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div><div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="class_file_reader.html#aeb11aacada88ccff9d8883f8888b384a">   39</a></span>&#160;    std::string <a class="code" href="class_file_reader.html#aeb11aacada88ccff9d8883f8888b384a">fileName</a>;</div><div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="class_file_reader.html#a67d8765e48d101e243b59037f6c91963">   43</a></span>&#160;    <a class="code" href="filereader_8h.html#afe638da1eefb274ea5fd1e1a622645be">DataTable</a> <a class="code" href="class_file_reader.html#a67d8765e48d101e243b59037f6c91963">values</a>;</div><div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="class_file_reader.html#a4f6421143090b86e1fa8a654aa9da68f">   48</a></span>&#160;    <a class="code" href="dataholder_8h.html#a992b0b9e330aa808331bcdb02796fea3">CountryIndexMap</a> <a class="code" href="class_file_reader.html#a4f6421143090b86e1fa8a654aa9da68f">countryIndex</a>;</div><div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="class_file_reader.html#a243c6cfa229dfe26735e22f66cbebb1c">   52</a></span>&#160;    <a class="code" href="dataholder_8h.html#a797414e3396a8cabf9e33b2aa86890bf">CountryGeolocationMap</a> <a class="code" href="class_file_reader.html#a243c6cfa229dfe26735e22f66cbebb1c">countryGeolocation</a>;</div><div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="class_file_reader.html#a977ca3b9275dba3571f0494a4d7f84f5">   56</a></span>&#160;    <a class="code" href="dataholder_8h.html#ae584a8001e93b617c1e98633a63ffd01">IndexDateMap</a> <a class="code" href="class_file_reader.html#a977ca3b9275dba3571f0494a4d7f84f5">indexDate</a>;</div><div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="class_file_reader.html#a95f92f25544fa482bbbd7be5d68ccb3a">   60</a></span>&#160;    <a class="code" href="dataholder_8h.html#ad97a13d4108ef25eaa6fd0a0eb5640e4">RawDataTable</a> <a class="code" href="class_file_reader.html#a95f92f25544fa482bbbd7be5d68ccb3a">rawData</a>;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <a class="code" href="class_file_reader.html#a64d4b4c3c6ffba9edd9b2cbc73ad6635">FileReader</a>(<span class="keyword">const</span> std::string&amp; fileToReadName);</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_file_reader.html#a1036120d4474f706ec7faab43f2468dc">read</a>();</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_file_reader.html#abc161e682bdf4c0e62815bba8dd56e31">readCountryIndices</a>();</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_file_reader.html#a6bca36806fe344b85e2e21b564e0801c">readCountryGeolocation</a>();</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_file_reader.html#a144271d510237a266d01d38b4c942fa1">readDateIndices</a>();</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_file_reader.html#afe10340f11ad09fa4d84b598670e7f4e">readRawData</a>();</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <a class="code" href="dataholder_8h.html#a992b0b9e330aa808331bcdb02796fea3">CountryIndexMap</a> <a class="code" href="class_file_reader.html#a105e3557f74738bd04e75ace7b17ab61">getCountryIndex</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="code" href="dataholder_8h.html#a797414e3396a8cabf9e33b2aa86890bf">CountryGeolocationMap</a> <a class="code" href="class_file_reader.html#ab1824852fe9556173732b582a5e6161d">getCountryGeolocation</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <a class="code" href="dataholder_8h.html#ae584a8001e93b617c1e98633a63ffd01">IndexDateMap</a> <a class="code" href="class_file_reader.html#a418d9c58d6bfc539592242e42d3f8e45">getIndexDate</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <a class="code" href="dataholder_8h.html#ad97a13d4108ef25eaa6fd0a0eb5640e4">RawDataTable</a> <a class="code" href="class_file_reader.html#a6a2f3406445bc3231008df276b8b3d45">getRawData</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;};</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="preprocessor">#endif // FILEREADER_H</span></div><div class="ttc" id="class_file_reader_html_afe10340f11ad09fa4d84b598670e7f4e"><div class="ttname"><a href="class_file_reader.html#afe10340f11ad09fa4d84b598670e7f4e">FileReader::readRawData</a></div><div class="ttdeci">void readRawData()</div><div class="ttdoc">Metoda wyodrębniająca surowe dane. </div><div class="ttdef"><b>Definition:</b> <a href="filereader_8cpp_source.html#l00132">filereader.cpp:132</a></div></div>
+<div class="ttc" id="class_file_reader_html_a977ca3b9275dba3571f0494a4d7f84f5"><div class="ttname"><a href="class_file_reader.html#a977ca3b9275dba3571f0494a4d7f84f5">FileReader::indexDate</a></div><div class="ttdeci">IndexDateMap indexDate</div><div class="ttdoc">indexDate - mapa indeksów i dat. </div><div class="ttdef"><b>Definition:</b> <a href="filereader_8h_source.html#l00056">filereader.h:56</a></div></div>
+<div class="ttc" id="class_file_reader_html_a144271d510237a266d01d38b4c942fa1"><div class="ttname"><a href="class_file_reader.html#a144271d510237a266d01d38b4c942fa1">FileReader::readDateIndices</a></div><div class="ttdeci">void readDateIndices()</div><div class="ttdoc">Metoda przypisująca datom ich indeksy. </div><div class="ttdef"><b>Definition:</b> <a href="filereader_8cpp_source.html#l00118">filereader.cpp:118</a></div></div>
+<div class="ttc" id="class_file_reader_html_a95f92f25544fa482bbbd7be5d68ccb3a"><div class="ttname"><a href="class_file_reader.html#a95f92f25544fa482bbbd7be5d68ccb3a">FileReader::rawData</a></div><div class="ttdeci">RawDataTable rawData</div><div class="ttdoc">rawData - wektor wektorów z liczbami przypadków. </div><div class="ttdef"><b>Definition:</b> <a href="filereader_8h_source.html#l00060">filereader.h:60</a></div></div>
+<div class="ttc" id="class_file_reader_html_abc161e682bdf4c0e62815bba8dd56e31"><div class="ttname"><a href="class_file_reader.html#abc161e682bdf4c0e62815bba8dd56e31">FileReader::readCountryIndices</a></div><div class="ttdeci">void readCountryIndices()</div><div class="ttdoc">Metoda przypisująca krajom indeksy. </div><div class="ttdef"><b>Definition:</b> <a href="filereader_8cpp_source.html#l00064">filereader.cpp:64</a></div></div>
+<div class="ttc" id="class_file_reader_html_a418d9c58d6bfc539592242e42d3f8e45"><div class="ttname"><a href="class_file_reader.html#a418d9c58d6bfc539592242e42d3f8e45">FileReader::getIndexDate</a></div><div class="ttdeci">IndexDateMap getIndexDate() const</div><div class="ttdoc">Metoda zwraca mapę indeksów i dat. </div><div class="ttdef"><b>Definition:</b> <a href="filereader_8cpp_source.html#l00020">filereader.cpp:20</a></div></div>
+<div class="ttc" id="class_file_reader_html_a105e3557f74738bd04e75ace7b17ab61"><div class="ttname"><a href="class_file_reader.html#a105e3557f74738bd04e75ace7b17ab61">FileReader::getCountryIndex</a></div><div class="ttdeci">CountryIndexMap getCountryIndex() const</div><div class="ttdoc">Metoda zwraca mapę nazw kraju i indeksów. </div><div class="ttdef"><b>Definition:</b> <a href="filereader_8cpp_source.html#l00010">filereader.cpp:10</a></div></div>
+<div class="ttc" id="dataholder_8h_html_a797414e3396a8cabf9e33b2aa86890bf"><div class="ttname"><a href="dataholder_8h.html#a797414e3396a8cabf9e33b2aa86890bf">CountryGeolocationMap</a></div><div class="ttdeci">std::unordered_map&lt; std::string, std::pair&lt; float, float &gt; &gt; CountryGeolocationMap</div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8h_source.html#l00017">dataholder.h:17</a></div></div>
+<div class="ttc" id="dataholder_8h_html_ad97a13d4108ef25eaa6fd0a0eb5640e4"><div class="ttname"><a href="dataholder_8h.html#ad97a13d4108ef25eaa6fd0a0eb5640e4">RawDataTable</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; int &gt; &gt; RawDataTable</div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8h_source.html#l00019">dataholder.h:19</a></div></div>
+<div class="ttc" id="dataholder_8h_html_ae584a8001e93b617c1e98633a63ffd01"><div class="ttname"><a href="dataholder_8h.html#ae584a8001e93b617c1e98633a63ffd01">IndexDateMap</a></div><div class="ttdeci">std::unordered_map&lt; int, QDate &gt; IndexDateMap</div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8h_source.html#l00018">dataholder.h:18</a></div></div>
+<div class="ttc" id="class_file_reader_html_a6bca36806fe344b85e2e21b564e0801c"><div class="ttname"><a href="class_file_reader.html#a6bca36806fe344b85e2e21b564e0801c">FileReader::readCountryGeolocation</a></div><div class="ttdeci">void readCountryGeolocation()</div><div class="ttdoc">Metoda przypisująca krajom ich geolokację. </div><div class="ttdef"><b>Definition:</b> <a href="filereader_8cpp_source.html#l00089">filereader.cpp:89</a></div></div>
+<div class="ttc" id="dataholder_8h_html_a992b0b9e330aa808331bcdb02796fea3"><div class="ttname"><a href="dataholder_8h.html#a992b0b9e330aa808331bcdb02796fea3">CountryIndexMap</a></div><div class="ttdeci">std::unordered_map&lt; std::string, int &gt; CountryIndexMap</div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8h_source.html#l00016">dataholder.h:16</a></div></div>
+<div class="ttc" id="class_file_reader_html_a4f6421143090b86e1fa8a654aa9da68f"><div class="ttname"><a href="class_file_reader.html#a4f6421143090b86e1fa8a654aa9da68f">FileReader::countryIndex</a></div><div class="ttdeci">CountryIndexMap countryIndex</div><div class="ttdoc">countryIndex - mapa krajów i ich indeksów. </div><div class="ttdef"><b>Definition:</b> <a href="filereader_8h_source.html#l00048">filereader.h:48</a></div></div>
+<div class="ttc" id="class_file_reader_html_a243c6cfa229dfe26735e22f66cbebb1c"><div class="ttname"><a href="class_file_reader.html#a243c6cfa229dfe26735e22f66cbebb1c">FileReader::countryGeolocation</a></div><div class="ttdeci">CountryGeolocationMap countryGeolocation</div><div class="ttdoc">countryGeolocation - mapa krajów i icg geolokalizacji. </div><div class="ttdef"><b>Definition:</b> <a href="filereader_8h_source.html#l00052">filereader.h:52</a></div></div>
+<div class="ttc" id="class_file_reader_html_a64d4b4c3c6ffba9edd9b2cbc73ad6635"><div class="ttname"><a href="class_file_reader.html#a64d4b4c3c6ffba9edd9b2cbc73ad6635">FileReader::FileReader</a></div><div class="ttdeci">FileReader(const std::string &amp;fileToReadName)</div><div class="ttdoc">Konstruktor parametryczny przyjmujący nazwę pliku. </div><div class="ttdef"><b>Definition:</b> <a href="filereader_8cpp_source.html#l00030">filereader.cpp:30</a></div></div>
+<div class="ttc" id="class_file_reader_html_ab1824852fe9556173732b582a5e6161d"><div class="ttname"><a href="class_file_reader.html#ab1824852fe9556173732b582a5e6161d">FileReader::getCountryGeolocation</a></div><div class="ttdeci">CountryGeolocationMap getCountryGeolocation() const</div><div class="ttdoc">Metoda zwraca mapę nazw kraju i ich geolokalizacji. </div><div class="ttdef"><b>Definition:</b> <a href="filereader_8cpp_source.html#l00015">filereader.cpp:15</a></div></div>
+<div class="ttc" id="filereader_8h_html_afe638da1eefb274ea5fd1e1a622645be"><div class="ttname"><a href="filereader_8h.html#afe638da1eefb274ea5fd1e1a622645be">DataTable</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; std::string &gt; &gt; DataTable</div><div class="ttdef"><b>Definition:</b> <a href="filereader_8h_source.html#l00016">filereader.h:16</a></div></div>
+<div class="ttc" id="class_file_reader_html"><div class="ttname"><a href="class_file_reader.html">FileReader</a></div><div class="ttdoc">Modeluje obiekt, który sczytuje dane z pliku. </div><div class="ttdef"><b>Definition:</b> <a href="filereader_8h_source.html#l00034">filereader.h:34</a></div></div>
+<div class="ttc" id="class_file_reader_html_aeb11aacada88ccff9d8883f8888b384a"><div class="ttname"><a href="class_file_reader.html#aeb11aacada88ccff9d8883f8888b384a">FileReader::fileName</a></div><div class="ttdeci">std::string fileName</div><div class="ttdoc">fileName - nazwa pliku do odczytu </div><div class="ttdef"><b>Definition:</b> <a href="filereader_8h_source.html#l00039">filereader.h:39</a></div></div>
+<div class="ttc" id="class_file_reader_html_a1036120d4474f706ec7faab43f2468dc"><div class="ttname"><a href="class_file_reader.html#a1036120d4474f706ec7faab43f2468dc">FileReader::read</a></div><div class="ttdeci">void read()</div><div class="ttdoc">Metoda wczytująca plik. </div><div class="ttdef"><b>Definition:</b> <a href="filereader_8cpp_source.html#l00034">filereader.cpp:34</a></div></div>
+<div class="ttc" id="class_file_reader_html_a67d8765e48d101e243b59037f6c91963"><div class="ttname"><a href="class_file_reader.html#a67d8765e48d101e243b59037f6c91963">FileReader::values</a></div><div class="ttdeci">DataTable values</div><div class="ttdoc">values - wszystkie wartości z pliku csv zapisane w wektorze wektorów. </div><div class="ttdef"><b>Definition:</b> <a href="filereader_8h_source.html#l00043">filereader.h:43</a></div></div>
+<div class="ttc" id="class_file_reader_html_a6a2f3406445bc3231008df276b8b3d45"><div class="ttname"><a href="class_file_reader.html#a6a2f3406445bc3231008df276b8b3d45">FileReader::getRawData</a></div><div class="ttdeci">RawDataTable getRawData() const</div><div class="ttdoc">Metoda zwraca wektor wektorów zawierających liczby przypadków. </div><div class="ttdef"><b>Definition:</b> <a href="filereader_8cpp_source.html#l00025">filereader.cpp:25</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_df9c00f4ca258c11d7d369e9f17635c7.html">Covid-19_DataVisualization</a></li><li class="navelem"><a class="el" href="filereader_8h.html">filereader.h</a></li>
+    <li class="footer">Wygenerowano przez
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

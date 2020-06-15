@@ -1,0 +1,10 @@
+<map id="QCustomPlot::mousePressEvent" name="QCustomPlot::mousePressEvent">
+<area shape="rect" id="node2" href="$class_q_custom_plot.html#a4a08842fc3e9ba6bed83aa410c5c5ba5" title="QCustomPlot::axisRectAt" alt="" coords="293,56,467,83"/>
+<area shape="rect" id="node8" href="$class_q_c_p_selection_rect.html#a271f24cfca8bc50a0e2b4310ff90e227" title="QCPSelectionRect::startSelection" alt="" coords="269,107,491,133"/>
+<area shape="rect" id="node9" href="$class_q_custom_plot.html#ac9048589e78e7959d27a2c48c253e159" title="QCustomPlot::layerableListAt" alt="" coords="283,157,477,184"/>
+<area shape="rect" id="node3" href="$class_q_c_p_layout_element.html#a76dec8cb31e498994a944d7647a43309" title="QCPLayoutElement::elements" alt="" coords="543,5,741,32"/>
+<area shape="rect" id="node4" href="$class_q_c_p_layerable.html#ab054e88f15d485defcb95e7376f119e7" title="QCPLayerable::realVisibility" alt="" coords="549,56,735,83"/>
+<area shape="rect" id="node6" href="$class_q_c_p_layout_element.html#ae97f483cccedadbf18ea4525ef240ee4" title="QCPLayoutElement::selectTest" alt="" coords="539,107,745,133"/>
+<area shape="rect" id="node5" href="$class_q_c_p_layer.html#ad1cc2d6b32d2abb33c7f449b964e068c" title="QCPLayer::visible" alt="" coords="839,56,967,83"/>
+<area shape="rect" id="node7" href="$class_q_custom_plot.html#a5441d11013afeaf4b8f2ea06e8624a25" title="QCustomPlot::selectionTolerance" alt="" coords="793,132,1012,159"/>
+</map>

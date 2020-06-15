@@ -1,0 +1,20 @@
+<map id="QCPItemBracket" name="QCPItemBracket">
+<area shape="rect" id="node2" href="$class_q_c_p_abstract_item.html" title="QCPAbstractItem" alt="" coords="291,364,417,391"/>
+<area shape="rect" id="node21" href="$class_q_c_p_item_anchor.html" title="QCPItemAnchor" alt="" coords="245,497,364,524"/>
+<area shape="rect" id="node3" href="$class_q_c_p_layerable.html" title="QCPLayerable" alt="" coords="409,275,515,301"/>
+<area shape="rect" id="node10" href="$class_q_c_p_layout_element.html" title="QCPLayoutElement" alt="" coords="442,364,581,391"/>
+<area shape="rect" id="node11" href="$class_q_c_p_selection_rect.html" title="QCPSelectionRect" alt="" coords="667,364,801,391"/>
+<area shape="rect" id="node12" href="$class_q_c_p_axis.html" title="QCPAxis" alt="" coords="239,809,317,836"/>
+<area shape="rect" id="node16" href="$class_q_c_p_grid.html" title="QCPGrid" alt="" coords="351,899,426,925"/>
+<area shape="rect" id="node5" href="$class_q_c_p_layer.html" title="QCPLayer" alt="" coords="374,185,457,212"/>
+<area shape="rect" id="node6" href="$class_q_custom_plot.html" title="QCustomPlot" alt="" coords="574,81,675,108"/>
+<area shape="rect" id="node14" href="$class_q_c_p_axis_painter_private.html" title="QCPAxisPainterPrivate" alt="" coords="5,185,164,212"/>
+<area shape="rect" id="node8" href="$class_q_c_p_layout_grid.html" title="QCPLayoutGrid" alt="" coords="699,601,814,628"/>
+<area shape="rect" id="node19" href="$class_q_c_p_legend.html" title="QCPLegend" alt="" coords="841,705,934,732"/>
+<area shape="rect" id="node9" href="$class_q_c_p_layout.html" title="QCPLayout" alt="" coords="525,497,615,524"/>
+<area shape="rect" id="node18" href="$class_q_c_p_layout_inset.html" title="QCPLayoutInset" alt="" coords="505,601,624,628"/>
+<area shape="rect" id="node17" href="$class_q_c_p_axis_rect.html" title="QCPAxisRect" alt="" coords="427,705,532,732"/>
+<area shape="rect" id="node13" href="$class_q_c_p_range.html" title="QCPRange" alt="" coords="165,705,255,732"/>
+<area shape="rect" id="node15" href="$class_q_c_p_line_ending.html" title="QCPLineEnding" alt="" coords="27,81,142,108"/>
+<area shape="rect" id="node20" href="$class_q_c_p_item_position.html" title="QCPItemPosition" alt="" coords="165,601,289,628"/>
+</map>

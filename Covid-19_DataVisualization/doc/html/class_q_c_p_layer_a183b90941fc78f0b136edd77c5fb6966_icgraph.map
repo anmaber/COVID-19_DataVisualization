@@ -1,0 +1,9 @@
+<map id="QCPLayer::children" name="QCPLayer::children">
+<area shape="rect" id="node2" href="$class_q_custom_plot.html#a40f75e342c5eaab6a86066a42a0e2a94" title="QCustomPlot::removeLayer" alt="" coords="190,5,374,32"/>
+<area shape="rect" id="node3" href="$class_q_custom_plot.html#a9d4808ab925b003054085246c92a257c" title="QCustomPlot::deselectAll" alt="" coords="195,56,369,83"/>
+<area shape="rect" id="node4" href="$class_q_custom_plot.html#ac10849411e1d0e858ea7f29c8ade364c" title="QCustomPlot::processRect\lSelection" alt="" coords="191,107,373,149"/>
+<area shape="rect" id="node7" href="$class_q_custom_plot.html#ac13c10fff6613e3e80e13c787b010838" title="QCustomPlot::processPoint\lSelection" alt="" coords="189,173,375,214"/>
+<area shape="rect" id="node5" href="$class_q_custom_plot.html#a810ef958ebe84db661c7288b526c0deb" title="QCustomPlot::setSelection\lRectMode" alt="" coords="437,53,618,94"/>
+<area shape="rect" id="node6" href="$class_q_custom_plot.html#a0c09f96df15faa4799ad7051bb16cf33" title="QCustomPlot::setSelectionRect" alt="" coords="423,119,632,145"/>
+<area shape="rect" id="node8" href="$class_q_custom_plot.html#adc24846f52199e5a9bc35c387a6ce68d" title="QCustomPlot::mouseRelease\lEvent" alt="" coords="429,173,625,214"/>
+</map>

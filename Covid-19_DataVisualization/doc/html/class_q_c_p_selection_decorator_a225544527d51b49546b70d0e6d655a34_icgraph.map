@@ -1,0 +1,8 @@
+<map id="QCPSelectionDecorator::applyBrush" name="QCPSelectionDecorator::applyBrush">
+<area shape="rect" id="node2" href="$class_q_c_p_graph.html#a2b0849598f06e834b43ce18cd13bcdc3" title="QCPGraph::draw" alt="" coords="270,5,393,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_curve.html#ac199d41d23865cd68bd7b598308a4433" title="QCPCurve::draw" alt="" coords="270,56,393,83"/>
+<area shape="rect" id="node4" href="$class_q_c_p_bars.html#aa267c20650d55084c3f47cb2f8fac9dc" title="QCPBars::draw" alt="" coords="274,107,389,133"/>
+<area shape="rect" id="node5" href="$class_q_c_p_statistical_box.html#afcff35fa79728cfe10e80e0702014fea" title="QCPStatisticalBox::draw" alt="" coords="247,157,415,184"/>
+<area shape="rect" id="node6" href="$class_q_c_p_financial.html#ade6b703369d8acb3bfa0b8e244df4b06" title="QCPFinancial::drawCandlestickPlot" alt="" coords="216,208,447,235"/>
+<area shape="rect" id="node7" href="$class_q_c_p_financial.html#a4d62b7a618d609321adb5f5f1e31f446" title="QCPFinancial::draw" alt="" coords="495,208,633,235"/>
+</map>

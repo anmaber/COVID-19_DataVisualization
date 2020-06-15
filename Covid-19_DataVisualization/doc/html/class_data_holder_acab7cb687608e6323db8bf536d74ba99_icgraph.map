@@ -1,0 +1,15 @@
+<map id="DataHolder::getCountryIndexMap" name="DataHolder::getCountryIndexMap">
+<area shape="rect" id="node2" href="$classbasic_analysis_wiget.html#a8896b15f9f13c6d947dbb5ce666ad790" title="Konstruktor parametryczny klasy basicAnalysisWiget. " alt="" coords="295,197,441,239"/>
+<area shape="rect" id="node3" href="$classbasic_analysis_wiget.html#ae225eb9989d0d88fa701ea2bf4c5ba38" title="Metoda odpowiedzialna za aktualizację wizualizacji danych. " alt="" coords="299,263,437,304"/>
+<area shape="rect" id="node10" href="$classmap_view_widget.html#a2d4679dab5301eb61ee04184e72a84fd" title="Slot reagujący na kliknięcie na przyciks wyboru związany z przypadkami. " alt="" coords="513,429,725,471"/>
+<area shape="rect" id="node11" href="$classmap_view_widget.html#a6020f2ff42119372dadeba98c12cf4c7" title="Rysuje koła na mapie. " alt="" coords="271,502,465,529"/>
+<area shape="rect" id="node4" href="$classbasic_analysis_wiget.html#aaaed1c4f608a397237b9cf3895594e96" title="Slot reagujący na zmianę daty końcowej. " alt="" coords="528,5,711,47"/>
+<area shape="rect" id="node5" href="$classbasic_analysis_wiget.html#a312a237b0768b91ac900bd2a96f8dad5" title="Slot reagujący na zmianę kraju. " alt="" coords="523,71,715,127"/>
+<area shape="rect" id="node6" href="$classbasic_analysis_wiget.html#a41e944421cd2d70d9284ef3ff8a7ad2c" title="Slot reagujący na kliknięcie na pole wyboru związane z zachorowaniami. " alt="" coords="541,152,698,193"/>
+<area shape="rect" id="node7" href="$classbasic_analysis_wiget.html#a6076adda056f9085c351fdbd1d86c85b" title="Slot reagujący na kliknięcie na pole wyboru związane z wyzgrowieniami. " alt="" coords="543,218,695,274"/>
+<area shape="rect" id="node8" href="$classbasic_analysis_wiget.html#a3eff359887aaa284aee6e811885577eb" title="Slot reagujący na kliknięcie na pole wyboru związane ze zgonami. " alt="" coords="531,299,707,340"/>
+<area shape="rect" id="node9" href="$classbasic_analysis_wiget.html#a84cf266d5405896a4ea42fb7b1886097" title="Slot reagujący na zmianę daty początkowej. " alt="" coords="514,364,725,405"/>
+<area shape="rect" id="node12" href="$classmap_view_widget.html#a13e5bf7d90c5ed20ddd4eaef093eb7af" title="Slot reagujący na kliknięcie na przyciks wyboru związany ze zgonami. " alt="" coords="513,495,725,536"/>
+<area shape="rect" id="node13" href="$classmap_view_widget.html#a6623c56f80925bd244cb66aa252a783d" title="Slot reagujący na kliknięcie na przyciks wyboru związany z wyzdrowieniami. " alt="" coords="513,560,725,601"/>
+<area shape="rect" id="node14" href="$classmap_view_widget.html#a63faa8a2f6bfea63fbf0da3ea2a51800" title="Slot reagujący na zmianę wartości na suwaku. " alt="" coords="518,625,721,667"/>
+</map>

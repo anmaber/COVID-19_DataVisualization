@@ -1,0 +1,9 @@
+<map id="QCustomPlot::bufferDevicePixelRatio" name="QCustomPlot::bufferDevicePixelRatio">
+<area shape="rect" id="node2" href="$class_q_c_p_axis_painter_private.html#ab6f77ae2bd3eccca3fef4b7ec8e34b31" title="QCPAxisPainterPrivate\l::generateLabelParameterHash" alt="" coords="236,5,439,47"/>
+<area shape="rect" id="node5" href="$class_q_c_p_axis_painter_private.html#af8fe7350c19575bc33ca770f9b3a15fd" title="QCPAxisPainterPrivate\l::placeTickLabel" alt="" coords="258,71,417,112"/>
+<area shape="rect" id="node6" href="$class_q_c_p_axis_painter_private.html#a7a961f0e05c57b51cf1100b05e93f5b9" title="QCPAxisPainterPrivate\l::getMaxTickLabelSize" alt="" coords="258,136,417,177"/>
+<area shape="rect" id="node3" href="$class_q_c_p_axis_painter_private.html#a0207a99bdf9c4f70af20928898ddc2fc" title="QCPAxisPainterPrivate\l::draw" alt="" coords="487,39,645,80"/>
+<area shape="rect" id="node4" href="$class_q_c_p_axis.html#ac15ebb4225ca5212d8e5fffae481bc9b" title="QCPAxis::draw" alt="" coords="725,46,838,73"/>
+<area shape="rect" id="node7" href="$class_q_c_p_axis_painter_private.html#a60fc2eec99ed23e9a3c98e8f7e5730b0" title="QCPAxisPainterPrivate\l::size" alt="" coords="487,136,645,177"/>
+<area shape="rect" id="node8" href="$class_q_c_p_axis.html#a47bdb0a55de6759489ee47665199aebb" title="QCPAxis::calculateMargin" alt="" coords="693,143,869,170"/>
+</map>

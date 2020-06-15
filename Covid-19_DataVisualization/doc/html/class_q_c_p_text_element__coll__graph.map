@@ -1,0 +1,17 @@
+<map id="QCPTextElement" name="QCPTextElement">
+<area shape="rect" id="node2" href="$class_q_c_p_layout_element.html" title="QCPLayoutElement" alt="" coords="165,5,304,32"/>
+<area shape="rect" id="node9" href="$class_q_c_p_layout.html" title="QCPLayout" alt="" coords="303,95,393,121"/>
+<area shape="rect" id="node16" href="$class_q_c_p_axis_rect.html" title="QCPAxisRect" alt="" coords="550,260,655,287"/>
+<area shape="rect" id="node3" href="$class_q_c_p_layerable.html" title="QCPLayerable" alt="" coords="319,691,425,717"/>
+<area shape="rect" id="node10" href="$class_q_c_p_selection_rect.html" title="QCPSelectionRect" alt="" coords="65,767,199,793"/>
+<area shape="rect" id="node11" href="$class_q_c_p_axis.html" title="QCPAxis" alt="" coords="597,364,675,391"/>
+<area shape="rect" id="node15" href="$class_q_c_p_grid.html" title="QCPGrid" alt="" coords="919,767,993,793"/>
+<area shape="rect" id="node5" href="$class_q_c_p_layer.html" title="QCPLayer" alt="" coords="331,601,413,628"/>
+<area shape="rect" id="node6" href="$class_q_custom_plot.html" title="QCustomPlot" alt="" coords="296,497,397,524"/>
+<area shape="rect" id="node13" href="$class_q_c_p_axis_painter_private.html" title="QCPAxisPainterPrivate" alt="" coords="677,601,835,628"/>
+<area shape="rect" id="node8" href="$class_q_c_p_layout_grid.html" title="QCPLayoutGrid" alt="" coords="291,260,405,287"/>
+<area shape="rect" id="node18" href="$class_q_c_p_legend.html" title="QCPLegend" alt="" coords="448,364,541,391"/>
+<area shape="rect" id="node17" href="$class_q_c_p_layout_inset.html" title="QCPLayoutInset" alt="" coords="399,171,518,197"/>
+<area shape="rect" id="node12" href="$class_q_c_p_range.html" title="QCPRange" alt="" coords="437,260,526,287"/>
+<area shape="rect" id="node14" href="$class_q_c_p_line_ending.html" title="QCPLineEnding" alt="" coords="673,497,788,524"/>
+</map>

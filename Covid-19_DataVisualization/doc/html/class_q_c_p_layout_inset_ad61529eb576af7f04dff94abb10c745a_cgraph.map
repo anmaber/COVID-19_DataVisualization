@@ -1,0 +1,11 @@
+<map id="QCPLayoutInset::addElement" name="QCPLayoutInset::addElement">
+<area shape="rect" id="node2" href="$class_q_c_p_layout_element.html#a4efdcbde9d28f410e5ef166c9d691deb" title="QCPLayoutElement::layout" alt="" coords="249,5,431,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_layout.html#ada26cd17e56472b0b4d7fbbc96873e4c" title="QCPLayout::take" alt="" coords="279,56,401,83"/>
+<area shape="rect" id="node4" href="$class_q_c_p_layout.html#af6dbbc24156a808da29cd1ec031729a3" title="QCPLayout::adoptElement" alt="" coords="251,107,429,133"/>
+<area shape="rect" id="node5" href="$class_q_c_p_layerable.html#aa23c893671f1f6744ac235cf2204cf3a" title="QCPLayerable::setParentLayerable" alt="" coords="479,27,705,53"/>
+<area shape="rect" id="node7" href="$class_q_c_p_layerable.html#a473edb813a4c1929d6b6a8fe3ff3faf7" title="QCPLayerable::parentPlot" alt="" coords="769,77,944,104"/>
+<area shape="rect" id="node8" href="$class_q_c_p_layerable.html#a8cbe5a0c9a5674249982f5ca5f8e02bc" title="QCPLayerable::initialize\lParentPlot" alt="" coords="511,129,673,170"/>
+<area shape="rect" id="node10" href="$class_q_c_p_layout_element.html#a765f041a73af0c2de41b41a5a03e31a4" title="QCPLayoutElement::layout\lChanged" alt="" coords="501,194,683,235"/>
+<area shape="rect" id="node6" href="$class_q_c_p_layerable.html#aa78b7e644d2c519e1a9a6f2ac5fcd858" title="QCPLayerable::parentLayerable" alt="" coords="753,27,960,53"/>
+<area shape="rect" id="node9" href="$class_q_c_p_layerable.html#ab20b7dbd8e0249ed61adb9622c427382" title="QCPLayerable::parentPlot\lInitialized" alt="" coords="769,129,944,170"/>
+</map>

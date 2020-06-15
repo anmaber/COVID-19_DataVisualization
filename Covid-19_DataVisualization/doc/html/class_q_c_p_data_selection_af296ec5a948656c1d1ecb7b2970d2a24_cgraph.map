@@ -1,0 +1,8 @@
+<map id="QCPDataSelection::intersection" name="QCPDataSelection::intersection">
+<area shape="rect" id="node2" href="$class_q_c_p_data_selection.html#abd8869ccb231ab991e8576de931f647d" title="QCPDataSelection::dataRange\lCount" alt="" coords="261,5,465,47"/>
+<area shape="rect" id="node3" href="$class_q_c_p_data_range.html#a84e1e03129dd52528efb4bac18d30183" title="QCPDataRange::intersection" alt="" coords="267,71,459,98"/>
+<area shape="rect" id="node6" href="$class_q_c_p_data_selection.html#a6956acf6a9a49a353b4f9b58608978ad" title="QCPDataSelection::dataRange" alt="" coords="261,122,465,149"/>
+<area shape="rect" id="node7" href="$class_q_c_p_data_selection.html#a4a2fbad1a6e4d1dd26fdfdf88956f2a4" title="QCPDataSelection::simplify" alt="" coords="270,173,457,199"/>
+<area shape="rect" id="node4" href="$class_q_c_p_data_range.html#aae53a37472212dca0a7939963e20dba0" title="QCPDataRange::isValid" alt="" coords="541,71,705,98"/>
+<area shape="rect" id="node5" href="$class_q_c_p_data_range.html#a49e72fd9bace1da9d875136dcc04c986" title="QCPDataRange::QCPDataRange" alt="" coords="513,122,733,149"/>
+</map>

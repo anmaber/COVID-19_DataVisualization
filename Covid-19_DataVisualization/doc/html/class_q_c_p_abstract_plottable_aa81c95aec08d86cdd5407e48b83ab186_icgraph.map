@@ -1,0 +1,10 @@
+<map id="QCPAbstractPlottable::getValueRange" name="QCPAbstractPlottable::getValueRange">
+<area shape="rect" id="node2" href="$class_q_c_p_graph.html#a1ba934b9621270b9a40fcdd2d9ba2adb" title="QCPGraph::adaptiveSampling" alt="" coords="204,5,401,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_curve.html#a06e3cf3f8f1add689254b3cda66e040e" title="QCPCurve::lineStyle" alt="" coords="231,56,375,83"/>
+<area shape="rect" id="node4" href="$class_q_c_p_bars.html#ad93c45091486e3fb9a13ddd937209299" title="QCPBars::data" alt="" coords="247,107,358,133"/>
+<area shape="rect" id="node7" href="$class_q_c_p_statistical_box.html#aef92e38fcb8e5041a44c2e01886e3b66" title="QCPStatisticalBox::\loutlierStyle" alt="" coords="233,158,373,199"/>
+<area shape="rect" id="node8" href="$class_q_c_p_color_map.html#a9d37d08c467ac645b86fc71a3b151208" title="QCPColorMap::colorScale" alt="" coords="215,224,391,251"/>
+<area shape="rect" id="node9" href="$class_q_c_p_financial.html#a25d9a8f256e5ddcba56b6e2e7e968653" title="QCPFinancial::penNegative" alt="" coords="211,275,395,301"/>
+<area shape="rect" id="node5" href="$class_q_c_p_bars.html#a6f67591bee1e04b148b8e0d5f863fb18" title="QCPBars::barBelow" alt="" coords="450,81,590,108"/>
+<area shape="rect" id="node6" href="$class_q_c_p_bars.html#a0233faa5373e53c561ecd612cfecb105" title="QCPBars::barAbove" alt="" coords="449,132,591,159"/>
+</map>

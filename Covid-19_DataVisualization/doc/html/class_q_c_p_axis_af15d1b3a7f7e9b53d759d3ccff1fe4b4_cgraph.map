@@ -1,0 +1,10 @@
+<map id="QCPAxis::coordToPixel" name="QCPAxis::coordToPixel">
+<area shape="rect" id="node2" href="$class_q_c_p_axis.html#ab988ef4538e2655bb77bd138189cd42e" title="QCPAxis::orientation" alt="" coords="219,5,364,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_range.html#a62326e7cc4316b96df6a60813230e63f" title="QCPRange::size" alt="" coords="231,56,352,83"/>
+<area shape="rect" id="node4" href="$class_q_c_p_axis_rect.html#a204645398a4f9d0b0189385c7c2cfb91" title="QCPAxisRect::width" alt="" coords="219,107,363,133"/>
+<area shape="rect" id="node5" href="$class_q_c_p_axis_rect.html#afb4a3de02046b20b9310bdb8fca781c3" title="QCPAxisRect::left" alt="" coords="226,157,357,184"/>
+<area shape="rect" id="node6" href="$class_q_c_p_axis_rect.html#a3f819d4a1b2193723d1fdafc573eea10" title="QCPAxisRect::right" alt="" coords="222,208,361,235"/>
+<area shape="rect" id="node7" href="$class_q_c_p_axis_rect.html#acefdf1abaa8a8ab681e906cc2be9581e" title="QCPAxisRect::bottom" alt="" coords="215,259,368,285"/>
+<area shape="rect" id="node8" href="$class_q_c_p_axis_rect.html#acc4377809e79d9a089ab790f39429b0d" title="QCPAxisRect::height" alt="" coords="217,309,365,336"/>
+<area shape="rect" id="node9" href="$class_q_c_p_axis_rect.html#a45dbad181cbb9f09d068dbb76c817c95" title="QCPAxisRect::top" alt="" coords="226,360,357,387"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="QCPAbstractPlottable::setSelectable" name="QCPAbstractPlottable::setSelectable">
+<area shape="rect" id="node2" href="$class_q_c_p_abstract_legend_item.html#adf427dbb05d5f1a8e84c6abcb05becdf" title="QCPAbstractLegendItem\l::selected" alt="" coords="211,112,379,153"/>
+<area shape="rect" id="node7" href="$class_q_c_p_text_element.html#a135d1ad0aa97a245b4247c3292ff551c" title="QCPTextElement::selected" alt="" coords="204,178,387,205"/>
+<area shape="rect" id="node3" href="$class_q_c_p_abstract_legend_item.html#a6eed93b0ab99cb3eabb043fb08179c2b" title="QCPAbstractLegendItem\l::setSelected" alt="" coords="452,57,620,99"/>
+<area shape="rect" id="node6" href="$class_q_c_p_legend.html#a2aee309bb5c2a794b1987f3fc97f8ad8" title="QCPLegend::setSelectedParts" alt="" coords="435,123,637,150"/>
+<area shape="rect" id="node4" href="$class_q_c_p_abstract_legend_item.html#a0081acfd8c4bb8ac4e9dcfe0f6c49b74" title="QCPAbstractLegendItem\l::selectEvent" alt="" coords="703,5,871,47"/>
+<area shape="rect" id="node5" href="$class_q_c_p_abstract_legend_item.html#aa1c0620558cc8e2a2e6fb7ab558f6097" title="QCPAbstractLegendItem\l::deselectEvent" alt="" coords="703,71,871,112"/>
+<area shape="rect" id="node8" href="$class_q_c_p_text_element.html#aba5521f9fb22a5f3d2f09ab37d4a1751" title="QCPTextElement::setSelected" alt="" coords="435,178,637,205"/>
+<area shape="rect" id="node9" href="$class_q_c_p_text_element.html#a8d696ea82fa7bf743e01858039c03525" title="QCPTextElement::selectEvent" alt="" coords="685,163,888,190"/>
+<area shape="rect" id="node10" href="$class_q_c_p_text_element.html#a9a631a9deb9d82089a9d52de1744accf" title="QCPTextElement::deselect\lEvent" alt="" coords="695,215,878,256"/>
+</map>

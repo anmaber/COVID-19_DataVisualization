@@ -1,0 +1,5 @@
+<map id="QCustomPlot::addGraph" name="QCustomPlot::addGraph">
+<area shape="rect" id="node2" href="$class_q_c_p_layerable.html#a473edb813a4c1929d6b6a8fe3ff3faf7" title="QCPLayerable::parentPlot" alt="" coords="219,5,393,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_abstract_plottable.html#ab79c7ba76bc7fa89a4b3580e12149f1f" title="QCPAbstractPlottable\l::setName" alt="" coords="231,57,381,98"/>
+<area shape="rect" id="node4" href="$class_q_c_p_abstract_plottable.html#a52c226eefcb1920240eeabae574d28c0" title="QCPAbstractPlottable\l::name" alt="" coords="441,57,592,98"/>
+</map>

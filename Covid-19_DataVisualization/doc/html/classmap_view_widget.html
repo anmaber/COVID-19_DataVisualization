@@ -1,0 +1,739 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>COVID-19 data visualization: Dokumentacja klasy mapViewWidget</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">COVID-19 data visualization
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classmap_view_widget.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Metody publiczne</a> &#124;
+<a href="#pri-slots">Sloty prywatne</a> &#124;
+<a href="#pri-methods">Metody prywatne</a> &#124;
+<a href="#pri-attribs">Atrybuty prywatne</a> &#124;
+<a href="classmap_view_widget-members.html">Lista wszystkich składowych</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja klasy mapViewWidget</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Modeluje odbiekt odpowiedzialny za widok mapy.  
+ <a href="classmap_view_widget.html#details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="mapviewwidget_8h_source.html">mapviewwidget.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla mapViewWidget</div>
+<div class="dyncontent">
+<div class="center"><img src="classmap_view_widget__inherit__graph.png" border="0" usemap="#map_view_widget_inherit__map" alt="Inheritance graph"/></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<div class="dynheader">
+Diagram współpracy dla mapViewWidget:</div>
+<div class="dyncontent">
+<div class="center"><img src="classmap_view_widget__coll__graph.png" border="0" usemap="#map_view_widget_coll__map" alt="Collaboration graph"/></div>
+<map name="map_view_widget_coll__map" id="map_view_widget_coll__map">
+<area shape="rect" id="node3" href="class_data_holder.html" title="Klasa modelująca obekt przechowujący dane o przypadkach. " alt="" coords="103,5,191,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Metody publiczne</h2></td></tr>
+<tr class="memitem:ab2865a45eeaf0a90d359b9b29bfcb6ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmap_view_widget.html#ab2865a45eeaf0a90d359b9b29bfcb6ec">mapViewWidget</a> (QWidget *parent=0, <a class="el" href="class_data_holder.html">DataHolder</a> *<a class="el" href="classmap_view_widget.html#ac952035f86f0176f818c03948f8d2467">cases</a>=nullptr, <a class="el" href="class_data_holder.html">DataHolder</a> *<a class="el" href="classmap_view_widget.html#a01b8718985bf880df9940c6af61cb4bb">deaths</a>=nullptr, <a class="el" href="class_data_holder.html">DataHolder</a> *<a class="el" href="classmap_view_widget.html#a0b992ffcf24c4530f3edde2f468d06d1">recoveries</a>=nullptr)</td></tr>
+<tr class="memdesc:ab2865a45eeaf0a90d359b9b29bfcb6ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor parametryczny klasy mapViewWiget.  <a href="#ab2865a45eeaf0a90d359b9b29bfcb6ec">Więcej...</a><br /></td></tr>
+<tr class="separator:ab2865a45eeaf0a90d359b9b29bfcb6ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0280742935f798a6a9a81cb68c064108"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmap_view_widget.html#a0280742935f798a6a9a81cb68c064108">~mapViewWidget</a> ()</td></tr>
+<tr class="separator:a0280742935f798a6a9a81cb68c064108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Sloty prywatne</h2></td></tr>
+<tr class="memitem:a13e5bf7d90c5ed20ddd4eaef093eb7af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmap_view_widget.html#a13e5bf7d90c5ed20ddd4eaef093eb7af">on_radioButtonDeaths_clicked</a> ()</td></tr>
+<tr class="memdesc:a13e5bf7d90c5ed20ddd4eaef093eb7af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot reagujący na kliknięcie na przyciks wyboru związany ze zgonami.  <a href="#a13e5bf7d90c5ed20ddd4eaef093eb7af">Więcej...</a><br /></td></tr>
+<tr class="separator:a13e5bf7d90c5ed20ddd4eaef093eb7af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d4679dab5301eb61ee04184e72a84fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmap_view_widget.html#a2d4679dab5301eb61ee04184e72a84fd">on_radioButtonCases_clicked</a> ()</td></tr>
+<tr class="memdesc:a2d4679dab5301eb61ee04184e72a84fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot reagujący na kliknięcie na przyciks wyboru związany z przypadkami.  <a href="#a2d4679dab5301eb61ee04184e72a84fd">Więcej...</a><br /></td></tr>
+<tr class="separator:a2d4679dab5301eb61ee04184e72a84fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6623c56f80925bd244cb66aa252a783d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmap_view_widget.html#a6623c56f80925bd244cb66aa252a783d">on_radioButtonRecoveries_clicked</a> ()</td></tr>
+<tr class="memdesc:a6623c56f80925bd244cb66aa252a783d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot reagujący na kliknięcie na przyciks wyboru związany z wyzdrowieniami.  <a href="#a6623c56f80925bd244cb66aa252a783d">Więcej...</a><br /></td></tr>
+<tr class="separator:a6623c56f80925bd244cb66aa252a783d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63faa8a2f6bfea63fbf0da3ea2a51800"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmap_view_widget.html#a63faa8a2f6bfea63fbf0da3ea2a51800">on_horizontalSlider_valueChanged</a> (int value)</td></tr>
+<tr class="memdesc:a63faa8a2f6bfea63fbf0da3ea2a51800"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot reagujący na zmianę wartości na suwaku.  <a href="#a63faa8a2f6bfea63fbf0da3ea2a51800">Więcej...</a><br /></td></tr>
+<tr class="separator:a63faa8a2f6bfea63fbf0da3ea2a51800"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Metody prywatne</h2></td></tr>
+<tr class="memitem:aafc5f13fa5b0880c6fdd757af0594b6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmap_view_widget.html#aafc5f13fa5b0880c6fdd757af0594b6b">addItuemsOnMap</a> (QString color)</td></tr>
+<tr class="memdesc:aafc5f13fa5b0880c6fdd757af0594b6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dodaje na mapę nowe obiekty o zadanym kolorze Dodaje na mapę koła o promieniu 0 i zadanym kolorze.  <a href="#aafc5f13fa5b0880c6fdd757af0594b6b">Więcej...</a><br /></td></tr>
+<tr class="separator:aafc5f13fa5b0880c6fdd757af0594b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cc7a48638aee0f1fa1fe571c95a080f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmap_view_widget.html#a1cc7a48638aee0f1fa1fe571c95a080f">deleteCircles</a> ()</td></tr>
+<tr class="memdesc:a1cc7a48638aee0f1fa1fe571c95a080f"><td class="mdescLeft">&#160;</td><td class="mdescRight">stawia promienie kół znajdujących się na mapie na 0.  <a href="#a1cc7a48638aee0f1fa1fe571c95a080f">Więcej...</a><br /></td></tr>
+<tr class="separator:a1cc7a48638aee0f1fa1fe571c95a080f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6020f2ff42119372dadeba98c12cf4c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmap_view_widget.html#a6020f2ff42119372dadeba98c12cf4c7">drawCircles</a> (int value)</td></tr>
+<tr class="memdesc:a6020f2ff42119372dadeba98c12cf4c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rysuje koła na mapie.  <a href="#a6020f2ff42119372dadeba98c12cf4c7">Więcej...</a><br /></td></tr>
+<tr class="separator:a6020f2ff42119372dadeba98c12cf4c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atrybuty prywatne</h2></td></tr>
+<tr class="memitem:a878a08b0a274d5ca630fd75ed95ce436"><td class="memItemLeft" align="right" valign="top">Ui::mapViewWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmap_view_widget.html#a878a08b0a274d5ca630fd75ed95ce436">ui</a></td></tr>
+<tr class="memdesc:a878a08b0a274d5ca630fd75ed95ce436"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interfejs użytkownika zaprojektowany w Designerze.  <a href="#a878a08b0a274d5ca630fd75ed95ce436">Więcej...</a><br /></td></tr>
+<tr class="separator:a878a08b0a274d5ca630fd75ed95ce436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a852b52bcc74d3c9234b1e40d38dea45f"><td class="memItemLeft" align="right" valign="top">QQuickView *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmap_view_widget.html#a852b52bcc74d3c9234b1e40d38dea45f">w</a></td></tr>
+<tr class="memdesc:a852b52bcc74d3c9234b1e40d38dea45f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Umożliwia wykorzystanie mapy zaimplementowanej w QML.  <a href="#a852b52bcc74d3c9234b1e40d38dea45f">Więcej...</a><br /></td></tr>
+<tr class="separator:a852b52bcc74d3c9234b1e40d38dea45f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3aed06e5ce05162a0693d97c305c9ee"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmap_view_widget.html#ad3aed06e5ce05162a0693d97c305c9ee">container</a></td></tr>
+<tr class="memdesc:ad3aed06e5ce05162a0693d97c305c9ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Widget umożliwiający wyświetanie mapy.  <a href="#ad3aed06e5ce05162a0693d97c305c9ee">Więcej...</a><br /></td></tr>
+<tr class="separator:ad3aed06e5ce05162a0693d97c305c9ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac952035f86f0176f818c03948f8d2467"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_data_holder.html">DataHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmap_view_widget.html#ac952035f86f0176f818c03948f8d2467">cases</a></td></tr>
+<tr class="memdesc:ac952035f86f0176f818c03948f8d2467"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wskaźnik na strukturę przechowująca dane odnośnie zachorowań.  <a href="#ac952035f86f0176f818c03948f8d2467">Więcej...</a><br /></td></tr>
+<tr class="separator:ac952035f86f0176f818c03948f8d2467"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01b8718985bf880df9940c6af61cb4bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_data_holder.html">DataHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmap_view_widget.html#a01b8718985bf880df9940c6af61cb4bb">deaths</a></td></tr>
+<tr class="memdesc:a01b8718985bf880df9940c6af61cb4bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wskaźnik na strukturę przechowująca dane odnośnie zgonów.  <a href="#a01b8718985bf880df9940c6af61cb4bb">Więcej...</a><br /></td></tr>
+<tr class="separator:a01b8718985bf880df9940c6af61cb4bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b992ffcf24c4530f3edde2f468d06d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_data_holder.html">DataHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmap_view_widget.html#a0b992ffcf24c4530f3edde2f468d06d1">recoveries</a></td></tr>
+<tr class="memdesc:a0b992ffcf24c4530f3edde2f468d06d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wskaźnik na strukturę przechowująca dane odnośnie wyzdrowień.  <a href="#a0b992ffcf24c4530f3edde2f468d06d1">Więcej...</a><br /></td></tr>
+<tr class="separator:a0b992ffcf24c4530f3edde2f468d06d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fb36dc6b58f27ea809b2d641b4a6f8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_data_holder.html">DataHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmap_view_widget.html#a2fb36dc6b58f27ea809b2d641b4a6f8a">current</a></td></tr>
+<tr class="memdesc:a2fb36dc6b58f27ea809b2d641b4a6f8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wskaźnik na aktualnie używaną strukturę z danymi.  <a href="#a2fb36dc6b58f27ea809b2d641b4a6f8a">Więcej...</a><br /></td></tr>
+<tr class="separator:a2fb36dc6b58f27ea809b2d641b4a6f8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p>Modeluje obiekt, który przedstawia mapę na której wyświetlają się koła wizualizujące ilość przypadków związanych z COVID-19. Dane zależą od wybranych opcji. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="mapviewwidget_8h_source.html#l00023">23</a> pliku <a class="el" href="mapviewwidget_8h_source.html">mapviewwidget.h</a>.</p>
+</div><h2 class="groupheader">Dokumentacja konstruktora i destruktora</h2>
+<a id="ab2865a45eeaf0a90d359b9b29bfcb6ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2865a45eeaf0a90d359b9b29bfcb6ec">&#9670;&nbsp;</a></span>mapViewWidget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mapViewWidget::mapViewWidget </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_data_holder.html">DataHolder</a> *&#160;</td>
+          <td class="paramname"><em>cases</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_data_holder.html">DataHolder</a> *&#160;</td>
+          <td class="paramname"><em>deaths</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_data_holder.html">DataHolder</a> *&#160;</td>
+          <td class="paramname"><em>recoveries</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Inicjalizuje <a class="el" href="classmap_view_widget.html#a878a08b0a274d5ca630fd75ed95ce436" title="Interfejs użytkownika zaprojektowany w Designerze. ">mapViewWidget::ui</a> oraz mapę, ustawia <a class="el" href="classmap_view_widget.html#ac952035f86f0176f818c03948f8d2467" title="Wskaźnik na strukturę przechowująca dane odnośnie zachorowań. ">mapViewWidget::cases</a>, <a class="el" href="classmap_view_widget.html#a01b8718985bf880df9940c6af61cb4bb" title="Wskaźnik na strukturę przechowująca dane odnośnie zgonów. ">mapViewWidget::deaths</a> oraz <a class="el" href="classmap_view_widget.html#a0b992ffcf24c4530f3edde2f468d06d1" title="Wskaźnik na strukturę przechowująca dane odnośnie wyzdrowień. ">mapViewWidget::recoveries</a>. Umieszcza na mapie</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">parent</td><td>- rodzic dla widgetu </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cases</td><td>- wskaźnik na obiekt klasy <a class="el" href="class_data_holder.html" title="Klasa modelująca obekt przechowujący dane o przypadkach. ">DataHolder</a>, który przechowuje dane zwiazane z zachorowaniami </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">deaths</td><td>- wskaźnik na obiekt klasy <a class="el" href="class_data_holder.html" title="Klasa modelująca obekt przechowujący dane o przypadkach. ">DataHolder</a>, który przechowuje dane związane ze zgonami </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">recoveries</td><td>- wskaźnik na obiekt klasy <a class="el" href="class_data_holder.html" title="Klasa modelująca obekt przechowujący dane o przypadkach. ">DataHolder</a>, który przechowuje dane związane z wyzdrowieniami </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="mapviewwidget_8cpp_source.html#l00007">7</a> pliku <a class="el" href="mapviewwidget_8cpp_source.html">mapviewwidget.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classmap_view_widget_ab2865a45eeaf0a90d359b9b29bfcb6ec_cgraph.png" border="0" usemap="#classmap_view_widget_ab2865a45eeaf0a90d359b9b29bfcb6ec_cgraph" alt=""/></div>
+<map name="classmap_view_widget_ab2865a45eeaf0a90d359b9b29bfcb6ec_cgraph" id="classmap_view_widget_ab2865a45eeaf0a90d359b9b29bfcb6ec_cgraph">
+<area shape="rect" id="node2" href="class_data_holder.html#ae1ed4fb50385989a50ceb4ef91de4933" title="Zwraca przechowywaną mapę indeksów i dat. " alt="" coords="301,5,500,32"/>
+<area shape="rect" id="node3" href="class_data_holder.html#a8bc681ca0ddc67b858ea87847c6ad902" title="Zwraca przechowywaną mapę krajów i ich geolokalizacji (DataHolder::countryGeolocationMap). " alt="" coords="273,56,528,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0280742935f798a6a9a81cb68c064108"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0280742935f798a6a9a81cb68c064108">&#9670;&nbsp;</a></span>~mapViewWidget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mapViewWidget::~mapViewWidget </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="mapviewwidget_8cpp_source.html#l00073">73</a> pliku <a class="el" href="mapviewwidget_8cpp_source.html">mapviewwidget.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja funkcji składowych</h2>
+<a id="aafc5f13fa5b0880c6fdd757af0594b6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafc5f13fa5b0880c6fdd757af0594b6b">&#9670;&nbsp;</a></span>addItuemsOnMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mapViewWidget::addItuemsOnMap </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">color</td><td>- kolor obiektu dodawanego na mapę </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1cc7a48638aee0f1fa1fe571c95a080f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cc7a48638aee0f1fa1fe571c95a080f">&#9670;&nbsp;</a></span>deleteCircles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mapViewWidget::deleteCircles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="mapviewwidget_8cpp_source.html#l00117">117</a> pliku <a class="el" href="mapviewwidget_8cpp_source.html">mapviewwidget.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classmap_view_widget_a1cc7a48638aee0f1fa1fe571c95a080f_cgraph.png" border="0" usemap="#classmap_view_widget_a1cc7a48638aee0f1fa1fe571c95a080f_cgraph" alt=""/></div>
+<map name="classmap_view_widget_a1cc7a48638aee0f1fa1fe571c95a080f_cgraph" id="classmap_view_widget_a1cc7a48638aee0f1fa1fe571c95a080f_cgraph">
+<area shape="rect" id="node2" href="class_data_holder.html#a8bc681ca0ddc67b858ea87847c6ad902" title="Zwraca przechowywaną mapę krajów i ich geolokalizacji (DataHolder::countryGeolocationMap). " alt="" coords="255,5,509,32"/>
+</map>
+</div>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classmap_view_widget_a1cc7a48638aee0f1fa1fe571c95a080f_icgraph.png" border="0" usemap="#classmap_view_widget_a1cc7a48638aee0f1fa1fe571c95a080f_icgraph" alt=""/></div>
+<map name="classmap_view_widget_a1cc7a48638aee0f1fa1fe571c95a080f_icgraph" id="classmap_view_widget_a1cc7a48638aee0f1fa1fe571c95a080f_icgraph">
+<area shape="rect" id="node2" href="classmap_view_widget.html#a13e5bf7d90c5ed20ddd4eaef093eb7af" title="Slot reagujący na kliknięcie na przyciks wyboru związany ze zgonami. " alt="" coords="255,5,467,47"/>
+<area shape="rect" id="node3" href="classmap_view_widget.html#a2d4679dab5301eb61ee04184e72a84fd" title="Slot reagujący na kliknięcie na przyciks wyboru związany z przypadkami. " alt="" coords="255,71,467,112"/>
+<area shape="rect" id="node4" href="classmap_view_widget.html#a6623c56f80925bd244cb66aa252a783d" title="Slot reagujący na kliknięcie na przyciks wyboru związany z wyzdrowieniami. " alt="" coords="255,136,467,177"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6020f2ff42119372dadeba98c12cf4c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6020f2ff42119372dadeba98c12cf4c7">&#9670;&nbsp;</a></span>drawCircles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mapViewWidget::drawCircles </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Metoda rysuje koła na mape, których promień odpowiada ilości przypadków w danej dacie. Date funkcja otrzymuje poprzez przeszukanie mapy z indeksami i datami. Szukany indeks to parametr value. Rysowanie to zmiana właściwości koła - zmienienie jego promienia.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Indeks</td><td>po którym funkcja szuka daty aby odczytać liczbe przypadków. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="mapviewwidget_8cpp_source.html#l00143">143</a> pliku <a class="el" href="mapviewwidget_8cpp_source.html">mapviewwidget.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classmap_view_widget_a6020f2ff42119372dadeba98c12cf4c7_cgraph.png" border="0" usemap="#classmap_view_widget_a6020f2ff42119372dadeba98c12cf4c7_cgraph" alt=""/></div>
+<map name="classmap_view_widget_a6020f2ff42119372dadeba98c12cf4c7_cgraph" id="classmap_view_widget_a6020f2ff42119372dadeba98c12cf4c7_cgraph">
+<area shape="rect" id="node2" href="class_data_holder.html#a8bc681ca0ddc67b858ea87847c6ad902" title="Zwraca przechowywaną mapę krajów i ich geolokalizacji (DataHolder::countryGeolocationMap). " alt="" coords="248,5,503,32"/>
+<area shape="rect" id="node3" href="class_data_holder.html#acab7cb687608e6323db8bf536d74ba99" title="Zwraca przechowywaną mapę krajów i ich indeksów (DataHolder::countryIndexMap). " alt="" coords="267,56,484,83"/>
+<area shape="rect" id="node4" href="class_data_holder.html#a6e37773362260e3f04059b63c45be5c0" title="Zwraca wektor wektorów przechowujących dane odnośnie przypadków (DataHolder::RawDataTable). " alt="" coords="304,107,447,133"/>
+</map>
+</div>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classmap_view_widget_a6020f2ff42119372dadeba98c12cf4c7_icgraph.png" border="0" usemap="#classmap_view_widget_a6020f2ff42119372dadeba98c12cf4c7_icgraph" alt=""/></div>
+<map name="classmap_view_widget_a6020f2ff42119372dadeba98c12cf4c7_icgraph" id="classmap_view_widget_a6020f2ff42119372dadeba98c12cf4c7_icgraph">
+<area shape="rect" id="node2" href="classmap_view_widget.html#a13e5bf7d90c5ed20ddd4eaef093eb7af" title="Slot reagujący na kliknięcie na przyciks wyboru związany ze zgonami. " alt="" coords="248,5,460,47"/>
+<area shape="rect" id="node3" href="classmap_view_widget.html#a2d4679dab5301eb61ee04184e72a84fd" title="Slot reagujący na kliknięcie na przyciks wyboru związany z przypadkami. " alt="" coords="248,71,460,112"/>
+<area shape="rect" id="node4" href="classmap_view_widget.html#a6623c56f80925bd244cb66aa252a783d" title="Slot reagujący na kliknięcie na przyciks wyboru związany z wyzdrowieniami. " alt="" coords="248,136,460,177"/>
+<area shape="rect" id="node5" href="classmap_view_widget.html#a63faa8a2f6bfea63fbf0da3ea2a51800" title="Slot reagujący na zmianę wartości na suwaku. " alt="" coords="253,201,455,243"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a63faa8a2f6bfea63fbf0da3ea2a51800"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63faa8a2f6bfea63fbf0da3ea2a51800">&#9670;&nbsp;</a></span>on_horizontalSlider_valueChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mapViewWidget::on_horizontalSlider_valueChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="mapviewwidget_8cpp_source.html#l00182">182</a> pliku <a class="el" href="mapviewwidget_8cpp_source.html">mapviewwidget.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classmap_view_widget_a63faa8a2f6bfea63fbf0da3ea2a51800_cgraph.png" border="0" usemap="#classmap_view_widget_a63faa8a2f6bfea63fbf0da3ea2a51800_cgraph" alt=""/></div>
+<map name="classmap_view_widget_a63faa8a2f6bfea63fbf0da3ea2a51800_cgraph" id="classmap_view_widget_a63faa8a2f6bfea63fbf0da3ea2a51800_cgraph">
+<area shape="rect" id="node2" href="class_data_holder.html#ae1ed4fb50385989a50ceb4ef91de4933" title="Zwraca przechowywaną mapę indeksów i dat. " alt="" coords="256,5,455,32"/>
+<area shape="rect" id="node3" href="classmap_view_widget.html#a6020f2ff42119372dadeba98c12cf4c7" title="Rysuje koła na mapie. " alt="" coords="258,56,453,83"/>
+<area shape="rect" id="node4" href="class_data_holder.html#a8bc681ca0ddc67b858ea87847c6ad902" title="Zwraca przechowywaną mapę krajów i ich geolokalizacji (DataHolder::countryGeolocationMap). " alt="" coords="503,5,757,32"/>
+<area shape="rect" id="node5" href="class_data_holder.html#acab7cb687608e6323db8bf536d74ba99" title="Zwraca przechowywaną mapę krajów i ich indeksów (DataHolder::countryIndexMap). " alt="" coords="521,56,739,83"/>
+<area shape="rect" id="node6" href="class_data_holder.html#a6e37773362260e3f04059b63c45be5c0" title="Zwraca wektor wektorów przechowujących dane odnośnie przypadków (DataHolder::RawDataTable). " alt="" coords="559,107,701,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2d4679dab5301eb61ee04184e72a84fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d4679dab5301eb61ee04184e72a84fd">&#9670;&nbsp;</a></span>on_radioButtonCases_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mapViewWidget::on_radioButtonCases_clicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="mapviewwidget_8cpp_source.html#l00085">85</a> pliku <a class="el" href="mapviewwidget_8cpp_source.html">mapviewwidget.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classmap_view_widget_a2d4679dab5301eb61ee04184e72a84fd_cgraph.png" border="0" usemap="#classmap_view_widget_a2d4679dab5301eb61ee04184e72a84fd_cgraph" alt=""/></div>
+<map name="classmap_view_widget_a2d4679dab5301eb61ee04184e72a84fd_cgraph" id="classmap_view_widget_a2d4679dab5301eb61ee04184e72a84fd_cgraph">
+<area shape="rect" id="node2" href="classmap_view_widget.html#a1cc7a48638aee0f1fa1fe571c95a080f" title="stawia promienie kół znajdujących się na mapie na 0. " alt="" coords="265,5,467,32"/>
+<area shape="rect" id="node3" href="class_data_holder.html#a8bc681ca0ddc67b858ea87847c6ad902" title="Zwraca przechowywaną mapę krajów i ich geolokalizacji (DataHolder::countryGeolocationMap). " alt="" coords="515,56,769,83"/>
+<area shape="rect" id="node4" href="classmap_view_widget.html#a6020f2ff42119372dadeba98c12cf4c7" title="Rysuje koła na mapie. " alt="" coords="269,157,463,184"/>
+<area shape="rect" id="node5" href="class_data_holder.html#acab7cb687608e6323db8bf536d74ba99" title="Zwraca przechowywaną mapę krajów i ich indeksów (DataHolder::countryIndexMap). " alt="" coords="533,119,751,145"/>
+<area shape="rect" id="node6" href="class_data_holder.html#a6e37773362260e3f04059b63c45be5c0" title="Zwraca wektor wektorów przechowujących dane odnośnie przypadków (DataHolder::RawDataTable). " alt="" coords="571,195,713,221"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a13e5bf7d90c5ed20ddd4eaef093eb7af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13e5bf7d90c5ed20ddd4eaef093eb7af">&#9670;&nbsp;</a></span>on_radioButtonDeaths_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mapViewWidget::on_radioButtonDeaths_clicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="mapviewwidget_8cpp_source.html#l00078">78</a> pliku <a class="el" href="mapviewwidget_8cpp_source.html">mapviewwidget.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classmap_view_widget_a13e5bf7d90c5ed20ddd4eaef093eb7af_cgraph.png" border="0" usemap="#classmap_view_widget_a13e5bf7d90c5ed20ddd4eaef093eb7af_cgraph" alt=""/></div>
+<map name="classmap_view_widget_a13e5bf7d90c5ed20ddd4eaef093eb7af_cgraph" id="classmap_view_widget_a13e5bf7d90c5ed20ddd4eaef093eb7af_cgraph">
+<area shape="rect" id="node2" href="classmap_view_widget.html#a1cc7a48638aee0f1fa1fe571c95a080f" title="stawia promienie kół znajdujących się na mapie na 0. " alt="" coords="265,5,467,32"/>
+<area shape="rect" id="node4" href="classmap_view_widget.html#a6020f2ff42119372dadeba98c12cf4c7" title="Rysuje koła na mapie. " alt="" coords="269,56,463,83"/>
+<area shape="rect" id="node3" href="class_data_holder.html#a8bc681ca0ddc67b858ea87847c6ad902" title="Zwraca przechowywaną mapę krajów i ich geolokalizacji (DataHolder::countryGeolocationMap). " alt="" coords="515,5,769,32"/>
+<area shape="rect" id="node5" href="class_data_holder.html#acab7cb687608e6323db8bf536d74ba99" title="Zwraca przechowywaną mapę krajów i ich indeksów (DataHolder::countryIndexMap). " alt="" coords="533,56,751,83"/>
+<area shape="rect" id="node6" href="class_data_holder.html#a6e37773362260e3f04059b63c45be5c0" title="Zwraca wektor wektorów przechowujących dane odnośnie przypadków (DataHolder::RawDataTable). " alt="" coords="571,107,713,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6623c56f80925bd244cb66aa252a783d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6623c56f80925bd244cb66aa252a783d">&#9670;&nbsp;</a></span>on_radioButtonRecoveries_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mapViewWidget::on_radioButtonRecoveries_clicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="mapviewwidget_8cpp_source.html#l00175">175</a> pliku <a class="el" href="mapviewwidget_8cpp_source.html">mapviewwidget.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="classmap_view_widget_a6623c56f80925bd244cb66aa252a783d_cgraph.png" border="0" usemap="#classmap_view_widget_a6623c56f80925bd244cb66aa252a783d_cgraph" alt=""/></div>
+<map name="classmap_view_widget_a6623c56f80925bd244cb66aa252a783d_cgraph" id="classmap_view_widget_a6623c56f80925bd244cb66aa252a783d_cgraph">
+<area shape="rect" id="node2" href="classmap_view_widget.html#a1cc7a48638aee0f1fa1fe571c95a080f" title="stawia promienie kół znajdujących się na mapie na 0. " alt="" coords="265,5,467,32"/>
+<area shape="rect" id="node4" href="classmap_view_widget.html#a6020f2ff42119372dadeba98c12cf4c7" title="Rysuje koła na mapie. " alt="" coords="269,56,463,83"/>
+<area shape="rect" id="node3" href="class_data_holder.html#a8bc681ca0ddc67b858ea87847c6ad902" title="Zwraca przechowywaną mapę krajów i ich geolokalizacji (DataHolder::countryGeolocationMap). " alt="" coords="515,5,769,32"/>
+<area shape="rect" id="node5" href="class_data_holder.html#acab7cb687608e6323db8bf536d74ba99" title="Zwraca przechowywaną mapę krajów i ich indeksów (DataHolder::countryIndexMap). " alt="" coords="533,56,751,83"/>
+<area shape="rect" id="node6" href="class_data_holder.html#a6e37773362260e3f04059b63c45be5c0" title="Zwraca wektor wektorów przechowujących dane odnośnie przypadków (DataHolder::RawDataTable). " alt="" coords="571,107,713,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja atrybutów składowych</h2>
+<a id="ac952035f86f0176f818c03948f8d2467"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac952035f86f0176f818c03948f8d2467">&#9670;&nbsp;</a></span>cases</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_data_holder.html">DataHolder</a>* mapViewWidget::cases</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="mapviewwidget_8h_source.html#l00098">98</a> pliku <a class="el" href="mapviewwidget_8h_source.html">mapviewwidget.h</a>.</p>
+
+</div>
+</div>
+<a id="ad3aed06e5ce05162a0693d97c305c9ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3aed06e5ce05162a0693d97c305c9ee">&#9670;&nbsp;</a></span>container</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget* mapViewWidget::container</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="mapviewwidget_8h_source.html#l00094">94</a> pliku <a class="el" href="mapviewwidget_8h_source.html">mapviewwidget.h</a>.</p>
+
+</div>
+</div>
+<a id="a2fb36dc6b58f27ea809b2d641b4a6f8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fb36dc6b58f27ea809b2d641b4a6f8a">&#9670;&nbsp;</a></span>current</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_data_holder.html">DataHolder</a>* mapViewWidget::current</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="mapviewwidget_8h_source.html#l00110">110</a> pliku <a class="el" href="mapviewwidget_8h_source.html">mapviewwidget.h</a>.</p>
+
+</div>
+</div>
+<a id="a01b8718985bf880df9940c6af61cb4bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01b8718985bf880df9940c6af61cb4bb">&#9670;&nbsp;</a></span>deaths</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_data_holder.html">DataHolder</a>* mapViewWidget::deaths</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="mapviewwidget_8h_source.html#l00102">102</a> pliku <a class="el" href="mapviewwidget_8h_source.html">mapviewwidget.h</a>.</p>
+
+</div>
+</div>
+<a id="a0b992ffcf24c4530f3edde2f468d06d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b992ffcf24c4530f3edde2f468d06d1">&#9670;&nbsp;</a></span>recoveries</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_data_holder.html">DataHolder</a>* mapViewWidget::recoveries</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="mapviewwidget_8h_source.html#l00106">106</a> pliku <a class="el" href="mapviewwidget_8h_source.html">mapviewwidget.h</a>.</p>
+
+</div>
+</div>
+<a id="a878a08b0a274d5ca630fd75ed95ce436"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a878a08b0a274d5ca630fd75ed95ce436">&#9670;&nbsp;</a></span>ui</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Ui::mapViewWidget* mapViewWidget::ui</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="mapviewwidget_8h_source.html#l00086">86</a> pliku <a class="el" href="mapviewwidget_8h_source.html">mapviewwidget.h</a>.</p>
+
+</div>
+</div>
+<a id="a852b52bcc74d3c9234b1e40d38dea45f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a852b52bcc74d3c9234b1e40d38dea45f">&#9670;&nbsp;</a></span>w</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QQuickView* mapViewWidget::w</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="mapviewwidget_8h_source.html#l00090">90</a> pliku <a class="el" href="mapviewwidget_8h_source.html">mapviewwidget.h</a>.</p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li><a class="el" href="mapviewwidget_8h_source.html">mapviewwidget.h</a></li>
+<li><a class="el" href="mapviewwidget_8cpp_source.html">mapviewwidget.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="classmap_view_widget.html">mapViewWidget</a></li>
+    <li class="footer">Wygenerowano przez
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

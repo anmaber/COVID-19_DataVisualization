@@ -1,0 +1,11 @@
+<map id="QCPAbstractLegendItem::deselectEvent" name="QCPAbstractLegendItem::deselectEvent">
+<area shape="rect" id="node2" href="$class_q_c_p_legend.html#ad091ff5e11edbe0adecba81c35522ac7" title="QCPLegend::selectableParts" alt="" coords="221,46,412,73"/>
+<area shape="rect" id="node3" href="$class_q_c_p_abstract_legend_item.html#a6eed93b0ab99cb3eabb043fb08179c2b" title="QCPAbstractLegendItem\l::setSelected" alt="" coords="233,97,401,139"/>
+<area shape="rect" id="node4" href="$class_q_c_p_abstract_legend_item.html#adf427dbb05d5f1a8e84c6abcb05becdf" title="QCPAbstractLegendItem\l::selected" alt="" coords="460,97,628,139"/>
+<area shape="rect" id="node5" href="$class_q_c_p_abstract_plottable.html#ac238d6e910f976f1f30d41c2bca44ac3" title="QCPAbstractPlottable\l::setSelectable" alt="" coords="685,64,835,105"/>
+<area shape="rect" id="node10" href="$class_q_c_p_abstract_plottable1_d.html#a4611b43bcb6441b2154eb4f4e0a33db2" title="QCPAbstractPlottable1D\l::selectTest" alt="" coords="676,129,844,171"/>
+<area shape="rect" id="node6" href="$class_q_c_p_abstract_plottable.html#a016653741033bd332d1d4c3c725cc284" title="QCPAbstractPlottable\l::selectable" alt="" coords="923,5,1074,47"/>
+<area shape="rect" id="node7" href="$class_q_c_p_data_selection.html#a17b84d852911531d229f4a76aa239a75" title="QCPDataSelection::enforceType" alt="" coords="892,71,1105,98"/>
+<area shape="rect" id="node9" href="$class_q_c_p_abstract_plottable.html#a0b3b514474fe93354fc74cfc144184b4" title="QCPAbstractPlottable\l::selected" alt="" coords="923,123,1074,164"/>
+<area shape="rect" id="node8" href="$class_q_c_p_data_range.html#ac32e53fc05d6cd2eac96b96a7265d3b8" title="QCPDataRange::isEmpty" alt="" coords="1153,71,1327,98"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="QCPAbstractPlottable::getValueRange" name="QCPAbstractPlottable::getValueRange">
+<area shape="rect" id="node2" href="$class_q_c_p_abstract_plottable.html#a714eaf36b12434cd71846215504db82e" title="QCPAbstractPlottable\l::rescaleValueAxis" alt="" coords="227,5,378,47"/>
+<area shape="rect" id="node4" href="$class_q_c_p_graph.html#a1ba934b9621270b9a40fcdd2d9ba2adb" title="QCPGraph::adaptiveSampling" alt="" coords="204,71,401,98"/>
+<area shape="rect" id="node5" href="$class_q_c_p_curve.html#a06e3cf3f8f1add689254b3cda66e040e" title="QCPCurve::lineStyle" alt="" coords="231,122,375,149"/>
+<area shape="rect" id="node6" href="$class_q_c_p_bars.html#a7e373a534d82e18ed27b3fafd1f08fae" title="QCPBars::data" alt="" coords="247,173,358,199"/>
+<area shape="rect" id="node18" href="$class_q_c_p_statistical_box.html#aef92e38fcb8e5041a44c2e01886e3b66" title="QCPStatisticalBox::\loutlierStyle" alt="" coords="233,224,373,265"/>
+<area shape="rect" id="node19" href="$class_q_c_p_color_map.html#a9d37d08c467ac645b86fc71a3b151208" title="QCPColorMap::colorScale" alt="" coords="215,290,391,317"/>
+<area shape="rect" id="node21" href="$class_q_c_p_financial.html#a25d9a8f256e5ddcba56b6e2e7e968653" title="QCPFinancial::penNegative" alt="" coords="211,341,395,367"/>
+<area shape="rect" id="node3" href="$class_q_c_p_abstract_plottable.html#a1491c4a606bccd2d09e65e11b79eb882" title="QCPAbstractPlottable\l::rescaleAxes" alt="" coords="473,5,623,47"/>
+<area shape="rect" id="node7" href="$class_q_c_p_bars.html#a6dc562ec7120a8521e1061f2134367e4" title="QCPBars::setData" alt="" coords="482,122,614,149"/>
+<area shape="rect" id="node8" href="$class_q_c_p_bars.html#a1b58664864b141f45e02044a855b3213" title="QCPBars::barBelow" alt="" coords="478,173,618,199"/>
+<area shape="rect" id="node17" href="$class_q_c_p_bars.html#ab97f2acd9f6cb40d2cc3c33d278f0e78" title="QCPBars::barAbove" alt="" coords="477,223,619,250"/>
+<area shape="rect" id="node9" href="$class_q_c_p_bars_group.html#a8e2ca6002e7bab49670144d048a2bcc9" title="QCPBarsGroup::keyPixelOffset" alt="" coords="695,173,901,199"/>
+<area shape="rect" id="node10" href="$class_q_c_p_bars.html#ac5a3854774d9d9cd129b1eae1426de2d" title="QCPBars::getKeyRange" alt="" coords="960,122,1125,149"/>
+<area shape="rect" id="node11" href="$class_q_c_p_bars.html#a55cdaf565cd3384158d1f7f89533bc2d" title="QCPBars::dataPixelPosition" alt="" coords="949,173,1136,199"/>
+<area shape="rect" id="node12" href="$class_q_c_p_bars.html#a01b87e38e5d5089d214646d2af7896ea" title="QCPBars::getBarRect" alt="" coords="967,223,1119,250"/>
+<area shape="rect" id="node13" href="$class_q_c_p_bars.html#ab03bb6125c3e983b89d694f75ce6b3d5" title="QCPBars::selectTestRect" alt="" coords="1447,154,1621,181"/>
+<area shape="rect" id="node14" href="$class_q_c_p_bars.html#a121f899c27af3186fe93dcd0eb98f49b" title="QCPBars::selectTest" alt="" coords="1461,211,1607,238"/>
+<area shape="rect" id="node15" href="$class_q_c_p_bars.html#aa267c20650d55084c3f47cb2f8fac9dc" title="QCPBars::draw" alt="" coords="1477,274,1591,301"/>
+<area shape="rect" id="node16" href="$class_q_c_p_bars.html#ac8b6b514a665a7bff4fb080413ba996a" title="QCPBars::getVisibleDataBounds" alt="" coords="1184,198,1399,225"/>
+<area shape="rect" id="node20" href="$class_q_c_p_color_map.html#aa828921db364fe3c6af4619580ab85fd" title="QCPColorMap::setColorScale" alt="" coords="449,290,647,317"/>
+</map>

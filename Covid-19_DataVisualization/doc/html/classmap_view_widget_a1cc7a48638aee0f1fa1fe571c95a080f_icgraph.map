@@ -1,0 +1,5 @@
+<map id="mapViewWidget::deleteCircles" name="mapViewWidget::deleteCircles">
+<area shape="rect" id="node2" href="$classmap_view_widget.html#a13e5bf7d90c5ed20ddd4eaef093eb7af" title="Slot reagujący na kliknięcie na przyciks wyboru związany ze zgonami. " alt="" coords="255,5,467,47"/>
+<area shape="rect" id="node3" href="$classmap_view_widget.html#a2d4679dab5301eb61ee04184e72a84fd" title="Slot reagujący na kliknięcie na przyciks wyboru związany z przypadkami. " alt="" coords="255,71,467,112"/>
+<area shape="rect" id="node4" href="$classmap_view_widget.html#a6623c56f80925bd244cb66aa252a783d" title="Slot reagujący na kliknięcie na przyciks wyboru związany z wyzdrowieniami. " alt="" coords="255,136,467,177"/>
+</map>

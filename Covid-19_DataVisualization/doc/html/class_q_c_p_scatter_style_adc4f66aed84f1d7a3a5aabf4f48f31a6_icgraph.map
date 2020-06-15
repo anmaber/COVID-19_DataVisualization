@@ -1,0 +1,8 @@
+<map id="QCPScatterStyle::brush" name="QCPScatterStyle::brush">
+<area shape="rect" id="node2" href="$class_q_c_p_scatter_style.html#a7d59ba8864914f765817841089e436f1" title="QCPScatterStyle::setFrom\lOther" alt="" coords="447,49,625,90"/>
+<area shape="rect" id="node7" href="$class_q_c_p_scatter_style.html#a74d692aaeb8d4b36d6f7d510e44264b1" title="QCPScatterStyle::setBrush" alt="" coords="216,81,399,108"/>
+<area shape="rect" id="node3" href="$class_q_c_p_selection_decorator.html#a1277b373248896bc70e8cc1de96da9fa" title="QCPSelectionDecorator\l::getFinalScatterStyle" alt="" coords="673,49,836,90"/>
+<area shape="rect" id="node4" href="$class_q_c_p_graph.html#a2b0849598f06e834b43ce18cd13bcdc3" title="QCPGraph::draw" alt="" coords="907,5,1029,32"/>
+<area shape="rect" id="node5" href="$class_q_c_p_curve.html#ac199d41d23865cd68bd7b598308a4433" title="QCPCurve::draw" alt="" coords="907,56,1029,83"/>
+<area shape="rect" id="node6" href="$class_q_c_p_statistical_box.html#afcff35fa79728cfe10e80e0702014fea" title="QCPStatisticalBox::draw" alt="" coords="884,107,1052,133"/>
+</map>

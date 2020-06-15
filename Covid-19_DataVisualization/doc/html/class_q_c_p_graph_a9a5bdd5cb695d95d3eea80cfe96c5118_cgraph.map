@@ -1,0 +1,12 @@
+<map id="QCPGraph::getChannelFillPolygon" name="QCPGraph::getChannelFillPolygon">
+<area shape="rect" id="node2" href="$class_q_c_p_abstract_plottable.html#a2cdd6f0dd5e9a979037f86b4000d9cfe" title="QCPAbstractPlottable\l::keyAxis" alt="" coords="252,5,403,47"/>
+<area shape="rect" id="node3" href="$class_q_c_p_abstract_plottable.html#af47809a644a68ffd955fb30b01fb4f2f" title="QCPAbstractPlottable\l::valueAxis" alt="" coords="252,71,403,112"/>
+<area shape="rect" id="node4" href="$class_q_c_p_axis.html#ab988ef4538e2655bb77bd138189cd42e" title="QCPAxis::orientation" alt="" coords="255,137,400,163"/>
+<area shape="rect" id="node5" href="$class_q_c_p_data_range.html#ac6af055e509d1b691c244954ff1c5887" title="QCPDataRange::size" alt="" coords="253,187,402,214"/>
+<area shape="rect" id="node6" href="$class_q_c_p_data_range.html#ae76d7eba9defdfafcd0fc41096793129" title="QCPDataRange::begin" alt="" coords="249,238,405,265"/>
+<area shape="rect" id="node7" href="$class_q_c_p_data_range.html#aee1b20fb045929c3753ee2ce14af7630" title="QCPDataRange::end" alt="" coords="254,289,401,315"/>
+<area shape="rect" id="node8" href="$class_q_c_p_graph.html#a8c3f15dd5a06633011a6ef36016d308b" title="QCPGraph::findIndexBelowX" alt="" coords="231,339,423,366"/>
+<area shape="rect" id="node9" href="$class_q_c_p_graph.html#aaabd6c6a7200a2672c44e62bd2a1cafa" title="QCPGraph::findIndexAboveX" alt="" coords="231,390,424,417"/>
+<area shape="rect" id="node10" href="$class_q_c_p_graph.html#a5b0291f248e8ca8eaa82833ab420dcd0" title="QCPGraph::findIndexBelowY" alt="" coords="231,441,423,467"/>
+<area shape="rect" id="node11" href="$class_q_c_p_graph.html#a8b952a5f937840dc242489585cc8000d" title="QCPGraph::findIndexAboveY" alt="" coords="231,491,424,518"/>
+</map>

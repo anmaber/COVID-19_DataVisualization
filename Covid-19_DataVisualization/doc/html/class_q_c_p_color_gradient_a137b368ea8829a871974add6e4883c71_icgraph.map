@@ -1,0 +1,10 @@
+<map id="QCPColorGradient::stopsUseAlpha" name="QCPColorGradient::stopsUseAlpha">
+<area shape="rect" id="node2" href="$class_q_c_p_color_gradient.html#a353f15ab3ab586eebf1f6b58c3e2707b" title="QCPColorGradient::update\lColorBuffer" alt="" coords="248,31,427,72"/>
+<area shape="rect" id="node3" href="$class_q_c_p_color_gradient.html#aaf423ceb943e177b0ed2c48c811d83dc" title="QCPColorGradient::colorize" alt="" coords="475,63,659,90"/>
+<area shape="rect" id="node9" href="$class_q_c_p_color_gradient.html#a0599545c859268b025d2060dea741cea" title="QCPColorGradient::color" alt="" coords="483,13,650,39"/>
+<area shape="rect" id="node4" href="$class_q_c_p_color_scale_axis_rect_private.html#a73754cab312aeaddea1bfcc67cc079ac" title="QCPColorScaleAxisRectPrivate\l::updateGradientImage" alt="" coords="709,5,919,47"/>
+<area shape="rect" id="node6" href="$class_q_c_p_color_map.html#a5efcea591bb5486d968af520a4d43c3a" title="QCPColorMap::updateMapImage" alt="" coords="707,71,921,98"/>
+<area shape="rect" id="node5" href="$class_q_c_p_color_scale_axis_rect_private.html#a52a21c7cbe086cd587c955cfe6e25e3b" title="QCPColorScaleAxisRectPrivate\l::draw" alt="" coords="975,5,1185,47"/>
+<area shape="rect" id="node7" href="$class_q_c_p_color_map.html#a5d8158b62d55fcfeaabcb68ce0083e87" title="QCPColorMap::updateLegendIcon" alt="" coords="969,71,1191,98"/>
+<area shape="rect" id="node8" href="$class_q_c_p_color_map.html#a6b628014d2939368935efd0a788648c8" title="QCPColorMap::draw" alt="" coords="1009,122,1151,149"/>
+</map>

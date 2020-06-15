@@ -1,0 +1,23 @@
+<map id="QCPCurve" name="QCPCurve">
+<area shape="rect" id="node2" href="$class_q_c_p_abstract_plottable1_d.html" title="QCPAbstractPlottable1D\l\&lt; QCPCurveData \&gt;" alt="" coords="627,272,795,313"/>
+<area shape="rect" id="node3" href="$class_q_c_p_abstract_plottable.html" title="QCPAbstractPlottable" alt="" coords="507,171,658,197"/>
+<area shape="rect" id="node22" href="$class_q_c_p_selection_decorator.html" title="QCPSelectionDecorator" alt="" coords="440,279,603,306"/>
+<area shape="rect" id="node4" href="$class_q_c_p_layerable.html" title="QCPLayerable" alt="" coords="929,81,1036,108"/>
+<area shape="rect" id="node11" href="$class_q_c_p_layout_element.html" title="QCPLayoutElement" alt="" coords="1031,171,1169,197"/>
+<area shape="rect" id="node12" href="$class_q_c_p_selection_rect.html" title="QCPSelectionRect" alt="" coords="888,221,1021,248"/>
+<area shape="rect" id="node13" href="$class_q_c_p_axis.html" title="QCPAxis" alt="" coords="1144,795,1221,821"/>
+<area shape="rect" id="node17" href="$class_q_c_p_grid.html" title="QCPGrid" alt="" coords="1216,884,1291,911"/>
+<area shape="rect" id="node6" href="$class_q_c_p_layer.html" title="QCPLayer" alt="" coords="972,675,1055,701"/>
+<area shape="rect" id="node7" href="$class_q_custom_plot.html" title="QCustomPlot" alt="" coords="855,555,956,581"/>
+<area shape="rect" id="node15" href="$class_q_c_p_axis_painter_private.html" title="QCPAxisPainterPrivate" alt="" coords="90,675,249,701"/>
+<area shape="rect" id="node9" href="$class_q_c_p_layout_grid.html" title="QCPLayoutGrid" alt="" coords="968,376,1083,403"/>
+<area shape="rect" id="node20" href="$class_q_c_p_legend.html" title="QCPLegend" alt="" coords="999,465,1092,492"/>
+<area shape="rect" id="node10" href="$class_q_c_p_layout.html" title="QCPLayout" alt="" coords="1044,279,1135,306"/>
+<area shape="rect" id="node19" href="$class_q_c_p_layout_inset.html" title="QCPLayoutInset" alt="" coords="1107,376,1226,403"/>
+<area shape="rect" id="node18" href="$class_q_c_p_axis_rect.html" title="QCPAxisRect" alt="" coords="1214,465,1319,492"/>
+<area shape="rect" id="node14" href="$class_q_c_p_range.html" title="QCPRange" alt="" coords="858,675,947,701"/>
+<area shape="rect" id="node16" href="$class_q_c_p_line_ending.html" title="QCPLineEnding" alt="" coords="5,555,120,581"/>
+<area shape="rect" id="node21" href="$class_q_c_p_data_selection.html" title="QCPDataSelection" alt="" coords="516,81,649,108"/>
+<area shape="rect" id="node23" href="$class_q_c_p_scatter_style.html" title="QCPScatterStyle" alt="" coords="308,171,431,197"/>
+<area shape="rect" id="node24" href="$class_q_c_p_plottable_interface1_d.html" title="Defines an abstract interface for one&#45;dimensional plottables. " alt="" coords="683,171,853,197"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="QCPDataSelection::enforceType" name="QCPDataSelection::enforceType">
+<area shape="rect" id="node2" href="$class_q_c_p_abstract_plottable.html#a219bc5403a9d85d3129165ec3f5ae436" title="QCPAbstractPlottable\l::setSelection" alt="" coords="267,71,417,112"/>
+<area shape="rect" id="node5" href="$class_q_c_p_abstract_plottable.html#ac238d6e910f976f1f30d41c2bca44ac3" title="QCPAbstractPlottable\l::setSelectable" alt="" coords="267,136,417,177"/>
+<area shape="rect" id="node3" href="$class_q_c_p_abstract_plottable.html#a2d488568cf16600dd81fa23d7d439829" title="QCPAbstractPlottable\l::selectEvent" alt="" coords="481,5,632,47"/>
+<area shape="rect" id="node4" href="$class_q_c_p_abstract_plottable.html#a9b104d9da4f38f934363945c313bf82e" title="QCPAbstractPlottable\l::deselectEvent" alt="" coords="481,71,632,112"/>
+<area shape="rect" id="node6" href="$class_q_c_p_abstract_legend_item.html#adf427dbb05d5f1a8e84c6abcb05becdf" title="QCPAbstractLegendItem\l::selected" alt="" coords="473,136,641,177"/>
+<area shape="rect" id="node11" href="$class_q_c_p_text_element.html#a135d1ad0aa97a245b4247c3292ff551c" title="QCPTextElement::selected" alt="" coords="465,202,648,229"/>
+<area shape="rect" id="node7" href="$class_q_c_p_abstract_legend_item.html#a6eed93b0ab99cb3eabb043fb08179c2b" title="QCPAbstractLegendItem\l::setSelected" alt="" coords="713,81,881,123"/>
+<area shape="rect" id="node10" href="$class_q_c_p_legend.html#a2aee309bb5c2a794b1987f3fc97f8ad8" title="QCPLegend::setSelectedParts" alt="" coords="697,147,898,174"/>
+<area shape="rect" id="node8" href="$class_q_c_p_abstract_legend_item.html#a0081acfd8c4bb8ac4e9dcfe0f6c49b74" title="QCPAbstractLegendItem\l::selectEvent" alt="" coords="964,29,1132,71"/>
+<area shape="rect" id="node9" href="$class_q_c_p_abstract_legend_item.html#aa1c0620558cc8e2a2e6fb7ab558f6097" title="QCPAbstractLegendItem\l::deselectEvent" alt="" coords="964,95,1132,136"/>
+<area shape="rect" id="node12" href="$class_q_c_p_text_element.html#aba5521f9fb22a5f3d2f09ab37d4a1751" title="QCPTextElement::setSelected" alt="" coords="696,202,899,229"/>
+<area shape="rect" id="node13" href="$class_q_c_p_text_element.html#a8d696ea82fa7bf743e01858039c03525" title="QCPTextElement::selectEvent" alt="" coords="947,187,1149,214"/>
+<area shape="rect" id="node14" href="$class_q_c_p_text_element.html#a9a631a9deb9d82089a9d52de1744accf" title="QCPTextElement::deselect\lEvent" alt="" coords="957,239,1139,280"/>
+</map>

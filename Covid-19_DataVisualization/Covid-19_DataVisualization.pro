@@ -32,26 +32,18 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     filereader.cpp \
-    basicanalysis.cpp \
-    analysismainwindow.cpp \
     dataholder.cpp \
     qcustomplot.cpp \
-    analysislayout.cpp \
     basicanalysiswiget.cpp \
     mapviewwidget.cpp \
-    mapview.cpp
 
 HEADERS += \
         mainwindow.h \
     filereader.h \
-    basicanalysis.h \
-    analysismainwindow.h \
     dataholder.h \
     qcustomplot.h \
-    analysislayout.h \
     basicanalysiswiget.h \
     mapviewwidget.h \
-    mapview.h
 
 FORMS += \
         mainwindow.ui \

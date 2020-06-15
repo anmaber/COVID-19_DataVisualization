@@ -49,11 +49,15 @@ void basicAnalysisWiget::on_dateEdit_dateChanged(const QDate &date)
 
 }
 
-void basicAnalysisWiget::on_comboBox_currentIndexChanged(const QString &arg1)
+void basicAnalysisWiget::on_comboBox_currentIndexChanged(const QString &countryName)
 {
-    setData(ui->dateEdit->date(),ui->dateEditStart->date(),arg1);
+    setData(ui->dateEdit->date(),ui->dateEditStart->date(),countryName);
 }
 
+void basicAnalysisWiget::on_checkBox_clicked()
+{
+    setData(ui->dateEdit->date(),ui->dateEditStart->date(),ui->comboBox->currentText());
+}
 
 int basicAnalysisWiget::getCountryIndex(const QString &countryName, const std::unordered_map<std::string, int> &cimap)
 {
@@ -248,21 +252,7 @@ void basicAnalysisWiget::on_dateEditStart_dateChanged(const QDate &startDate)
     setData(ui->dateEdit->date(),startDate,ui->comboBox->currentText());
 }
 
-void basicAnalysisWiget::on_checkBox_stateChanged(int state)
-{
 
-//    if(state == 0)
-//    {
-//        ui->checkBox->setFont();
-
-//    }
-//    else
-//    {
-//        ui->checkBox->setStyleSheet("QCheckBox { color: red }");
-//    }
-    setData(ui->dateEdit->date(),ui->dateEditStart->date(),ui->comboBox->currentText());
-
-}
 
 void basicAnalysisWiget::setUpPlot()
 {
@@ -295,3 +285,5 @@ void basicAnalysisWiget::setUpPlot()
     ui->chart->legend->setVisible(true);
     ui->chart->replot();
 }
+
+

@@ -1,0 +1,18 @@
+<map id="QCPFinancial::drawOhlcPlot" name="QCPFinancial::drawOhlcPlot">
+<area shape="rect" id="node2" href="$class_q_c_p_abstract_plottable.html#a2cdd6f0dd5e9a979037f86b4000d9cfe" title="QCPAbstractPlottable\l::keyAxis" alt="" coords="263,5,414,47"/>
+<area shape="rect" id="node3" href="$class_q_c_p_abstract_plottable.html#af47809a644a68ffd955fb30b01fb4f2f" title="QCPAbstractPlottable\l::valueAxis" alt="" coords="263,71,414,112"/>
+<area shape="rect" id="node4" href="$class_q_c_p_axis.html#ab988ef4538e2655bb77bd138189cd42e" title="QCPAxis::orientation" alt="" coords="487,194,632,221"/>
+<area shape="rect" id="node5" href="$class_q_c_p_selection_decorator.html#a75098893f7d08660ea449206810679d7" title="QCPSelectionDecorator\l::applyPen" alt="" coords="257,136,420,177"/>
+<area shape="rect" id="node6" href="$class_q_c_p_painter.html#af9c7a4cd1791403901f8c5b82a150195" title="QCPPainter::setPen" alt="" coords="489,143,630,170"/>
+<area shape="rect" id="node8" href="$class_q_c_p_axis.html#af15d1b3a7f7e9b53d759d3ccff1fe4b4" title="QCPAxis::coordToPixel" alt="" coords="258,303,419,330"/>
+<area shape="rect" id="node16" href="$class_q_c_p_painter.html#a0b4b1b9bd495e182c731774dc800e6e0" title="QCPPainter::drawLine" alt="" coords="263,354,415,381"/>
+<area shape="rect" id="node17" href="$class_q_c_p_financial.html#a3ff49384a95233140c8205af77c08955" title="QCPFinancial::getPixelWidth" alt="" coords="243,405,435,431"/>
+<area shape="rect" id="node7" href="$class_q_c_p_painter.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8" title="QCPPainter::makeNonCosmetic" alt="" coords="684,143,896,170"/>
+<area shape="rect" id="node9" href="$class_q_c_p_range.html#a62326e7cc4316b96df6a60813230e63f" title="QCPRange::size" alt="" coords="499,346,620,373"/>
+<area shape="rect" id="node10" href="$class_q_c_p_axis_rect.html#a204645398a4f9d0b0189385c7c2cfb91" title="QCPAxisRect::width" alt="" coords="487,397,631,423"/>
+<area shape="rect" id="node11" href="$class_q_c_p_axis_rect.html#afb4a3de02046b20b9310bdb8fca781c3" title="QCPAxisRect::left" alt="" coords="494,447,625,474"/>
+<area shape="rect" id="node12" href="$class_q_c_p_axis_rect.html#a3f819d4a1b2193723d1fdafc573eea10" title="QCPAxisRect::right" alt="" coords="490,498,629,525"/>
+<area shape="rect" id="node13" href="$class_q_c_p_axis_rect.html#acefdf1abaa8a8ab681e906cc2be9581e" title="QCPAxisRect::bottom" alt="" coords="483,549,636,575"/>
+<area shape="rect" id="node14" href="$class_q_c_p_axis_rect.html#acc4377809e79d9a089ab790f39429b0d" title="QCPAxisRect::height" alt="" coords="485,245,633,271"/>
+<area shape="rect" id="node15" href="$class_q_c_p_axis_rect.html#a45dbad181cbb9f09d068dbb76c817c95" title="QCPAxisRect::top" alt="" coords="494,295,625,322"/>
+</map>

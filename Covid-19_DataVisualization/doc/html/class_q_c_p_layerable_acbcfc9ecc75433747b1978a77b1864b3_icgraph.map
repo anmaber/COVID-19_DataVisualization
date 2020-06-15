@@ -1,0 +1,28 @@
+<map id="QCPLayerable::clipRect" name="QCPLayerable::clipRect">
+<area shape="rect" id="node2" href="$class_q_c_p_layer.html#ab831a99c8d30b15ec4533ca341e8813b" title="QCPLayer::draw" alt="" coords="216,313,335,340"/>
+<area shape="rect" id="node3" href="$class_q_c_p_layer.html#a4a8e0a86f31462299e7fc8e8158dd2c6" title="QCPLayer::drawToPaintBuffer" alt="" coords="383,263,581,289"/>
+<area shape="rect" id="node20" href="$class_q_custom_plot.html#ad7a7d878bf050f101a43008e7d8fdb52" title="QCustomPlot::draw" alt="" coords="413,339,551,365"/>
+<area shape="rect" id="node4" href="$class_q_c_p_layer.html#adefd53b6db02f470151c416f42e37180" title="QCPLayer::replot" alt="" coords="889,9,1012,36"/>
+<area shape="rect" id="node10" href="$class_q_custom_plot.html#aa4bfe7d70dbe67e81d877819b75ab9af" title="QCustomPlot::replot" alt="" coords="641,263,782,289"/>
+<area shape="rect" id="node5" href="$class_q_c_p_selection_rect.html#a95c3f1700be2a6d7bba0fe56ece5fbb1" title="QCPSelectionRect::moveSelection" alt="" coords="1108,5,1335,32"/>
+<area shape="rect" id="node7" href="$class_q_custom_plot.html#ac10849411e1d0e858ea7f29c8ade364c" title="QCustomPlot::processRect\lSelection" alt="" coords="1130,57,1313,98"/>
+<area shape="rect" id="node6" href="$class_q_custom_plot.html#ae7abdc93b26d2ad4632c1ab75ae5b46f" title="QCustomPlot::mouseMoveEvent" alt="" coords="1383,5,1597,32"/>
+<area shape="rect" id="node8" href="$class_q_custom_plot.html#a810ef958ebe84db661c7288b526c0deb" title="QCustomPlot::setSelection\lRectMode" alt="" coords="1399,57,1581,98"/>
+<area shape="rect" id="node9" href="$class_q_custom_plot.html#a0c09f96df15faa4799ad7051bb16cf33" title="QCustomPlot::setSelectionRect" alt="" coords="1385,123,1595,149"/>
+<area shape="rect" id="node11" href="$class_q_c_p_axis.html#ac5a269609e6177737faabdc46434d8c7" title="QCPAxis::mouseMoveEvent" alt="" coords="855,313,1046,340"/>
+<area shape="rect" id="node12" href="$class_q_c_p_axis.html#aa850f195d7cc470c53809d0fff5e444d" title="QCPAxis::wheelEvent" alt="" coords="874,364,1027,391"/>
+<area shape="rect" id="node13" href="$class_q_custom_plot.html#a45b99626558651a6428b83972b0b34b8" title="QCustomPlot::QCustomPlot" alt="" coords="857,415,1045,441"/>
+<area shape="rect" id="node14" href="$class_q_custom_plot.html#af5b69dc6a431562ecdd1d0718bcbdf70" title="QCustomPlot::resizeEvent" alt="" coords="861,465,1040,492"/>
+<area shape="rect" id="node15" href="$class_q_custom_plot.html#adc24846f52199e5a9bc35c387a6ce68d" title="QCustomPlot::mouseRelease\lEvent" alt="" coords="1123,361,1319,402"/>
+<area shape="rect" id="node16" href="$class_q_custom_plot.html#a5508a207dcc279f316142f96d984bba3" title="QCustomPlot::processRectZoom" alt="" coords="1113,123,1329,149"/>
+<area shape="rect" id="node17" href="$class_q_custom_plot.html#ac13c10fff6613e3e80e13c787b010838" title="QCustomPlot::processPoint\lSelection" alt="" coords="858,517,1043,558"/>
+<area shape="rect" id="node18" href="$class_q_c_p_axis_rect.html#a9cd27ad8c5cfb49aefd9dbb30def4beb" title="QCPAxisRect::mouseMoveEvent" alt="" coords="841,111,1060,137"/>
+<area shape="rect" id="node19" href="$class_q_c_p_axis_rect.html#a93eeaa0c127d6d6fe8171b2455080262" title="QCPAxisRect::wheelEvent" alt="" coords="860,161,1041,188"/>
+<area shape="rect" id="node21" href="$class_q_custom_plot.html#ad5acd34f6b39c3516887d7e54fec2412" title="QCustomPlot::savePdf" alt="" coords="633,376,790,403"/>
+<area shape="rect" id="node22" href="$class_q_custom_plot.html#aabb974d71ce96c137dc04eb6eab844fe" title="QCustomPlot::toPixmap" alt="" coords="629,511,793,537"/>
+<area shape="rect" id="node27" href="$class_q_custom_plot.html#a1be68d5c0f1e086d6374d1340a193fb9" title="QCustomPlot::toPainter" alt="" coords="631,325,792,352"/>
+<area shape="rect" id="node23" href="$class_q_custom_plot.html#ad7723ce2edfa270632ef42b03a444352" title="QCustomPlot::saveRastered" alt="" coords="855,583,1046,609"/>
+<area shape="rect" id="node24" href="$class_q_custom_plot.html#ac92cc9256d12f354b40a4be4600b5fb9" title="QCustomPlot::savePng" alt="" coords="1141,633,1301,660"/>
+<area shape="rect" id="node25" href="$class_q_custom_plot.html#a76f0d278e630a711fa6f48048cfd83e4" title="QCustomPlot::saveJpg" alt="" coords="1142,532,1301,559"/>
+<area shape="rect" id="node26" href="$class_q_custom_plot.html#ae3a86ed0795670e50afa21759d4fa13d" title="QCustomPlot::saveBmp" alt="" coords="1139,583,1303,609"/>
+</map>

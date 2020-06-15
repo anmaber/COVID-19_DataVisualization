@@ -1,0 +1,12 @@
+<map id="QCPAxisRect::axes" name="QCPAxisRect::axes">
+<area shape="rect" id="node2" href="$class_q_c_p_axis_rect.html#a463c44b1856ddbf82eb3f7b582839cd0" title="QCPAxisRect::~QCPAxisRect" alt="" coords="195,31,399,57"/>
+<area shape="rect" id="node3" href="$class_q_c_p_axis_rect.html#a2dc336092ccc57d44a46194c8a23e4f4" title="QCPAxisRect::addAxis" alt="" coords="217,81,377,108"/>
+<area shape="rect" id="node7" href="$class_q_c_p_axis_rect.html#a5fc8460564e81dcc2a9343dc8bc1fe67" title="QCPAxisRect::zoom" alt="" coords="224,132,369,159"/>
+<area shape="rect" id="node11" href="$class_q_c_p_axis_rect.html#add049d464b9ef2ccdc638adc4ccb4aca" title="QCPAxisRect::update" alt="" coords="221,183,373,209"/>
+<area shape="rect" id="node4" href="$class_q_c_p_axis_rect.html#a60b31dece805462c1b82eea2e69ba042" title="QCPAxisRect::QCPAxisRect" alt="" coords="458,5,654,32"/>
+<area shape="rect" id="node5" href="$class_q_c_p_axis_rect.html#a792e1f3d9cb1591fca135bb0de9b81fc" title="QCPAxisRect::addAxes" alt="" coords="474,56,638,83"/>
+<area shape="rect" id="node6" href="$class_q_c_p_axis_rect.html#a5fa906175447b14206954f77fc7f1ef4" title="QCPAxisRect::setupFullAxesBox" alt="" coords="447,107,665,133"/>
+<area shape="rect" id="node8" href="$class_q_custom_plot.html#a5508a207dcc279f316142f96d984bba3" title="QCustomPlot::processRectZoom" alt="" coords="448,157,664,184"/>
+<area shape="rect" id="node9" href="$class_q_custom_plot.html#a810ef958ebe84db661c7288b526c0deb" title="QCustomPlot::setSelection\lRectMode" alt="" coords="727,121,909,162"/>
+<area shape="rect" id="node10" href="$class_q_custom_plot.html#a0c09f96df15faa4799ad7051bb16cf33" title="QCustomPlot::setSelectionRect" alt="" coords="713,187,923,213"/>
+</map>

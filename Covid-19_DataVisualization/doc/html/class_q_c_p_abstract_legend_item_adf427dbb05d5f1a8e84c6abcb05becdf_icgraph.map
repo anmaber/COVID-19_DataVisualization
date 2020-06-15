@@ -1,0 +1,6 @@
+<map id="QCPAbstractLegendItem::selected" name="QCPAbstractLegendItem::selected">
+<area shape="rect" id="node2" href="$class_q_c_p_abstract_legend_item.html#a6eed93b0ab99cb3eabb043fb08179c2b" title="QCPAbstractLegendItem\l::setSelected" alt="" coords="238,39,406,80"/>
+<area shape="rect" id="node5" href="$class_q_c_p_legend.html#a2aee309bb5c2a794b1987f3fc97f8ad8" title="QCPLegend::setSelectedParts" alt="" coords="221,105,423,131"/>
+<area shape="rect" id="node3" href="$class_q_c_p_abstract_legend_item.html#a0081acfd8c4bb8ac4e9dcfe0f6c49b74" title="QCPAbstractLegendItem\l::selectEvent" alt="" coords="471,5,639,47"/>
+<area shape="rect" id="node4" href="$class_q_c_p_abstract_legend_item.html#aa1c0620558cc8e2a2e6fb7ab558f6097" title="QCPAbstractLegendItem\l::deselectEvent" alt="" coords="471,71,639,112"/>
+</map>

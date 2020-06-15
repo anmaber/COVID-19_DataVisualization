@@ -1,0 +1,11 @@
+<map id="QCPColorScale::QCPColorScale" name="QCPColorScale::QCPColorScale">
+<area shape="rect" id="node2" href="$class_q_c_p_layout_element.html#a0a8a17abc16b7923159fcc7608f94673" title="QCPLayoutElement::setMinimum\lMargins" alt="" coords="269,5,487,47"/>
+<area shape="rect" id="node4" href="$class_q_c_p_color_scale.html#a1bf9bdb291927c422dd66b404b206f1f" title="QCPColorScale::setType" alt="" coords="293,147,463,174"/>
+<area shape="rect" id="node6" href="$class_q_c_p_color_scale.html#abe88633003a26d1e756aa74984587fef" title="QCPColorScale::setDataRange" alt="" coords="813,122,1020,149"/>
+<area shape="rect" id="node3" href="$class_q_c_p_layout_element.html#af4ac9450aa2d60863bf3a8ea0c940c9d" title="QCPLayoutElement::margins" alt="" coords="554,13,746,39"/>
+<area shape="rect" id="node5" href="$class_q_c_p_color_scale.html#a85d7e286fbfc0c04c4b480aff3cb66fb" title="QCPColorScale::type" alt="" coords="576,173,724,199"/>
+<area shape="rect" id="node8" href="$class_q_c_p_color_scale.html#aeb6107d67dd7325145b2498abae67fc3" title="QCPColorScale::setDataScaleType" alt="" coords="535,223,765,250"/>
+<area shape="rect" id="node7" href="$class_q_c_p_color_scale.html#a51f5756f99867bd91e570eddefeb1ef4" title="QCPColorScale::dataRange" alt="" coords="1068,122,1255,149"/>
+<area shape="rect" id="node9" href="$class_q_c_p_range.html#a3d66288d66e1d6df3636075eb42502ee" title="QCPRange::sanitizedForLog\lScale" alt="" coords="822,216,1011,257"/>
+<area shape="rect" id="node10" href="$class_q_c_p_range.html#af914a7740269b0604d0827c634a878a9" title="QCPRange::normalize" alt="" coords="1085,223,1238,250"/>
+</map>

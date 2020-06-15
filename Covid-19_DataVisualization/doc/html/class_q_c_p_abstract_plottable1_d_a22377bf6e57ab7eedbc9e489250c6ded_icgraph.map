@@ -1,0 +1,8 @@
+<map id="QCPAbstractPlottable1D::selectTestRect" name="QCPAbstractPlottable1D::selectTestRect">
+<area shape="rect" id="node2" href="$class_q_c_p_bars.html#ad93c45091486e3fb9a13ddd937209299" title="QCPBars::data" alt="" coords="258,31,369,57"/>
+<area shape="rect" id="node5" href="$class_q_c_p_statistical_box.html#aef92e38fcb8e5041a44c2e01886e3b66" title="QCPStatisticalBox::\loutlierStyle" alt="" coords="243,82,383,123"/>
+<area shape="rect" id="node6" href="$class_q_c_p_financial.html#a25d9a8f256e5ddcba56b6e2e7e968653" title="QCPFinancial::penNegative" alt="" coords="221,148,405,175"/>
+<area shape="rect" id="node7" href="$class_q_c_p_error_bars.html#a2c969749fa0db565a42b80db9da5f388" title="QCPErrorBars::symbolGap" alt="" coords="223,199,403,225"/>
+<area shape="rect" id="node3" href="$class_q_c_p_bars.html#a6f67591bee1e04b148b8e0d5f863fb18" title="QCPBars::barBelow" alt="" coords="454,5,594,32"/>
+<area shape="rect" id="node4" href="$class_q_c_p_bars.html#a0233faa5373e53c561ecd612cfecb105" title="QCPBars::barAbove" alt="" coords="453,56,595,83"/>
+</map>

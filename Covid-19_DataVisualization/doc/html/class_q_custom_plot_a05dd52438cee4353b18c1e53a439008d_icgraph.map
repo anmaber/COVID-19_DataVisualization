@@ -1,0 +1,11 @@
+<map id="QCustomPlot::drawBackground" name="QCustomPlot::drawBackground">
+<area shape="rect" id="node2" href="$class_q_custom_plot.html#a8068b368e5813065ee0f4cf7c6d21330" title="QCustomPlot::paintEvent" alt="" coords="260,5,431,32"/>
+<area shape="rect" id="node3" href="$class_q_custom_plot.html#ad7a7d878bf050f101a43008e7d8fdb52" title="QCustomPlot::draw" alt="" coords="277,56,414,83"/>
+<area shape="rect" id="node4" href="$class_q_custom_plot.html#ad5acd34f6b39c3516887d7e54fec2412" title="QCustomPlot::savePdf" alt="" coords="482,5,639,32"/>
+<area shape="rect" id="node5" href="$class_q_custom_plot.html#aabb974d71ce96c137dc04eb6eab844fe" title="QCustomPlot::toPixmap" alt="" coords="479,56,643,83"/>
+<area shape="rect" id="node10" href="$class_q_custom_plot.html#a1be68d5c0f1e086d6374d1340a193fb9" title="QCustomPlot::toPainter" alt="" coords="480,107,641,133"/>
+<area shape="rect" id="node6" href="$class_q_custom_plot.html#ad7723ce2edfa270632ef42b03a444352" title="QCustomPlot::saveRastered" alt="" coords="691,56,881,83"/>
+<area shape="rect" id="node7" href="$class_q_custom_plot.html#ac92cc9256d12f354b40a4be4600b5fb9" title="QCustomPlot::savePng" alt="" coords="931,5,1091,32"/>
+<area shape="rect" id="node8" href="$class_q_custom_plot.html#a76f0d278e630a711fa6f48048cfd83e4" title="QCustomPlot::saveJpg" alt="" coords="932,56,1091,83"/>
+<area shape="rect" id="node9" href="$class_q_custom_plot.html#ae3a86ed0795670e50afa21759d4fa13d" title="QCustomPlot::saveBmp" alt="" coords="929,107,1093,133"/>
+</map>

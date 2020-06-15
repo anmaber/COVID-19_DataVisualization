@@ -1,0 +1,9 @@
+<map id="DataHolder::getCountryGeolocationMap" name="DataHolder::getCountryGeolocationMap">
+<area shape="rect" id="node2" href="$classmap_view_widget.html#ab2865a45eeaf0a90d359b9b29bfcb6ec" title="Konstruktor parametryczny klasy mapViewWiget. " alt="" coords="308,5,528,32"/>
+<area shape="rect" id="node3" href="$classmap_view_widget.html#a2d4679dab5301eb61ee04184e72a84fd" title="Slot reagujący na kliknięcie na przyciks wyboru związany z przypadkami. " alt="" coords="576,41,788,82"/>
+<area shape="rect" id="node4" href="$classmap_view_widget.html#a1cc7a48638aee0f1fa1fe571c95a080f" title="stawia promienie kół znajdujących się na mapie na 0. " alt="" coords="317,107,519,133"/>
+<area shape="rect" id="node7" href="$classmap_view_widget.html#a6020f2ff42119372dadeba98c12cf4c7" title="Rysuje koła na mapie. " alt="" coords="321,157,515,184"/>
+<area shape="rect" id="node5" href="$classmap_view_widget.html#a13e5bf7d90c5ed20ddd4eaef093eb7af" title="Slot reagujący na kliknięcie na przyciks wyboru związany ze zgonami. " alt="" coords="576,106,788,147"/>
+<area shape="rect" id="node6" href="$classmap_view_widget.html#a6623c56f80925bd244cb66aa252a783d" title="Slot reagujący na kliknięcie na przyciks wyboru związany z wyzdrowieniami. " alt="" coords="576,171,788,213"/>
+<area shape="rect" id="node8" href="$classmap_view_widget.html#a63faa8a2f6bfea63fbf0da3ea2a51800" title="Slot reagujący na zmianę wartości na suwaku. " alt="" coords="581,237,783,278"/>
+</map>

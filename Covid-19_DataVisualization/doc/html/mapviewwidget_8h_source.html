@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>COVID-19 data visualization: Plik źródłowy mapviewwidget.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">COVID-19 data visualization
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('mapviewwidget_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">mapviewwidget.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="mapviewwidget_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef MAPVIEWWIDGET_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define MAPVIEWWIDGET_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;QWidget&gt;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;QQuickView&gt;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;QLabel&gt;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="dataholder_8h.html">dataholder.h</a>&quot;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_ui.html">Ui</a> {</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">class </span><a class="code" href="classmap_view_widget.html">mapViewWidget</a>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classmap_view_widget.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="classmap_view_widget.html">mapViewWidget</a> : <span class="keyword">public</span> QWidget</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classmap_view_widget.html">mapViewWidget</a>(QWidget *parent = 0,<a class="code" href="class_data_holder.html">DataHolder</a>* cases = <span class="keyword">nullptr</span>,</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                           <a class="code" href="class_data_holder.html">DataHolder</a>* deaths = <span class="keyword">nullptr</span>, <a class="code" href="class_data_holder.html">DataHolder</a> * recoveries = <span class="keyword">nullptr</span>);</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    ~<a class="code" href="classmap_view_widget.html">mapViewWidget</a>();</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">private</span> slots:</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> on_radioButtonDeaths_clicked();</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> on_radioButtonCases_clicked();</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> on_radioButtonRecoveries_clicked();</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> on_horizontalSlider_valueChanged(<span class="keywordtype">int</span> value);</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">void</span> addItuemsOnMap(QString color);</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">void</span> deleteCircles();</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">void</span> drawCircles(<span class="keywordtype">int</span> value);</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div><div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="classmap_view_widget.html#a878a08b0a274d5ca630fd75ed95ce436">   86</a></span>&#160;    Ui::mapViewWidget *<a class="code" href="classmap_view_widget.html#a878a08b0a274d5ca630fd75ed95ce436">ui</a>;</div><div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="classmap_view_widget.html#a852b52bcc74d3c9234b1e40d38dea45f">   90</a></span>&#160;    QQuickView* <a class="code" href="classmap_view_widget.html#a852b52bcc74d3c9234b1e40d38dea45f">w</a>;</div><div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="classmap_view_widget.html#ad3aed06e5ce05162a0693d97c305c9ee">   94</a></span>&#160;    QWidget* <a class="code" href="classmap_view_widget.html#ad3aed06e5ce05162a0693d97c305c9ee">container</a>;</div><div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="classmap_view_widget.html#ac952035f86f0176f818c03948f8d2467">   98</a></span>&#160;    <a class="code" href="class_data_holder.html">DataHolder</a>*  <a class="code" href="classmap_view_widget.html#ac952035f86f0176f818c03948f8d2467">cases</a>;</div><div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="classmap_view_widget.html#a01b8718985bf880df9940c6af61cb4bb">  102</a></span>&#160;    <a class="code" href="class_data_holder.html">DataHolder</a> * <a class="code" href="classmap_view_widget.html#a01b8718985bf880df9940c6af61cb4bb">deaths</a>;</div><div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="classmap_view_widget.html#a0b992ffcf24c4530f3edde2f468d06d1">  106</a></span>&#160;    <a class="code" href="class_data_holder.html">DataHolder</a> * <a class="code" href="classmap_view_widget.html#a0b992ffcf24c4530f3edde2f468d06d1">recoveries</a>;</div><div class="line"><a name="l00110"></a><span class="lineno"><a class="line" href="classmap_view_widget.html#a2fb36dc6b58f27ea809b2d641b4a6f8a">  110</a></span>&#160;    <a class="code" href="class_data_holder.html">DataHolder</a> * <a class="code" href="classmap_view_widget.html#a2fb36dc6b58f27ea809b2d641b4a6f8a">current</a>;</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;};</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="preprocessor">#endif // MAPVIEWWIDGET_H</span></div><div class="ttc" id="classmap_view_widget_html_a2fb36dc6b58f27ea809b2d641b4a6f8a"><div class="ttname"><a href="classmap_view_widget.html#a2fb36dc6b58f27ea809b2d641b4a6f8a">mapViewWidget::current</a></div><div class="ttdeci">DataHolder * current</div><div class="ttdoc">Wskaźnik na aktualnie używaną strukturę z danymi. </div><div class="ttdef"><b>Definition:</b> <a href="mapviewwidget_8h_source.html#l00110">mapviewwidget.h:110</a></div></div>
+<div class="ttc" id="dataholder_8h_html"><div class="ttname"><a href="dataholder_8h.html">dataholder.h</a></div><div class="ttdoc">Zawiera definicję klasy DataHolder. </div></div>
+<div class="ttc" id="classmap_view_widget_html_ad3aed06e5ce05162a0693d97c305c9ee"><div class="ttname"><a href="classmap_view_widget.html#ad3aed06e5ce05162a0693d97c305c9ee">mapViewWidget::container</a></div><div class="ttdeci">QWidget * container</div><div class="ttdoc">Widget umożliwiający wyświetanie mapy. </div><div class="ttdef"><b>Definition:</b> <a href="mapviewwidget_8h_source.html#l00094">mapviewwidget.h:94</a></div></div>
+<div class="ttc" id="classmap_view_widget_html_a852b52bcc74d3c9234b1e40d38dea45f"><div class="ttname"><a href="classmap_view_widget.html#a852b52bcc74d3c9234b1e40d38dea45f">mapViewWidget::w</a></div><div class="ttdeci">QQuickView * w</div><div class="ttdoc">Umożliwia wykorzystanie mapy zaimplementowanej w QML. </div><div class="ttdef"><b>Definition:</b> <a href="mapviewwidget_8h_source.html#l00090">mapviewwidget.h:90</a></div></div>
+<div class="ttc" id="namespace_ui_html"><div class="ttname"><a href="namespace_ui.html">Ui</a></div><div class="ttdef"><b>Definition:</b> <a href="basicanalysiswiget_8h_source.html#l00015">basicanalysiswiget.h:15</a></div></div>
+<div class="ttc" id="classmap_view_widget_html_ac952035f86f0176f818c03948f8d2467"><div class="ttname"><a href="classmap_view_widget.html#ac952035f86f0176f818c03948f8d2467">mapViewWidget::cases</a></div><div class="ttdeci">DataHolder * cases</div><div class="ttdoc">Wskaźnik na strukturę przechowująca dane odnośnie zachorowań. </div><div class="ttdef"><b>Definition:</b> <a href="mapviewwidget_8h_source.html#l00098">mapviewwidget.h:98</a></div></div>
+<div class="ttc" id="classmap_view_widget_html_a0b992ffcf24c4530f3edde2f468d06d1"><div class="ttname"><a href="classmap_view_widget.html#a0b992ffcf24c4530f3edde2f468d06d1">mapViewWidget::recoveries</a></div><div class="ttdeci">DataHolder * recoveries</div><div class="ttdoc">Wskaźnik na strukturę przechowująca dane odnośnie wyzdrowień. </div><div class="ttdef"><b>Definition:</b> <a href="mapviewwidget_8h_source.html#l00106">mapviewwidget.h:106</a></div></div>
+<div class="ttc" id="class_data_holder_html"><div class="ttname"><a href="class_data_holder.html">DataHolder</a></div><div class="ttdoc">Klasa modelująca obekt przechowujący dane o przypadkach. </div><div class="ttdef"><b>Definition:</b> <a href="dataholder_8h_source.html#l00028">dataholder.h:28</a></div></div>
+<div class="ttc" id="classmap_view_widget_html_a878a08b0a274d5ca630fd75ed95ce436"><div class="ttname"><a href="classmap_view_widget.html#a878a08b0a274d5ca630fd75ed95ce436">mapViewWidget::ui</a></div><div class="ttdeci">Ui::mapViewWidget * ui</div><div class="ttdoc">Interfejs użytkownika zaprojektowany w Designerze. </div><div class="ttdef"><b>Definition:</b> <a href="mapviewwidget_8h_source.html#l00086">mapviewwidget.h:86</a></div></div>
+<div class="ttc" id="classmap_view_widget_html"><div class="ttname"><a href="classmap_view_widget.html">mapViewWidget</a></div><div class="ttdoc">Modeluje odbiekt odpowiedzialny za widok mapy. </div><div class="ttdef"><b>Definition:</b> <a href="mapviewwidget_8h_source.html#l00023">mapviewwidget.h:23</a></div></div>
+<div class="ttc" id="classmap_view_widget_html_a01b8718985bf880df9940c6af61cb4bb"><div class="ttname"><a href="classmap_view_widget.html#a01b8718985bf880df9940c6af61cb4bb">mapViewWidget::deaths</a></div><div class="ttdeci">DataHolder * deaths</div><div class="ttdoc">Wskaźnik na strukturę przechowująca dane odnośnie zgonów. </div><div class="ttdef"><b>Definition:</b> <a href="mapviewwidget_8h_source.html#l00102">mapviewwidget.h:102</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_df9c00f4ca258c11d7d369e9f17635c7.html">Covid-19_DataVisualization</a></li><li class="navelem"><a class="el" href="mapviewwidget_8h.html">mapviewwidget.h</a></li>
+    <li class="footer">Wygenerowano przez
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

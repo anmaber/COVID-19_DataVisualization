@@ -1,0 +1,7 @@
+<map id="QCustomPlot::axisRectAt" name="QCustomPlot::axisRectAt">
+<area shape="rect" id="node2" href="$class_q_c_p_layout_element.html#a76dec8cb31e498994a944d7647a43309" title="QCPLayoutElement::elements" alt="" coords="232,5,431,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_layerable.html#ab054e88f15d485defcb95e7376f119e7" title="QCPLayerable::realVisibility" alt="" coords="239,56,424,83"/>
+<area shape="rect" id="node5" href="$class_q_c_p_layout_element.html#ae97f483cccedadbf18ea4525ef240ee4" title="QCPLayoutElement::selectTest" alt="" coords="228,107,435,133"/>
+<area shape="rect" id="node4" href="$class_q_c_p_layer.html#ad1cc2d6b32d2abb33c7f449b964e068c" title="QCPLayer::visible" alt="" coords="528,56,656,83"/>
+<area shape="rect" id="node6" href="$class_q_custom_plot.html#a5441d11013afeaf4b8f2ea06e8624a25" title="QCustomPlot::selectionTolerance" alt="" coords="483,107,701,133"/>
+</map>

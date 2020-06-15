@@ -22,7 +22,7 @@
 **             Date: 25.06.18                                             **
 **          Version: 2.0.1                                                **
 ****************************************************************************/
-
+#ifndef DOXYGEN_SHOULD_SKIP_THIS
 #include "qcustomplot.h"
 
 
@@ -30211,4 +30211,4 @@ QPen QCPItemBracket::mainPen() const
 }
 /* end of 'src/items/item-bracket.cpp' */
 
-
+#endif /* DOXYGEN_SHOULD_SKIP_THIS */

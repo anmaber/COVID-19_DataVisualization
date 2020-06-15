@@ -1,0 +1,14 @@
+<map id="QCustomPlot::rescaleAxes" name="QCustomPlot::rescaleAxes">
+<area shape="rect" id="node2" href="$class_q_custom_plot.html#a12af771429e2d7e313c8c5d5fca068fe" title="QCustomPlot::axisRects" alt="" coords="235,12,403,39"/>
+<area shape="rect" id="node4" href="$class_q_c_p_axis_rect.html#a8db4722cb93e9c4a6f0d91150c200867" title="QCPAxisRect::axes" alt="" coords="248,69,389,96"/>
+<area shape="rect" id="node5" href="$class_q_c_p_axis.html#a499345f02ebce4b23d8ccec96e58daa9" title="QCPAxis::rescale" alt="" coords="255,132,382,159"/>
+<area shape="rect" id="node3" href="$class_q_c_p_layout_element.html#a76dec8cb31e498994a944d7647a43309" title="QCPLayoutElement::elements" alt="" coords="451,5,649,32"/>
+<area shape="rect" id="node6" href="$class_q_c_p_axis.html#ac5e0f6f65c75efb5fd32275d6e4ef0d6" title="QCPAxis::plottables" alt="" coords="479,56,621,83"/>
+<area shape="rect" id="node7" href="$class_q_c_p_range.html#a0fa1bc8048be50d52bea93a8caf08305" title="QCPRange::expand" alt="" coords="481,107,619,133"/>
+<area shape="rect" id="node8" href="$class_q_c_p_range.html#ab38bd4841c77c7bb86c9eea0f142dcc0" title="QCPRange::validRange" alt="" coords="711,168,873,195"/>
+<area shape="rect" id="node9" href="$class_q_c_p_range.html#a62326e7cc4316b96df6a60813230e63f" title="QCPRange::size" alt="" coords="489,208,611,235"/>
+<area shape="rect" id="node10" href="$class_q_c_p_axis.html#aebdfea5d44c3a0ad2b4700cd4d25b641" title="QCPAxis::setRange" alt="" coords="479,259,621,285"/>
+<area shape="rect" id="node11" href="$class_q_c_p_range.html#a3d66288d66e1d6df3636075eb42502ee" title="QCPRange::sanitizedForLog\lScale" alt="" coords="697,241,887,282"/>
+<area shape="rect" id="node13" href="$class_q_c_p_range.html#a808751fdd9b17ef52327ba011df2e5f1" title="QCPRange::sanitizedForLin\lScale" alt="" coords="699,306,885,347"/>
+<area shape="rect" id="node12" href="$class_q_c_p_range.html#af914a7740269b0604d0827c634a878a9" title="QCPRange::normalize" alt="" coords="935,281,1088,308"/>
+</map>

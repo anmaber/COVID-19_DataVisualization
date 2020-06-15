@@ -1,0 +1,8 @@
+<map id="QCustomPlot::interactions" name="QCustomPlot::interactions">
+<area shape="rect" id="node2" href="$class_q_c_p_axis.html#a61bc07cda6193a3fa6b5aa198fc4e4fa" title="QCPAxis::mousePressEvent" alt="" coords="243,5,435,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_axis.html#aa850f195d7cc470c53809d0fff5e444d" title="QCPAxis::wheelEvent" alt="" coords="263,56,416,83"/>
+<area shape="rect" id="node4" href="$class_q_custom_plot.html#a5ee1e2f6ae27419deca53e75907c27e5" title="QCustomPlot::setInteractions" alt="" coords="242,107,437,133"/>
+<area shape="rect" id="node5" href="$class_q_c_p_axis_rect.html#aa9a7c807eaa4666870ac94aa6abc4dde" title="QCPAxisRect::mousePressEvent" alt="" coords="229,157,449,184"/>
+<area shape="rect" id="node6" href="$class_q_c_p_axis_rect.html#a9cd27ad8c5cfb49aefd9dbb30def4beb" title="QCPAxisRect::mouseMoveEvent" alt="" coords="230,208,449,235"/>
+<area shape="rect" id="node7" href="$class_q_c_p_axis_rect.html#a93eeaa0c127d6d6fe8171b2455080262" title="QCPAxisRect::wheelEvent" alt="" coords="249,259,430,285"/>
+</map>

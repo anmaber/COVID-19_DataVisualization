@@ -1,0 +1,17 @@
+<map id="QCPCurve::getScatters" name="QCPCurve::getScatters">
+<area shape="rect" id="node2" href="$class_q_c_p_abstract_plottable.html#a2cdd6f0dd5e9a979037f86b4000d9cfe" title="QCPAbstractPlottable\l::keyAxis" alt="" coords="227,5,377,47"/>
+<area shape="rect" id="node3" href="$class_q_c_p_abstract_plottable.html#af47809a644a68ffd955fb30b01fb4f2f" title="QCPAbstractPlottable\l::valueAxis" alt="" coords="227,71,377,112"/>
+<area shape="rect" id="node4" href="$class_q_c_p_axis.html#ac4058855a81f1a883cf2e754f6a6acb1" title="QCPAxis::range" alt="" coords="243,137,361,163"/>
+<area shape="rect" id="node5" href="$class_q_c_p_axis.html#a536ef8f624cac59b6b6fdcb495723c57" title="QCPAxis::pixelToCoord" alt="" coords="221,238,383,265"/>
+<area shape="rect" id="node6" href="$class_q_c_p_axis.html#ab988ef4538e2655bb77bd138189cd42e" title="QCPAxis::orientation" alt="" coords="441,137,587,163"/>
+<area shape="rect" id="node12" href="$class_q_c_p_axis.html#af15d1b3a7f7e9b53d759d3ccff1fe4b4" title="QCPAxis::coordToPixel" alt="" coords="221,289,383,315"/>
+<area shape="rect" id="node15" href="$class_q_c_p_axis.html#a45c45bed7e5666683b8d56afa66fa51f" title="QCPAxis::pixelOrientation" alt="" coords="215,339,389,366"/>
+<area shape="rect" id="node16" href="$class_q_c_p_range.html#ae9842b48b6d38dc5e9607358e3083cc8" title="QCPRange::contains" alt="" coords="229,390,375,417"/>
+<area shape="rect" id="node7" href="$class_q_c_p_axis_rect.html#afb4a3de02046b20b9310bdb8fca781c3" title="QCPAxisRect::left" alt="" coords="449,187,579,214"/>
+<area shape="rect" id="node8" href="$class_q_c_p_axis_rect.html#a204645398a4f9d0b0189385c7c2cfb91" title="QCPAxisRect::width" alt="" coords="442,238,586,265"/>
+<area shape="rect" id="node9" href="$class_q_c_p_range.html#a62326e7cc4316b96df6a60813230e63f" title="QCPRange::size" alt="" coords="453,289,575,315"/>
+<area shape="rect" id="node10" href="$class_q_c_p_axis_rect.html#acefdf1abaa8a8ab681e906cc2be9581e" title="QCPAxisRect::bottom" alt="" coords="437,339,591,366"/>
+<area shape="rect" id="node11" href="$class_q_c_p_axis_rect.html#acc4377809e79d9a089ab790f39429b0d" title="QCPAxisRect::height" alt="" coords="440,390,588,417"/>
+<area shape="rect" id="node13" href="$class_q_c_p_axis_rect.html#a3f819d4a1b2193723d1fdafc573eea10" title="QCPAxisRect::right" alt="" coords="445,441,583,467"/>
+<area shape="rect" id="node14" href="$class_q_c_p_axis_rect.html#a45dbad181cbb9f09d068dbb76c817c95" title="QCPAxisRect::top" alt="" coords="449,491,579,518"/>
+</map>

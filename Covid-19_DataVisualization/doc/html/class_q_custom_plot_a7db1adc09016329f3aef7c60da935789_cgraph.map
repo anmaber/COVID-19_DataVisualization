@@ -1,0 +1,14 @@
+<map id="QCustomPlot::setOpenGl" name="QCustomPlot::setOpenGl">
+<area shape="rect" id="node2" href="$class_q_custom_plot.html#a8954c4667c51070ff4e9b02d858fd190" title="QCustomPlot::setupOpenGl" alt="" coords="238,5,423,32"/>
+<area shape="rect" id="node3" href="$class_q_custom_plot.html#aaa3073362074581a7b5905726b4a0067" title="QCustomPlot::freeOpenGl" alt="" coords="485,27,660,53"/>
+<area shape="rect" id="node4" href="$class_q_custom_plot.html#af6f91e5eab1be85f67c556e98c3745e8" title="QCustomPlot::setAntialiased\lElements" alt="" coords="235,107,426,149"/>
+<area shape="rect" id="node6" href="$class_q_custom_plot.html#a3b7c97bb6c16464e9e15190c07abe9a9" title="QCustomPlot::setPlottingHint" alt="" coords="233,173,428,200"/>
+<area shape="rect" id="node8" href="$class_q_custom_plot.html#a2685341f7242c3882f4cc5e379308d71" title="QCustomPlot::setupPaintBuffers" alt="" coords="224,297,437,324"/>
+<area shape="rect" id="node5" href="$class_q_custom_plot.html#a631762eb183aceecee73d30e108641ee" title="QCustomPlot::antialiased\lElements" alt="" coords="487,101,658,142"/>
+<area shape="rect" id="node7" href="$class_q_custom_plot.html#a94a33cbdadbbac5934843508bcfc210d" title="QCustomPlot::setPlotting\lHints" alt="" coords="487,166,658,207"/>
+<area shape="rect" id="node9" href="$class_q_custom_plot.html#a943b57596a1adf7f0e75c3b50e407ae6" title="QCustomPlot::createPaint\lBuffer" alt="" coords="485,231,660,273"/>
+<area shape="rect" id="node10" href="$class_q_custom_plot.html#a19842409b18f556b256d05e97fffc670" title="QCustomPlot::viewport" alt="" coords="708,268,867,295"/>
+<area shape="rect" id="node11" href="$class_q_custom_plot.html#a0a96244e7773b242ef23c32b7bdfb159" title="QCustomPlot::layer" alt="" coords="504,348,641,375"/>
+<area shape="rect" id="node13" href="$class_q_c_p_layer.html#a44ae50b011b19f3dd46a38d8e2e2c1b6" title="QCPLayer::mode" alt="" coords="511,399,634,425"/>
+<area shape="rect" id="node12" href="$class_q_c_p_layer.html#a37806f662b50b588fb1029a14fc5ef50" title="QCPLayer::name" alt="" coords="726,348,849,375"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="QCPSelectionDecorator::getFinalScatterStyle" name="QCPSelectionDecorator::getFinalScatterStyle">
+<area shape="rect" id="node2" href="$class_q_c_p_graph.html#a2b0849598f06e834b43ce18cd13bcdc3" title="QCPGraph::draw" alt="" coords="239,5,361,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_curve.html#ac199d41d23865cd68bd7b598308a4433" title="QCPCurve::draw" alt="" coords="239,56,361,83"/>
+<area shape="rect" id="node4" href="$class_q_c_p_statistical_box.html#afcff35fa79728cfe10e80e0702014fea" title="QCPStatisticalBox::draw" alt="" coords="216,107,384,133"/>
+</map>

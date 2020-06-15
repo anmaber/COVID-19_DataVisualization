@@ -1,0 +1,10 @@
+<map id="QCPBars::barBelow" name="QCPBars::barBelow">
+<area shape="rect" id="node2" href="$class_q_c_p_bars_group.html#a8e2ca6002e7bab49670144d048a2bcc9" title="QCPBarsGroup::keyPixelOffset" alt="" coords="193,56,400,83"/>
+<area shape="rect" id="node3" href="$class_q_c_p_bars.html#ac5a3854774d9d9cd129b1eae1426de2d" title="QCPBars::getKeyRange" alt="" coords="459,5,624,32"/>
+<area shape="rect" id="node4" href="$class_q_c_p_bars.html#a55cdaf565cd3384158d1f7f89533bc2d" title="QCPBars::dataPixelPosition" alt="" coords="448,56,635,83"/>
+<area shape="rect" id="node5" href="$class_q_c_p_bars.html#a01b87e38e5d5089d214646d2af7896ea" title="QCPBars::getBarRect" alt="" coords="465,107,617,133"/>
+<area shape="rect" id="node6" href="$class_q_c_p_bars.html#ab03bb6125c3e983b89d694f75ce6b3d5" title="QCPBars::selectTestRect" alt="" coords="945,44,1120,71"/>
+<area shape="rect" id="node7" href="$class_q_c_p_bars.html#a121f899c27af3186fe93dcd0eb98f49b" title="QCPBars::selectTest" alt="" coords="959,107,1106,133"/>
+<area shape="rect" id="node8" href="$class_q_c_p_bars.html#aa267c20650d55084c3f47cb2f8fac9dc" title="QCPBars::draw" alt="" coords="975,169,1090,196"/>
+<area shape="rect" id="node9" href="$class_q_c_p_bars.html#ac8b6b514a665a7bff4fb080413ba996a" title="QCPBars::getVisibleDataBounds" alt="" coords="683,81,897,108"/>
+</map>

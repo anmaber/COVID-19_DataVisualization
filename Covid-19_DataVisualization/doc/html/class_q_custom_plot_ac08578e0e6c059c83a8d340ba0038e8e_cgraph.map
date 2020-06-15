@@ -1,0 +1,8 @@
+<map id="QCustomPlot::itemAt" name="QCustomPlot::itemAt">
+<area shape="rect" id="node2" href="$class_q_custom_plot.html#a12eb2a283cf10a8a9176c01c0443e83e" title="QCustomPlot::item" alt="" coords="244,5,379,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_abstract_item.html#ae29aa489767352b40c4aaa7ea50c5582" title="QCPAbstractItem::selectable" alt="" coords="215,56,408,83"/>
+<area shape="rect" id="node4" href="$class_q_c_p_abstract_item.html#a42715ad5f3d7fca6854025fa5636f436" title="QCPAbstractItem::clipToAxisRect" alt="" coords="200,107,423,133"/>
+<area shape="rect" id="node5" href="$class_q_c_p_abstract_item.html#a6ad60000f29afe11035e1f791dcbd45a" title="QCPAbstractItem::clipRect" alt="" coords="220,157,403,184"/>
+<area shape="rect" id="node7" href="$class_q_c_p_abstract_item.html#ae41d0349d68bb802c49104afd100ba2a" title="QCPAbstractItem::selectTest" alt="" coords="214,208,409,235"/>
+<area shape="rect" id="node6" href="$class_q_custom_plot.html#a19842409b18f556b256d05e97fffc670" title="QCustomPlot::viewport" alt="" coords="471,157,629,184"/>
+</map>

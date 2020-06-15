@@ -1,0 +1,14 @@
+<map id="BasicAnalysis::BasicAnalysis" name="BasicAnalysis::BasicAnalysis">
+<area shape="rect" id="node2" href="$class_data_holder.html#acab7cb687608e6323db8bf536d74ba99" title="DataHolder::getCountryIndexMap" alt="" coords="472,235,689,262"/>
+<area shape="rect" id="node3" href="$class_q_custom_plot.html#a6fb2873d35a8a8089842d81a70a54167" title="QCustomPlot::addGraph" alt="" coords="254,67,419,94"/>
+<area shape="rect" id="node7" href="$class_q_custom_plot.html#a6ecae130f684b25276fb47bd3a5875c6" title="QCustomPlot::graph" alt="" coords="266,185,407,211"/>
+<area shape="rect" id="node8" href="$class_q_c_p_abstract_plottable.html#ab74b09ae4c0e7e13142fe4b5bf46cac7" title="QCPAbstractPlottable\l::setPen" alt="" coords="261,119,412,160"/>
+<area shape="rect" id="node10" href="$class_basic_analysis.html#ad507254b0b304e7561f612c083af6f79" title="BasicAnalysis::changeVal" alt="" coords="249,286,424,313"/>
+<area shape="rect" id="node4" href="$class_q_c_p_layerable.html#a473edb813a4c1929d6b6a8fe3ff3faf7" title="QCPLayerable::parentPlot" alt="" coords="493,71,668,98"/>
+<area shape="rect" id="node5" href="$class_q_c_p_abstract_plottable.html#ab79c7ba76bc7fa89a4b3580e12149f1f" title="QCPAbstractPlottable\l::setName" alt="" coords="505,5,656,47"/>
+<area shape="rect" id="node6" href="$class_q_c_p_abstract_plottable.html#a52c226eefcb1920240eeabae574d28c0" title="QCPAbstractPlottable\l::name" alt="" coords="737,5,888,47"/>
+<area shape="rect" id="node9" href="$class_q_c_p_abstract_plottable.html#ad5972efc31344e5a7a78ab4f8864b2d3" title="QCPAbstractPlottable::pen" alt="" coords="491,126,671,153"/>
+<area shape="rect" id="node11" href="$class_basic_analysis.html#ad160a340d5a137b8fbf2c03ba97a8992" title="BasicAnalysis::getCountry\lIndex" alt="" coords="492,337,669,379"/>
+<area shape="rect" id="node12" href="$class_basic_analysis.html#af5e851180872f90cdcd6f83896fa0fc5" title="BasicAnalysis::detDateIndex" alt="" coords="485,403,676,430"/>
+<area shape="rect" id="node13" href="$class_data_holder.html#a6e37773362260e3f04059b63c45be5c0" title="DataHolder::getData" alt="" coords="509,286,652,313"/>
+</map>

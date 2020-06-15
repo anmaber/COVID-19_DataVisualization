@@ -1,0 +1,15 @@
+<map id="QCPItemText::draw" name="QCPItemText::draw">
+<area shape="rect" id="node2" href="$class_q_c_p_item_position.html#a8be9a4787635433edecc75164beb748d" title="QCPItemPosition::pixelPosition" alt="" coords="192,13,399,39"/>
+<area shape="rect" id="node6" href="$class_q_c_p_item_text.html#af30ac2a0b84afa86a1dec22ab48dd07d" title="QCPItemText::mainFont" alt="" coords="213,63,378,90"/>
+<area shape="rect" id="node7" href="$class_q_c_p_item_text.html#a4c76ad7e33c50aff0a60b8f38fe6060e" title="QCPItemText::getTextDraw\lPoint" alt="" coords="202,115,389,156"/>
+<area shape="rect" id="node8" href="$class_q_c_p_item_text.html#a2f67fcbb7ac10ea9a94c4ecc3b0f4dfc" title="QCPItemText::mainPen" alt="" coords="214,181,377,207"/>
+<area shape="rect" id="node9" href="$class_q_c_p_abstract_item.html#a6ad60000f29afe11035e1f791dcbd45a" title="QCPAbstractItem::clipRect" alt="" coords="204,231,387,258"/>
+<area shape="rect" id="node10" href="$class_q_c_p_item_text.html#acddddd3ce88cfc87ab57b1ec4b25acb9" title="QCPItemText::mainBrush" alt="" coords="209,282,382,309"/>
+<area shape="rect" id="node11" href="$class_q_c_p_item_text.html#a071ec7567ae4deae2262a5b861df7d54" title="QCPItemText::color" alt="" coords="226,333,365,359"/>
+<area shape="rect" id="node12" href="$class_q_c_p_painter.html#af9c7a4cd1791403901f8c5b82a150195" title="QCPPainter::setPen" alt="" coords="225,383,366,410"/>
+<area shape="rect" id="node14" href="$class_q_c_p_item_text.html#abe3f10805baf62797cb91fd4a4464fcc" title="QCPItemText::mainColor" alt="" coords="210,434,381,461"/>
+<area shape="rect" id="node3" href="$class_q_c_p_item_anchor.html#a06dcfb7220d26eee93eef56ae66582cb" title="QCPItemAnchor::pixelPosition" alt="" coords="453,13,653,39"/>
+<area shape="rect" id="node5" href="$class_q_custom_plot.html#a19842409b18f556b256d05e97fffc670" title="QCustomPlot::viewport" alt="" coords="473,147,632,174"/>
+<area shape="rect" id="node4" href="$class_q_c_p_abstract_item.html#ada5bad4e1196c4fc0d0d12328e24b8f2" title="QCPAbstractItem::anchorPixel\lPosition" alt="" coords="707,5,909,47"/>
+<area shape="rect" id="node13" href="$class_q_c_p_painter.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8" title="QCPPainter::makeNonCosmetic" alt="" coords="447,383,659,410"/>
+</map>

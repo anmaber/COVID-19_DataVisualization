@@ -1,0 +1,12 @@
+<map id="QCPVector2D::normalize" name="QCPVector2D::normalize">
+<area shape="rect" id="node2" href="$class_q_c_p_vector2_d.html#a707bb3af3b1f9331a2450ec75eaf7eb0" title="QCPVector2D::normalized" alt="" coords="224,122,401,149"/>
+<area shape="rect" id="node3" href="$class_q_c_p_line_ending.html#a4f45db54f2aba03acf055e29aec1e8e7" title="QCPLineEnding::draw" alt="" coords="473,71,624,98"/>
+<area shape="rect" id="node5" href="$class_q_c_p_axis_painter_private.html#a0207a99bdf9c4f70af20928898ddc2fc" title="QCPAxisPainterPrivate\l::draw" alt="" coords="696,5,855,47"/>
+<area shape="rect" id="node9" href="$class_q_c_p_item_bracket.html#a49a6b2f41e0a8c2a2e3a2836027a8455" title="QCPItemBracket::selectTest" alt="" coords="453,122,644,149"/>
+<area shape="rect" id="node10" href="$class_q_c_p_item_bracket.html#a942a3978aea44a2fc7b4383f2bf6d417" title="QCPItemBracket::draw" alt="" coords="469,173,628,199"/>
+<area shape="rect" id="node11" href="$class_q_c_p_item_bracket.html#a008d87325d26b6616d368cec06027cce" title="QCPItemBracket::anchorPixel\lPosition" alt="" coords="449,224,648,265"/>
+<area shape="rect" id="node4" href="$class_q_c_p_line_ending.html#af7ac30a81ba85b9bded148c6ec387391" title="QCPLineEnding::draw" alt="" coords="700,71,851,98"/>
+<area shape="rect" id="node7" href="$class_q_c_p_item_line.html#ae184140b61b2ef5b8edde76304447200" title="QCPItemLine::draw" alt="" coords="707,122,844,149"/>
+<area shape="rect" id="node8" href="$class_q_c_p_item_curve.html#a856ae61de18278847ba5e0e357bf68f2" title="QCPItemCurve::draw" alt="" coords="701,173,849,199"/>
+<area shape="rect" id="node6" href="$class_q_c_p_axis.html#ac15ebb4225ca5212d8e5fffae481bc9b" title="QCPAxis::draw" alt="" coords="903,13,1016,39"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="QCPSelectionDecorator::getFinalScatterStyle" name="QCPSelectionDecorator::getFinalScatterStyle">
+<area shape="rect" id="node2" href="$class_q_c_p_scatter_style.html#a7d59ba8864914f765817841089e436f1" title="QCPScatterStyle::setFrom\lOther" alt="" coords="216,302,395,343"/>
+<area shape="rect" id="node3" href="$class_q_c_p_scatter_style.html#a761f1f229cc0ca4703e1e2b89f6dd1ba" title="QCPScatterStyle::setPen" alt="" coords="468,5,640,32"/>
+<area shape="rect" id="node5" href="$class_q_c_p_scatter_style.html#a47077eb6450fe9a788f833e4ec1b1d5a" title="QCPScatterStyle::isPenDefined" alt="" coords="449,56,659,83"/>
+<area shape="rect" id="node4" href="$class_q_c_p_scatter_style.html#acdd6313d16e69d3810e9d1f48dd9e4bb" title="QCPScatterStyle::pen" alt="" coords="738,56,890,83"/>
+<area shape="rect" id="node6" href="$class_q_c_p_scatter_style.html#acabc2a8c83d650b946f50c3166b6c35e" title="QCPScatterStyle::undefinePen" alt="" coords="453,360,655,387"/>
+<area shape="rect" id="node7" href="$class_q_c_p_scatter_style.html#a74d692aaeb8d4b36d6f7d510e44264b1" title="QCPScatterStyle::setBrush" alt="" coords="463,259,645,285"/>
+<area shape="rect" id="node8" href="$class_q_c_p_scatter_style.html#adc4f66aed84f1d7a3a5aabf4f48f31a6" title="QCPScatterStyle::brush" alt="" coords="733,233,895,260"/>
+<area shape="rect" id="node9" href="$class_q_c_p_scatter_style.html#aaefdd031052892c4136129db68596e0f" title="QCPScatterStyle::setSize" alt="" coords="467,309,641,336"/>
+<area shape="rect" id="node10" href="$class_q_c_p_scatter_style.html#a0e94526d9165d9f50e262102bdd71a47" title="QCPScatterStyle::size" alt="" coords="737,408,891,435"/>
+<area shape="rect" id="node11" href="$class_q_c_p_scatter_style.html#a7c641c4d4c6d29cb705d3887cfce91c1" title="QCPScatterStyle::setShape" alt="" coords="721,588,907,615"/>
+<area shape="rect" id="node12" href="$class_q_c_p_scatter_style.html#af04cad55bd7f58a96da4fc6bc46a0a1e" title="QCPScatterStyle::shape" alt="" coords="963,373,1129,400"/>
+<area shape="rect" id="node13" href="$class_q_c_p_scatter_style.html#a5fb611d46acfac520d7b89a1c71d9246" title="QCPScatterStyle::setPixmap" alt="" coords="457,563,651,589"/>
+<area shape="rect" id="node14" href="$class_q_c_p_scatter_style.html#a9b2d1a2ec0aac0c74f7582d14050e93a" title="QCPScatterStyle::pixmap" alt="" coords="727,464,901,491"/>
+<area shape="rect" id="node15" href="$class_q_c_p_scatter_style.html#a96a3e949f90b2afe5677ca9412a12a1e" title="QCPScatterStyle::setCustomPath" alt="" coords="443,613,665,640"/>
+<area shape="rect" id="node16" href="$class_q_c_p_scatter_style.html#aef1fac84c9830fd97f2a8568e605e372" title="QCPScatterStyle::customPath" alt="" coords="713,524,915,551"/>
+</map>

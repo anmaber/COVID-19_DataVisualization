@@ -1,0 +1,16 @@
+<map id="QCPLayoutGrid::elementCount" name="QCPLayoutGrid::elementCount">
+<area shape="rect" id="node2" href="$class_q_c_p_layout_grid.html#affc2f3cfd22f28698c5b29b960d2a391" title="QCPLayoutGrid::setFillOrder" alt="" coords="1013,65,1203,91"/>
+<area shape="rect" id="node3" href="$class_q_c_p_layout_grid.html#a577223db920e2acb34bc1091080c76d1" title="QCPLayoutGrid::indexToRowCol" alt="" coords="256,247,471,274"/>
+<area shape="rect" id="node4" href="$class_q_c_p_layout_grid.html#a4288f174082555f6bd92021bdedb75dc" title="QCPLayoutGrid::elementAt" alt="" coords="519,298,700,325"/>
+<area shape="rect" id="node6" href="$class_q_c_p_layout_grid.html#aee961c2eb6cf8a85dcbc5a7d7b6c1a00" title="QCPLayoutGrid::take" alt="" coords="1035,551,1181,578"/>
+<area shape="rect" id="node7" href="$class_q_c_p_layout_inset.html#af7f13cc369f8190b5e7e17d5f39dfe1c" title="QCPLayoutInset::take" alt="" coords="1032,14,1184,41"/>
+<area shape="rect" id="node8" href="$class_q_c_p_layout_grid.html#a7d5b968b4cf57393e9e387976d91f8f7" title="QCPLayoutGrid::elements" alt="" coords="769,602,944,629"/>
+<area shape="rect" id="node5" href="$class_q_c_p_layout_grid.html#a17dd220234d1bbf8835abcc666384d45" title="QCPLayoutGrid::takeAt" alt="" coords="777,65,937,91"/>
+<area shape="rect" id="node9" href="$class_q_c_p_layout_inset.html#a6fcbd74ebbc45bfe64c604b2791aa57f" title="QCPLayoutInset::insetPlacement" alt="" coords="748,450,965,477"/>
+<area shape="rect" id="node10" href="$class_q_c_p_layout_inset.html#a5b33b66f0abbb4a7cc2f8aa6c94cf7f8" title="QCPLayoutInset::insetAlignment" alt="" coords="750,501,963,527"/>
+<area shape="rect" id="node11" href="$class_q_c_p_layout_inset.html#ab23099a46af17c31f4c40668f13c9de1" title="QCPLayoutInset::insetRect" alt="" coords="765,115,948,142"/>
+<area shape="rect" id="node12" href="$class_q_c_p_layout_inset.html#a63298830744d5d8c5345511c00fd2144" title="QCPLayoutInset::setInset\lPlacement" alt="" coords="769,167,944,208"/>
+<area shape="rect" id="node13" href="$class_q_c_p_layout_inset.html#a62882a4f9ad58bb0f53da12fde022abe" title="QCPLayoutInset::setInset\lAlignment" alt="" coords="769,232,944,273"/>
+<area shape="rect" id="node14" href="$class_q_c_p_layout_inset.html#aa487c8378a6f9533567a2e6430099dc3" title="QCPLayoutInset::setInsetRect" alt="" coords="755,349,958,375"/>
+<area shape="rect" id="node15" href="$class_q_c_p_layout_inset.html#abf2e8233f5b7051220907e62ded490a2" title="QCPLayoutInset::takeAt" alt="" coords="774,399,939,426"/>
+</map>

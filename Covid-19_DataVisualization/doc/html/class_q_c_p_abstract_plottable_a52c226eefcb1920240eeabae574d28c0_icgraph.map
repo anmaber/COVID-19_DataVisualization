@@ -1,0 +1,11 @@
+<map id="QCPAbstractPlottable::name" name="QCPAbstractPlottable::name">
+<area shape="rect" id="node2" href="$class_q_c_p_abstract_plottable.html#ab79c7ba76bc7fa89a4b3580e12149f1f" title="QCPAbstractPlottable\l::setName" alt="" coords="214,5,365,47"/>
+<area shape="rect" id="node4" href="$class_q_c_p_plottable_legend_item.html#a5838366619200e99680afa6d355d13fa" title="QCPPlottableLegendItem\l::draw" alt="" coords="204,71,375,112"/>
+<area shape="rect" id="node5" href="$class_q_c_p_plottable_legend_item.html#a8b543f3ac32b2fe59326e01c1101b3b8" title="QCPPlottableLegendItem\l::minimumOuterSizeHint" alt="" coords="204,136,375,177"/>
+<area shape="rect" id="node6" href="$class_q_c_p_graph.html#a2b0849598f06e834b43ce18cd13bcdc3" title="QCPGraph::draw" alt="" coords="228,202,351,229"/>
+<area shape="rect" id="node7" href="$class_q_c_p_curve.html#ac199d41d23865cd68bd7b598308a4433" title="QCPCurve::draw" alt="" coords="228,253,351,279"/>
+<area shape="rect" id="node8" href="$class_q_c_p_bars.html#aa267c20650d55084c3f47cb2f8fac9dc" title="QCPBars::draw" alt="" coords="232,303,347,330"/>
+<area shape="rect" id="node9" href="$class_q_c_p_statistical_box.html#afcff35fa79728cfe10e80e0702014fea" title="QCPStatisticalBox::draw" alt="" coords="205,354,373,381"/>
+<area shape="rect" id="node10" href="$class_q_c_p_error_bars.html#a801e85931372abf2a1034bfb2eac5cd2" title="QCPErrorBars::draw" alt="" coords="218,405,361,431"/>
+<area shape="rect" id="node3" href="$class_q_custom_plot.html#a6fb2873d35a8a8089842d81a70a54167" title="QCustomPlot::addGraph" alt="" coords="423,13,588,39"/>
+</map>

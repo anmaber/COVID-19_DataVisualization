@@ -1,0 +1,6 @@
+<map id="QCPAbstractItem::rectDistance" name="QCPAbstractItem::rectDistance">
+<area shape="rect" id="node2" href="$class_q_c_p_item_rect.html#a2e68621b75bae4da6ae0ab2cdd0dd733" title="QCPItemRect::selectTest" alt="" coords="269,5,444,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_item_text.html#a676aaec10ad3cc4d7d0e4847db04c838" title="QCPItemText::selectTest" alt="" coords="271,56,443,83"/>
+<area shape="rect" id="node4" href="$class_q_c_p_item_pixmap.html#a65d1ede7bb479b90d40186d083071947" title="QCPItemPixmap::selectTest" alt="" coords="261,107,452,133"/>
+<area shape="rect" id="node5" href="$class_q_c_p_item_tracer.html#a9fd955fea40e977d66f3a9fd5765aec4" title="QCPItemTracer::selectTest" alt="" coords="265,157,448,184"/>
+</map>

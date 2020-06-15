@@ -1,0 +1,9 @@
+<map id="QCustomPlot::removeGraph" name="QCustomPlot::removeGraph">
+<area shape="rect" id="node2" href="$class_q_custom_plot.html#af3dafd56884208474f311d6226513ab2" title="QCustomPlot::removePlottable" alt="" coords="240,64,443,91"/>
+<area shape="rect" id="node3" href="$class_q_custom_plot.html#adea38bdc660da9412ba69fb939031567" title="QCustomPlot::plottable" alt="" coords="491,5,649,32"/>
+<area shape="rect" id="node4" href="$class_q_c_p_abstract_plottable.html#a3cc235007e2343a65ad4f463767e0e20" title="QCPAbstractPlottable\l::removeFromLegend" alt="" coords="495,57,645,98"/>
+<area shape="rect" id="node8" href="$class_q_custom_plot.html#aac190865a67f19af3fdf2136774997af" title="QCustomPlot::graph" alt="" coords="499,123,641,149"/>
+<area shape="rect" id="node5" href="$class_q_c_p_legend.html#a91e790002d8bf15a20628a8e8841e397" title="QCPLegend::itemWithPlottable" alt="" coords="697,39,901,65"/>
+<area shape="rect" id="node7" href="$class_q_c_p_legend.html#ac91595c3eaa746fe6321d2eb952c63bb" title="QCPLegend::removeItem" alt="" coords="714,89,885,116"/>
+<area shape="rect" id="node6" href="$class_q_c_p_plottable_legend_item.html#af29e9a2c60b4cba0cac2447b8af7b488" title="QCPPlottableLegendItem\l::plottable" alt="" coords="949,31,1120,73"/>
+</map>
